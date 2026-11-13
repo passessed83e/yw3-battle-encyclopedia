@@ -8,7 +8,7 @@
    - ニャン輩は trainers に、必殺技の候補は ultimateDonors に追加していけば選択肢が増える */
 (function(){
   var MASTER = {
-    version: "v401",
+    version: "v413",
     targetOfficialNo: 573,
     base: { hp: 270, strength: 97, spirit: 97, defense: 97, speed: 97 },
     baseConditions: "Lv.60・特訓前の値（ユーザー実機データから逆算・ユーザー確認済み。data.jsのNo.573 マッサラニャンのLv.60ステータスと一致）。HPは特訓で変化しない（ユーザー確認）",
@@ -932,7 +932,7 @@
   function controlHtml(x){
     return '<button type="button" class="mynyan-open" data-mynyan-open="1" aria-haspopup="dialog"><span class="mynyan-open-title">マイニャンの詳細設定</span><span class="mynyan-open-summary"> · ' + escHtml(summaryText()) + '</span></button>';
   }
-  function pointHint(tr){ var ab = { strength: "ち", spirit: "よ", defense: "ま", speed: "す" }, parts = []; STAT_KEYS.forEach(function(k){ var v = tr.points[k] || 0; if (v) parts.push(ab[k] + (v > 0 ? "+" : "") + v); }); return parts.length ? "（" + parts.join(" ") + "）" : ""; }
+  function pointHint(tr){ var ab = { strength: "A", spirit: "M", defense: "D", speed: "S" } /* v413: HAMDS表記（H=HP A=ちから M=ようりょく D=まもり S=すばやさ） */, parts = []; STAT_KEYS.forEach(function(k){ var v = tr.points[k] || 0; if (v) parts.push(ab[k] + (v > 0 ? "+" : "") + v); }); return parts.length ? "（" + parts.join(" ") + "）" : ""; }
   function attrHtml(v){ return ATTR_CLASS[v] ? '<span class="attr-char attr-' + ATTR_CLASS[v] + '">' + escHtml(v) + '</span>' : escHtml(v); }
   function modalBodyHtml(){
     var tt = trainingText(), af = target.attributeAffinity || {}, st = stats();
