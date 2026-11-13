@@ -1,0 +1,1273 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171c2b"><title>妖怪ウォッチ3 対戦図鑑</title>
+<style>
+:root{color-scheme:dark;--bg:#101522;--panel:#1a2234;--panel2:#222d43;--line:#35425b;--text:#f2f5fb;--muted:#aebbd0;--accent:#8ce1d0;--warn:#ffd58b}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}header{padding:28px clamp(16px,4vw,48px) 22px;background:linear-gradient(130deg,#202f4d,#172032);border-bottom:1px solid var(--line)}h1{font-size:clamp(24px,4vw,38px);margin:0 0 8px}p{margin:0;color:var(--muted);line-height:1.6}.wrap{max-width:1500px;margin:auto;padding:22px clamp(12px,3vw,36px) 50px}.notice{margin-bottom:18px;padding:13px 15px;border:1px solid #685a3d;background:#302b21;border-radius:12px;color:#f3dfb6;font-size:14px;line-height:1.6}.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;padding:16px;background:var(--panel);border:1px solid var(--line);border-radius:16px;margin-bottom:18px}label{display:block;color:var(--muted);font-size:12px;margin:0 0 6px}input,select,button{font:inherit;color:var(--text);background:#111827;border:1px solid var(--line);border-radius:9px;padding:10px 11px;width:100%;min-width:0}input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}.toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:16px 0}.count{color:var(--muted);font-size:14px}.buttons{display:flex;gap:8px}.buttons button{width:auto;cursor:pointer}.primary{background:var(--accent);color:#102029;border-color:var(--accent);font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}.card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel);display:flex;flex-direction:column;min-width:0}.imagebox{height:160px;aspect-ratio:1/1;background:#111827;display:grid;place-items:center;padding:8px;overflow:hidden}.imagebox img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;aspect-ratio:1/1}.info{padding:11px;display:flex;flex-direction:column;gap:7px;flex:1}.name{font-weight:750;font-size:15px;overflow-wrap:anywhere}.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{font-size:11px;color:#dce8f7;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:3px 6px}.rank{color:var(--warn)}.stats{font-size:12px;color:var(--muted);line-height:1.6}.cardfoot{display:flex;gap:7px;margin-top:auto}.cardfoot button{padding:7px;font-size:12px;cursor:pointer}.cardfoot button:disabled{opacity:.35;cursor:not-allowed}.compare{display:none;margin:0 0 18px;padding:16px;background:var(--panel);border:1px solid var(--accent);border-radius:14px;overflow:auto}.compare.show{display:block}.compare h2{font-size:18px;margin:0 0 12px}.compare table{border-collapse:collapse;width:100%;min-width:520px;font-size:13px}.compare th,.compare td{padding:9px;border-bottom:1px solid var(--line);text-align:left}.compare th{color:var(--muted)}.empty{padding:40px;text-align:center;color:var(--muted);grid-column:1/-1}.small{font-size:12px;color:var(--muted);margin-top:18px}.modal{display:none;position:fixed;inset:0;background:#000b;z-index:5;padding:12px;overflow-y:auto;overscroll-behavior:contain}.modal.open{display:block}.dialog{width:min(900px,100%);margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;min-height:calc(100vh - 24px);overflow:visible}.dialoghead{display:flex;justify-content:space-between;gap:12px;align-items:start;position:sticky;top:-20px;z-index:2;background:var(--panel);padding:4px 0 12px}.dialoghead button{width:auto;flex-shrink:0}.detailtop{display:flex;gap:18px;margin:18px 0}.detailtop img{width:160px;height:160px;flex:0 0 160px;object-fit:contain;object-position:center;background:#111827;border-radius:12px;padding:6px}.detailtop h2{margin:0 0 8px}.detailsections{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin-top:16px}.detailsection{padding:16px;background:#141c2b;border:1px solid var(--line);border-radius:12px;min-width:0;scroll-margin-top:12px}.detailsection h3{font-size:16px;margin:0 0 12px;display:flex;align-items:center;gap:8px;padding-bottom:9px;border-bottom:1px solid var(--line)}.sectionicon{width:28px;height:28px;display:inline-grid;place-items:center;border-radius:8px;background:#27354d;font-size:15px}.detailsection p{font-size:13px;line-height:1.65}.statgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.statcell{padding:9px;background:#202c40;border-radius:9px}.statcell span{display:block;color:var(--muted);font-size:11px}.statcell strong{display:block;font-size:18px;margin-top:3px}.missing{color:var(--muted);font-size:13px;line-height:1.6}.move-card{padding:10px 0}.move-card+.move-card{border-top:1px solid var(--line)}.move-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-bottom:7px;border-bottom:1px solid var(--line)}.move-name{font-weight:750}.move-power{font-size:13px;color:var(--accent);font-weight:700}.move-effect{margin-top:7px;padding:0;border:0;color:var(--text)}.move-label{font-size:11px;color:var(--muted)}.attack-move-card{padding:10px 0;background:transparent;border:0;border-radius:0;margin:0}.attack-move-card+.attack-move-card{border-top:1px solid var(--line)}.inline-details{border-top:1px solid var(--line);padding:12px;display:flex;flex-direction:column;gap:12px}.inline-section{padding:12px;background:#141c2b;border:1px solid var(--line);border-radius:10px;min-width:0}.inline-section h3{font-size:14px;margin:0 0 9px;padding-bottom:7px;border-bottom:1px solid var(--line)}.inline-section .statgrid{grid-template-columns:repeat(3,minmax(0,1fr))}.inline-section.move-group{padding:12px;background:#141c2b;border:1px solid var(--line);border-radius:10px}.inline-section.move-group .inline-move:first-child{padding-top:0}.inline-section .missing{margin:0}.inline-section p{font-size:12px;line-height:1.5}.inline-move{padding:7px 0}.inline-move+.inline-move{border-top:1px solid var(--line)}.inline-move-title{font-size:12px;font-weight:750;line-height:1.5;overflow-wrap:anywhere;padding-bottom:7px;border-bottom:1px solid var(--line)}.inline-move-effect{font-size:12px;color:var(--muted);line-height:1.5;margin-top:7px}.inline-move .move-power{font-size:12px;color:var(--accent);font-weight:700}.alignment-bad{color:#c8a2ff}.alignment-good{color:#ffc857}.attack-move-title{font-weight:750;line-height:1.5;overflow-wrap:anywhere}.attack-move-title .move-power{margin-left:3px}.detailtop h2{font-size:24px}.data-state{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--warn);border:1px solid #685a3d;border-radius:99px;padding:4px 8px;margin-top:8px}@media(max-width:560px){.detailsections{grid-template-columns:minmax(0,1fr)}.statgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}.checkrow{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted)}.checkrow input{width:auto}.footnote{margin-top:24px;font-size:12px;color:var(--muted)}@media(max-width:850px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}.imagebox{height:180px}}@media(max-width:480px){.filters{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.imagebox{height:220px}.inline-section .statgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar{align-items:flex-start;flex-direction:column}.buttons{width:100%}.buttons button{flex:1}.modal{padding:0}.dialog{border-radius:0;border-left:0;border-right:0;padding:14px;min-height:100vh}.dialoghead{top:-14px}.detailtop{flex-direction:row;align-items:flex-start;gap:12px}.detailtop img{width:112px;height:112px;flex:0 0 112px}.detailtop h2{font-size:20px}.detailsections{gap:12px}.detailsection{padding:13px}}
+
+/* PC readability pass: wider cards, clearer hierarchy, and less cramped move text */
+@media (min-width: 1100px){
+  .wrap{max-width:1800px;padding-left:clamp(24px,2.4vw,44px);padding-right:clamp(24px,2.4vw,44px)}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+  .imagebox{height:190px}
+  .info{padding:14px;gap:9px}
+  .name{font-size:17px;line-height:1.4}
+  .tag{font-size:12px;padding:4px 7px}
+  .stats{font-size:13px;line-height:1.7}
+  .inline-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:14px}
+  .inline-section:first-child{grid-column:auto}
+  .inline-section{padding:14px}
+  .inline-section .statgrid{grid-template-columns:minmax(0,1fr)}
+  .inline-section p,.inline-move-effect{font-size:13px;line-height:1.65}
+  .inline-move-title{font-size:13px;line-height:1.6}
+  .inline-section .move-power{font-size:13px}
+}
+@media (min-width: 1500px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(275px,1fr));gap:18px}
+  .imagebox{height:205px}
+  .inline-details{padding:16px;gap:14px}
+  .inline-section{padding:15px}
+}
+@media (min-width: 851px) and (max-width: 1099px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+  .imagebox{height:175px}
+  .inline-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .inline-section:first-child{grid-column:auto}
+  .inline-section .statgrid{grid-template-columns:minmax(0,1fr)}
+  .inline-section p,.inline-move-effect{font-size:13px}
+}
+@media (max-width: 850px){.inline-details{display:flex}}
+
+/* 一覧を1列表示：妖怪カードを横に並べず、1体ずつ縦に読む */
+.grid{grid-template-columns:minmax(0,1fr)!important;gap:16px}
+.card{width:100%}
+ .inline-details{display:flex!important;flex-direction:column;gap:12px}
+.inline-section:first-child{grid-column:auto}
+.inline-section h3{font-size:15px;margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+@media(min-width:1100px){.grid{grid-template-columns:minmax(0,1fr)!important}.inline-details{display:flex!important;flex-direction:column;gap:14px}.imagebox{height:180px}.card{display:grid;grid-template-columns:200px minmax(0,1fr);align-items:stretch}.imagebox{grid-row:1;grid-column:1;height:100%;min-height:200px}.info{grid-row:1;grid-column:2}.inline-details{grid-column:1/-1;border-top:1px solid var(--line)}}
+@media(max-width:1099px){.card{display:flex;flex-direction:column}.inline-details{display:flex!important;flex-direction:column;}}
+@media(max-width:650px){.inline-details{grid-template-columns:minmax(0,1fr)!important}.inline-section:first-child{grid-column:auto}.inline-section .statgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v242: original encyclopedia layout restored; skill lookup opens a large image-grid dialog. */
+.skill-trigger{display:block;width:100%;min-width:0;text-align:left;padding:0;border:0;border-radius:0;background:transparent;color:inherit;cursor:pointer;white-space:normal}
+.skill-trigger:hover .inline-move-title{color:var(--accent)}
+.skill-trigger:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.skill-trigger .inline-move-title,.skill-trigger .inline-move-effect{display:block}
+.skill-image-modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.76);padding:2vh 2vw;align-items:center;justify-content:center;overscroll-behavior:contain}
+.skill-image-modal.open{display:flex}
+.skill-image-dialog{width:min(1500px,96vw);max-height:96vh;display:flex;flex-direction:column;min-height:0;background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 90px #0009;overflow:hidden;outline:none}
+.skill-image-modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:20px 22px 16px;border-bottom:1px solid var(--line);background:linear-gradient(130deg,#202f4d,#172032);flex:0 0 auto}
+.skill-image-modal-head-copy{min-width:0}
+.skill-image-modal-head h2{font-size:clamp(20px,2.2vw,28px);line-height:1.3;margin:0 0 7px;overflow-wrap:anywhere}
+.skill-image-modal-head p{font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+#skillImageModalClose{width:auto;flex:0 0 auto;white-space:nowrap;cursor:pointer;background:#111827}
+.skill-image-modal-body{padding:18px;overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;min-height:0}
+.skill-image-section{min-width:0;padding:14px;border:1px solid var(--line);border-radius:12px;background:#141c2b}
+.skill-image-section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 13px;padding:0 0 10px;border-bottom:1px solid var(--line)}
+.skill-image-section-head h3{font-size:15px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.skill-image-count{flex:0 0 auto;font-size:12px;color:var(--accent);white-space:nowrap}
+.skill-yokai-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px}
+.skill-yokai-tile{display:flex;flex-direction:column;align-items:stretch;gap:5px;min-width:0;width:100%;padding:8px;text-align:left;cursor:pointer;background:#1a2437;border:1px solid var(--line);border-radius:10px;color:var(--text);transition:border-color .15s,background .15s,transform .15s}
+.skill-yokai-tile:hover{background:#26344b;border-color:var(--accent);transform:translateY(-1px)}
+.skill-yokai-tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.skill-yokai-tile.is-current{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.skill-yokai-picture{display:grid;place-items:center;aspect-ratio:1/1;width:100%;padding:4px;border-radius:7px;background:#0d1421;overflow:hidden}
+.skill-yokai-picture img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.skill-yokai-no{font-size:10px;color:var(--muted)}
+.skill-yokai-name{font-size:13px;line-height:1.4;overflow-wrap:anywhere}
+.skill-yokai-skill{font-size:11px;color:var(--muted);line-height:1.4;overflow-wrap:anywhere}
+.skill-yokai-current-label{align-self:flex-start;font-size:10px;border:1px solid var(--accent);color:var(--accent);border-radius:99px;padding:2px 6px}
+.skill-yokai-relation{align-self:flex-start;font-size:10px;line-height:1.3;color:var(--accent);background:#15263c;border:1px solid #37516f;border-radius:99px;padding:3px 7px}
+.skill-image-empty{font-size:13px;color:var(--muted);padding:12px 0}
+.skill-yokai-highlight{outline:3px solid var(--accent)!important;outline-offset:3px;transition:outline-color .2s}
+@media(max-width:900px){.skill-image-modal{padding:0}.skill-image-dialog{width:100%;height:100%;max-height:100vh;border-radius:0;border-left:0;border-right:0}.skill-image-modal-body{grid-template-columns:minmax(0,1fr);padding:12px;gap:12px}.skill-image-modal-head{padding:16px 14px 13px;gap:10px}.skill-image-section{padding:11px}.skill-yokai-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}.skill-yokai-tile{padding:6px}}
+@media(max-width:480px){.skill-image-modal-head h2{font-size:19px}.skill-image-modal-head p{font-size:12px}.skill-image-modal-head{align-items:flex-start}.skill-yokai-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.skill-yokai-name{font-size:12px}.skill-yokai-skill{font-size:10px}}
+
+
+.filter-launch-row{display:flex;align-items:flex-end;flex-wrap:wrap;justify-content:flex-start;gap:10px;margin:0 0 14px} .filter-launch{width:auto;min-width:190px;font-weight:700;flex:0 0 auto} .filter-launch-row .top-search{flex:1 1 360px;min-width:220px;max-width:680px;margin:0} .filter-launch-row .top-search label{margin-bottom:6px} .filter-launch-row .top-search input{width:100%} @media(max-width:480px){.filter-launch-row{align-items:stretch}.filter-launch{min-width:0}.filter-launch-row .top-search{flex-basis:100%;min-width:0}}
+.filter-modal{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;padding:3vh 3vw}
+.filter-modal.open{display:flex}
+.filter-dialog{width:min(1180px,96vw);height:min(88vh,900px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 24px 90px #000b}
+.filter-dialog-head{position:sticky;top:-22px;z-index:2;background:var(--panel);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 0 14px;margin-bottom:10px;border-bottom:1px solid var(--line)}
+.filter-dialog-head h2{margin:0;font-size:22px}.filter-dialog-actions{display:flex;gap:8px}.filter-dialog-actions button{width:auto}
+.filter-feature-box{grid-column:1/-1;border:1px solid var(--line);border-radius:12px;padding:12px;background:#111827}
+.filter-checkbox-group{grid-column:1/-1;min-width:0;border:1px solid var(--line);border-radius:12px;padding:12px;background:#141c2b}
+.filter-checkbox-group h3{font-size:14px;margin:0 0 10px;color:var(--text)}
+.filter-checkbox-group .filter-checks{display:flex;flex-wrap:wrap;gap:9px 17px}
+.filter-checkbox-group .filter-check{display:inline-flex;align-items:center;gap:7px;min-height:29px;padding:3px 7px;margin:0;border:1px solid transparent;border-radius:7px;background:#111827;color:var(--text);font-size:13px;cursor:pointer}
+.filter-checkbox-group .filter-check:has(input:checked){border-color:var(--accent);background:#203747}
+.filter-checkbox-group .filter-check input{width:17px;height:17px;flex:0 0 17px;margin:0;accent-color:#8ce1d0}
+.filter-checkbox-group input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.search-box,.sort-box{min-width:0}
+
+.filter-feature-box h3{font-size:14px;margin:0 0 10px}.filter-checks{display:flex;flex-wrap:wrap;gap:10px 18px}.filter-check{display:flex;align-items:center;gap:8px;color:var(--text);font-size:14px;margin:0}.filter-check input{width:18px;height:18px;accent-color:#8ab4f8}
+@media(max-width:600px){.filter-modal{padding:0}.filter-dialog{width:100%;height:100%;border-radius:0;padding:14px}.filter-dialog-head{top:-14px}.filter-dialog-head h2{font-size:18px}}
+
+ .move-wait-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:10px;padding:10px 12px;border:1px solid var(--line,#ddd);border-radius:10px;background:var(--panel,#fff)}.move-wait-row span{font-weight:600}.move-wait-row strong{font-variant-numeric:tabular-nums}
+.damage-hp-gauge{margin:14px 0}.damage-hp-gauge-head{display:flex;justify-content:space-between;margin-bottom:6px;font-weight:700}.damage-hp-track{height:18px;border-radius:99px;overflow:hidden;background:#39465a;border:1px solid #64748b}.damage-hp-track>div{height:100%;width:100%;background:linear-gradient(90deg,#22c55e,#84cc16);transition:width .25s}.damage-hp-track>div.low{background:linear-gradient(90deg,#ef4444,#f97316)}#dmgUltimatePowerWrap{margin-top:10px}#dmgAttackerSearch,#dmgDefenderSearch{width:100%;margin:4px 0 8px} .damage-defense-options{margin-top:12px;padding:10px;border:1px solid var(--line,#aaa);border-radius:10px;display:grid;gap:6px}.damage-defense-options>strong{margin-bottom:3px} </style><style id="attribute-affinity-v375">
+/* v375: 得意属性・苦手属性タグ（追加のみ） */
+.tag.affinity-strong{border-color:#4f9d69;color:#c9f2d5}
+.tag.affinity-weak{border-color:#b45b5b;color:#ffd2d2}
+.tag.affinity-none,.tag.affinity-unknown{border-color:var(--line);color:#aab7c8}
+</style>
+<style id="attribute-color-v376">
+/* v376: 得意・苦手タグの属性文字を色分け（追加のみ） */
+.tag.affinity .attr-char{font-weight:700}
+.attr-char.attr-fire{color:#ff6b5e}
+.attr-char.attr-water{color:#5ea8ff}
+.attr-char.attr-wind{color:#5ed98a}
+.attr-char.attr-earth{color:#d9a066}
+.attr-char.attr-thunder{color:#ffd84d}
+.attr-char.attr-ice{color:#8fe6f2}
+</style>
+<style id="compare-enhanced-v377">
+/* v377: 比較表の強化（追加のみ） */
+.compare .cmp-head-in{display:flex;align-items:center;gap:8px}
+.compare .cmp-head-in img{width:40px;height:40px;object-fit:contain;flex:none}
+.compare .cmp-head-in span{color:var(--text,#e8eef8);font-weight:700}
+.compare .cmp-remove{margin-left:auto;flex:none;width:26px;height:26px;padding:0;border-radius:6px;border:1px solid var(--line);background:var(--panel2);color:#dce8f7;cursor:pointer;line-height:1}
+.compare .cmp-remove:hover{border-color:#b45b5b;color:#ffd2d2}
+.compare td.cmp-best{color:#ffc857;font-weight:700}
+.compare .cmp-sub{color:var(--muted);font-size:12px}
+.compare .cmp-move{display:flex;align-items:flex-start;gap:8px;justify-content:space-between}
+.compare .cmp-move .ult-range{flex:none}
+.compare tr.cmp-extra td{vertical-align:top}
+.compare td .attr-char{font-weight:700}
+.compare .cmp-table tr>th:first-child{white-space:nowrap;position:sticky;left:0;z-index:1;background:var(--panel)}
+.compare .cmp-head-in span{white-space:nowrap}
+.compare .cmp-table td,.compare .cmp-table th.cmp-head{min-width:150px}
+</style>
+<style id="compare-cards-v378">
+/* v378: 比較をコンパクトなカードの横並びで表示（追加のみ） */
+.compare .cmp-view{display:inline-flex;gap:0;margin:0 0 12px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.compare .cmp-view button{border:0;border-radius:0;background:var(--panel2);color:#dce8f7;padding:6px 12px;font-size:13px;cursor:pointer}
+.compare .cmp-view button+button{border-left:1px solid var(--line)}
+.compare .cmp-view button.active{background:var(--accent);color:#101522;font-weight:700}
+.compare .cmp-cards{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,1fr);gap:10px;overflow-x:auto;padding-bottom:4px;align-items:start}
+.compare .cmp-card{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.compare .cmp-card-head{display:grid;grid-template-columns:52px minmax(0,1fr) 26px;gap:8px;align-items:start}
+.compare .cmp-card-head img{width:52px;height:52px;object-fit:contain}
+.compare .cmp-card-name{font-size:15px;font-weight:800;color:var(--text);margin-bottom:5px;overflow-wrap:anywhere}
+.compare .cmp-card .tags{gap:4px!important}
+.compare .cmp-card .tag{font-size:11px!important;padding:2px 5px!important}
+.compare .cmp-card .inline-section{border:1px solid var(--line);border-radius:10px;padding:8px;margin:0;background:var(--panel)}
+.compare .cmp-card .inline-section .statcell.statbar-row{grid-template-columns:84px minmax(20px,1fr) 34px!important;gap:6px!important;padding:2px 0!important}
+.compare .cmp-card .statbar-label b{width:22px;height:22px;flex:0 0 22px;font-size:12px;border-radius:5px}
+.compare .cmp-card .statbar-label span{font-size:11px!important}
+.compare .cmp-card .statbar-track{height:9px}
+.compare .cmp-card .inline-section .statcell.statbar-row strong{font-size:14px!important}
+.compare .cmp-card .move-wait-row{display:flex;justify-content:space-between;align-items:center;margin-top:6px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;font-size:13px;font-weight:700}
+.compare .cmp-card strong.cmp-best{color:#ffc857!important}
+.compare .cmp-card .inline-move{padding:5px 0}
+.compare .cmp-card .inline-move-title{font-size:12px!important;padding-bottom:4px}
+.compare .cmp-card .inline-move-effect{font-size:11.5px!important;line-height:1.45!important;margin-top:4px}
+.compare .cmp-card .inline-move-body{display:flex;gap:8px;justify-content:space-between;align-items:flex-start}
+.compare .cmp-card .skill-trigger{background:none;border:0;padding:0;color:inherit;text-align:left;cursor:pointer;width:100%}
+.compare .cmp-view button{white-space:nowrap}
+.compare header.cmp-card-head{background:none!important;border:0!important;padding:0!important;margin:0!important;min-height:0!important;position:static!important;box-shadow:none!important;text-align:left!important}
+@media (max-width:640px){.compare .cmp-cards{grid-auto-columns:82%;scroll-snap-type:x mandatory}.compare .cmp-card{scroll-snap-align:start}}
+</style>
+<style id="party-v379">
+/* v379: パーティ編成（追加のみ） */
+.card-pick-row{display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center}
+.party{display:none;margin:0 0 18px;padding:16px;background:var(--panel);border:1px solid #d4a744;border-radius:14px}
+.party.show{display:block}
+.party-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.party-head h2{font-size:18px;margin:0}
+.party-count{font-weight:800;color:#ffc857}
+.party-head button{margin-left:auto;white-space:nowrap;width:auto!important;flex:0 0 auto;padding:6px 12px}
+.party-slots{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.party-slot{position:relative;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:5px;min-width:0;text-align:center}
+.party-slot img{width:56px;height:56px;object-fit:contain}
+.party-slot-name{font-weight:800;font-size:13px;overflow-wrap:anywhere}
+.party-slot .tags{justify-content:center;gap:3px!important}
+.party-slot .tag{font-size:10.5px!important;padding:2px 4px!important}
+.party-slot.empty{border-style:dashed;justify-content:center;min-height:120px;color:var(--muted);font-size:13px}
+.party-slot .party-remove{position:absolute;top:6px;right:6px;width:24px;height:24px;padding:0;border-radius:6px;border:1px solid var(--line);background:var(--panel2);color:#dce8f7;cursor:pointer;line-height:1}
+.party-analysis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.party-box{background:#141c2b;border:1px solid var(--line);border-radius:10px;padding:10px;min-width:0;overflow-x:auto}
+.party-box h3{font-size:14px;margin:0 0 4px}
+.party-note{font-size:11.5px;color:var(--muted);margin:0 0 8px;line-height:1.5}
+.party-table{border-collapse:collapse;width:100%;font-size:12px}
+.party-table th,.party-table td{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.party-table thead th{color:var(--muted);font-weight:600;font-size:11px}
+.party-table tbody th{white-space:nowrap;font-size:14px}
+.party-table tr.warn td,.party-table tr.warn th{background:rgba(255,200,87,.10)}
+.party-table tr.danger td,.party-table tr.danger th{background:rgba(229,57,53,.18)}
+.party-table tr.none th{opacity:.6}
+.party-chip{display:inline-flex;align-items:center;gap:4px;margin:2px 6px 2px 0;white-space:nowrap}
+.party-chip img{width:22px;height:22px;object-fit:contain}
+.party-chip small{color:var(--muted);font-size:10.5px}
+.party-muted{color:var(--muted);font-size:11.5px}
+.party-skill{display:flex;flex-direction:column;gap:2px}
+.party-skill b{font-size:12.5px}
+.party-skill span{font-size:11.5px;color:var(--muted);line-height:1.45}
+.party-table .attr-char,.party-slot .attr-char{font-weight:800}
+.party-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.party-stats>div{border:1px solid var(--line);border-radius:8px;padding:6px;text-align:center;display:flex;flex-direction:column;gap:2px}
+.party-stats span{font-size:11px;color:var(--muted)}
+.party-stats b{font-size:16px;font-variant-numeric:tabular-nums}
+.party-stats small{font-size:10.5px;color:var(--muted)}
+@media (max-width:1099px){.party-slots{grid-template-columns:repeat(3,minmax(0,1fr))}.party-analysis{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.party{padding:12px}.party-stats{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<style id="party-compact-v381">
+/* v381: パーティ編成をコンパクトに・必殺技の範囲表示（追加のみ） */
+.party{padding:12px!important;margin-bottom:14px!important}
+.party-head{margin-bottom:8px!important}
+.party-head h2{font-size:16px!important}
+.party-slots{gap:6px!important;margin-bottom:8px!important}
+.party-slot{flex-direction:row!important;align-items:center!important;text-align:left!important;gap:6px!important;padding:5px 30px 5px 6px!important}
+.party-slot img{width:38px!important;height:38px!important;flex:none}
+.party-slot-name{font-size:12.5px!important}
+.party-slot .tags{justify-content:flex-start!important}
+.party-slot .party-slot-body{display:flex;flex-direction:column;gap:3px;min-width:0}
+.party-slot.empty{min-height:52px!important;justify-content:center!important}
+.party-slot .party-remove{top:50%!important;transform:translateY(-50%);right:5px!important;width:22px!important;height:22px!important}
+.party-analysis{gap:8px!important}
+.party-box{padding:8px!important}
+.party-box h3{font-size:13px!important;margin-bottom:2px!important}
+.party-note{font-size:11px!important;margin-bottom:4px!important}
+.party-table th,.party-table td{padding:3px 5px!important}
+.party-chip{margin:1px 5px 1px 0!important}
+.party-chip img{width:18px!important;height:18px!important}
+.party-skill b{font-size:12px!important}
+.party-skill span{font-size:11px!important;line-height:1.35!important}
+.party-ult{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.party-ult .ult-range{grid-template-columns:repeat(3,9px)!important;grid-template-rows:repeat(3,9px)!important;gap:1px!important;margin-top:0!important}
+.party-ult .ult-range i{border-radius:1px}
+#partyBody>.small{margin:6px 0 0;font-size:11px}
+.party-slot .party-slot-body{flex:1 1 auto}
+.party-slot .tag{white-space:nowrap!important}
+@media (max-width:640px){.party-slots{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+</style>
+<style id="damage-attr-auto-v382">
+/* v382: 弱点・得意の自動判定と場の効果（追加のみ） */
+.damage-checks .damage-attr-judge{flex:1 0 100%;margin:0;padding:6px 8px;border:1px dashed #52627b;border-radius:8px;font-size:12px;color:#c9d6e8;line-height:1.5}
+.damage-check input:disabled+*,.damage-check input:disabled{opacity:.75}
+.damage-field-attr{margin-top:6px}
+</style>
+<style id="damage-ko-v384">
+/* v384: 削る割合と確定数・乱数の表示（追加のみ） */
+.damage-ko-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0 4px}
+.damage-ko-row>div{background:#0d1626;border:1px solid #33435c;border-radius:10px;padding:8px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.damage-ko-row small{font-size:11.5px;color:#aebbd0}
+.damage-ko-row strong{font-size:20px;font-variant-numeric:tabular-nums;color:#f2f5fb;overflow-wrap:anywhere}
+#dmgKoHits[data-ko="sure"]{color:#8ce1d0}
+#dmgKoHits[data-ko="random"]{color:#ffc857}
+.damage-quick-ko strong{font-size:18px}
+@media (max-width:640px){.damage-ko-row strong{font-size:17px}}
+</style>
+<style id="affinity-filter-v385">
+/* v385: 得意・苦手属性の絞り込み（追加のみ） */
+.filter-check .attr-char{font-weight:800}
+</style>
+<style id="mynyan-v396">.mynyan-open{display:flex;flex-direction:column;align-items:flex-start;gap:4px;width:100%;margin:4px 0 8px;padding:8px 2px;background:transparent;border:0;border-bottom:1px solid var(--line,#40506a);border-radius:0;color:inherit;text-align:left;cursor:pointer}.mynyan-open:hover .mynyan-open-title{text-decoration:underline}.mynyan-open-title{font-size:13px;font-weight:700;color:var(--text,#f4f6fb)}.mynyan-open-summary{font-size:11px;line-height:1.6;color:var(--muted,#aebbd0);overflow-wrap:anywhere}.mynyan-sec h4{margin:0 0 6px;font-size:14px}.mynyan-slots{display:flex;flex-wrap:wrap;gap:6px 10px}.mynyan-slot{display:flex;align-items:center;gap:6px;font-size:.9em;white-space:nowrap}.mynyan-slot select{max-width:16em}.mynyan-summary{margin:6px 0 0;font-size:.9em}</style>
+<style id="damage-allstats-v403">.damage-stats>div:not(.dmg-allstats){display:none!important}.damage-stats .dmg-allstats{grid-column:1/-1;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;background:#111b2c;border-radius:9px;padding:6px 8px!important}.dmg-st{display:flex;flex-direction:column;align-items:center;min-width:0;padding:2px 0;border-radius:7px;border:1px solid transparent}.dmg-st small{font-size:10px;color:#aebbd0;white-space:nowrap}.dmg-st b{font-size:17px;line-height:1.2}.dmg-st-used{border-color:currentColor;background:#ffffff0d}.dmg-st-hp{color:#ffe18b}.dmg-st-strength{color:#ffb08d}.dmg-st-spirit{color:#c0adff}.dmg-st-defense{color:#9ecbff}.dmg-st-speed{color:#8ce1d0}.dmg-st small{color:inherit;opacity:.8}</style>
+</head><body>
+<header><h1>妖怪ウォッチ3 対戦図鑑</h1><p>画像付き妖怪一覧 · 技・とりつき効果・属性・ランクで絞り込み／ステータス比較</p></header>
+<main class="wrap"><div class="notice"><strong>公式番号 No.001〜698：</strong>698体を登録しています。技名・Lv.10威力・効果説明・スキル効果を出典と照合しながら補完中です。未確認項目は「詳細なし」として扱い、推測値は確定データにしません。</div>
+
+<section class="damage-tool" id="damageCalculator">
+ <div class="damage-head"><div><h2>ダメージ計算機</h2><p>図鑑・共通技マスターのデータを使って、攻撃側と防御側の条件からダメージを試算します。</p></div><span class="damage-chip">試算版</span></div>
+ <div class="damage-grid">
+  <div class="damage-panel">
+   <h3>攻撃側</h3>
+   <label for="dmgAttackerSearch">攻撃する妖怪を検索（番号・名前）</label><input id="dmgAttackerSearch" type="search" placeholder="例：001、ジバニャン"><label for="dmgAttacker">攻撃する妖怪</label><select id="dmgAttacker"></select><div class="damage-yokai-visual"><img id="dmgAttackerImage" alt="攻撃側の妖怪画像"><span id="dmgAttackerName">—</span></div>
+   <div class="damage-stats"><div class="dmg-allstats" id="dmgAtkAllStats" aria-label="攻撃側のステータス"></div><div><label>参照能力</label><strong id="dmgAtkStatName">ちから</strong></div><div><label>現在値</label><strong id="dmgAtkStat">—</strong></div></div>
+   <div class="damage-subgrid">
+    <div><label for="dmgBuff">ステータスバフ</label><select id="dmgBuff"><option value="0">0%</option><option>10</option><option>20</option><option>30</option><option>40</option><option>50</option><option>60</option><option>70</option><option>80</option><option>90</option><option>100</option></select></div>
+    <div><label for="dmgClubAtk">スポーツクラブ補正</label><select id="dmgClubAtk"><option>0</option><option>5</option><option>10</option><option>15</option><option>20</option><option>25</option></select></div>
+    <div><label for="dmgEquipAtk">装備等の補正（±）</label><input id="dmgEquipAtk" type="number" value="0"></div>
+    <div><label for="dmgEquipItemAtk">装備（魂を含む）</label><select id="dmgEquipItemAtk"><option value="">なし</option><option value="myth-bangle">神話のうでわ（ちから+65・すばやさ-40）</option><option value="myth-ring">神話のゆびわ（ようりょく+65・まもり-40）</option><option value="soul-yamada">アンドロイド山田の魂（Lv10）</option><option value="soul-doki">怒気ドキ土器の魂（Lv10）</option></select></div>
+    <div><label for="dmgYamadaMode">攻撃側の体力（山田の魂用）</label><select id="dmgYamadaMode"><option value="full">削らない（満タン）</option><option value="pct">体力をn%削る</option><option value="hp1">HP1まで削る</option></select></div>
+    <div id="dmgYamadaPctWrap"><label for="dmgYamadaPct">削る体力（%）</label><input id="dmgYamadaPct" type="number" min="1" max="99" step="1" value="50"></div>
+    <div><label for="dmgAgerank">アゲランク</label><select id="dmgAgerank"><option value="0">図鑑の現在設定</option><option value="1">+1段階</option><option value="2">+2段階</option><option value="3">+3段階</option><option value="4">+4段階</option><option value="5">+5段階</option></select></div>
+   </div>
+   <div class="damage-inline-controls">
+    <div><label for="dmgMove">使用する技（図鑑登録技が初期選択）</label><select id="dmgMove"></select></div>
+    <div><label for="dmgFormation">攻撃位置</label><select id="dmgFormation"><option value="1.1">前列（ちから×1.1・ようりょく×0.9）</option><option value="1.0" selected>中列（×1.0）</option><option value="0.9">後列（ちから×0.9・ようりょく×1.1）</option></select></div>
+    <div><label for="dmgMoveAttr">技の属性（弱点・得意の判定用）</label><select id="dmgMoveAttr"><option value="auto" selected>自動（攻撃側の妖術・必殺技の属性）</option><option value="火">火</option><option value="水">水</option><option value="雷">雷</option><option value="土">土</option><option value="風">風</option><option value="氷">氷</option><option value="none">属性なし</option></select></div>
+   </div>
+   <div class="damage-inline-controls damage-critical-controls">
+    <div><label for="dmgCriticalCount">クリティカル回数（連続攻撃のうち）</label><input id="dmgCriticalCount" type="number" min="0" max="1" step="1" value="0"></div>
+    <div><label for="dmgSuperCritical">超クリティカルの個数</label><input id="dmgSuperCritical" type="number" min="0" max="20" step="1" value="0"></div>
+   </div>
+   <div id="dmgUltimatePowerWrap" class="damage-subgrid" hidden><div><label for="dmgUltimatePower">必殺技の威力（手入力）</label><input id="dmgUltimatePower" type="number" min="0" step="1" placeholder="威力を入力"></div><div><label for="dmgUltimateStat">必殺技の能力依存</label><select id="dmgUltimateStat"><option value="strength" selected>ちから依存</option><option value="spirit">ようりょく依存</option></select></div></div>
+   <div class="damage-subgrid damage-attribute-skill-row">
+    <div><label for="dmgAttributePlay">属性あそび（妖術威力 +5%／個）</label><input id="dmgAttributePlay" type="number" min="0" max="20" step="1" value="0"></div>
+    <div><label for="dmgHighSenseAtkType">攻撃側のとりつき種類</label><select id="dmgHighSenseAtkType"><option value="single">単能力（効果＋40%／個）</option><option value="all">全能力（効果＋20%／個）</option></select></div>
+   </div>
+   <div class="damage-defense-options"><strong>攻撃側の特性</strong><label class="damage-check"><input type="checkbox" id="dmgGuardBreak"> ガード崩し（ガードを無視）</label><label class="damage-check"><input type="checkbox" id="dmgSuperGuardBreak"> 超ガード崩し（ガードを無視して2倍）</label></div>
+  </div>
+  <div class="damage-panel">
+   <h3>防御側</h3>
+   <label for="dmgDefenderSearch">防御側の妖怪を検索（番号・名前）</label><input id="dmgDefenderSearch" type="search" placeholder="例：001、ジバニャン"><label for="dmgDefender">攻撃を受ける妖怪</label><select id="dmgDefender"></select><div class="damage-yokai-visual"><img id="dmgDefenderImage" alt="防御側の妖怪画像"><span id="dmgDefenderName">—</span></div>
+   <div class="damage-stats"><div class="dmg-allstats" id="dmgDefAllStats" aria-label="防御側のステータス"></div><div><label>HP</label><strong id="dmgHp">—</strong></div><div><label>まもり</label><strong id="dmgDef">—</strong></div></div>
+   <div class="damage-subgrid">
+    <div><label for="dmgDefBuff">防御ステータスバフ</label><select id="dmgDefBuff"><option value="0">0%</option><option>10</option><option>20</option><option>30</option><option>40</option><option>50</option><option>60</option><option>70</option><option>80</option><option>90</option><option>100</option></select></div>
+    <div><label for="dmgClubDef">スポーツクラブ補正</label><select id="dmgClubDef"><option>0</option><option>5</option><option>10</option><option>15</option><option>20</option><option>25</option></select></div>
+    <div><label for="dmgEquipDef">装備等のまもり補正（±）</label><input id="dmgEquipDef" type="number" value="0"></div>
+    <div><label for="dmgEquipItemDef">装備（魂を含む）</label><select id="dmgEquipItemDef"><option value="">なし</option><option value="myth-bangle">神話のうでわ（ちから+65・すばやさ-40）</option><option value="myth-ring">神話のゆびわ（ようりょく+65・まもり-40）</option><option value="soul-yamada">アンドロイド山田の魂（Lv10）</option><option value="soul-doki">怒気ドキ土器の魂（Lv10）</option></select></div>
+    <div><label for="dmgDefAgerank">アゲランク</label><select id="dmgDefAgerank"><option value="0">図鑑の現在設定</option><option value="1">+1段階</option><option value="2">+2段階</option><option value="3">+3段階</option><option value="4">+4段階</option><option value="5">+5段階</option></select></div>
+   </div>
+   <div class="damage-def-skill-row"><label for="dmgHighSenseDefType">防御側のとりつき種類</label><select id="dmgHighSenseDefType"><option value="single">単能力（効果＋40%／個）</option><option value="all">全能力（効果＋20%／個）</option></select></div>
+   <div class="damage-checks"><label class="damage-check damage-auto-attr"><input type="checkbox" id="dmgAutoAttr" checked> 弱点・得意を属性から自動判定</label><label class="damage-check"><input type="checkbox" id="dmgWeak"> 防御側が弱点属性</label><label class="damage-check"><input type="checkbox" id="dmgResist"> 防御側が得意属性（耐性）</label><p id="dmgAttrJudge" class="damage-attr-judge" aria-live="polite">—</p></div>
+   <div class="damage-defense-options"><strong>防御側の防御効果</strong>
+    <label class="damage-check"><input type="checkbox" id="dmgGuard"> ガード（被ダメージ1/2）</label>
+    <label class="damage-check"><input type="checkbox" id="dmgPotGuard"> 壺ガード（被ダメージ1/4）</label>
+    <label class="damage-check"><input type="checkbox" id="dmgAttackHalf"> 攻撃半減（攻撃からの被ダメージ1/2）</label>
+    <div><label for="dmgAttributeSoul">属性軽減魂の個数（1つにつき30%軽減）</label><input id="dmgAttributeSoul" type="number" min="0" max="10" step="1" value="0"></div>
+   </div>
+  </div>
+ </div>
+ <div class="damage-defense-options damage-field-effects" id="damageFieldEffects">
+  <strong>場の効果</strong>
+  <div class="damage-subgrid">
+   <div><label for="dmgHighSenseCount">ハイセンスの個数</label><input id="dmgHighSenseCount" type="number" min="0" max="5" step="1" value="0"></div>
+  </div>
+  <div class="damage-checks damage-field-attr"><label class="damage-check"><input type="checkbox" id="dmgFieldFutsu"> フツーにする</label><label class="damage-check"><input type="checkbox" id="dmgFieldOre"> おれルール</label><label class="damage-check"><input type="checkbox" id="dmgFieldSwitch"> スイッチ</label><label class="damage-check"><input type="checkbox" id="dmgFieldUnchiku"> うんちく</label></div>
+ </div>
+ <div class="damage-result" id="damageResultCard" role="button" tabindex="0" aria-haspopup="dialog" aria-controls="damageQuickModal" aria-label="ダメージ結果の簡略表示を開く">
+  <div class="damage-result-head"><h3>ダメージ結果（連続攻撃は合計）</h3><span id="dmgFormulaType">—</span></div>
+  <div class="damage-result-grid"><div><small>最小</small><strong id="dmgMin">—</strong></div><div><small>平均</small><strong id="dmgAvg">—</strong></div><div><small>最大</small><strong id="dmgMax">—</strong></div></div>
+  <div class="damage-ko-row"><div><small>相手HPを削る割合</small><strong id="dmgPctRange">—</strong></div><div><small>倒すのに必要な回数</small><strong id="dmgKoHits">—</strong></div></div>
+  <div class="damage-result-foot"><span>相手の残りHP（平均値）</span><strong id="dmgRemain">—</strong></div><div class="damage-hp-gauge"><div class="damage-hp-gauge-head"><span>相手HPゲージ</span><strong id="dmgHpGaugeText">—</strong></div><div class="damage-hp-track"><div id="dmgHpGaugeFill"></div></div></div>
+  <div class="damage-bars" aria-live="polite"><h4>相手のHPが削られる割合</h4>
+   <div class="damage-bar-row"><span>最小</span><div class="damage-bar-track"><div id="dmgBarMin" class="damage-bar-fill"></div></div><strong id="dmgPctMin">0%</strong></div>
+   <div class="damage-bar-row"><span>平均</span><div class="damage-bar-track"><div id="dmgBarAvg" class="damage-bar-fill"></div></div><strong id="dmgPctAvg">0%</strong></div>
+   <div class="damage-bar-row"><span>最大</span><div class="damage-bar-track"><div id="dmgBarMax" class="damage-bar-fill"></div></div><strong id="dmgPctMax">0%</strong></div>
+  </div>
+  <p id="dmgExplain" class="damage-explain">妖怪と技を選択すると試算します。</p>
+  <p class="damage-result-hint">クリックすると簡易表示を開きます</p>
+ </div>
+ <div id="damageQuickModal" class="damage-quick-modal" role="dialog" aria-modal="true" aria-labelledby="damageQuickTitle" hidden>
+  <div class="damage-quick-backdrop" data-damage-modal-close></div>
+  <div class="damage-quick-panel" role="document">
+   <div class="damage-quick-head"><h3 id="damageQuickTitle">ダメージ結果</h3><button type="button" id="damageQuickClose" aria-label="閉じる">×</button></div>
+   <div class="damage-quick-match">
+    <div class="damage-quick-yokai"><img id="dmgQuickAttackerImage" alt=""><span id="dmgQuickAttacker">攻撃側</span></div>
+    <b>→</b>
+    <div class="damage-quick-yokai"><img id="dmgQuickDefenderImage" alt=""><span id="dmgQuickDefender">防御側</span></div>
+   </div>
+   <p id="dmgQuickMove" class="damage-quick-move">技：—</p>
+   <div class="damage-quick-values"><div><small>最小</small><strong id="dmgQuickMin">—</strong></div><div><small>平均</small><strong id="dmgQuickAvg">—</strong></div><div><small>最大</small><strong id="dmgQuickMax">—</strong></div></div>
+   <div class="damage-ko-row damage-quick-ko"><div><small>相手HPを削る割合</small><strong id="dmgQuickPctRange">—</strong></div><div><small>倒すのに必要な回数</small><strong id="dmgQuickKo">—</strong></div></div>
+   <div class="damage-quick-hp">
+    <div class="damage-quick-remain"><span>相手の残りHP（平均）</span><strong id="dmgQuickRemain">—</strong></div>
+    <div class="damage-quick-hp-head"><span>残りHP</span><strong id="dmgQuickHpPercent">—</strong></div>
+    <div class="damage-quick-hp-track"><div id="dmgQuickHpFill"></div></div>
+   </div>
+   <div class="damage-quick-settings">
+    <h4>計算条件</h4>
+    <div class="damage-quick-setting-grid">
+     <div><b>攻撃側</b><span id="dmgQuickAtkSettings">—</span></div>
+     <div><b>防御側</b><span id="dmgQuickDefSettings">—</span></div>
+    </div>
+    <div class="damage-quick-checked"><b>有効なチェック項目</b><div id="dmgQuickChecks">—</div></div>
+   </div>
+   <p id="dmgQuickType" class="damage-quick-type">—</p>
+  </div>
+ </div>
+ <p class="damage-warning">計算式・乱数幅・クリティカル補正は検証途中の暫定実装です。妖術は妖怪ウォッチ3仕様として「まもり」を無視します。弱点・耐性倍率、アゲランクは攻撃側のちから・ようりょく、防御側のまもり・HPに計算連動します（元のランク設定を基準に段階加算）。</p>
+</section>
+
+<section class="bulk-agerank" aria-labelledby="bulkAgerankTitle">
+<div class="bulk-agerank-head"><h2 id="bulkAgerankTitle">アゲランク一括設定</h2><span class="bulk-chip">全体から対象を判定</span></div>
+<p>指定したランク n 以下（同ランクと下位ランク）の妖怪を、n ランクまで一括で引き上げます。対象は現在の検索・絞り込み結果に限らず全妖怪です。元ランクが n より上の妖怪は変更しません。</p>
+<div class="bulk-agerank-controls">
+<div><label for="bulkRank">引き上げ先ランク</label><select id="bulkRank"><option value="E">Eランク</option><option value="D">Dランク</option><option value="C">Cランク</option><option value="B" selected>Bランク</option><option value="A">Aランク</option><option value="S">Sランク</option></select></div>
+<div class="bulk-agerank-preview" id="bulkPreview" aria-live="polite">対象を計算しています…</div>
+<div class="bulk-agerank-actions"><button class="primary" id="applyBulkRank" type="button">選択ランクまで一括適用</button><button id="resetAllAgerank" type="button">全妖怪を元ランクに戻す</button></div>
+</div>
+<p id="bulkStatus" class="bulk-status" role="status" aria-live="polite">一括適用すると、各対象妖怪の個別アゲランク設定も選択したランクにそろいます。</p>
+</section>
+<div class="filter-launch-row"><button type="button" class="primary filter-launch" id="openFilters">☷ 絞り込みを開く</button><div class="search-box top-search"><label for="q">妖怪名・技・スキルを検索</label><input id="q" placeholder="例：アチャー、火花の術、ちから大アップ"></div></div>
+<div class="filter-modal" id="filterModal" role="dialog" aria-modal="true" aria-labelledby="filterModalTitle">
+ <div class="filter-dialog"><div class="filter-dialog-head"><h2 id="filterModalTitle">検索・絞り込み</h2><div class="filter-dialog-actions"><button type="button" id="resetFiltersInModal">条件をリセット</button><button type="button" class="primary" id="closeFilters">閉じる</button></div></div><div id="filterContent"></div></div>
+</div>
+<section class="filters" id="filtersPanel" aria-label="検索・絞り込み条件">
+<div class="filter-feature-box"><h3>特徴（チェックボックス）</h3><div class="filter-checks"><label class="filter-check"><input type="checkbox" id="featureEquipmentTwo"> 装備枠二つ</label></div></div>
+
+<div class="filter-checkbox-group" id="filterGroupTribe" data-filter-group="tribe" role="group" aria-label="種族"><h3>種族</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupGame" data-filter-group="game" role="group" aria-label="初登場作品"><h3>初登場作品</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupRank" data-filter-group="rankFilter" role="group" aria-label="ランク"><h3>ランク</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupMoveWait" data-filter-group="moveWaitFilter" role="group" aria-label="移動待機"><h3>移動待機</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupPosStat" data-filter-group="posStat" role="group" aria-label="とりつき：対象能力"><h3>とりつき：対象能力</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupPosDegree" data-filter-group="posDegree" role="group" aria-label="とりつき：効果"><h3>とりつき：効果</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupAttribute" data-filter-group="attributeFilter" role="group" aria-label="属性"><h3>属性</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupAffinityStrong" data-filter-group="affinityStrong" role="group" aria-label="得意属性"><h3>得意属性</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupAffinityWeak" data-filter-group="affinityWeak" role="group" aria-label="苦手属性"><h3>苦手属性</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupUltimateCategory" data-filter-group="ultimateCategory" role="group" aria-label="必殺技の分類"><h3>必殺技の分類</h3><div class="filter-checks"></div></div>
+<div class="filter-checkbox-group" id="filterGroupUltimateRange" data-filter-group="ultimateRange" role="group" aria-label="必殺技の範囲"><h3>必殺技の範囲</h3><div class="filter-checks"></div></div>
+<div class="sort-box"><label for="sort">並べ替え</label><select id="sort"><option value="number">正式図鑑番号順</option><option value="name">名前（あいうえお順）</option><option value="tribe">種族</option><option value="game">初登場作品</option><option value="hp">HP</option><option value="strength">ちから</option><option value="spirit">ようりょく</option><option value="defense">まもり</option><option value="speed">すばやさ</option><option value="moveWait">移動待機</option></select></div></section>
+<section class="compare" id="compare"><h2>選択した妖怪の比較</h2><div id="compareBody"></div></section>
+<section class="party" id="party" aria-labelledby="partyTitle"><div class="party-head"><h2 id="partyTitle">パーティ編成</h2><span class="party-count" id="partyCount">0/6</span><button type="button" id="partyClear">パーティを全て外す</button></div><div id="partyBody"></div></section>
+<div class="toolbar"><div class="count" id="count" aria-live="polite"></div><div class="buttons"><button id="clear">条件をリセット</button><button id="clearCompare" type="button">比較を全て解除</button><button class="primary" id="showCompare">比較を見る（0/4）</button></div></div><section class="grid" id="grid" aria-label="妖怪一覧"></section>
+<p class="footnote">この試作版は静的サイトです。サーバーや有料APIへの接続はありません。データを更新する場合は、データファイルを編集して再公開します。</p></main>
+<div class="skill-image-modal" id="skillImageModal" aria-hidden="true">
+<section class="skill-image-dialog" role="dialog" aria-modal="true" aria-labelledby="skillImageModalTitle" aria-describedby="skillImageModalSub" tabindex="-1">
+<div class="skill-image-modal-head"><div class="skill-image-modal-head-copy"><h2 id="skillImageModalTitle">スキルを持つ妖怪</h2><p id="skillImageModalSub">スキル名をクリックすると、同じスキルや同じ効果を持つ妖怪を一覧表示します。</p></div><button id="skillImageModalClose" type="button" data-skill-close aria-label="閉じる">閉じる ✕</button></div>
+<div id="skillImageModalBody" class="skill-image-modal-body"></div>
+</section></div>
+<script src="data/tech_master.js"></script><script src="data/description_master.js"></script><script src="data/skill_master.js"></script><script src="data/data.js"></script><script src="data/mynyan.js"></script><script>
+const $=id=>document.getElementById(id); const data=window.YOKAI_DATA||[]; const techMaster=window.YOKAI_TECH_MASTER||{}; const descriptionMaster=window.YOKAI_DESCRIPTION_MASTER||{}; const skillMaster=window.YOKAI_SKILL_MASTER||{}; // 旧レイアウトを維持し、スキルの共通マスターだけ参照する。
+data.forEach(y=>{y.moves=(y.moves||[]).map(m=>{if(!m||typeof m!=='object')return m;const d=descriptionMaster[`${m.type}|${m.name}`];const patched={...m};if((!patched.effect||patched.effect==='詳細なし')&&d?.effect&&d.effect!=='詳細なし'&&(d.status?.startsWith('verified-')||d.status?.startsWith('user-edited-')))patched.effect=d.effect;if(['attack','magic'].includes(m.type)){const t=techMaster[m.techId];patched.power=t?.power||patched.power||'詳細なし';}return patched;});y.skills=(y.skills||[]).map(sk=>{const raw=typeof sk==='string'?{name:sk,effect:'詳細なし'}:{...sk};const entry=skillMaster[raw.skillMasterId];const variant=entry?.variants?.find(v=>v.id===raw.skillEffectId);return {...raw,name:entry?.name||raw.name||'スキル',effect:variant?.effect||raw.effect||'詳細なし',skillMasterId:entry?.id||raw.skillMasterId||'',skillEffectId:variant?.id||raw.skillEffectId||'',effectGroupId:variant?.effectGroupId||raw.effectGroupId||''};});});
+const skillUsagesByName=new Map(),skillUsagesByEffect=new Map(),skillUsageByRelationKey=new Map();
+data.forEach(y=>(y.skills||[]).forEach(sk=>{const rec={yokai:y,skill:sk};const key=`${y.id}|${sk.skillEffectId||sk.skillMasterId||sk.name}`;skillUsageByRelationKey.set(key,rec);for(const [map,mapKey] of [[skillUsagesByName,sk.skillMasterId],[skillUsagesByEffect,sk.effectGroupId]]){if(!mapKey)continue;if(!map.has(mapKey))map.set(mapKey,[]);map.get(mapKey).push(rec);}}));
+const selected=new Set();
+const statLabels={hp:'HP',strength:'ちから',spirit:'ようりょく',defense:'まもり',speed:'すばやさ'};
+// アゲランク計算：とげにゃんWeb公開式と同サイトの単精度係数に基づく。
+const agerankSelections=new Map();
+const rankOrder={E:0,D:1,C:2,B:3,A:4,S:5};
+function baseRankLetter(x){const m=String(rankOf(x)||x.rank||'').match(/[EDCBAS]/);return m?m[0]:'';}
+function maxAgerank(x){if(x&&x.myNyan)return 0;const r=rankOrder[baseRankLetter(x)];return r===undefined?0:5-r;}
+function f32(v){return Math.fround(v);}
+function adjustedBase(v,n){let z=f32(f32(100+6*n)*f32(v));z=f32(z*f32(0.009999999776482582));return Math.floor(f32(z+f32(0.5)));}
+function calcAgerankStat(x,key,n){const b=x.statBase?.[key];if(!b)return null;const A=adjustedBase(b.A,n),B=adjustedBase(b.B,n),iv=f32(b.iv);let d=f32(f32(iv+f32(B))-f32(A));d=f32(d*f32(0.010204081237316132));d=f32(d*f32(59));return Math.floor(f32(f32(A)+d));}
+function statsFor(x){if(x&&x.myNyan&&window.MYNYAN)return window.MYNYAN.stats(x);const n=Math.max(0,Math.min(maxAgerank(x),Number(agerankSelections.get(x.id)||0)));if(n===0)return x.stats||{};const result={};for(const k of Object.keys(statLabels))result[k]=calcAgerankStat(x,k,n);return result;}
+function agerankSelect(x){if(x&&x.myNyan&&window.MYNYAN)return window.MYNYAN.controlHtml(x);if(!x.statBase||!x.rank)return '<p class="missing">アゲランク計算：詳細未登録</p>';const max=maxAgerank(x),cur=Math.min(max,Number(agerankSelections.get(x.id)||0)),base=rankOrder[baseRankLetter(x)]??5;return `<label class="agerank-control">表示ランク<select data-agerank="${esc(x.id)}">${Array.from({length:max+1},(_,n)=>{const letter=Object.keys(rankOrder).find(k=>rankOrder[k]===base+n)||baseRankLetter(x);return `<option value="${n}" ${n===cur?'selected':''}>${letter}ランク${n===0?'（元のランク）':''}</option>`}).join('')}</select></label>`;}
+function selectedRankLetter(x){const base=baseRankLetter(x);if(!base)return '';const n=Math.max(0,Math.min(maxAgerank(x),Number(agerankSelections.get(x.id)||0)));return Object.keys(rankOrder).find(k=>rankOrder[k]===rankOrder[base]+n)||base;}
+function rankDisplayLabel(x){const base=rankOf(x)||'未登録',current=selectedRankLetter(x);return current&&current!==baseRankLetter(x)?`元${base} → ${current}ランク`:base;}
+function bulkAgerankTargets(target){const t=rankOrder[target];if(t===undefined)return [];return data.filter(x=>{const base=baseRankLetter(x);return !!x.statBase&&base!==''&&rankOrder[base]<=t;});}
+function updateBulkAgerankPreview(){const target=$('bulkRank').value;const count=bulkAgerankTargets(target).length;$('bulkPreview').textContent=`対象：${count.toLocaleString('ja-JP')}体を${target}ランクに設定（検索条件に関係なく全体へ適用）`;$('applyBulkRank').textContent=`${target}ランクまで一括適用（${count}体）`;}
+function applyBulkAgerank(){const target=$('bulkRank').value;const targetIndex=rankOrder[target];const targets=bulkAgerankTargets(target);for(const x of targets){agerankSelections.set(x.id,targetIndex-rankOrder[baseRankLetter(x)]);}render();showCompare();updateBulkAgerankPreview();$('bulkStatus').textContent=`適用完了：${targets.length}体を${target}ランクまで引き上げました。元ランクが${target}より上の妖怪は変更していません。個別セレクターと比較表にも反映しています。`;}
+function resetAllAgerank(){agerankSelections.clear();render();showCompare();updateBulkAgerankPreview();$('bulkStatus').textContent='全妖怪のアゲランク設定を解除し、元ランクのステータスに戻しました。';}
+const tribeFirstNo=new Map();data.forEach(x=>{if(!x.tribe)return;const n=Number(x.officialNo??x.sortOrder??Infinity);if(!tribeFirstNo.has(x.tribe)||n<tribeFirstNo.get(x.tribe))tribeFirstNo.set(x.tribe,n);});
+function affinityTags(x){const a=x&&x.attributeAffinity;if(!a)return '';if(a.strong==='未確認'&&a.weak==='未確認')return '<span class="tag affinity affinity-unknown" title="得意属性・苦手属性：出典不一致のため未確認">得意・苦手 未確認</span>';const ac={'火':'fire','水':'water','風':'wind','土':'earth','雷':'thunder','氷':'ice'};const t=(cls,label,v)=>`<span class="tag affinity ${cls}${v==='なし'?' affinity-none':''}" title="${label}属性：${esc(v)}">${label} ${ac[v]?`<span class="attr-char attr-${ac[v]}">${esc(v)}</span>`:esc(v)}</span>`;return t('affinity-strong','得意',a.strong)+t('affinity-weak','苦手',a.weak);} const rankOf=x=>String(x.rank||'').replace(/\/?(?:レア|古典|レジェンド)/g,'').replace(/\/+$/,'').trim();
+const rankSortOrder={'Sランク':0,'Aランク':1,'Bランク':2,'Cランク':3,'Dランク':4,'Eランク':5};
+const allowedAttributes=['火','水','雷','土','風','氷','吸収','回復'];
+function attributeOf(m){if(!m)return '';if(m.name==='死神の術')return '吸収';return allowedAttributes.includes(m.attribute)?m.attribute:'';}
+function ultimateCategory(m){const txt=[m?.name,m?.effect,m?.power,m?.attribute].filter(Boolean).join(' ');if(/HPを回復|回復し|回復する|HP回復|味方全員のHP/.test(txt))return '回復';if(/ちから.{0,8}(大|超|小)?ダウン|ようりょく.{0,8}(大|超|小)?ダウン|まもり.{0,8}(大|超|小)?ダウン|すばやさ.{0,8}(大|超|小)?ダウン|全ステータス.{0,8}(大|超|小)?ダウン|敵.{0,12}(弱体|ダウン)|ダウンさせ/.test(txt))return 'デバフ';if(/ちから.{0,8}(大|超|小)?アップ|ようりょく.{0,8}(大|超|小)?アップ|まもり.{0,8}(大|超|小)?アップ|すばやさ.{0,8}(大|超|小)?アップ|全ステータス.{0,8}(大|超|小)?アップ|味方.{0,15}(強化|アップ)|アップさせ/.test(txt)||m?.attribute==='補助'||m?.attribute==='回復＋補助'||m?.attribute==='おはらい')return 'バフ';if(m?.attribute==='物理')return '物理攻撃';if(['火','水','氷','雷','風','土','吸収','闇'].includes(m?.attribute))return '妖術攻撃';if(/ダメージ|こうげき|攻撃/.test(txt)&&m?.attribute!=='おはらい')return '物理攻撃';return ''; }
+function effectStatFor(m){if(m?.effectStat)return m.effectStat;const t=[m?.name,m?.effect].filter(Boolean).join(' ');if(/全ステータス/.test(t))return '全ステータス';if(/ちから/.test(t))return 'ちから';if(/ようりょく/.test(t))return 'ようりょく';if(/まもり/.test(t))return 'まもり';if(/すばやさ/.test(t))return 'すばやさ';if(/HP|回復|体力/.test(t))return 'HP・回復';if(/味方をたまにこうげき|味方にこうげき|味方を攻撃/.test(t))return '混乱';if(/移動|動けなく|移動でき/.test(t))return '移動妨害';if(/行動でき|行動しなく|サボ|混乱|ねむ|行動妨害/.test(t))return '行動妨害';if(m?.effect&&m.effect!=='詳細なし'&&['possession','ultimate'].includes(m.type))return 'その他';return ''; }
+function effectDegreeFor(m){if(m?.effectDegree)return m.effectDegree;const t=[m?.name,m?.effect,m?.power].filter(Boolean).join(' ');if(/超アップ/.test(t))return '超アップ';if(/大アップ/.test(t))return '大アップ';if(/小アップ/.test(t))return '小アップ';if(/アップ|上昇|強化/.test(t))return 'アップ';if(/大ダウン/.test(t))return '大ダウン';if(/小ダウン/.test(t))return '小ダウン';if(/ダウン|低下|弱体/.test(t))return 'ダウン';if(/HPを回復|回復し|回復する|回復/.test(t))return '回復';if(/HPを減|HP減少|体力を奪/.test(t))return 'HP減少';if(/行動でき|サボ|混乱|ねむ|味方をたまにこうげき/.test(t))return '行動妨害';if(m?.effect&&m.effect!=='詳細なし'&&['possession','ultimate'].includes(m.type))return 'その他';return '';}
+
+function uniqueNonempty(values){return [...new Set(values.filter(v=>v!==null&&v!==undefined&&String(v).trim()!==''))];}
+function buildFilterCheckboxGroup(groupId,values){
+ const root=document.querySelector(`[data-filter-group="${groupId}"]`);if(!root)return;
+ const list=root.querySelector('.filter-checks');list.textContent='';
+ values.forEach((value,index)=>{const label=document.createElement('label');label.className='filter-check';const input=document.createElement('input');input.type='checkbox';input.value=String(value);input.dataset.filterOption=groupId;input.id=`filter-${groupId}-${index}`;const text=document.createElement('span');text.textContent=String(value);label.htmlFor=input.id;label.append(input,text);list.appendChild(label);});
+}
+function selectedFilterValues(groupId){return new Set([...document.querySelectorAll(`[data-filter-option="${groupId}"]:checked`)].map(el=>el.value));}
+function resetCheckboxFilterGroups(){document.querySelectorAll('.filter-checkbox-group input[type="checkbox"]').forEach(el=>{el.checked=false;});}
+const tribeOptions=uniqueNonempty(data.map(x=>x.tribe)).sort((a,b)=>(tribeFirstNo.get(a)??Infinity)-(tribeFirstNo.get(b)??Infinity)||a.localeCompare(b,'ja'));
+const gameOptions=uniqueNonempty(data.map(x=>x.game)).sort((a,b)=>a.localeCompare(b,'ja'));
+const rankOptions=uniqueNonempty(data.map(rankOf)).sort((a,b)=>(rankSortOrder[a]??99)-(rankSortOrder[b]??99)||a.localeCompare(b,'ja'));
+const posStatOptions=['ちから','ようりょく','まもり','すばやさ','全ステータス','HP・回復','移動妨害','行動妨害','混乱','その他'];
+const posDegreeOptions=['超アップ','大アップ','小アップ','アップ','超ダウン','大ダウン','小ダウン','ダウン','回復','HP減少','行動妨害','移動妨害','混乱','その他'];
+const ultimateCategoryOptions=['物理攻撃','妖術攻撃','回復','バフ','デバフ'];
+buildFilterCheckboxGroup('tribe',tribeOptions);
+buildFilterCheckboxGroup('game',gameOptions);
+buildFilterCheckboxGroup('rankFilter',rankOptions);
+buildFilterCheckboxGroup('posStat',posStatOptions);
+buildFilterCheckboxGroup('posDegree',posDegreeOptions);
+buildFilterCheckboxGroup('attributeFilter',allowedAttributes);
+buildFilterCheckboxGroup('ultimateCategory',ultimateCategoryOptions);
+// v385: 得意属性・苦手属性の絞り込み（attributeAffinity）。属性の文字は色分け
+const affinityOptions=['火','水','雷','土','風','氷','なし','未確認'];
+buildFilterCheckboxGroup('affinityStrong',affinityOptions);buildFilterCheckboxGroup('affinityWeak',affinityOptions);
+{const ac={'火':'fire','水':'water','風':'wind','土':'earth','雷':'thunder','氷':'ice'};document.querySelectorAll('[data-filter-option="affinityStrong"],[data-filter-option="affinityWeak"]').forEach(input=>{const sp=input.parentElement.querySelector('span');if(sp&&ac[input.value])sp.className='attr-char attr-'+ac[input.value];});}
+// v365: 必殺技の範囲（ユーザー指定の並び順。値は範囲番号、表示は3×3マス）
+const ultimateRangeOrder=[1,2,3,4,5,6,7,8,9,12,10,13,14,15,11];
+const ultimateRangeCells={};data.forEach(x=>{const r=(x.moves||[]).find(m=>m&&m.type==='ultimate')?.range;if(r&&r.cells&&!ultimateRangeCells[r.pattern])ultimateRangeCells[r.pattern]=r.cells;});
+buildFilterCheckboxGroup('ultimateRange',ultimateRangeOrder.filter(n=>ultimateRangeCells[n]).map(String));
+document.querySelectorAll('[data-filter-option="ultimateRange"]').forEach(input=>{const n=input.value;const label=input.closest('label');label.classList.add('range-filter-check');label.title='範囲'+n;input.setAttribute('aria-label','範囲'+n);const span=label.querySelector('span');if(span)span.outerHTML=ultimateRangeHtml({pattern:n,cells:ultimateRangeCells[n]});});
+const moveWaitOptions=[...new Set(data.map(x=>x.moveWait).filter(v=>Number.isFinite(v)))].sort((a,b)=>a-b).map(String);
+buildFilterCheckboxGroup('moveWaitFilter',moveWaitOptions);
+
+function current(){
+ const q=$('q').value.trim().toLocaleLowerCase('ja');
+ const tribes=selectedFilterValues('tribe'),games=selectedFilterValues('game'),ranks=selectedFilterValues('rankFilter'),moveWaits=selectedFilterValues('moveWaitFilter'),ps=selectedFilterValues('posStat'),pd=selectedFilterValues('posDegree'),ats=selectedFilterValues('attributeFilter'),ucs=selectedFilterValues('ultimateCategory'),urs=selectedFilterValues('ultimateRange'),s=$('sort').value;
+ let arr=data.filter(x=>{
+  const moves=x.moves||[]; const possessionMoves=moves.filter(m=>m.type==='possession'); const magic=moves.find(m=>m.type==='magic'); const ult=moves.find(m=>m.type==='ultimate');
+  // 必殺技の説明にもとりつき効果（能力上昇・低下、回復、行動妨害等）があれば、とりつき条件の対象に含める
+  const possessionCandidates=[...possessionMoves,...moves.filter(m=>m.type==='ultimate'&&(effectStatFor(m)||effectDegreeFor(m)))];
+  /* v387: データ側の表記（HP／減少／お金ばらまき等）を絞り込みの選択肢に対応づける */const posStatKey=m=>{const v=effectStatFor(m);return v==='HP'||v==='回復'?'HP・回復':v==='お金ばらまき'?'その他':v};const posDegreeKey=m=>{const v=effectDegreeFor(m);return v==='減少'?'HP減少':v==='だんだん回復'?'回復':v==='お金ばらまき'?'その他':v};
+  const hasPosStat=!ps.size||possessionCandidates.some(m=>ps.has(posStatKey(m)));
+  const hasPosDegree=!pd.size||possessionCandidates.some(m=>pd.has(posDegreeKey(m)));
+  const afs=selectedFilterValues('affinityStrong'),afw=selectedFilterValues('affinityWeak');const affinityMatch=(!afs.size||afs.has(x.attributeAffinity?.strong))&&(!afw.size||afw.has(x.attributeAffinity?.weak));
+  const attributeMatch=!ats.size||moves.some(m=>(m.type==='magic'||m.type==='ultimate')&&ats.has(attributeOf(m)));
+  const ultimateMatch=!ucs.size||(ult&&ucs.has(ultimateCategory(ult)));
+  const rangeMatch=!urs.size||!!(ult&&ult.range&&urs.has(String(ult.range.pattern)));
+  const allText=[x.name,x.tribe,x.game,x.rank,rankOf(x),...(x.skills||[]).flatMap(v=>typeof v==='string'?[v]:[v.name,v.effect]),...moves.flatMap(v=>typeof v==='string'?[v]:[v.name,v.effect,v.power,v.attribute,v.effectStat,v.effectDegree])].filter(Boolean).join(' ').toLocaleLowerCase('ja');
+  return (!tribes.size||tribes.has(x.tribe))&&(!games.size||games.has(x.game))&&(!ranks.size||ranks.has(rankOf(x)))&&(!moveWaits.size||moveWaits.has(String(x.moveWait)))&&(!document.getElementById('featureEquipmentTwo')?.checked||x.features?.includes('装備枠二つ'))&&hasPosStat&&hasPosDegree&&attributeMatch&&affinityMatch&&ultimateMatch&&rangeMatch&&(!q||allText.includes(q));
+ });
+ arr.sort((a,b)=>{if(s==='number'){const an=a.officialNo??Infinity,bn=b.officialNo??Infinity;return an-bn||(a.sortOrder??Infinity)-(b.sortOrder??Infinity);}if(s==='name')return a.name.localeCompare(b.name,'ja');if(['hp','strength','spirit','defense','speed'].includes(s)){const av=statsFor(a)?.[s],bv=statsFor(b)?.[s];return (bv??-Infinity)-(av??-Infinity)||a.name.localeCompare(b.name,'ja')}if(s==='moveWait')return (a.moveWait??Infinity)-(b.moveWait??Infinity)||a.name.localeCompare(b.name,'ja');if(s==='tribe'||s==='game')return String(a[s]||'').localeCompare(String(b[s]||''),'ja')||a.name.localeCompare(b.name,'ja');return a.name.localeCompare(b.name,'ja')});return arr;
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));} 
+function skillRelationKey(x,m){return `${x.id}|${m.skillEffectId||m.skillMasterId||m.name}`;}
+function renderSkillEntry(x,m){const key=skillRelationKey(x,m);return `<div class="inline-move skill-move"><button type="button" class="skill-trigger" data-skill-trigger="${esc(key)}" aria-label="${esc((m.name||'スキル')+'を持つ妖怪一覧を開く')}"><span class="inline-move-title">${esc(m.name||'スキル')}</span><span class="inline-move-effect">${esc(m.effect||'詳細なし')}</span></button></div>`;}
+function sortedUniqueSkillRows(rows){const seen=new Set();return (rows||[]).filter(r=>r&&r.yokai&&!seen.has(r.yokai.id)&&seen.add(r.yokai.id)).sort((a,b)=>(a.yokai.officialNo??99999)-(b.yokai.officialNo??99999)||String(a.yokai.name||'').localeCompare(String(b.yokai.name||''),'ja'));}
+function skillImageTile(rec,currentId){const y=rec.yokai,im=y.image||'',fallback=y.imageFallback||'';const no=y.officialNo?`No.${String(y.officialNo).padStart(3,'0')}`:(y.noLabel||'番号未照合');const tags=rec.relationLabels||[];const relationLabel=tags.includes('同じスキル名')&&tags.includes('同じ効果')?'同名・同効果':tags.includes('同じスキル名')?'同じスキル名':'同じ効果';return `<button type="button" class="skill-yokai-tile ${y.id===currentId?'is-current':''}" data-skill-yokai-open="${esc(y.id)}" aria-label="${esc(y.name)}の図鑑位置へ移動"><span class="skill-yokai-picture"><img loading="lazy" src="${esc(im)}" data-fallback="${esc(fallback)}" alt="${esc(y.name)}" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;}else{this.style.opacity='.15';this.alt='画像を読み込めません';}"></span><span class="skill-yokai-no">${no}</span><strong class="skill-yokai-name">${esc(y.name||'名前未登録')}</strong><span class="skill-yokai-skill">${esc(rec.skill.name||'スキル')}</span><span class="skill-yokai-relation">${relationLabel}</span>${y.id===currentId?'<span class="skill-yokai-current-label">選択中</span>':''}</button>`;}
+function combineRelatedSkillRows(nameRows,effectRows){const byId=new Map();const add=(rows,label)=>{for(const row of rows||[]){if(!row||!row.yokai)continue;const id=row.yokai.id;if(!byId.has(id))byId.set(id,{...row,relationLabels:[]});const merged=byId.get(id);if(!merged.relationLabels.includes(label))merged.relationLabels.push(label);}};add(nameRows,'同じスキル名');add(effectRows,'同じ効果');return [...byId.values()].sort((a,b)=>(a.yokai.officialNo??99999)-(b.yokai.officialNo??99999)||String(a.yokai.name||'').localeCompare(String(b.yokai.name||''),'ja'));}
+function renderSkillImageSection(title,rows,currentId){const list=rows||[];return `<section class="skill-image-section"><div class="skill-image-section-head"><h3>${title}</h3><span class="skill-image-count">${list.length}体（重複なし）</span></div>${list.length?`<div class="skill-yokai-grid">${list.map(r=>skillImageTile(r,currentId)).join('')}</div>`:'<p class="skill-image-empty">該当する妖怪はいません。</p>'}</section>`;}
+let lastSkillTrigger=null,previousBodyOverflow='';
+function openSkillImageModal(key){const source=skillUsageByRelationKey.get(key);if(!source)return;lastSkillTrigger=document.activeElement;const nameRows=skillUsagesByName.get(source.skill.skillMasterId)||[source];const effectRows=source.skill.effectGroupId?(skillUsagesByEffect.get(source.skill.effectGroupId)||[source]):[source];const combinedRows=combineRelatedSkillRows(nameRows,effectRows);$('skillImageModalTitle').textContent=`「${source.skill.name||'スキル'}」と同名・同効果の妖怪`;$('skillImageModalSub').textContent=`効果：${source.skill.effect||'詳細なし'}　／　同じスキル名または同じ効果に該当する妖怪をまとめて表示`;$('skillImageModalBody').innerHTML=renderSkillImageSection('関連する妖怪',combinedRows,source.yokai.id);const modal=$('skillImageModal');modal.classList.add('open');modal.setAttribute('aria-hidden','false');previousBodyOverflow=document.body.style.overflow;document.body.style.overflow='hidden';$('skillImageModalClose').focus();}
+function closeSkillImageModal(restoreFocus=true){const modal=$('skillImageModal');if(!modal)return;modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.style.overflow=previousBodyOverflow;if(restoreFocus&&lastSkillTrigger&&lastSkillTrigger.isConnected)lastSkillTrigger.focus();}
+function clearSearchFiltersForJump(){if($('q'))$('q').value='';resetCheckboxFilterGroups();if($('sort'))$('sort').value='number';if($('featureEquipmentTwo'))$('featureEquipmentTwo').checked=false;}
+function jumpToYokai(id){const target=data.find(y=>y.id===id);if(!target)return;closeSkillImageModal(false);clearSearchFiltersForJump();render();showCompare();const card=[...$('grid').querySelectorAll('[data-yokai-card]')].find(el=>el.dataset.yokaiCard===id);if(card){card.scrollIntoView({behavior:'smooth',block:'start'});card.classList.add('skill-yokai-highlight');window.setTimeout(()=>card.classList.remove('skill-yokai-highlight'),1800);}}
+
+function ultimateRangeHtml(r){if(!r||typeof r.cells!=='string'||r.cells.length!==9)return '';return `<span class="ult-range" role="img" aria-label="必殺技の範囲：範囲${esc(r.pattern)}" title="範囲${esc(r.pattern)}">${[...r.cells].map(c=>c==='1'?'<i class="on"></i>':c==='?'?'<i class="q">?</i>':'<i></i>').join('')}</span>`}
+function inlineMove(m,kind){if(!m)return '<p class="missing">詳細なし</p>';const name=typeof m==='string'?m:(m.name||'技');const effect=typeof m==='string'?'':(m.effect||'詳細なし');const power=m.power!==undefined&&m.power!==null&&String(m.power).trim()!==''?m.power:'???';const isPower=['attack','magic','ultimate'].includes(kind);const alignment=kind==='possession'?(m.alignment||'未確認'):(m.alignment||((/ダウン|低下|減少/.test(String(power)))?'悪':(/アップ|上昇/.test(String(power)))?'良':''));const statLabel=kind==='possession'?(effectStatFor(m)||'') : '';const degreeLabel=kind==='possession'?(effectDegreeFor(m)||'') : '';const possessionLabel=kind==='possession'?(statLabel && !['混乱','行動妨害','回復','HP減少','移動妨害','ダメージ','お金ばらまき','その他'].includes(statLabel)?`${statLabel}${degreeLabel}`:(degreeLabel&&degreeLabel!=='その他'?degreeLabel:statLabel||'効果未確認')):'';const powerClass=kind==='possession'?((/ダウン|低下|減少|行動妨害|混乱/.test(possessionLabel))?'alignment-bad':(/アップ|回復/.test(possessionLabel))?'alignment-good':''):(alignment==='悪'?'alignment-bad':alignment==='良'?'alignment-good':'');return `<div class="inline-move"><div class="inline-move-title">${esc(name)}${isPower?` 【<span class="move-power ${powerClass}">${esc(power)}</span>】`:''}${kind==='possession'&&possessionLabel?` 【<span class="${powerClass}">${esc(possessionLabel)}</span>】`:''}</div>${(()=>{const eff=`<div class="inline-move-effect">${esc(effect||'詳細なし')}</div>`;const rg=kind==='ultimate'&&m&&typeof m==='object'?ultimateRangeHtml(m.range):'';return rg?`<div class="inline-move-body">${eff}${rg}</div>`:eff})()}</div>`}
+function inlineDetails(x){const shownStats=statsFor(x);const statCodes={hp:'H',strength:'A',spirit:'M',defense:'D',speed:'S'};const statMax={hp:400,strength:300,spirit:300,defense:300,speed:300};const stats=Object.entries(statLabels).map(([k,v])=>{const raw=shownStats?.[k];const value=raw===null||raw===undefined?'—':raw;const pct=raw===null||raw===undefined?0:Math.max(0,Math.min(100,Number(raw)/statMax[k]*100));return `<div class="statcell statbar-row"><span class="statbar-label"><b>${statCodes[k]}</b><span>${v}</span></span><div class="statbar-track"><i class="statbar-fill statbar-${k}" style="width:${pct}%"></i></div><strong>${value}</strong></div>`}).join('');const section=(title,kind)=>{const ms=(x.moves||[]).filter(m=>m&&typeof m==='object'&&m.type===kind);return `<section class="inline-section move-group">${ms.length?ms.map(m=>inlineMove(m,kind)).join(''):'<p class="missing">詳細なし</p>'}</section>`};const skills=(x.skills||[]).length?x.skills.map(m=>renderSkillEntry(x,m)).join(''):'<p class="missing">詳細なし</p>';return `<div class="inline-details"><section class="inline-section"><h3>ステータス <span class="tag">${x.dataStatus==='roster-only'?'未登録':'Lv.60'}</span></h3>${agerankSelect(x)}${x.myNyan?'':'<p class="agerank-note">表示ランクを選ぶと、そのランクまでアゲランクを使用した場合のステータスに切り替わります。元のランクからSランクまで選択できます。</p>'}<div class="statgrid">${stats}</div><div class="move-wait-row"><span>移動待機</span><strong>${x.moveWait===null||x.moveWait===undefined?'未確認':esc(x.moveWait)}</strong></div><p class="small">移動後の待機時間。未確認の妖怪は出典照合後に値を登録します。</p></section>${section('こうげき','attack')}${section('ようじゅつ','magic')}${section('とりつき','possession')}${section('ひっさつ','ultimate')}<section class="inline-section move-group">${skills}</section></div>`}
+function render(){const arr=current();$('count').textContent=`${arr.length.toLocaleString('ja-JP')} / ${data.length.toLocaleString('ja-JP')} 件を表示`;$('showCompare').textContent=`比較を見る（${selected.size}/4）`;if($('clearCompare'))$('clearCompare').disabled=selected.size===0;const grid=$('grid');grid.innerHTML='';if(!arr.length){grid.innerHTML='<div class="empty">条件に一致する妖怪がありません。</div>';return}const frag=document.createDocumentFragment();arr.forEach(x=>{const el=document.createElement('article');el.className='card';el.dataset.yokaiCard=x.id;const known=Object.entries(x.stats||{}).filter(([k,v])=>v!==null&&v!==undefined).map(([k,v])=>`${statLabels[k]} ${v}`).join(' · ');el.innerHTML=`<div class="imagebox"><img loading="lazy" src="${esc(x.image)}" data-fallback="${esc(x.imageFallback||"")}" alt="${esc(x.name)}" onerror="if(this.dataset.fallback && this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.alt=this.alt+'（画像未取得時の代替表示）';}else{this.style.opacity=.15;this.alt='画像を読み込めません';}"></div><div class="info"><div class="name">${esc(x.name)}</div><div class="tags"><span class="tag">${x.officialNo?`No.${String(x.officialNo).padStart(3,'0')}`:(x.noLabel||'番号照合中')}</span><span class="tag">${esc(x.tribe||'種族不明')}</span><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}${x.dataStatus==='roster-only'?'<span class="tag">詳細未登録</span>':''}${x.features?.includes('装備枠二つ')?'<span class="tag">装備枠二つ</span>':''}</div><div class="card-pick-row"><label class="checkrow"><input type="checkbox" data-compare="${esc(x.id)}" ${selected.has(x.id)?'checked':''} ${!selected.has(x.id)&&selected.size>=4?'disabled':''}> 比較</label><label class="checkrow"><input type="checkbox" data-party="${esc(x.id)}" ${(window.__party||[]).includes(x.id)?'checked':''} ${!(window.__party||[]).includes(x.id)&&(window.__party||[]).length>=6?'disabled':''}> パーティ</label></div></div>${inlineDetails(x)}`;frag.appendChild(el)});grid.appendChild(frag);}
+let compareView='cards';/* v378: 比較の表示方法（cards=カード並べ／table=表） */
+function compareViewBar(){return `<div class="cmp-view" role="group" aria-label="比較の表示方法"><button type="button" data-compare-view="cards" class="${compareView==='cards'?'active':''}" aria-pressed="${compareView==='cards'}">カードで並べる</button><button type="button" data-compare-view="table" class="${compareView==='table'?'active':''}" aria-pressed="${compareView==='table'}">表で比べる</button></div>`}
+function compareCardsHtml(chosen){/* v378: 図鑑カードを縦長にコンパクト化して横に並べる */
+const statCodes={hp:'H',strength:'A',spirit:'M',defense:'D',speed:'S'};const statMax={hp:400,strength:300,spirit:300,defense:300,speed:300};
+const allStats=chosen.map(x=>statsFor(x));const best={};if(chosen.length>1){for(const k of Object.keys(statLabels)){const ns=allStats.map(v=>Number(v?.[k])).filter(Number.isFinite);if(ns.length>1&&new Set(ns).size>1)best[k]=Math.max(...ns)}const mw=chosen.map(x=>Number(x.moveWait)).filter(Number.isFinite);if(mw.length>1&&new Set(mw).size>1)best.moveWait=Math.min(...mw)}
+const moves=(x,t)=>(x.moves||[]).filter(m=>m&&typeof m==='object'&&m.type===t);
+return '<div class="cmp-cards">'+chosen.map((x,i)=>{const sv=allStats[i]||{};const stats=Object.entries(statLabels).map(([k,v])=>{const raw=sv[k];const value=raw===null||raw===undefined?'—':raw;const pct=raw===null||raw===undefined?0:Math.max(0,Math.min(100,Number(raw)/statMax[k]*100));return `<div class="statcell statbar-row"><span class="statbar-label"><b>${statCodes[k]}</b><span>${v}</span></span><div class="statbar-track"><i class="statbar-fill statbar-${k}" style="width:${pct}%"></i></div><strong${best[k]!==undefined&&Number(raw)===best[k]?' class="cmp-best"':''}>${value}</strong></div>`}).join('');
+const mvSec=t=>{const ms=moves(x,t);return ms.length?ms.map(m=>inlineMove(m,t)).join(''):'<p class="missing">詳細なし</p>'};const skills=(x.skills||[]).length?x.skills.map(m=>renderSkillEntry(x,m)).join(''):'<p class="missing">詳細なし</p>';
+return `<article class="cmp-card"><header class="cmp-card-head"><img src="${esc(x.image)}" alt="" loading="lazy"><div class="cmp-card-title"><div class="cmp-card-name">${esc(x.name)}</div><div class="tags"><span class="tag">${x.officialNo?`No.${String(x.officialNo).padStart(3,'0')}`:(x.noLabel||'番号照合中')}</span><span class="tag">${esc(x.tribe||'種族不明')}</span><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}</div></div><button type="button" class="cmp-remove" data-compare-remove="${esc(x.id)}" aria-label="${esc(x.name)}を比較から外す" title="比較から外す">×</button></header><section class="inline-section cmp-card-stats">${stats}<div class="move-wait-row"><span>移動待機</span><strong${best.moveWait!==undefined&&Number(x.moveWait)===best.moveWait?' class="cmp-best"':''}>${x.moveWait===null||x.moveWait===undefined?'未確認':esc(x.moveWait)}</strong></div></section><section class="inline-section move-group cmp-card-moves">${mvSec('attack')}${mvSec('magic')}${mvSec('possession')}${skills}${mvSec('ultimate')}</section></article>`}).join('')+'</div><p class="small">ステータスは各妖怪の表示ランク（アゲランク設定）で比較し、最も高い値（移動待機は最も短い値）を黄色で強調しています。</p>'}
+function showCompare(){const chosen=data.filter(x=>selected.has(x.id));$('showCompare').textContent=`比較を見る（${chosen.length}/4）`;$('compare').classList.toggle('show',chosen.length>0);if(!chosen.length){$('compareBody').innerHTML='';return}
+if(compareView==='cards'){$('compareBody').innerHTML=compareViewBar()+compareCardsHtml(chosen);return}
+/* v377: 比較表を強化（画像・解除ボタン・最高値の強調・得意/苦手・スキル・各技を追加）。既存の行と順序は維持 */
+const ac={'火':'fire','水':'water','風':'wind','土':'earth','雷':'thunder','氷':'ice'};const attrHtml=v=>ac[v]?`<span class="attr-char attr-${ac[v]}">${esc(v)}</span>`:esc(v);
+const mv=(x,t)=>(x.moves||[]).find(m=>m&&m.type===t);const pw=m=>m&&m.power!==undefined&&m.power!==null&&String(m.power).trim()!==''?String(m.power):'???';
+const posLabel=m=>{const st=effectStatFor(m)||'',dg=effectDegreeFor(m)||'';return st&&!['混乱','行動妨害','回復','HP減少','移動妨害','ダメージ','お金ばらまき','その他'].includes(st)?`${st}${dg}`:(dg&&dg!=='その他'?dg:st||'効果未確認')};
+const moveCell=(x,t)=>{const m=mv(x,t);if(!m)return '<span class="cmp-sub">詳細なし</span>';const nm=`<b>${esc(m.name||'技')}</b>`;if(t==='possession'){const l=posLabel(m);const cls=/ダウン|低下|減少|行動妨害|混乱|移動妨害/.test(l)?'alignment-bad':/アップ|回復/.test(l)?'alignment-good':'';return `${nm}<br><span class="${cls}">【${esc(l)}】</span>`}const at=t==='magic'||t==='ultimate'?attributeOf(m):'';const rg=t==='ultimate'?ultimateRangeHtml(m.range):'';return `<div class="cmp-move"><div>${nm}<br>【${at?attrHtml(at)+' ':''}${esc(pw(m))}】</div>${rg}</div>`};
+const aff=(x,k)=>{const a=x.attributeAffinity;if(!a)return '未登録';return a[k]==='なし'||a[k]==='未確認'?`<span class="cmp-sub">${esc(a[k])}</span>`:attrHtml(a[k])};
+const skillCell=x=>{const sk=(x.skills||[])[0];if(!sk)return '<span class="cmp-sub">詳細なし</span>';return typeof sk==='string'?`<b>${esc(sk)}</b>`:`<b>${esc(sk.name||'')}</b><br><span class="cmp-sub">${esc(sk.effect||'')}</span>`};
+let h='<table class="cmp-table"><thead><tr><th>項目</th>'+chosen.map(x=>`<th class="cmp-head"><div class="cmp-head-in"><img src="${esc(x.image)}" alt="" loading="lazy"><span>${esc(x.name)}</span><button type="button" class="cmp-remove" data-compare-remove="${esc(x.id)}" aria-label="${esc(x.name)}を比較から外す" title="比較から外す">×</button></div></th>`).join('')+'</tr></thead><tbody>';
+const numRow={hp:1,strength:1,spirit:1,defense:1,speed:1,moveWait:-1};
+for(const [k,label] of Object.entries({tribe:'種族',game:'初登場作品',rank:'ランク',hp:'HP',strength:'ちから',spirit:'ようりょく',defense:'まもり',speed:'すばやさ',moveWait:'移動待機'})){const vals=chosen.map(x=>k==='rank'?rankDisplayLabel(x):k in statLabels?statsFor(x)[k]:k in (x.stats||{})?x.stats[k]:x[k]);let best=null;if(numRow[k]&&chosen.length>1){const ns=vals.map(Number).filter(Number.isFinite);if(ns.length>1&&new Set(ns).size>1)best=numRow[k]>0?Math.max(...ns):Math.min(...ns)}h+=`<tr><th>${label}</th>${vals.map(v=>`<td${best!==null&&Number(v)===best?' class="cmp-best"':''}>${v===null||v===undefined||v===''?'未登録':esc(v)}</td>`).join('')}</tr>`}
+const extra=[['得意属性',x=>aff(x,'strong')],['苦手属性',x=>aff(x,'weak')],['スキル',skillCell],['攻撃',x=>moveCell(x,'attack')],['妖術',x=>moveCell(x,'magic')],['必殺技',x=>moveCell(x,'ultimate')],['とりつき',x=>moveCell(x,'possession')]];
+for(const [label,f] of extra)h+=`<tr class="cmp-extra"><th>${label}</th>${chosen.map(x=>`<td>${f(x)}</td>`).join('')}</tr>`;
+h+='</tbody></table><p class="small">未登録項目はデータ確認後に追加します。ステータスは各妖怪の表示ランク（アゲランク設定）で比較し、最も高い値（移動待機は最も短い値）を強調しています。</p>';$('compareBody').innerHTML=compareViewBar()+h;}
+document.addEventListener('click',e=>{const v=e.target.closest&&e.target.closest('[data-compare-view]');if(!v)return;compareView=v.dataset.compareView==='table'?'table':'cards';showCompare();});
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-compare-remove]');if(!b)return;selected.delete(b.dataset.compareRemove);render();showCompare();});
+function detail(id){const x=data.find(x=>x.id===id);if(!x)return;$('detailImage').src=x.image;$('detailImage').alt=x.name;$('detailName').textContent=x.name;$('detailGame').textContent='初登場作品：'+(x.game||'未登録');$('detailTags').innerHTML=`<span class="tag">${x.officialNo?'No.'+String(x.officialNo).padStart(3,'0'):(x.noLabel||'図鑑番号照合中')}</span><span class="tag">${esc(x.tribe)}</span><span class="tag rank">ランク：${esc(rankOf(x)||'未登録')}</span>${affinityTags(x)}${x.dataStatus==='roster-only'?'<span class="tag">詳細未登録</span>':''}${x.features?.includes('装備枠二つ')?'<span class="tag">装備枠二つ</span>':''}`;$('detailStats').innerHTML=Object.entries(statLabels).map(([k,v])=>`<div class="statcell"><span>${v}</span><strong>${x.stats?.[k]??'—'}</strong></div>`).join('');const moveBy=(kind)=>{const moves=(x.moves||[]).filter(m=>typeof m==='object'?m.type===kind:false);return moves.length?moves.map(m=>{const powerClass=(m.alignment==='悪'||/ダウン|低下|減少/.test(String(m.power||'')))?'alignment-bad':(m.alignment==='良'||/アップ|上昇/.test(String(m.power||'')))?'alignment-good':'';return kind==='attack'?`<div class="attack-move-card"><div class="attack-move-title">${esc(m.name||'技')} 【<span class="move-power ${powerClass}">${esc(m.power||'???')}</span>】</div><div class="move-effect">${esc(m.effect||'詳細なし')}</div></div>`:`<div class="move-card"><div class="move-head">${['magic','ultimate'].includes(kind)?`<span class="move-name">${esc(m.name||'技')} 【<span class="move-power ${powerClass}">${esc(m.power||'???')}</span>】</span>`:`<span class="move-name">${esc(m.name||'技')}</span>`}${kind==='possession'&&m.alignment?'【<span class="'+(m.alignment==='悪'?'alignment-bad':m.alignment==='良'?'alignment-good':'')+'">'+esc(m.alignment)+'</span>】':''}</div><div class="move-effect">${esc(m.effect||'詳細なし')}</div></div>`}).join(''):'<p class="missing">詳細なし</p>'};$('detailAttack').innerHTML=moveBy('attack');$('detailMagic').innerHTML=moveBy('magic');$('detailPossession').innerHTML=moveBy('possession');$('detailUltimate').innerHTML=moveBy('ultimate');$('detailSkill').innerHTML=(x.skills||[]).length?x.skills.map(m=>`<p><strong>${esc(typeof m==='string'?m:m.name)}</strong><br>${esc(typeof m==='string'?'詳細なし':m.effect||'詳細なし')}</p>`).join(''):'<p class="missing">詳細なし</p>';$('modal').classList.add('open');}
+document.addEventListener('click',e=>{const trigger=e.target.closest('[data-skill-trigger]');if(trigger){openSkillImageModal(trigger.dataset.skillTrigger);return;}const yokaiTile=e.target.closest('[data-skill-yokai-open]');if(yokaiTile){jumpToYokai(yokaiTile.dataset.skillYokaiOpen);return;}if(e.target.closest('[data-skill-close]')||e.target===$('skillImageModal')){closeSkillImageModal();return;}});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('skillImageModal').classList.contains('open'))closeSkillImageModal();});
+$('grid').addEventListener('change',e=>{const a=e.target.closest('[data-agerank]');if(a){agerankSelections.set(a.dataset.agerank,Number(a.value)||0);render();showCompare();return}const c=e.target.closest('[data-compare]');if(!c)return;if(c.checked&&selected.size>=4){c.checked=false;return}c.checked?selected.add(c.dataset.compare):selected.delete(c.dataset.compare);render();showCompare()});$('filtersPanel').addEventListener('change',e=>{if(e.target.matches('.filter-checkbox-group input[type=\"checkbox\"]'))render();});$('q').addEventListener('input',render);$('sort').addEventListener('change',render);function resetFilters(){if($('q'))$('q').value='';resetCheckboxFilterGroups();$('sort').value='number';if($('featureEquipmentTwo'))$('featureEquipmentTwo').checked=false;render();} $('clear').addEventListener('click',resetFilters);$('showCompare').addEventListener('click',()=>{showCompare();$('compare').scrollIntoView({behavior:'smooth',block:'start'})});$('clearCompare').addEventListener('click',()=>{selected.clear();render();showCompare();});// 絞り込みは大きなモーダルウィンドウ内に表示
+const filterModal=$('filterModal'),filterPanel=$('filtersPanel'),filterContent=$('filterContent');filterContent.appendChild(filterPanel);
+$('openFilters').addEventListener('click',()=>{filterModal.classList.add('open');document.body.style.overflow='hidden';});
+function closeFilterModal(){filterModal.classList.remove('open');document.body.style.overflow='';}
+$('closeFilters').addEventListener('click',closeFilterModal);
+filterModal.addEventListener('click',e=>{if(e.target===filterModal)closeFilterModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&filterModal.classList.contains('open'))closeFilterModal();});
+$('featureEquipmentTwo').addEventListener('change',render);
+$('resetFiltersInModal').addEventListener('click',()=>{resetFilters();});
+$('bulkRank').addEventListener('change',updateBulkAgerankPreview);$('applyBulkRank').addEventListener('click',applyBulkAgerank);$('resetAllAgerank').addEventListener('click',resetAllAgerank);updateBulkAgerankPreview();render();
+</script>
+<style id="stat-bar-visualization">
+.inline-section .statgrid{display:flex!important;flex-direction:column!important;gap:10px!important}
+.inline-section .statcell.statbar-row{display:grid!important;grid-template-columns:112px minmax(40px,1fr) 42px!important;align-items:center!important;gap:12px!important;padding:3px 0!important;background:transparent!important}
+.statbar-label{display:flex!important;align-items:center!important;gap:9px!important;min-width:0}
+.statbar-label b{display:inline-grid;place-items:center;width:30px;height:30px;flex:0 0 30px;border-radius:7px;background:#27354d;color:#8ce1d0;font-size:14px;font-weight:800}
+.statbar-label span{font-size:13px!important;white-space:nowrap}
+.statbar-track{height:14px;background:#283247;border-radius:99px;overflow:hidden;min-width:0}
+.statbar-fill{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#55b9b0,#8ce1d0);min-width:0}
+.statbar-strength{background:linear-gradient(90deg,#d77b61,#ffb08d)}
+.statbar-spirit{background:linear-gradient(90deg,#8e78d6,#c0adff)}
+.statbar-defense{background:linear-gradient(90deg,#6596cb,#9ecbff)}
+.statbar-speed{background:linear-gradient(90deg,#d4a744,#ffe18b)}
+.inline-section .statcell.statbar-row strong{font-size:16px!important;font-variant-numeric:tabular-nums;text-align:right!important;min-width:32px}
+@media(max-width:480px){.inline-section .statcell.statbar-row{grid-template-columns:94px minmax(30px,1fr) 36px!important;gap:7px!important}.statbar-label span{font-size:12px!important}.statbar-track{height:12px}}
+</style>
+
+<style id="layout-fix-20261020-v4-equal-move-columns">
+/* Desktop: stable three-column card layout, with profile to the right of the portrait and magic/skill in the right column. */
+@media (min-width:1100px){
+  .card{display:grid!important;grid-template-columns:160px minmax(190px,1fr) minmax(220px,.95fr)!important;align-items:stretch!important}
+  .imagebox{grid-column:1!important;grid-row:1!important;min-height:260px!important;height:100%!important;align-self:stretch!important}
+  .info{grid-column:2!important;grid-row:1!important;min-width:0!important;align-self:start!important;gap:10px!important;padding:16px 12px 16px 28px!important}
+  .info .name{font-size:21px!important;line-height:1.45!important;overflow-wrap:normal!important;word-break:keep-all!important;white-space:normal!important;min-width:0!important}
+  .info .tags{display:flex!important;align-items:center!important;gap:7px!important;flex-wrap:wrap!important}
+  .info .tag{white-space:nowrap!important}
+  .info .checkrow{display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:8px!important;width:max-content!important;max-width:100%!important;margin:5px 0 0!important;font-size:13px!important}
+  .info .checkrow input{width:16px!important;height:16px!important;margin:0!important;flex:0 0 16px!important}
+  /* Details occupy the full card width; paired move sections use two equal columns. */
+  .inline-details{display:grid!important;grid-column:1/-1!important;grid-row:2!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;min-width:0!important;margin:0 12px 12px!important;align-items:stretch!important}
+  .inline-details>.inline-section{grid-column:auto!important;grid-row:auto!important;align-self:stretch!important;margin:0!important;min-width:0!important;width:auto!important}
+  .inline-details>.inline-section:first-child{grid-column:1/-1!important}
+  .inline-details>.inline-section:nth-child(2){grid-column:1!important}
+  .inline-details>.inline-section:nth-child(3){grid-column:2!important}
+  .inline-details>.inline-section:nth-child(4){grid-column:1!important}
+  .inline-details>.inline-section:nth-child(6){grid-column:2!important}
+  .inline-details>.inline-section:nth-child(5){grid-column:1/-1!important}
+  .inline-section{width:auto!important;min-width:0!important;padding:14px!important;background:#141c2b;border:1px solid var(--line);border-radius:10px}
+  .inline-section .statgrid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:6px!important}
+}
+@media (max-width:1099px){
+  .card{display:flex!important;flex-direction:column!important}
+  .info{padding:11px!important}
+  .info .name{overflow-wrap:normal!important;word-break:keep-all!important}
+  .info .checkrow{display:flex!important;align-items:center!important;gap:8px!important}
+  .info .checkrow input{width:16px!important;height:16px!important;flex:0 0 16px!important}
+  .inline-details{display:flex!important;flex-direction:column!important}
+}
+</style>
+
+<style id="yokai-two-column-20261020">
+/* 一覧の妖怪カードをPC・タブレットでは横2列、スマートフォンでは1列にする */
+@media (min-width: 851px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important;align-items:start!important}
+  .card{min-width:0!important}
+}
+@media (min-width:851px) and (max-width:1099px){
+  .grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+}
+@media (max-width:850px){
+  .grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+}
+</style>
+
+<style id="layout-polish-20261020-v6-reference-paired-grid">
+/* 参考画像のように、プロフィールを上段・各情報を2列3段で揃える */
+@media (min-width:851px){
+  .card{display:grid!important;grid-template-columns:220px minmax(0,1fr)!important;grid-template-rows:220px auto!important;align-items:stretch!important;min-width:0!important;overflow:hidden!important;}
+  .imagebox{grid-column:1!important;grid-row:1!important;width:100%!important;height:220px!important;min-height:220px!important;max-height:220px!important;padding:12px!important;box-sizing:border-box!important;}
+  .imagebox img{max-width:100%!important;max-height:100%!important;object-fit:contain!important;}
+  .info{grid-column:2!important;grid-row:1!important;min-width:0!important;align-self:stretch!important;justify-content:flex-start!important;align-content:start!important;padding:20px 14px!important;gap:9px!important;}
+  .info .name{font-size:clamp(18px,1.3vw,23px)!important;line-height:1.35!important;white-space:normal!important;overflow-wrap:normal!important;word-break:keep-all!important;}
+  .info .tags{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:6px!important;}
+  .info .tag{white-space:nowrap!important;}
+  .info .checkrow{display:flex!important;align-items:center!important;gap:7px!important;width:max-content!important;margin:2px 0 0!important;}
+  .info .checkrow input{width:16px!important;height:16px!important;margin:0!important;flex:0 0 16px!important;}
+  .inline-details{grid-column:1/-1!important;grid-row:2!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:auto auto auto!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important;min-width:0!important;align-content:start!important;align-items:stretch!important;box-sizing:border-box!important;}
+  .inline-details>.inline-section{grid-column:auto!important;grid-row:auto!important;width:auto!important;min-width:0!important;height:100%!important;min-height:0!important;margin:0!important;padding:12px!important;box-sizing:border-box!important;align-self:stretch!important;background:#141c2b!important;border:1px solid var(--line)!important;border-radius:10px!important;}
+  .inline-details>.inline-section:first-child{grid-column:1!important;grid-row:1!important;}
+  .inline-details>.inline-section:nth-child(2){grid-column:2!important;grid-row:1!important;}
+  .inline-details>.inline-section:nth-child(3){grid-column:1!important;grid-row:2!important;}
+  .inline-details>.inline-section:nth-child(4){grid-column:2!important;grid-row:2!important;}
+  .inline-details>.inline-section:nth-child(5){grid-column:1!important;grid-row:3!important;}
+  .inline-details>.inline-section:nth-child(6){grid-column:2!important;grid-row:3!important;}
+  .inline-section h3{margin:0 0 8px!important;padding-bottom:7px!important;}
+  .inline-section .statgrid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:5px!important;}
+  .inline-move{min-width:0!important;overflow-wrap:anywhere!important;}
+}
+@media (max-width:850px){
+  .card{display:flex!important;flex-direction:column!important;overflow:hidden!important;}
+  .imagebox{height:190px!important;min-height:190px!important;max-height:190px!important;}
+  .info{padding:14px!important;}
+  .inline-details{display:flex!important;flex-direction:column!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important;}
+  .inline-section{height:auto!important;}
+}
+</style>
+
+
+<style id="layout-final-v8">
+/* Final card layout: desktop list stays two columns; profile row, then stats, paired moves, and full-width ultimate. */
+@media (min-width:1100px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important;align-items:start!important}
+  .card{display:grid!important;grid-template-columns:minmax(170px,220px) minmax(0,1fr)!important;grid-template-rows:220px auto!important;min-width:0!important;overflow:hidden!important}
+  .imagebox{grid-column:1!important;grid-row:1!important;width:100%!important;height:220px!important;min-height:220px!important;max-height:220px!important;padding:12px!important}
+  .info{grid-column:2!important;grid-row:1!important;min-width:0!important;padding:18px 14px!important;gap:9px!important;align-self:stretch!important}
+  .info .name{font-size:clamp(18px,1.3vw,23px)!important;line-height:1.4!important;overflow-wrap:normal!important;word-break:keep-all!important}
+  .inline-details{grid-column:1/-1!important;grid-row:2!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:auto auto auto auto!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important;min-width:0!important;align-content:start!important;align-items:stretch!important}
+  .inline-details>.inline-section{grid-column:auto!important;grid-row:auto!important;min-width:0!important;width:auto!important;height:auto!important;min-height:0!important;margin:0!important;padding:12px!important;align-self:stretch!important}
+  .inline-details>.inline-section:nth-child(1){grid-column:1/-1!important;grid-row:1!important}
+  .inline-details>.inline-section:nth-child(2){grid-column:1!important;grid-row:2!important}
+  .inline-details>.inline-section:nth-child(3){grid-column:2!important;grid-row:2!important}
+  .inline-details>.inline-section:nth-child(4){grid-column:1!important;grid-row:3!important}
+  .inline-details>.inline-section:nth-child(6){grid-column:2!important;grid-row:3!important}
+  .inline-details>.inline-section:nth-child(5){grid-column:1/-1!important;grid-row:4!important}
+  .inline-section .statgrid{display:flex!important;flex-direction:column!important;gap:8px!important}
+  .inline-move,.inline-move-title,.inline-move-effect{min-width:0!important;overflow-wrap:anywhere!important}
+}
+@media (max-width:850px){
+  .grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+  .card{display:flex!important;flex-direction:column!important;overflow:hidden!important}
+  .imagebox{height:190px!important;min-height:190px!important;max-height:190px!important}
+  .info{padding:14px!important}
+  .inline-details{display:flex!important;flex-direction:column!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important}
+  .inline-section{height:auto!important}
+}
+@media (max-width:480px){.imagebox{height:220px!important;min-height:220px!important;max-height:220px!important}.info .name{overflow-wrap:anywhere!important;word-break:normal!important}}
+</style>
+<style id="layout-final-v9">
+/* v9: explicit, predictable detail order and aligned move-card columns. */
+@media (min-width:1100px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:start!important;gap:16px!important}
+  .card{display:grid!important;grid-template-columns:minmax(150px,200px) minmax(0,1fr)!important;grid-template-rows:220px auto!important;min-width:0!important}
+  .imagebox{grid-column:1!important;grid-row:1!important;width:100%!important;height:220px!important;min-height:220px!important;max-height:220px!important}
+  .info{grid-column:2!important;grid-row:1!important;min-width:0!important;align-self:stretch!important;justify-content:center!important;padding:16px!important;gap:10px!important}
+  .info .name{font-size:clamp(18px,1.35vw,22px)!important;line-height:1.4!important;overflow-wrap:normal!important;word-break:normal!important;hyphens:none!important}
+  .info .tags{display:flex!important;flex-wrap:wrap!important;gap:6px!important}
+  .info .tag{white-space:nowrap!important}
+  .info .checkrow{display:flex!important;align-items:center!important;width:max-content!important;max-width:100%!important;margin:0!important;gap:7px!important}
+  .info .checkrow input{width:16px!important;height:16px!important;flex:0 0 16px!important;margin:0!important}
+  .inline-details{grid-column:1/-1!important;grid-row:2!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:auto auto auto auto!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important;min-width:0!important;align-items:stretch!important;align-content:start!important}
+  .inline-details>.inline-section{grid-column:auto!important;grid-row:auto!important;width:auto!important;min-width:0!important;height:auto!important;min-height:0!important;margin:0!important;padding:12px!important;align-self:stretch!important;display:block!important}
+  .inline-details>.inline-section:nth-child(1){grid-column:1/-1!important;grid-row:1!important}
+  .inline-details>.inline-section:nth-child(2){grid-column:1!important;grid-row:2!important}
+  .inline-details>.inline-section:nth-child(3){grid-column:2!important;grid-row:2!important}
+  .inline-details>.inline-section:nth-child(4){grid-column:1!important;grid-row:3!important}
+  .inline-details>.inline-section:nth-child(6){grid-column:2!important;grid-row:3!important}
+  .inline-details>.inline-section:nth-child(5){grid-column:1/-1!important;grid-row:4!important}
+  .inline-section .statgrid{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important}
+  .inline-section .statcell.statbar-row{grid-template-columns:minmax(0,1fr)!important}
+  .inline-move,.inline-move-title,.inline-move-effect{min-width:0!important;overflow-wrap:anywhere!important}
+}
+@media (min-width:851px) and (max-width:1099px){
+  .grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+  .card{display:flex!important;flex-direction:column!important}
+  .inline-details{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .inline-details>.inline-section:nth-child(1),.inline-details>.inline-section:nth-child(5){grid-column:1/-1!important}
+  .inline-section .statgrid{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+}
+@media (max-width:850px){
+  .grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+  .card{display:flex!important;flex-direction:column!important}
+  .inline-details{display:flex!important;flex-direction:column!important;gap:10px!important;margin:0!important;padding:0 12px 12px!important}
+  .inline-section .statgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .info .name{overflow-wrap:anywhere!important;word-break:normal!important}
+}
+</style>
+
+<style id="stat-bars-vertical-v11">
+/* v11: keep each stat bar on its own row at every viewport width. */
+.inline-section .statgrid{display:flex!important;flex-direction:column!important;gap:8px!important;align-items:stretch!important}
+.inline-section .statcell.statbar-row{display:grid!important;grid-template-columns:112px minmax(40px,1fr) 42px!important;align-items:center!important;gap:12px!important;width:100%!important;min-width:0!important}
+.inline-section .statcell.statbar-row .statbar-track{min-width:0!important;width:100%!important}
+@media(max-width:480px){.inline-section .statcell.statbar-row{grid-template-columns:94px minmax(30px,1fr) 36px!important;gap:7px!important}}
+</style>
+
+<style id="buff-debuff-power-v14">
+/* v14: buff labels use the same gold as positive possession; debuffs use the same purple as negative possession. */
+.move-power.alignment-bad{color:#c8a2ff!important}
+.move-power.alignment-good{color:#ffc857!important}
+</style>
+
+<style id="agerank-controls-v33">
+.agerank-control{display:flex;align-items:center;gap:10px;margin:0 0 6px;color:var(--text);font-size:12px}.agerank-control select{max-width:180px;padding:7px 9px}.agerank-note{font-size:11px!important;color:var(--muted);margin:0 0 10px}.inline-section .agerank-control{margin-top:2px}
+</style>
+
+<style id="bulk-agerank-controls-v104">
+.bulk-agerank{margin:0 0 18px;padding:16px;background:linear-gradient(120deg,#1d2d42,#192337);border:1px solid #54766f;border-radius:16px;}
+.bulk-agerank-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.bulk-agerank h2{font-size:18px;margin:0;color:var(--text)}
+.bulk-chip{font-size:11px;color:#b8f6e8;border:1px solid #54766f;background:#1e3b3b;border-radius:99px;padding:4px 9px;white-space:nowrap}
+.bulk-agerank>p{font-size:13px;line-height:1.65;margin:6px 0 12px}
+.bulk-agerank-controls{display:grid;grid-template-columns:minmax(140px,190px) minmax(200px,1fr) minmax(240px,auto);gap:10px;align-items:end}
+.bulk-agerank-preview{font-size:13px;line-height:1.5;border:1px solid var(--line);background:#111827;border-radius:9px;padding:10px 12px;min-height:42px;display:flex;align-items:center;color:var(--text)}
+.bulk-agerank-actions{display:flex;gap:8px;align-items:stretch}.bulk-agerank-actions button{width:auto;cursor:pointer;white-space:normal;min-height:42px}.bulk-agerank-actions #applyBulkRank{flex:1}.bulk-agerank-actions #resetAllAgerank{font-size:12px}
+.bulk-agerank .bulk-status{margin:10px 0 0;font-size:12px;color:var(--muted)}
+@media(max-width:1000px){.bulk-agerank-controls{grid-template-columns:minmax(130px,180px) minmax(0,1fr)}.bulk-agerank-actions{grid-column:1/-1}}
+@media(max-width:560px){.bulk-agerank{padding:13px}.bulk-agerank-controls{grid-template-columns:minmax(0,1fr)}.bulk-agerank-actions{grid-column:auto;flex-direction:column}.bulk-agerank-actions button{width:100%;white-space:normal}}
+</style>
+
+<style id="damage-calculator-v1">
+.damage-tool{margin:0 0 20px;padding:18px;background:linear-gradient(145deg,#1b2940,#172235);border:1px solid #50617d;border-radius:16px}
+.damage-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}.damage-head h2{font-size:21px;margin:0 0 5px}.damage-head p{font-size:13px}.damage-chip{white-space:nowrap;border:1px solid #8a7950;color:#ffe0a0;border-radius:99px;padding:4px 10px;font-size:11px}
+.damage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.damage-panel{background:#202c42;border:1px solid #3b4c68;border-radius:12px;padding:14px;min-width:0}.damage-panel h3{margin:0 0 12px;font-size:16px}.damage-panel>label:not(.damage-check){margin-top:9px}.damage-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}.damage-stats>div{background:#111b2c;border-radius:9px;padding:9px}.damage-stats label,.damage-result small{display:block;font-size:11px;color:#aebbd0}.damage-stats strong{font-size:18px}.damage-subgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.damage-check{display:flex;align-items:center;gap:7px;color:#f2f5fb;font-size:13px;margin:10px 0}.damage-check input{width:17px;height:17px;flex:0 0 17px;accent-color:#8ce1d0}.damage-checks{display:flex;gap:10px;flex-wrap:wrap}.damage-result{margin-top:12px;padding:14px;background:#101a2a;border:1px solid #52627b;border-radius:12px}.damage-result-head{display:flex;justify-content:space-between;gap:8px;align-items:center}.damage-result-head h3{margin:0;font-size:16px}.damage-result-head span{font-size:12px;color:#aebbd0}.damage-result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:13px 0}.damage-result-grid>div{text-align:center;background:#202c42;border-radius:9px;padding:10px}.damage-result-grid strong{display:block;font-size:clamp(22px,4vw,30px);font-variant-numeric:tabular-nums}.damage-result-grid>div:nth-child(2) strong{color:#8ce1d0}.damage-result-foot{display:flex;justify-content:space-between;border-top:1px solid #35425b;padding-top:10px;font-size:13px}.damage-explain{font-size:12px;margin-top:9px;white-space:pre-line}.damage-warning{font-size:11px!important;margin-top:11px!important;color:#f1d59e!important}
+@media(max-width:760px){.damage-grid{grid-template-columns:1fr}.damage-tool{padding:13px}.damage-subgrid{gap:7px}}
+</style>
+
+
+<script id="damage-calculator-script">
+(()=> {
+ const all=window.YOKAI_DATA||[], master=window.YOKAI_TECH_MASTER||{};
+ const el=id=>document.getElementById(id);
+ const num=v=>{const n=Number(v);return Number.isFinite(n)?n:0};
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const parsePower=v=>{const m=String(v??'').replace(/,/g,'').match(/([\d.]+)\s*[×x＊*]\s*(\d+)/);if(m)return {power:Number(m[1]),hits:Number(m[2])};const n=Number(String(v??'').replace(/[^\d.]/g,''));return {power:Number.isFinite(n)?n:0,hits:1};};
+ const atk=el('dmgAttacker'),def=el('dmgDefender'),move=el('dmgMove');
+ if(!atk||!def||!move)return;
+ const label=y=>y.officialNo?`No.${String(y.officialNo).padStart(3,'0')} ${y.name}`:`${y.noLabel||'番号なし'} ${y.name}`;
+ const opts=all.slice().sort((a,b)=>(a.officialNo||99999)-(b.officialNo||99999)).map(y=>`<option value="${esc(y.id)}">${esc(label(y))}</option>`).join('');
+ atk.innerHTML=opts;def.innerHTML=opts;
+ const find=id=>all.find(y=>y.id===id)||all[0];
+ const moveType=m=>m.type==='attack'?'attack':m.type==='magic'?'magic':m.type==='ultimate'?'ultimate':null;
+ function refreshMoves(){
+  const y=find(atk.value), own=(y.moves||[]).filter(m=>moveType(m));
+  const defaultAttacks=[], otherAttacks=[], list=[];
+  const seen=new Set();
+  own.forEach(m=>{
+   if(m.type!=='attack')return;
+   const t=master[m.techId]||m,k='attack|'+(m.techId||m.name);
+   if(!seen.has(k)){seen.add(k);defaultAttacks.push({...m,power:t.power??m.power,name:t.name??m.name,attribute:t.attribute??m.attribute,sourceGroup:'default'});}
+  });
+  Object.values(master).forEach(t=>{
+   if(t.type!=='attack')return;
+   const k='attack|'+t.id;
+   if(!seen.has(k)){seen.add(k);otherAttacks.push({...t,techId:t.id,sourceGroup:'common'});}
+  });
+  const magicMoves=[
+   {type:'magic',name:'上位妖術',power:'112',tier:'upper',attribute:'属性別',techId:'MAGIC-HIGH'},
+   {type:'magic',name:'中位妖術',power:'110',tier:'middle',attribute:'属性別',techId:'MAGIC-MID'},
+   {type:'magic',name:'下位妖術',power:'105',tier:'lower',attribute:'属性別',techId:'MAGIC-LOW'},
+   {type:'magic',name:'死神の術',power:'88',attribute:'吸収',techId:'MAGIC-DEATH'},
+   {type:'magic',name:'吸収の術',power:'88',attribute:'吸収',techId:'MAGIC-DRAIN'}
+  ];
+  // v366: 攻撃側の妖怪の必殺技を図鑑の威力で追加（数値で表せる攻撃系のみ。回復・補助や「50～300」等は手入力）
+  const ownUlt=(y.moves||[]).find(m=>m.type==='ultimate');
+  const ownPower=(()=>{if(!ownUlt)return null;const s=String(ownUlt.power??'').trim().replace(/[xX＊*]/g,'×');const mm=s.match(/^(?:吸収)?(\d+(?:×\d+)?)(?:[＋+].*)?$/);if(!mm)return null;const cat=typeof ultimateCategory==='function'?ultimateCategory(ownUlt):'';if(cat==='バフ')return null;const txt=String(ownUlt.name||'')+' '+String(ownUlt.effect||'');if(/回復/.test(txt)&&!/ダメージ|吸収|吸い取|攻撃|おみまい/.test(txt))return null;return mm[1].replace(/×1$/,'');})();
+  const ultimateMoves=[...(ownPower?[{type:'ultimate',name:ownUlt.name,power:ownPower,techId:'ULT-OWN',ownUltimate:true,sourcePower:String(ownUlt.power)}]:[]),{type:'ultimate',name:'必殺技（威力手入力）',power:'',techId:'ULT-CUSTOM',customPower:true}];
+  list.push(...defaultAttacks,...magicMoves,...ultimateMoves,...otherAttacks);/* v384: 並び順をデフォルト→妖術→必殺技→共通技マスターの攻撃に変更 */
+  move._list=list;
+  const option=(m,i)=>`<option value="${i}" data-type="${esc(m.type)}"${m.ownUltimate?` data-power="${esc(m.power)}"`:''}${m.customPower?' data-custom="1"':''}>${esc(m.type==='attack'?'攻撃：'+m.name+(m.power?'（威力 '+m.power+'）':''):m.type==='magic'?'妖術：'+m.name+'（威力 '+m.power+'）':'必殺技：'+m.name+(m.ownUltimate?'（威力 '+m.power+'）':''))}</option>`;
+  let html='';
+  let ix=0;
+  if(defaultAttacks.length){html+='<optgroup label="デフォルト（この妖怪に設定されている攻撃）">'+defaultAttacks.map(m=>option(m,ix++)).join('')+'</optgroup>';}
+  html+='<optgroup label="妖術">'+magicMoves.map(m=>option(m,ix++)).join('')+'</optgroup>';
+  html+='<optgroup label="必殺技">'+ultimateMoves.map(m=>option(m,ix++)).join('')+'</optgroup>';
+  if(otherAttacks.length){html+='<optgroup label="共通技マスターの攻撃">'+otherAttacks.map(m=>option(m,ix++)).join('')+'</optgroup>';}
+  move.innerHTML=html;
+  el('dmgUltimatePowerWrap').hidden=true;
+ }
+ function combatStatAtAgerank(y,key,selectorId){
+  const current=Math.max(0,Math.min(maxAgerank(y),Number(agerankSelections.get(y.id)||0)));
+  const extra=Math.max(0,Math.floor(num(el(selectorId).value)));
+  const target=Math.max(0,Math.min(maxAgerank(y),current+extra));
+  const value=y.myNyan?(statsFor(y)?.[key]??null):target===0?(y.stats?.[key]??null):calcAgerankStat(y,key,target);
+  return {value,steps:target,baseSteps:current,extraSteps:extra,available:!!y.statBase?.[key]};
+ }
+ function combatRankLabel(y,steps){
+  const base=baseRankLetter(y),idx=(rankOrder[base]??5)+steps;
+  const rank=Object.keys(rankOrder).find(k=>rankOrder[k]===idx)||base;
+  return `${rank||'未確認'}ランク（+${steps}段階）`;
+ }
+ function update(){
+  const a=find(atk.value),d=find(def.value),m=move._list?.[Number(move.value)];
+  if(!a||!d||!m)return;
+  const isMagic=m.type==='magic',isUltimate=m.type==='ultimate',isSpiritBased=isMagic||(isUltimate&&el('dmgUltimateStat').value==='spirit'),statKey=isSpiritBased?'spirit':'strength',statName=isSpiritBased?'ようりょく':'ちから';
+  el('dmgUltimatePowerWrap').hidden=!isUltimate;
+  {const pw=el('dmgUltimatePower').closest('div');if(pw)pw.hidden=!(isUltimate&&m.customPower);}
+  const effectivePower=isUltimate&&m.customPower?el('dmgUltimatePower').value:m.power;
+  const parsed=parsePower(effectivePower);
+  /* v402: 場の効果「スイッチ」（コアラニャンのスキル）：全員のちからとまもりの元の値が入れ替わる。ステータス変化（バフ）は元の能力に残る。妖術・ようりょく依存は影響なし */
+  const switchOn=!!el('dmgFieldSwitch')?.checked&&!isSpiritBased;
+  const atkRankStat=combatStatAtAgerank(a,switchOn?'defense':statKey,'dmgAgerank');
+  const defRankStat=combatStatAtAgerank(d,switchOn?'strength':'defense','dmgDefAgerank');
+  const defHpRankStat=combatStatAtAgerank(d,'hp','dmgDefAgerank');
+  const baseAtk=num(atkRankStat.value),baseDef=num(defRankStat.value),hp=num(defHpRankStat.value);
+  const showYokai=(y,prefix)=>{const im=el(prefix+'Image');im.src=y.image||'';im.alt=y.name||'妖怪';el(prefix+'Name').textContent=y.officialNo?`No.${String(y.officialNo).padStart(3,'0')} ${y.name||''}`:`${y.noLabel||'番号なし'} ${y.name||''}`;};
+  showYokai(a,'dmgAttacker');showYokai(d,'dmgDefender');
+  const highSenseCount=Math.max(0,Math.min(5,Math.floor(num(el('dmgHighSenseCount').value))));
+  el('dmgHighSenseCount').value=highSenseCount;
+  const highSenseAtkRate=el('dmgHighSenseAtkType').value==='all'?0.2:0.4;
+  const highSenseDefRate=el('dmgHighSenseDefType').value==='all'?0.2:0.4;
+  const highSenseAtkMultiplier=1+highSenseAtkRate*highSenseCount;
+  const highSenseDefMultiplier=1+highSenseDefRate*highSenseCount;
+  const buff=(num(el('dmgBuff').value)/100)*highSenseAtkMultiplier,club=num(el('dmgClubAtk').value),equip=num(el('dmgEquipAtk').value);
+  const defBuff=(num(el('dmgDefBuff').value)/100)*highSenseDefMultiplier,defClub=num(el('dmgClubDef').value),defEquip=num(el('dmgEquipDef').value);
+  /* v404: 装備（神話のうでわ・神話のゆびわ）。2資料一致の能力増減を、計算に使う能力へ加算（装備等の補正と同じ扱い） */
+  const EQUIP_ITEMS={'myth-bangle':{name:'神話のうでわ',strength:65,speed:-40},'myth-ring':{name:'神話のゆびわ',spirit:65,defense:-40}};
+  const eqA=EQUIP_ITEMS[el('dmgEquipItemAtk')?.value]||null,eqD=EQUIP_ITEMS[el('dmgEquipItemDef')?.value]||null;
+  const eqAtkBonus=eqA?(eqA[statKey]||0):0,eqDefBonus=eqD?(eqD.defense||0):0;
+  const attackStat=(baseAtk+club+equip+eqAtkBonus)*(1+buff),defenseStat=(baseDef+defClub+defEquip+eqDefBonus)*(1+defBuff);
+  const {power,hits}=parsed,criticalCount=Math.max(0,Math.min(hits,Math.floor(num(el('dmgCriticalCount').value)))),critical=criticalCount>0,superCount=Math.max(0,Math.min(20,Math.floor(num(el('dmgSuperCritical').value))));
+  el('dmgCriticalCount').max=hits;el('dmgCriticalCount').value=criticalCount;
+  /* v382: 弱点・得意を属性から自動判定（場の効果：フツーにする／おれルール） */
+  const attrJudge=(()=>{const EL=['火','水','雷','土','風','氷'];const norm=v=>{const mm=String(v??'').match(/^([火水雷土風氷])(属性)?$/);return mm?mm[1]:''};
+   let atkAttr='',src='';const sel=el('dmgMoveAttr').value;
+   /* v412: 場の効果「うんちく」：両チームの攻撃・妖術から属性がなくなる（弱点・得意・属性ダメージ軽減・属性あそびが無効） */
+   const unchikuOn=!!el('dmgFieldUnchiku')?.checked;
+   if(unchikuOn){atkAttr='';src='うんちく：全員の技が属性なし'}
+   else if(sel==='none'){atkAttr='';src='手動：属性なし'}else if(EL.includes(sel)){atkAttr=sel;src='手動指定'}
+   else if(m.type==='attack'){atkAttr='';src='攻撃（物理）'}
+   else if(m.type==='magic'){if(m.attribute==='吸収'){atkAttr='';src=m.name+'（吸収）'}else{const mg=(a.moves||[]).find(v=>v&&v.type==='magic');atkAttr=norm(mg?.attribute);src=`${a.name}の妖術「${mg?.name||'—'}」`}}
+   else if(m.type==='ultimate'){const ul=(a.moves||[]).find(v=>v&&v.type==='ultimate');atkAttr=norm(ul?.attribute);src=`${a.name}の必殺技「${ul?.name||'—'}」`}
+   const af=d.attributeAffinity||{};let strong=EL.includes(af.strong)?af.strong:'',weakA=EL.includes(af.weak)?af.weak:'';const unknown=af.strong==='未確認';
+   const futsu=el('dmgFieldFutsu').checked,ore=el('dmgFieldOre').checked;
+   if(ore){const t=strong;strong=weakA;weakA=t}
+   if(futsu)strong='';
+   const isWeak=!!atkAttr&&atkAttr===weakA,isResist=!!atkAttr&&atkAttr===strong;
+   const fx=[ore?'おれルール':'',futsu?'フツーにする':''].filter(Boolean).join('＋');
+   const result=unknown?'防御側の得意・苦手が未確認':!atkAttr?'属性なし（補正なし）':isWeak?'弱点（1.5倍）':isResist?'得意（0.5倍）':'等倍';
+   const text=`技の属性：${atkAttr||'なし'}（${src}）／防御側：得意 ${unknown?'未確認':strong||'なし'}・苦手 ${unknown?'未確認':weakA||'なし'}${fx?'（'+fx+'適用後）':''} → ${result}`;
+   return {atkAttr,isWeak:!unknown&&isWeak,isResist:!unknown&&isResist,text,unknown};})();
+  if(el('dmgAutoAttr').checked){el('dmgWeak').checked=attrJudge.isWeak;el('dmgResist').checked=attrJudge.isResist;el('dmgWeak').disabled=true;el('dmgResist').disabled=true;el('dmgAttrJudge').textContent=attrJudge.text;/* 詳細設定の概要を更新（計算側は change のみを監視するため input で再計算は起きない） */el('dmgWeak').dispatchEvent(new Event('input'));el('dmgResist').dispatchEvent(new Event('input'));}
+  else{el('dmgWeak').disabled=false;el('dmgResist').disabled=false;el('dmgAttrJudge').textContent='自動判定オフ：弱点・得意のチェックを手動で指定しています（フツーにする・おれルールは手動指定に反映されません'+(el('dmgFieldUnchiku')?.checked?'。うんちくは手動指定でも属性なしとして計算します':'')+'）。参考：'+attrJudge.text;}
+  const unchiku=!!el('dmgFieldUnchiku')?.checked;const weak=!unchiku&&el('dmgWeak').checked,resist=!unchiku&&el('dmgResist').checked;
+  const attributePlay=unchiku?0:Math.max(0,Math.min(20,Math.floor(num(el('dmgAttributePlay').value))));
+  const attrFactor=weak?1.5:resist?0.5:1;
+  const x=power*hits+attackStat;
+  let raw=isSpiritBased?(attrFactor*x/2.3)*(1+0.05*attributePlay):(x/1.8-(defenseStat/2.9));
+  // v408: 列倍率（ユーザー確認）：ちから参照は前列×1.1・後列×0.9、ようりょく参照（妖術・ようりょく依存の必殺技）は前列×0.9・後列×1.1。
+  const formationBase=num(el('dmgFormation')?.value||1);
+  const formationFactor=isSpiritBased&&formationBase!==1?Math.round((2-formationBase)*100)/100:formationBase;
+  raw*=formationFactor;
+  // クリティカル回数分だけ該当ヒットを1.5倍として合計する（回数/総ヒット数で加重）。
+  if(critical)raw*=1+(0.5*criticalCount/hits);
+  if(critical&&superCount>0)raw*=1+(0.5*superCount);
+  // 防御効果：壺ガード優先。ガード崩し系はガード/壺ガードのみ無視する。
+  const isAttack=m.type==='attack';
+  const guardBreak=isAttack&&el('dmgGuardBreak').checked,superGuardBreak=isAttack&&el('dmgSuperGuardBreak').checked;
+  el('dmgGuardBreak').disabled=!isAttack;el('dmgSuperGuardBreak').disabled=!isAttack;
+  if(!isAttack){el('dmgGuardBreak').checked=false;el('dmgSuperGuardBreak').checked=false;}
+  const guardActive=!guardBreak&&!superGuardBreak;
+  let defenseFactor=1,defenseLabels=[];
+  if(guardActive&&el('dmgPotGuard').checked){defenseFactor*=0.25;defenseLabels.push('壺ガード1/4');}
+  else if(guardActive&&el('dmgGuard').checked){defenseFactor*=0.5;defenseLabels.push('ガード1/2');}
+  if(el('dmgAttackHalf').checked){defenseFactor*=0.5;defenseLabels.push('攻撃半減1/2');}
+  const soulCount=unchiku?0:Math.max(0,Math.min(10,Math.floor(num(el('dmgAttributeSoul').value))));
+  if(soulCount>0){const soulFactor=Math.pow(0.7,soulCount);defenseFactor*=soulFactor;defenseLabels.push(`属性軽減魂${soulCount}個（×${soulFactor.toFixed(4)}）`);}
+  if(superGuardBreak&&((el('dmgGuard').checked)||(el('dmgPotGuard').checked)))raw*=2;
+  /* v404: 魂（Lv10・効果値はMt. Wildwoodの値。計算方法は暫定） */
+  const soulLabels=[];
+  /* v407: 山田の魂は『妖術ダメージ×（1＋減ったHPの割合）』で確定（ユーザー判断：HP1マイニャン・ようりょく182・列1.1倍・大滝の術でエルドラゴーンに305ダメージの動画が計算範囲252〜309に一致）。v405: 山田の魂は自分の最大HPに対して削れた体力の割合で倍率が決まる（ユーザー指定）。選択肢：削らない／n%削る／HP1まで削る */
+  {const mode=el('dmgYamadaMode')?.value||'full';const wrap=el('dmgYamadaPctWrap');if(wrap)wrap.hidden=mode!=='pct'||el('dmgEquipItemAtk')?.value!=='soul-yamada';}
+  if(el('dmgEquipItemAtk')?.value==='soul-yamada'&&isSpiritBased){const mode=el('dmgYamadaMode')?.value||'full';const maxHp=num(combatStatAtAgerank(a,'hp','dmgAgerank').value);let lost=0,desc='満タン';if(mode==='pct'){const n=Math.max(1,Math.min(99,Math.floor(num(el('dmgYamadaPct').value))||50));el('dmgYamadaPct').value=n;lost=n/100;desc=`体力を${n}%削る`;}else if(mode==='hp1'){lost=maxHp>0?(maxHp-1)/maxHp:0;desc=`HP1まで削る（最大HP ${maxHp}）`;}const f=1+1.0*lost;raw*=f;soulLabels.push(`アンドロイド山田の魂（${desc}・×${f.toFixed(3)}・最大HPに対する減ったHPの割合で決定）`);}
+  else if(el('dmgEquipItemAtk')?.value==='soul-yamada')soulLabels.push('アンドロイド山田の魂（ようりょく参照の技以外は影響なし）');
+  if(el('dmgEquipItemAtk')?.value==='soul-doki')soulLabels.push('攻撃側の怒気ドキ土器の魂（受けるダメージ用のため影響なし）');
+  if(el('dmgEquipItemDef')?.value==='soul-yamada')soulLabels.push('防御側のアンドロイド山田の魂（与えるダメージ用のため影響なし）');
+  if(el('dmgEquipItemDef')?.value==='soul-doki'){const guarding=el('dmgGuard').checked||el('dmgPotGuard').checked;if(isMagic&&guarding){raw*=0.5;soulLabels.push('怒気ドキ土器の魂（ガード中の妖術 ×0.50・暫定）');}else soulLabels.push('怒気ドキ土器の魂（ガード中の妖術以外は影響なし）');}
+  raw*=defenseFactor;
+  raw=Math.max(0,raw);
+  // Provisional damage spread pending in-game validation.
+  const min=Math.floor(raw*0.9),max=Math.ceil(raw*1.1),avg=Math.round((min+max)/2);
+  el('dmgAtkStatName').textContent=switchOn?'ちから（スイッチ：元のまもり）':statName;el('dmgAtkStat').textContent=Math.round(attackStat*10)/10;
+  el('dmgHp').textContent=hp;el('dmgDef').textContent=Math.round(defenseStat*10)/10;
+  /* v403: 攻撃側・防御側のステータスを5つ全部表示（色は図鑑カードの棒グラフと同じ）。計算に使う能力は補正込みの値を枠付きで表示 */
+  {const KEYS=[['hp','HP'],['strength','ちから'],['spirit','ようりょく'],['defense','まもり'],['speed','すばやさ']];
+   const r1=v=>Math.round(num(v)*10)/10;
+   const cells=(y,sel,used,eqi)=>KEYS.map(([k,lab])=>{const swd=!!el('dmgFieldSwitch')?.checked;const src=swd&&k==='strength'?'defense':swd&&k==='defense'?'strength':k;let v=combatStatAtAgerank(y,src,sel).value;if(eqi&&eqi[k]&&v!==null&&v!==undefined)v=num(v)+eqi[k];const u=used[k];if(u!==undefined)v=u;return `<span class="dmg-st dmg-st-${k}${u!==undefined?' dmg-st-used':''}" title="${lab}${u!==undefined?'（計算に使用・補正込み）':''}${src!==k?'（スイッチで入れ替え中）':''}"><small>${lab}</small><b>${v===null||v===undefined||v===''?'—':r1(v)}</b></span>`}).join('');
+   const atkUsed={};atkUsed[switchOn?'strength':statKey]=attackStat;
+   const defUsed={hp:hp};if(!isSpiritBased)defUsed.defense=defenseStat;
+   el('dmgAtkAllStats').innerHTML=cells(a,'dmgAgerank',atkUsed,eqA);el('dmgDefAllStats').innerHTML=cells(d,'dmgDefAgerank',defUsed,eqD);}
+  el('dmgMin').textContent=min;el('dmgAvg').textContent=avg;el('dmgMax').textContent=max;
+  const remaining=Math.max(0,hp-avg);el('dmgRemain').textContent=remaining;el('dmgHpGaugeText').textContent=`${remaining} / ${hp} (${hp>0?(remaining/hp*100).toFixed(1):0}%)`;const gauge=el('dmgHpGaugeFill');gauge.style.width=(hp>0?Math.max(0,Math.min(100,remaining/hp*100)):0)+'%';gauge.classList.toggle('low',hp>0&&remaining/hp<0.3);
+  const setBar=(key,value)=>{const pct=hp>0?Math.max(0,value)/hp*100:0;el('dmgBar'+key).style.width=Math.min(100,pct)+'%';el('dmgPct'+key).textContent=pct.toFixed(1)+'%';};
+  setBar('Min',min);setBar('Avg',avg);setBar('Max',max);
+  /* v384: 削る割合（最小～最大）と確定数・乱数 */
+  {const f=v=>(hp>0?v/hp*100:0).toFixed(1)+'%';el('dmgPctRange').textContent=hp>0?`${f(min)}～${f(max)}`:'—';
+   let ko='—';if(hp>0){if(max<=0)ko='倒せない（ダメージ0）';else{const nMin=Math.ceil(hp/max),nMax=min>0?Math.ceil(hp/min):Infinity;ko=nMin===nMax?`確定${nMin}発`:`乱数${nMin}発`;}}
+   el('dmgKoHits').textContent=ko;el('dmgKoHits').dataset.ko=ko.startsWith('確定')?'sure':ko.startsWith('乱数')?'random':'';}
+  el('dmgFormulaType').textContent=isSpiritBased?(isUltimate?'必殺技・ようりょく依存（暫定）':'妖術（まもり貫通）'):(isUltimate?'必殺技・ちから依存（暫定）':critical?`物理クリティカル ${criticalCount}/${hits}回`:'物理通常');
+  el('dmgExplain').textContent=`攻撃側：${a.name}（${combatRankLabel(a,atkRankStat.steps)}）／防御側：${d.name}（${combatRankLabel(d,defRankStat.steps)}）\n技：${m.name} 威力 ${effectivePower||'未入力'}・${hits}ヒット（合計ダメージ）\n参照能力：${statName} ${Math.round(attackStat*10)/10}／防御：${isSpiritBased?'無視（暫定）':Math.round(defenseStat*10)/10}／相手HP：${hp}${unchiku?'\nうんちく：全員の技が属性なし（弱点・得意・属性軽減魂・属性あそびは無効）':''}${switchOn?`\nスイッチ：ちから⇔まもり入れ替え中（攻撃側は元のまもり ${num(atkRankStat.value)}、防御側は元のちから ${num(defRankStat.value)} を参照。バフ・スポーツクラブ・装備の入力値は入れ替え後の値にかかる）`:el('dmgFieldSwitch')?.checked?'\nスイッチ：妖術・ようりょく依存の技には影響なし':''}\n攻撃位置：${(el('dmgFormation').selectedOptions[0]?.textContent||'中列').replace(/（.*/,'')}（${isSpiritBased?'ようりょく参照':'ちから参照'} ×${formationFactor.toFixed(1)}）\n属性補正：${attrFactor}倍（暫定${isSpiritBased?'':'・物理計算式には未適用'}）［${el('dmgAutoAttr').checked?'自動判定':'手動'}：${attrJudge.text}］／防御効果：${defenseLabels.join('・')||'なし'}／装備：攻撃側 ${el('dmgEquipItemAtk')?.selectedOptions[0]?.textContent||'なし'}・防御側 ${el('dmgEquipItemDef')?.selectedOptions[0]?.textContent||'なし'}${soulLabels.length?'（'+soulLabels.join('・')+'）':''}／ガード崩し：${superGuardBreak?'超ガード崩し':guardBreak?'ガード崩し':'なし'}／クリティカル：${criticalCount}/${hits}回／超クリティカル：${superCount}個／属性あそび：${attributePlay}個（妖術 ${(1+0.05*attributePlay).toFixed(2)}倍）／ハイセンス：攻撃側${highSenseCount}個（×${highSenseAtkMultiplier.toFixed(2)}）、防御側${highSenseCount}個（×${highSenseDefMultiplier.toFixed(2)}）\n計算基礎値 ${raw.toFixed(2)}。乱数幅は暫定±10%。`;
+ }
+ atk.addEventListener('change',()=>{refreshMoves();update()});
+ [def,move,el('dmgUltimatePower'),el('dmgUltimateStat'),...['dmgHighSenseCount','dmgHighSenseAtkType','dmgHighSenseDefType','dmgBuff','dmgClubAtk','dmgEquipAtk','dmgAgerank','dmgCriticalCount','dmgSuperCritical','dmgAttributePlay','dmgGuardBreak','dmgSuperGuardBreak','dmgGuard','dmgPotGuard','dmgAttackHalf','dmgAttributeSoul','dmgClubDef','dmgEquipDef','dmgDefAgerank','dmgDefBuff','dmgWeak','dmgResist','dmgFormation','dmgMoveAttr','dmgAutoAttr','dmgFieldFutsu','dmgFieldOre','dmgFieldSwitch','dmgFieldUnchiku','dmgEquipItemAtk','dmgEquipItemDef','dmgYamadaMode','dmgYamadaPct'].map(el)].forEach(x=>x.addEventListener('change',update));
+ const addSearch=(inputId,select)=>{const input=el(inputId),allOptions=Array.from(select.options).map(o=>({value:o.value,text:o.text}));input.addEventListener('input',()=>{const q=input.value.trim().toLocaleLowerCase();const current=select.value;select.innerHTML=allOptions.filter(o=>!q||o.text.toLocaleLowerCase().includes(q)).map(o=>`<option value="${esc(o.value)}">${esc(o.text)}</option>`).join('');if(allOptions.some(o=>o.value===current&&(!q||o.text.toLocaleLowerCase().includes(q))))select.value=current;select.dispatchEvent(new Event('change'));});};
+ addSearch('dmgAttackerSearch',atk);addSearch('dmgDefenderSearch',def);
+ refreshMoves();update();
+})();
+</script>
+
+
+<style id="damage-visual-v2">
+.damage-yokai-visual{display:flex;align-items:center;gap:12px;margin:10px 0;padding:9px 11px;background:#111b2c;border:1px solid #35425b;border-radius:10px;min-height:82px}
+.damage-yokai-visual img{width:68px;height:68px;object-fit:contain;display:block;flex:0 0 68px}.damage-yokai-visual span{font-weight:700;font-size:15px}
+.damage-bars{margin-top:14px;padding-top:12px;border-top:1px solid #35425b}.damage-bars h4{margin:0 0 10px;font-size:13px}.damage-bar-row{display:grid;grid-template-columns:44px minmax(0,1fr) 58px;align-items:center;gap:9px;margin:9px 0;font-size:12px}.damage-bar-row>strong{text-align:right;font-variant-numeric:tabular-nums}.damage-bar-track{height:14px;border-radius:99px;background:#27354b;overflow:hidden}.damage-bar-fill{height:100%;width:0%;border-radius:99px;background:linear-gradient(90deg,#61cdb9,#8ce1d0);transition:width .2s ease}.damage-bar-row:nth-of-type(3) .damage-bar-fill{background:linear-gradient(90deg,#e2b85d,#ffda8b)}.damage-bar-row:nth-of-type(4) .damage-bar-fill{background:linear-gradient(90deg,#e27b79,#ff9b91)}
+</style>
+<style id="damage-control-layout-v346">
+.damage-inline-controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:8px;margin:9px 0;align-items:end}
+.damage-critical-controls{margin-top:3px}
+.damage-inline-controls>div{min-width:0}
+.damage-inline-controls label{display:block;font-size:11px;line-height:1.35;margin-bottom:4px}
+.damage-inline-controls select,.damage-inline-controls input{width:100%;min-width:0;box-sizing:border-box}
+@media(max-width:420px){.damage-inline-controls{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}.damage-inline-controls label{font-size:10px}}
+</style>
+<style id="damage-control-layout-v345">
+.damage-inline-controls{display:grid;grid-template-columns:minmax(180px,2fr) repeat(3,minmax(110px,1fr));gap:8px;margin:9px 0;align-items:end}
+.damage-inline-controls>div,.damage-attribute-skill-row>div{min-width:0}
+.damage-inline-controls label,.damage-attribute-skill-row label,.damage-def-skill-row label{display:block;font-size:11px;line-height:1.35;margin-bottom:4px}
+.damage-inline-controls select,.damage-inline-controls input,.damage-attribute-skill-row select,.damage-attribute-skill-row input,.damage-def-skill-row select{width:100%;min-width:0;box-sizing:border-box}
+.damage-attribute-skill-row{margin-top:8px}
+.damage-def-skill-row{margin:7px 0 9px;max-width:100%}
+.damage-def-skill-row select{display:block;width:calc(50% - 4px);max-width:calc(50% - 4px);box-sizing:border-box}
+@media(max-width:520px){.damage-def-skill-row select{width:calc(50% - 3px);max-width:calc(50% - 3px)}}
+@media(max-width:760px){.damage-inline-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){.damage-inline-controls{grid-template-columns:1fr 1fr;gap:6px}.damage-inline-controls label{font-size:10px}}
+</style>
+<style id="damage-field-effects-style">
+.damage-field-effects{margin:0 0 12px;padding:10px 12px;border:1px solid var(--line,#52647b);border-radius:10px;background:var(--panel2,#202f47)}
+.damage-field-effects>strong{display:block;margin-bottom:7px;font-size:13px}
+.damage-field-effects .damage-subgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.damage-field-effects label{font-size:11px}
+.damage-field-effects input,.damage-field-effects select{max-width:100%}
+@media(max-width:520px){.damage-field-effects .damage-subgrid{grid-template-columns:1fr}}
+</style>
+<style id="damage-quick-modal-style">
+.damage-result{cursor:pointer;position:relative;transition:border-color .15s,transform .15s}.damage-result:hover,.damage-result:focus-visible{border-color:#8ce1d0;outline:none}.damage-result:active{transform:scale(.997)}
+.damage-result-hint{margin:10px 0 0;text-align:right;font-size:11px;color:#aebbd0}
+.damage-quick-modal[hidden]{display:none}.damage-quick-modal{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:12px}.damage-quick-backdrop{position:absolute;inset:0;background:rgba(3,8,17,.78)}
+.damage-quick-panel{position:relative;width:min(500px,100%);max-height:92vh;overflow:auto;padding:13px;background:#172338;border:1px solid #657792;border-radius:14px;box-shadow:0 18px 60px #0009;color:#f2f5fb}
+.damage-quick-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.damage-quick-head h3{margin:0;font-size:15px}.damage-quick-head button{width:30px;height:30px;border:0;border-radius:8px;background:#2b3b55;color:#fff;font-size:22px;line-height:1;cursor:pointer}
+.damage-quick-match{display:flex;justify-content:center;align-items:center;gap:10px;margin:9px 0 5px;font-weight:700;text-align:center}.damage-quick-match>b{color:#8ce1d0}
+.damage-quick-yokai{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0;font-size:11px}.damage-quick-yokai img{width:54px;height:54px;object-fit:contain}.damage-quick-move{text-align:center;margin:0 0 9px;color:#c7d3e5;font-size:11px}
+.damage-quick-values{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.damage-quick-values>div{background:#202f47;border-radius:8px;padding:7px 4px;text-align:center}.damage-quick-values small{display:block;color:#aebbd0;font-size:10px}.damage-quick-values strong{display:block;font-size:22px;font-variant-numeric:tabular-nums}.damage-quick-values>div:nth-child(2) strong{color:#8ce1d0}
+.damage-quick-remain{display:flex;justify-content:space-between;gap:8px;margin-top:8px;font-size:11px}.damage-quick-hp{margin-top:7px;padding:7px 8px;background:#202f47;border-radius:8px}.damage-quick-hp-head{display:flex;justify-content:space-between;margin-top:5px;font-size:10px;color:#b9c7da}.damage-quick-hp-track{height:7px;background:#101a2a;border-radius:9px;overflow:hidden;margin-top:4px}.damage-quick-hp-track>div{height:100%;width:0;background:#8ce1d0;border-radius:9px}
+.damage-quick-settings{margin-top:9px;padding-top:8px;border-top:1px solid #40516c}.damage-quick-settings h4{font-size:11px;margin:0 0 6px;color:#c7d3e5}.damage-quick-setting-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}.damage-quick-setting-grid>div{background:#202f47;border-radius:7px;padding:6px;font-size:10px;min-width:0}.damage-quick-setting-grid b,.damage-quick-checked>b{display:block;color:#8ce1d0;font-size:10px;margin-bottom:3px}.damage-quick-setting-grid span{display:block;line-height:1.55;color:#e0e7f1;overflow-wrap:anywhere}
+.damage-quick-checked{margin-top:6px;background:#202f47;border-radius:7px;padding:6px;font-size:10px}.damage-quick-checked>div{display:flex;flex-wrap:wrap;gap:4px}.damage-quick-check-tag{padding:2px 5px;border-radius:5px;background:#354967;color:#f2f5fb;font-size:9px}
+.damage-quick-type{text-align:center;color:#aebbd0;font-size:9px;margin:7px 0 0}
+@media(max-width:480px){.damage-quick-panel{padding:11px}.damage-quick-yokai img{width:46px;height:46px}.damage-quick-values strong{font-size:19px}}
+</style>
+<script id="damage-quick-modal-script">
+(()=>{const $=id=>document.getElementById(id),card=$('damageResultCard'),modal=$('damageQuickModal'),close=$('damageQuickClose');if(!card||!modal||!close)return;let previousFocus=null;
+const val=id=>($(id)?.value??'—'),text=id=>($(id)?.textContent??'—').trim(),checkedLabels=ids=>ids.filter(id=>$(id)?.checked).map(id=>$(id).closest('label')?.textContent.trim()||id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const sync=()=>{
+ const pairs=[['dmgAttackerName','dmgQuickAttacker'],['dmgDefenderName','dmgQuickDefender'],['dmgMin','dmgQuickMin'],['dmgAvg','dmgQuickAvg'],['dmgMax','dmgQuickMax'],['dmgRemain','dmgQuickRemain'],['dmgFormulaType','dmgQuickType'],['dmgPctRange','dmgQuickPctRange'],['dmgKoHits','dmgQuickKo']];
+ pairs.forEach(([from,to])=>{if($(from)&&$(to))$(to).textContent=text(from);});
+ const move=$('dmgMove')?.selectedOptions[0];$('dmgQuickMove').textContent='技：'+(move?.textContent||'—');
+ [['dmgAttackerImage','dmgQuickAttackerImage'],['dmgDefenderImage','dmgQuickDefenderImage']].forEach(([from,to])=>{const a=$(from),b=$(to);b.src=a?.src||'';b.alt=a?.alt||'';b.style.visibility=a?.getAttribute('src')?'visible':'hidden';});
+ const gauge=$('dmgHpGaugeFill'),gtext=text('dmgHpGaugeText');$('dmgQuickHpFill').style.width=gauge?.style.width||'0%';$('dmgQuickHpPercent').textContent=gtext||'—';
+ const atk=[['ハイセンス（場の効果）',val('dmgHighSenseCount')+'個'],['とりつき種類',$('dmgHighSenseAtkType')?.selectedOptions[0]?.textContent||'—'],['ステータスバフ',val('dmgBuff')+'%'],['スポーツクラブ補正','+'+val('dmgClubAtk')],['装備等の補正',val('dmgEquipAtk')],['装備',$('dmgEquipItemAtk')?.selectedOptions[0]?.textContent||'なし'],['アゲランク', $('dmgAgerank')?.selectedOptions[0]?.textContent||'—'],['攻撃位置',$('dmgFormation')?.selectedOptions[0]?.textContent||'—'],['クリティカル回数',val('dmgCriticalCount')],['超クリティカル',val('dmgSuperCritical')],['属性あそび',val('dmgAttributePlay')]];
+ /* v353: 必殺技選択時は威力と能力依存も表示 */
+ if($('dmgMove')?.selectedOptions[0]?.dataset.type==='ultimate'){const ultOpt=$('dmgMove').selectedOptions[0];atk.push(['必殺技の威力',ultOpt.dataset.custom?(val('dmgUltimatePower')||'未入力'):(ultOpt.dataset.power||'—')+'（図鑑の値）'],['必殺技の能力依存',$('dmgUltimateStat')?.selectedOptions[0]?.textContent||'—']);}
+ const def=[['ハイセンス（場の効果）',val('dmgHighSenseCount')+'個'],['とりつき種類',$('dmgHighSenseDefType')?.selectedOptions[0]?.textContent||'—'],['ステータスバフ',val('dmgDefBuff')+'%'],['スポーツクラブ補正','+'+val('dmgClubDef')],['装備等の補正',val('dmgEquipDef')],['装備',$('dmgEquipItemDef')?.selectedOptions[0]?.textContent||'なし'],['アゲランク',$('dmgDefAgerank')?.selectedOptions[0]?.textContent||'—'],['属性軽減魂',val('dmgAttributeSoul')]];
+ const renderRows=rows=>rows.map(([k,v])=>'<span>'+esc(k)+'：'+esc(v)+'</span>').join('');
+ $('dmgQuickAtkSettings').innerHTML=renderRows(atk);$('dmgQuickDefSettings').innerHTML=renderRows(def);
+ const checks=[...checkedLabels(['dmgGuardBreak','dmgSuperGuardBreak','dmgWeak','dmgResist','dmgGuard','dmgPotGuard','dmgAttackHalf','dmgFieldFutsu','dmgFieldOre','dmgFieldSwitch','dmgFieldUnchiku'])];
+ $('dmgQuickChecks').innerHTML=checks.length?checks.map(x=>'<span class="damage-quick-check-tag">'+esc(x)+'</span>').join(''):'<span style="color:#aebbd0">チェック項目なし</span>';
+};
+const open=()=>{sync();previousFocus=document.activeElement;modal.hidden=false;close.focus();};const shut=()=>{modal.hidden=true;if(previousFocus?.focus)previousFocus.focus();};
+card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});close.addEventListener('click',shut);modal.querySelectorAll('[data-damage-modal-close]').forEach(x=>x.addEventListener('click',shut));document.addEventListener('keydown',e=>{if(!modal.hidden&&e.key==='Escape')shut();});
+})();
+</script>
+
+<style id="damage-control-width-v348">
+/* 使用する技・攻撃位置・クリティカル関連を、ステータスバフ等と同じ2列幅に統一 */
+.damage-inline-controls{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.damage-inline-controls>div{min-width:0}
+.damage-inline-controls select,.damage-inline-controls input{width:100%;min-width:0;box-sizing:border-box}
+</style>
+
+<script id="damage-side-settings-modal-v349">
+(()=>{
+ const $=id=>document.getElementById(id);
+ const specs=[
+  {side:'攻撃側',panel:document.querySelector('#damageCalculator .damage-panel:first-child'),ids:['dmgMove','dmgMoveAttr','dmgUltimateStat','dmgUltimatePower','dmgFormation','dmgAgerank','dmgBuff','dmgHighSenseAtkType','dmgClubAtk','dmgEquipItemAtk','dmgYamadaMode','dmgYamadaPct','dmgEquipAtk','dmgCriticalCount','dmgSuperCritical','dmgAttributePlay','dmgGuardBreak','dmgSuperGuardBreak'],blocks:['.damage-subgrid','.damage-inline-controls','#dmgUltimatePowerWrap','.damage-attribute-skill-row','.damage-defense-options'],buttonId:'dmgAtkSettingsOpen',refreshOn:['dmgAttacker']},
+  {side:'防御側',panel:document.querySelector('#damageCalculator .damage-panel:nth-child(2)'),ids:['dmgDefAgerank','dmgDefBuff','dmgHighSenseDefType','dmgClubDef','dmgEquipItemDef','dmgEquipDef','dmgGuard','dmgPotGuard','dmgAttackHalf','dmgAttributeSoul','dmgAutoAttr','dmgWeak','dmgResist'],blocks:['.damage-subgrid','.damage-def-skill-row','.damage-checks','.damage-defense-options'],buttonId:'dmgDefSettingsOpen'}
+ ];
+ const getValue=id=>{const e=$(id);if(!e)return '';if(e.type==='checkbox')return e.checked?'あり':'なし';if(e.tagName==='SELECT'){const t=e.selectedOptions[0]?.textContent||e.value;/* v353: ステータスバフは選択肢の表示が「0%」と「10」で混在しているため概要では%に統一 */return (id==='dmgBuff'||id==='dmgDefBuff')&&/^\d+$/.test(t)?t+'%':t;}return e.value;};
+ /* v353: label[for]が無いチェックボックスは親labelの文字を使い、内部IDを表示しない */
+ const labelFor=id=>{const raw=document.querySelector('label[for="'+id+'"]')?.textContent||$(id)?.closest('label')?.textContent||id;return raw.replace(/（.*?）/g,'').trim()||id;};
+ const make=(spec,index)=>{
+  if(!spec.panel)return;
+  const opener=document.createElement('button');opener.type='button';opener.id=spec.buttonId;opener.className='damage-side-settings-trigger';opener.setAttribute('aria-haspopup','dialog');
+  const title=document.createElement('span');title.className='damage-side-settings-title';title.textContent=spec.side+'の詳細設定';
+  const summary=document.createElement('span');summary.className='damage-side-settings-summary';summary.id=spec.buttonId+'Summary';
+  opener.append(title,summary);
+  const stats=spec.panel.querySelector('.damage-stats');stats?.insertAdjacentElement('afterend',opener);
+  const overlay=document.createElement('div');overlay.className='damage-side-settings-modal';overlay.id=spec.buttonId+'Modal';overlay.hidden=true;overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',spec.side+'の詳細設定');
+  const dialog=document.createElement('div');dialog.className='damage-side-settings-dialog';
+  const head=document.createElement('div');head.className='damage-side-settings-head';const h=document.createElement('h3');h.textContent=spec.side+'の詳細設定';const close=document.createElement('button');close.type='button';close.className='damage-side-settings-close';close.textContent='閉じる';head.append(h,close);
+  const content=document.createElement('div');content.className='damage-side-settings-content';dialog.append(head,content);overlay.append(dialog);document.body.append(overlay);
+  // Move the original controls into the dialog, retaining their IDs and event handlers.
+  const moved=[];spec.blocks.forEach(selector=>{spec.panel.querySelectorAll(':scope > '+selector).forEach(node=>{if(!moved.includes(node)){moved.push(node);content.append(node);}})});
+  const updateSummary=()=>{const vals=spec.ids.filter(id=>$(id)&&!$(''+id).closest('#dmgUltimatePowerWrap')?.hidden&&!$(id).parentElement?.hidden).map(id=>labelFor(id)+' '+getValue(id));summary.textContent=vals.length?' · '+vals.join(' / '):'設定を開く';};
+  const shut=()=>{overlay.hidden=true;opener.focus();};
+  opener.addEventListener('click',()=>{updateSummary();overlay.hidden=false;close.focus();});close.addEventListener('click',shut);overlay.addEventListener('click',e=>{if(e.target===overlay)shut();});document.addEventListener('keydown',e=>{if(!overlay.hidden&&e.key==='Escape')shut();});
+  spec.ids.forEach(id=>{const e=$(id);if(e){e.addEventListener('change',updateSummary);e.addEventListener('input',updateSummary);}});
+  /* v353: 攻撃する妖怪を変えると技一覧が作り直されるため、概要も更新する（計算側のchange処理の後に実行される） */
+  (spec.refreshOn||[]).forEach(id=>$(id)?.addEventListener('change',updateSummary));
+  updateSummary();
+ };
+ specs.forEach(make);
+})();
+</script>
+<script id="damage-atk-settings-layout-v409">
+/* v409: 攻撃側の詳細設定を「技」「能力」「装備」「技の補正・特性」の4つに分けて並べ替える（要素のID・処理はそのまま移動するだけ） */
+(()=>{
+ const $=id=>document.getElementById(id);
+ const content=document.querySelector('#dmgAtkSettingsOpenModal .damage-side-settings-content');
+ if(!content)return;
+ const box=id=>{const e=$(id);return e?e.parentElement:null;};
+ const groups=[
+  ['技',[box('dmgMove'),box('dmgMoveAttr'),$('dmgUltimatePowerWrap'),box('dmgFormation')]],
+  ['能力',[box('dmgAgerank'),box('dmgBuff'),box('dmgHighSenseAtkType'),box('dmgClubAtk')]],
+  ['装備',[box('dmgEquipItemAtk'),box('dmgYamadaMode'),$('dmgYamadaPctWrap'),box('dmgEquipAtk')]],
+  ['技の補正・特性',[box('dmgCriticalCount'),box('dmgSuperCritical'),box('dmgAttributePlay'),document.querySelector('#dmgAtkSettingsOpenModal .damage-defense-options')]]
+ ];
+ const olds=[...content.children];
+ const frag=document.createDocumentFragment();
+ groups.forEach(([title,nodes])=>{
+  const sec=document.createElement('section');sec.className='dmg-set-sec';
+  const h=document.createElement('h4');h.textContent=title;sec.appendChild(h);
+  const grid=document.createElement('div');grid.className='damage-subgrid dmg-set-grid';
+  nodes.filter(Boolean).forEach(n=>grid.appendChild(n));
+  sec.appendChild(grid);frag.appendChild(sec);
+ });
+ content.prepend(frag);
+ olds.forEach(o=>{if(!o.querySelector('input,select'))o.remove();});
+ /* 山田の魂を装備していないときは「攻撃側の体力」を隠す */
+ const sync=()=>{const on=$('dmgEquipItemAtk')?.value==='soul-yamada';const b=box('dmgYamadaMode');if(b)b.hidden=!on;const w=$('dmgYamadaPctWrap');if(w&&!on)w.hidden=true;else if(w)w.hidden=$('dmgYamadaMode').value!=='pct';$('dmgEquipItemAtk')?.dispatchEvent(new Event('input'));};
+ $('dmgEquipItemAtk')?.addEventListener('change',sync);$('dmgYamadaMode')?.addEventListener('change',sync);sync();
+})();
+</script>
+<style id="damage-atk-settings-layout-style-v409">
+.dmg-set-sec{display:grid;gap:8px;padding-top:4px}
+.dmg-set-sec+.dmg-set-sec{border-top:1px solid var(--line,#40506a);padding-top:12px}
+.dmg-set-sec h4{margin:0;font-size:13px;color:var(--muted,#aebbd0);letter-spacing:.05em}
+.dmg-set-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0!important}
+.dmg-set-sec .dmg-set-grid>#dmgUltimatePowerWrap:not([hidden]){display:contents!important}
+.dmg-set-grid>.damage-defense-options{grid-column:1/-1;margin:0!important;padding:0!important;border:0!important;background:none!important}
+.dmg-set-grid>.damage-defense-options>strong{display:none}
+.dmg-set-grid [hidden]{display:none!important}
+@media(max-width:520px){.dmg-set-grid{grid-template-columns:1fr}}
+</style>
+<script id="damage-def-settings-layout-v412">
+/* v412: 防御側の詳細設定を「能力」「装備」「防御効果」「弱点・得意」の4つに分けて並べ替える（要素のID・処理はそのまま移動するだけ） */
+(()=>{
+ const $=id=>document.getElementById(id);
+ const modal=$('dmgDefSettingsOpenModal');const content=modal?.querySelector('.damage-side-settings-content');
+ if(!content)return;
+ const box=id=>{const e=$(id);return e?e.parentElement:null;};
+ const groups=[
+  ['能力',[box('dmgDefAgerank'),box('dmgDefBuff'),box('dmgHighSenseDefType'),box('dmgClubDef')]],
+  ['装備',[box('dmgEquipItemDef'),box('dmgEquipDef')]],
+  ['防御効果',[modal.querySelector('.damage-defense-options')]],
+  ['弱点・得意',[modal.querySelector('.damage-checks')]]
+ ];
+ const olds=[...content.children];
+ const frag=document.createDocumentFragment();
+ groups.forEach(([title,nodes])=>{
+  const sec=document.createElement('section');sec.className='dmg-set-sec';
+  const h=document.createElement('h4');h.textContent=title;sec.appendChild(h);
+  const grid=document.createElement('div');grid.className='damage-subgrid dmg-set-grid';
+  nodes.filter(Boolean).forEach(n=>grid.appendChild(n));
+  sec.appendChild(grid);frag.appendChild(sec);
+ });
+ content.prepend(frag);
+ olds.forEach(o=>{if(!o.querySelector('input,select'))o.remove();});
+})();
+</script>
+<style id="damage-def-settings-layout-style-v412">
+.dmg-set-grid>.damage-def-skill-row{display:block!important;margin:0!important;padding:0!important;border:0!important;background:none!important}
+.dmg-set-grid>.damage-def-skill-row label{display:block}
+.dmg-set-grid>.damage-def-skill-row select{width:100%!important;max-width:none!important}
+#dmgDefSettingsOpenModal .dmg-set-grid>.damage-defense-options{display:flex!important;flex-wrap:wrap;align-items:center;gap:4px 16px}
+#dmgDefSettingsOpenModal .dmg-set-grid>.damage-defense-options>.damage-check{margin:0!important}
+#dmgDefSettingsOpenModal .dmg-set-grid>.damage-defense-options>div{flex:0 0 100%}
+.dmg-set-grid>.damage-checks{grid-column:1/-1;margin:0!important;padding:0!important;border:0!important;background:none!important}
+.dmg-set-grid>.damage-defense-options>div{margin-top:8px;max-width:50%}
+@media(max-width:520px){.dmg-set-grid>.damage-defense-options>div{max-width:none}}
+</style>
+<style id="damage-side-settings-v349">
+.damage-side-settings-trigger{display:flex;flex-direction:column;align-items:flex-start;gap:4px;width:100%;margin:12px 0;padding:9px 2px;background:transparent;border:0;border-bottom:1px solid var(--line,#40506a);border-radius:0;color:inherit;text-align:left;cursor:pointer}
+.damage-side-settings-trigger:hover .damage-side-settings-title{text-decoration:underline}
+.damage-side-settings-title{font-size:13px;font-weight:700;color:var(--text,#f4f6fb)}
+.damage-side-settings-summary{font-size:11px;line-height:1.6;color:var(--muted,#aebbd0);overflow-wrap:anywhere}
+.damage-side-settings-modal{position:fixed;inset:0;z-index:12000;display:flex;align-items:center;justify-content:center;padding:3vh 3vw;background:rgba(0,0,0,.78)}
+.damage-side-settings-modal[hidden]{display:none}
+.damage-side-settings-dialog{width:min(720px,96vw);max-height:88vh;overflow:auto;padding:18px;background:var(--panel,#182235);border:1px solid var(--line,#40506a);border-radius:16px;box-shadow:0 24px 90px #000b}
+.damage-side-settings-head{position:sticky;top:-18px;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 0 12px;margin-bottom:12px;background:var(--panel,#182235);border-bottom:1px solid var(--line,#40506a)}
+.damage-side-settings-head h3{margin:0;font-size:18px}.damage-side-settings-close{width:auto;flex:0 0 auto;padding:7px 14px}
+.damage-side-settings-content{display:grid;gap:12px}.damage-side-settings-content>.damage-subgrid,.damage-side-settings-content>.damage-inline-controls{margin-top:0}
+.damage-side-settings-content .damage-inline-controls{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+@media(max-width:520px){.damage-side-settings-modal{padding:0}.damage-side-settings-dialog{width:100%;height:100%;max-height:100vh;border-radius:0;padding:14px}.damage-side-settings-head{top:-14px}}
+</style>
+<style id="ultimate-range-filter-v365">
+.range-filter-check{padding:6px 9px}
+.range-filter-check .ult-range{margin-top:0;grid-template-columns:repeat(3,14px);grid-template-rows:repeat(3,14px)}
+</style>
+<style id="ultimate-range-display-v364">
+.inline-move-body{display:flex;align-items:flex-start;gap:10px;margin-top:7px;min-width:0}
+.inline-move-body>.inline-move-effect{flex:1 1 auto;margin-top:0}
+.ult-range{flex:0 0 auto;display:grid;grid-template-columns:repeat(3,12px);grid-template-rows:repeat(3,12px);gap:2px;margin-top:3px}
+.ult-range i{display:flex;align-items:center;justify-content:center;background:#ffffff;border:1px solid #8a94a8;border-radius:2px;font-style:normal;font-size:9px;font-weight:700;line-height:1;color:#101522}
+.ult-range i.on{background:#e53935;border-color:#b71c1c}
+</style>
+<style id="statbar-color-swap-v371">
+/* v371: ステータスグラフのHPとすばやさの色を入れ替え（HP=黄、すばやさ=青緑）。全画面幅 */
+.statbar-fill.statbar-hp{background:linear-gradient(90deg,#d4a744,#ffe18b)}
+.statbar-fill.statbar-speed{background:linear-gradient(90deg,#55b9b0,#8ce1d0)}
+</style>
+<style id="damage-calc-compact-desktop-v370">
+/* v370: PC幅だけダメージ計算機をコンパクト化（HTML・ID・計算処理は変更なし。スマホ幅は対象外） */
+@media (min-width:1024px){
+ #damageCalculator .damage-panel{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;column-gap:10px!important;row-gap:3px!important;align-content:start!important}
+ #damageCalculator .damage-panel>h3{grid-column:1/-1!important;margin:0 0 4px!important}
+ #damageCalculator .damage-panel>label[for$="Search"]{grid-column:1!important;grid-row:2!important}
+ #damageCalculator .damage-panel>input[type="search"]{grid-column:1!important;grid-row:3!important;margin:0!important}
+ #damageCalculator .damage-panel>label[for="dmgAttacker"],#damageCalculator .damage-panel>label[for="dmgDefender"]{grid-column:2!important;grid-row:2!important}
+ #damageCalculator .damage-panel>select{grid-column:2!important;grid-row:3!important;margin:0!important}
+ #damageCalculator .damage-panel>.damage-yokai-visual{grid-column:1!important;grid-row:4!important;margin:8px 0 0!important;padding:6px 10px!important;min-height:0!important}
+ #damageCalculator .damage-yokai-visual img{width:52px!important;height:52px!important;flex:0 0 52px!important}
+ #damageCalculator .damage-panel>.damage-stats{grid-column:2!important;grid-row:4!important;margin:8px 0 0!important}
+ #damageCalculator .damage-stats>div{padding:6px 9px!important}
+ #damageCalculator .damage-panel>.damage-side-settings-trigger{grid-column:1/-1!important;grid-row:5!important;margin:6px 0 0!important;padding:6px 2px!important}
+ #damageFieldEffects{display:flex!important;align-items:center!important;gap:16px!important;padding:8px 14px!important}
+ #damageFieldEffects>strong{margin:0!important;white-space:nowrap}
+ #damageFieldEffects .damage-subgrid{display:flex!important;margin:0!important}
+ #damageFieldEffects .damage-subgrid>div{display:flex!important;align-items:center!important;gap:8px!important}
+ #damageFieldEffects .damage-subgrid label{margin:0!important;white-space:nowrap}
+ #damageFieldEffects #dmgHighSenseCount{width:90px!important;margin:0!important}
+ #damageResultCard{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;grid-template-rows:auto auto auto auto 1fr auto!important;column-gap:22px!important;row-gap:8px!important;align-items:start!important}
+ #damageResultCard>.damage-result-head{grid-column:1/-1!important}
+ #damageResultCard>.damage-result-grid{grid-column:1!important;grid-row:2!important;margin:0!important}
+ #damageResultCard>.damage-result-foot{grid-column:1!important;grid-row:3!important;margin:0!important}
+ #damageResultCard>.damage-hp-gauge{grid-column:1!important;grid-row:4!important;margin:0!important}
+ #damageResultCard>.damage-bars{grid-column:2!important;grid-row:2/span 2!important;margin:0!important;padding-top:0!important;border-top:0!important}
+ #damageResultCard>.damage-bars h4{margin:0 0 8px!important}
+ #damageResultCard>#dmgExplain{grid-column:2!important;grid-row:4/span 2!important;margin:0!important;font-size:11.5px!important;line-height:1.55!important}
+ #damageResultCard>.damage-result-hint{grid-column:1/-1!important;grid-row:6!important;margin:0!important}
+}
+</style>
+<style id="card-compact-desktop-v368">
+/* v368: PC幅だけ図鑑カードをコンパクト化（スマホ幅・計算機・絞り込みは対象外） */
+@media (min-width:1024px){
+ #grid{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+ #grid .card{display:grid!important;grid-template-columns:132px minmax(0,1fr)!important;grid-template-rows:auto auto!important}
+ #grid .card .imagebox{grid-row:1!important;grid-column:1!important}
+ #grid .card .info{grid-row:1!important;grid-column:2!important}
+ #grid .card .inline-details{grid-column:1/-1!important}
+ #grid .card .imagebox{height:auto!important;min-height:0!important;padding:6px!important}
+ #grid .card .imagebox img{max-height:112px!important;width:auto!important;max-width:100%!important;object-fit:contain}
+ #grid .card .info{padding:10px 14px!important;gap:6px!important}
+ #grid .card .name{font-size:20px!important;line-height:1.3!important}
+ #grid .card .inline-details{display:grid!important;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr)!important;gap:8px!important;padding:0 10px 10px!important;align-items:start}
+ #grid .card .inline-details>section:nth-child(1){grid-column:1!important;grid-row:1/span 3!important;align-self:stretch}
+ #grid .card .inline-details>section:nth-child(2){grid-column:2!important;grid-row:1!important}
+ #grid .card .inline-details>section:nth-child(3){grid-column:3!important;grid-row:1!important}
+ #grid .card .inline-details>section:nth-child(4){grid-column:2!important;grid-row:2!important}
+ #grid .card .inline-details>section:nth-child(6){grid-column:3!important;grid-row:2!important}
+ #grid .card .inline-details>section:nth-child(5){grid-column:2/span 2!important;grid-row:3!important}
+ #grid .card .inline-section{padding:8px 10px!important;margin:0!important}
+ #grid .card .inline-section h3{font-size:13px!important;padding-bottom:4px!important;margin:0 0 6px!important}
+ #grid .card .agerank-control{margin:0 0 3px!important;font-size:11px!important}
+ #grid .card .agerank-control select{padding:2px 6px!important;font-size:12px!important}
+ #grid .card .agerank-note{font-size:10px!important;line-height:1.4!important;margin:0 0 6px!important}
+ #grid .card .statgrid{gap:2px!important}
+ #grid .card .statbar-row{padding:1px 0!important;grid-template-columns:100px minmax(30px,1fr) 34px!important;gap:6px!important;min-height:0!important}
+ #grid .card .statbar-row b{width:20px!important;height:20px!important;font-size:11px!important}
+ #grid .card .statbar-label{font-size:11px!important;gap:5px!important}
+ #grid .card .statbar-track{height:8px!important}
+ #grid .card .statbar-row strong{font-size:14px!important}
+ #grid .card .move-wait-row{padding:4px 10px!important;margin:6px 0 0!important}
+ #grid .card .move-wait-row span{font-size:13px!important}
+ #grid .card .move-wait-row strong{font-size:15px!important}
+ #grid .card .inline-section p.small{font-size:10px!important;line-height:1.4!important;margin:4px 0 0!important}
+ #grid .card .inline-move{padding:0!important}
+ #grid .card .inline-move-title{font-size:12.5px!important;padding-bottom:4px!important;line-height:1.45!important}
+ #grid .card .inline-move-effect{font-size:12px!important;line-height:1.5!important;margin-top:4px!important}
+ #grid .card .inline-move-body{margin-top:4px!important}
+ #grid .card .inline-move-body>.inline-move-effect{margin-top:0!important}
+}
+@media (min-width:1600px){
+ #grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+</style>
+
+<script id="party-script-v379">
+/* v379: パーティ編成（6体）。選択はこのブラウザに保存（localStorage）。既存機能・既存データは変更しない */
+(function(){
+const KEY='yw3-party-v1',MAX=6;
+const load=()=>{try{const v=JSON.parse(localStorage.getItem(KEY)||'[]');return Array.isArray(v)?v.filter(id=>data.some(x=>x.id===id)).slice(0,MAX):[]}catch(e){return []}};
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(window.__party))}catch(e){}};
+window.__party=load();
+const ATTRS=['火','水','雷','土','風','氷'];const AC={'火':'fire','水':'water','風':'wind','土':'earth','雷':'thunder','氷':'ice'};
+const aHtml=v=>AC[v]?`<span class="attr-char attr-${AC[v]}">${esc(v)}</span>`:esc(v);
+const members=()=>window.__party.map(id=>data.find(x=>x.id===id)).filter(Boolean);
+const mvs=(x,t)=>(x.moves||[]).filter(m=>m&&typeof m==='object'&&m.type===t);
+const chip=x=>`<span class="party-chip"><img src="${esc(x.image)}" alt="">${esc(x.name)}</span>`;
+function analysis(ms){
+ if(!ms.length)return '';
+ const weak={},strong={},atk={};ATTRS.forEach(a=>{weak[a]=[];strong[a]=[];atk[a]=[]});const unknown=[];
+ ms.forEach(x=>{const af=x.attributeAffinity||{};if(af.strong==='未確認')unknown.push(x);if(weak[af.weak])weak[af.weak].push(x);if(strong[af.strong])strong[af.strong].push(x);
+  ['magic','ultimate'].forEach(t=>mvs(x,t).forEach(m=>{const a=attributeOf(m);if(atk[a]&&!atk[a].some(e=>e.x===x&&e.t===t))atk[a].push({x,t,m})}))});
+ const weakRows=ATTRS.map(a=>{const n=weak[a].length;const lv=n>=3?'danger':n===2?'warn':'';return `<tr class="${lv}"><th>${aHtml(a)}</th><td>${n?weak[a].map(chip).join(''):'<span class="party-muted">なし</span>'}</td><td>${strong[a].length?strong[a].map(chip).join(''):'<span class="party-muted">なし</span>'}</td></tr>`}).join('');
+ const atkRows=ATTRS.map(a=>`<tr class="${atk[a].length?'':'none'}"><th>${aHtml(a)}</th><td>${atk[a].length?atk[a].map(e=>`<span class="party-chip"><img src="${esc(e.x.image)}" alt="">${esc(e.x.name)}<small>${e.t==='magic'?'妖術':'必殺技'}「${esc(e.m.name||'')}」</small></span>`).join(''):'<span class="party-muted">なし</span>'}</td></tr>`).join('');
+ /* v380: ステータス合計の代わりにスキルを表示 */const skillRows=ms.map(x=>{const sk=(x.skills||[]).filter(Boolean);return `<tr><th>${chip(x)}</th><td>${sk.length?sk.map(m=>typeof m==='string'?`<b>${esc(m)}</b>`:`<div class="party-skill"><b>${esc(m.name||'スキル')}</b><span>${esc(m.effect||'詳細なし')}</span></div>`).join(''):'<span class="party-muted">詳細なし</span>'}</td></tr>`}).join('');
+ const roleRows=ms.map(x=>{const p=mvs(x,'possession')[0];const u=mvs(x,'ultimate')[0];const pl=p?(()=>{const st=effectStatFor(p)||'',dg=effectDegreeFor(p)||'';return st&&!['混乱','行動妨害','回復','HP減少','移動妨害','ダメージ','お金ばらまき','その他'].includes(st)?st+dg:(dg&&dg!=='その他'?dg:st||'効果未確認')})():'詳細なし';const uc=u&&typeof ultimateCategory==='function'?ultimateCategory(u):'';return `<tr><th>${chip(x)}</th><td>${p?esc(p.name)+' 【'+esc(pl)+'】':'詳細なし'}</td><td>${u?`<div class="party-ult"><span>${esc(u.name)} 【${attributeOf(u)?aHtml(attributeOf(u))+' ':''}${esc(String(u.power??'???'))}】${uc?` <span class="party-muted">${esc(uc)}</span>`:''}</span>${ultimateRangeHtml(u.range)/* v381: 必殺技の範囲 */}</div>`:'詳細なし'}</td></tr>`}).join('');
+ return `<div class="party-analysis">
+<section class="party-box"><h3>苦手・得意属性の重なり</h3><p class="party-note">苦手が同じ属性に2体（黄）・3体以上（赤）重なると、その属性の攻撃でまとめて狙われやすくなります。</p><table class="party-table"><thead><tr><th>属性</th><th>この属性が苦手</th><th>この属性が得意</th></tr></thead><tbody>${weakRows}</tbody></table>${unknown.length?`<p class="party-note">得意・苦手が未確認：${unknown.map(chip).join('')}</p>`:''}</section>
+<section class="party-box"><h3>攻撃できる属性（妖術・必殺技）</h3><p class="party-note">相手の苦手属性を突ける手段の一覧です。「なし」の属性は、その属性が苦手な相手に有利を取れません。</p><table class="party-table"><tbody>${atkRows}</tbody></table></section>
+<section class="party-box"><h3>スキル</h3><table class="party-table"><thead><tr><th>妖怪</th><th>スキル</th></tr></thead><tbody>${skillRows}</tbody></table></section>
+<section class="party-box"><h3>とりつき・必殺技</h3><table class="party-table"><thead><tr><th>妖怪</th><th>とりつき</th><th>必殺技</th></tr></thead><tbody>${roleRows}</tbody></table></section>
+</div>`;}
+function renderParty(){
+ const ms=members();const sec=document.getElementById('party');if(!sec)return;sec.classList.toggle('show',ms.length>0);document.getElementById('partyCount').textContent=`${ms.length}/${MAX}`;
+ const slots=[];for(let i=0;i<MAX;i++){const x=ms[i];slots.push(x?`<div class="party-slot"><button type="button" class="cmp-remove party-remove" data-party-remove="${esc(x.id)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button><img src="${esc(x.image)}" alt=""><div class="party-slot-body"><div class="party-slot-name">${esc(x.name)}</div><div class="tags"><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}</div></div></div>`:`<div class="party-slot empty"><span>空き</span></div>`)}
+ document.getElementById('partyBody').innerHTML=`<div class="party-slots">${slots.join('')}</div>${analysis(ms)}<p class="small">パーティはこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体）。</p>`;}
+window.renderParty=renderParty;
+const set=(ids)=>{window.__party=ids.slice(0,MAX);save();render();renderParty();};
+document.addEventListener('change',e=>{const c=e.target.closest&&e.target.closest('[data-party]');if(!c)return;const id=c.dataset.party;const ids=window.__party.filter(v=>v!==id);if(c.checked){if(ids.length>=MAX){c.checked=false;return}ids.push(id)}set(ids);});
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-party-remove]');if(b){set(window.__party.filter(v=>v!==b.dataset.partyRemove));return}if(e.target.id==='partyClear'){set([])}});
+if(window.__party.length)render();renderParty();
+})();
+</script>
+</body></html>

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>必殺技範囲入力ツール</title>
+<style>
+:root{color-scheme:dark;--bg:#101522;--panel:#1a2234;--panel2:#222d43;--line:#35425b;--text:#f2f5fb;--muted:#aebbd0;--accent:#8ce1d0;--warn:#ffd58b;--danger:#ff9b9b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5}
+button,input{font:inherit;color:inherit}
+button{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:#0c1a18;border-color:var(--accent);font-weight:700}
+.wrap{max-width:980px;margin:0 auto;padding:16px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+header h1{font-size:20px;margin:0}
+.head-actions{display:flex;flex-wrap:wrap;gap:8px}
+.progress{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:12px}
+.progress-row{display:flex;justify-content:space-between;gap:8px;font-size:14px;color:var(--muted)}
+.progress-row strong{color:var(--text)}
+.bar{height:8px;background:var(--panel2);border-radius:99px;overflow:hidden;margin-top:6px}
+.bar>i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.notice{border-radius:10px;padding:8px 12px;margin-bottom:12px;font-size:14px;background:#23314a;border:1px solid var(--line)}
+.notice.warn{background:#3a2f17;border-color:#6b5420;color:var(--warn)}
+.notice[hidden]{display:none}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+.yokai{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;align-items:center}
+.yokai img{width:96px;height:96px;object-fit:contain;background:var(--panel2);border-radius:12px}
+.no{color:var(--muted);font-size:14px}
+.name{font-size:24px;font-weight:700;margin:0}
+.meta{color:var(--muted);font-size:13px}
+.ult{margin-top:14px;padding:12px 14px;background:var(--panel2);border-radius:12px}
+.ult-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.ult-label{font-size:12px;color:var(--muted)}
+.ult-name{font-size:20px;font-weight:700}
+.power{font-size:18px;font-weight:700;color:var(--accent)}
+.effect{margin:6px 0 0;font-size:14px;color:var(--muted)}
+.status{margin-top:12px;font-size:14px}
+.status b{color:var(--accent)}
+.status.unset b{color:var(--warn)}
+.patterns{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:10px;margin-top:14px}
+.pat{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 6px}
+.pat.selected{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset;background:#1f3a3a}
+.grid3{display:grid;grid-template-columns:repeat(3,18px);grid-template-rows:repeat(3,18px);gap:3px}
+.grid3 span{border:1px solid #8a94a8;border-radius:3px;background:#ffffff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1}
+.grid3 span.on{background:#e53935;border-color:#b71c1c}
+.grid3 span.q{color:#101522}
+.pat small{font-size:11px;color:var(--muted)}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
+.nav .spacer{flex:1}
+.jump{display:flex;gap:6px;align-items:center}
+.jump input{width:80px;padding:7px 8px;border-radius:10px;border:1px solid var(--line);background:var(--bg)}
+.keys{margin-top:12px;font-size:12px;color:var(--muted)}
+kbd{border:1px solid var(--line);border-radius:4px;padding:0 4px;background:var(--panel2);font-size:11px}
+.done{text-align:center;padding:24px}
+@media(max-width:640px){
+ .wrap{padding:12px 16px}
+ .patterns{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .yokai{grid-template-columns:72px minmax(0,1fr)}
+ .yokai img{width:72px;height:72px}
+ .name{font-size:20px}
+ .nav .spacer{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <h1>必殺技範囲入力ツール</h1>
+  <div class="head-actions">
+   <button type="button" id="saveQuit">保存してやめる</button>
+   <button type="button" id="exportBtn">ファイルに書き出し</button>
+   <button type="button" id="importBtn">ファイルから読み込み</button>
+   <input type="file" id="importFile" accept=".json,application/json" hidden>
+  </div>
+ </header>
+ <div class="progress" aria-live="polite">
+  <div class="progress-row"><span>設定済み <strong id="doneCount">0</strong> / <span id="totalCount">0</span></span><span id="posText">—</span></div>
+  <div class="bar"><i id="barFill"></i></div>
+ </div>
+ <div id="notice" class="notice" role="status" hidden></div>
+ <div id="storageWarn" class="notice warn" hidden>このブラウザでは途中経過を自動保存できません。やめる前に「ファイルに書き出し」で保存し、再開時に「ファイルから読み込み」を使ってください。</div>
+ <main class="card" id="main">
+  <div class="yokai">
+   <img id="img" alt="">
+   <div>
+    <div class="no" id="no">—</div>
+    <p class="name" id="name">読み込み中…</p>
+    <div class="meta" id="meta"></div>
+   </div>
+  </div>
+  <div class="ult">
+   <div class="ult-head"><span class="ult-label">必殺技</span><span class="ult-name" id="ultName">—</span><span class="ult-label">威力</span><span class="power" id="power">—</span></div>
+   <p class="effect" id="effect"></p>
+  </div>
+  <div class="status" id="status"></div>
+  <div class="patterns" id="patterns" role="group" aria-label="必殺技の範囲"></div>
+  <div class="nav">
+   <button type="button" id="prev">← 前へ</button>
+   <button type="button" id="next">次へ →</button>
+   <button type="button" id="nextUnset">次の未設定へ</button>
+   <span class="spacer"></span>
+   <div class="jump"><label for="jumpNo">No.</label><input id="jumpNo" type="number" min="1" max="698" inputmode="numeric"><button type="button" id="jumpBtn">移動</button></div>
+   <button type="button" id="clearOne">この妖怪の設定を取り消す</button>
+  </div>
+  <p class="keys">キーボード：<kbd>1</kbd>〜<kbd>9</kbd>・<kbd>0</kbd>・<kbd>-</kbd>・<kbd>^</kbd>（または <kbd>=</kbd>）・<kbd>Q</kbd>・<kbd>W</kbd>・<kbd>E</kbd> で範囲を選択（左から順）、<kbd>←</kbd><kbd>→</kbd> で前後に移動。選ぶと自動で保存され、次の妖怪に進みます。</p>
+ </main>
+</div>
+<script src="../data/data.js"></script>
+<script src="../data/description_master.js"></script>
+<script>
+(()=>{
+ 'use strict';
+ const STORAGE_KEY='yw3-ultimate-range-tool-v1';
+ // 範囲パターン（ユーザー提示の図の左から順）。cells は上段→下段、左→右の9マス。? は不明マス。
+ const PATTERNS=[
+  {id:1,cells:'000000000'},
+  {id:2,cells:'000111111'},
+  {id:3,cells:'111111000'},
+  {id:4,cells:'010010010'},
+  {id:5,cells:'000000111'},
+  {id:6,cells:'111000000'},
+  {id:7,cells:'101010101'},
+  {id:8,cells:'010111010'},
+  {id:9,cells:'010101010'},
+  {id:10,cells:'101101101'},
+  {id:11,cells:'0000?0000'},
+  {id:12,cells:'111010010'},
+  {id:13,cells:'100110011'},
+  {id:14,cells:'100010001'},
+  {id:15,cells:'111111111'}
+ ];
+ // 12番目は日本語キーボードの「^」、英語キーボードの「=」どちらでも選べる
+ // 13番目以降はキーボード配列に関係なく同じ位置の Q・W
+ const KEYS=['1','2','3','4','5','6','7','8','9','0','-','^','q','w','e'];
+ const KEY_ALIASES={'=':'^','Q':'q','W':'w','E':'e'};
+ const $=id=>document.getElementById(id);
+ const data=(window.YOKAI_DATA||[]).slice().sort((a,b)=>(a.officialNo||0)-(b.officialNo||0));
+ const master=window.YOKAI_DESCRIPTION_MASTER||{};
+ const total=data.length;
+ let state={v:1,idx:0,ranges:{}};
+ let storageOk=true;
+
+ const ultOf=y=>{const u=(y.moves||[]).find(m=>m&&m.type==='ultimate')||{};let effect=u.effect;if((!effect||effect==='詳細なし')&&master['ultimate|'+u.name]?.effect)effect=master['ultimate|'+u.name].effect;return {name:u.name||'（未登録）',power:(u.power===undefined||u.power===null||String(u.power).trim()==='')?'未登録':String(u.power),effect:effect||'詳細なし'}};
+ const pad=n=>String(n).padStart(3,'0');
+
+ function load(){try{const raw=localStorage.getItem(STORAGE_KEY);if(raw){const s=JSON.parse(raw);if(s&&s.ranges&&typeof s.idx==='number'){state=s;return true;}}}catch(e){storageOk=false;}return false;}
+ function save(){state.updatedAt=new Date().toISOString();try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));storageOk=true;}catch(e){storageOk=false;}$('storageWarn').hidden=storageOk;}
+ function notice(msg){const n=$('notice');n.textContent=msg;n.hidden=!msg;}
+ const doneCount=()=>data.filter(y=>state.ranges[y.officialNo]).length;
+
+ function gridHtml(cells){return '<span class="grid3" aria-hidden="true">'+[...cells].map(c=>c==='1'?'<span class="on"></span>':c==='?'?'<span class="q">?</span>':'<span></span>').join('')+'</span>';}
+ function buildButtons(){
+  $('patterns').innerHTML=PATTERNS.map((p,i)=>`<button type="button" class="pat" data-id="${p.id}" aria-label="範囲${p.id}（キー ${KEYS[i].toUpperCase()}）">${gridHtml(p.cells)}<small>${p.id}　<kbd>${KEYS[i].toUpperCase()}</kbd></small></button>`).join('');
+  $('patterns').addEventListener('click',e=>{const b=e.target.closest('.pat');if(b)choose(Number(b.dataset.id));});
+ }
+
+ function render(){
+  if(!total){$('name').textContent='data.js を読み込めませんでした。ツールは tools フォルダに置いたまま開いてください。';return;}
+  state.idx=Math.max(0,Math.min(total-1,state.idx));
+  const y=data[state.idx],u=ultOf(y);
+  $('no').textContent='No.'+pad(y.officialNo);
+  $('name').textContent=y.name;
+  $('meta').textContent=[y.tribe,y.rank].filter(Boolean).join('・');
+  const img=$('img');img.style.visibility='visible';img.onerror=()=>{img.style.visibility='hidden'};img.src=y.image?'../'+y.image:'';img.alt=y.name;
+  $('ultName').textContent=u.name;$('power').textContent=u.power;$('effect').textContent=u.effect;
+  const sel=state.ranges[y.officialNo];
+  const st=$('status');st.className='status'+(sel?'':' unset');
+  st.innerHTML=sel?'この妖怪の範囲：<b>範囲'+sel.pattern+'</b>':'この妖怪の範囲：<b>未設定</b>';
+  document.querySelectorAll('.pat').forEach(b=>{const on=sel&&Number(b.dataset.id)===sel.pattern;b.classList.toggle('selected',!!on);b.setAttribute('aria-pressed',on?'true':'false');});
+  const d=doneCount();$('doneCount').textContent=d;$('totalCount').textContent=total;$('barFill').style.width=(d/total*100)+'%';
+  $('posText').textContent=`${state.idx+1} 件目 / ${total}`;
+  $('prev').disabled=state.idx===0;$('next').disabled=state.idx===total-1;
+ }
+
+ function choose(id){
+  const y=data[state.idx],p=PATTERNS.find(p=>p.id===id);if(!y||!p)return;
+  state.ranges[y.officialNo]={pattern:p.id,cells:p.cells,name:y.name,ultimate:ultOf(y).name,at:new Date().toISOString()};
+  const wasLast=state.idx===total-1;
+  if(!wasLast)state.idx++;
+  save();
+  notice(wasLast?`No.${pad(y.officialNo)} ${y.name} を範囲${p.id}に設定しました。最後の妖怪です。`+(doneCount()===total?' 全員の設定が終わりました。「ファイルに書き出し」で結果を保存してください。':' 未設定の妖怪は「次の未設定へ」で確認できます。'):`No.${pad(y.officialNo)} ${y.name} を範囲${p.id}に設定しました。`);
+  render();
+ }
+ function go(i){state.idx=i;save();notice('');render();}
+ function nextUnset(){for(let k=1;k<=total;k++){const i=(state.idx+k)%total;if(!state.ranges[data[i].officialNo]){go(i);return;}}notice('未設定の妖怪はありません。');}
+
+ function exportFile(){
+  const out={tool:'yw3-ultimate-range-tool',format:1,exportedAt:new Date().toISOString(),total,done:doneCount(),position:{index:state.idx,officialNo:data[state.idx]?.officialNo},
+   patterns:PATTERNS.map(p=>({id:p.id,cells:p.cells})),cellsOrder:'上段左→上段右→中段→下段（図の見た目どおり）。?は不明マス',
+   ranges:data.filter(y=>state.ranges[y.officialNo]).map(y=>({officialNo:y.officialNo,name:y.name,ultimate:ultOf(y).name,pattern:state.ranges[y.officialNo].pattern,cells:state.ranges[y.officialNo].cells}))};
+  const blob=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
+  const t=new Date(),s=t.getFullYear()+String(t.getMonth()+1).padStart(2,'0')+String(t.getDate()).padStart(2,'0')+'-'+String(t.getHours()).padStart(2,'0')+String(t.getMinutes()).padStart(2,'0');
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`yw3_ultimate_ranges_${s}.json`;document.body.append(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);
+  notice(`${out.done}件の設定をファイルに書き出しました。`);
+ }
+ function importFile(file){
+  const r=new FileReader();
+  r.onload=()=>{try{const j=JSON.parse(r.result);if(j.tool!=='yw3-ultimate-range-tool'||!Array.isArray(j.ranges))throw new Error('形式が違います');
+   const ranges={};let skipped=0;
+   j.ranges.forEach(x=>{const y=data.find(y=>y.officialNo===x.officialNo);const p=PATTERNS.find(p=>p.id===x.pattern);if(!y||!p){skipped++;return;}ranges[y.officialNo]={pattern:p.id,cells:p.cells,name:y.name,ultimate:ultOf(y).name,at:j.exportedAt};});
+   const cur=doneCount();
+   if(cur>0&&!window.confirm(`今のブラウザ内の設定（${cur}件）を、ファイルの設定（${Object.keys(ranges).length}件）で置き換えます。よろしいですか？`))return;
+   state.ranges=ranges;const pi=data.findIndex(y=>y.officialNo===j.position?.officialNo);state.idx=pi>=0?pi:0;save();render();
+   notice(`ファイルから${Object.keys(ranges).length}件を読み込みました。`+(skipped?`（読み込めなかった項目 ${skipped}件）`:''));
+  }catch(e){notice('読み込めませんでした：'+e.message);}};
+  r.readAsText(file);
+ }
+
+ $('prev').addEventListener('click',()=>go(state.idx-1));
+ $('next').addEventListener('click',()=>go(state.idx+1));
+ $('nextUnset').addEventListener('click',nextUnset);
+ $('jumpBtn').addEventListener('click',()=>{const n=Number($('jumpNo').value);const i=data.findIndex(y=>y.officialNo===n);if(i<0){notice('その番号の妖怪はいません。');return;}go(i);/* 移動後すぐキーで範囲を選べるよう入力欄から外す */$('jumpNo').blur();});
+ $('jumpNo').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('jumpBtn').click();}});
+ $('clearOne').addEventListener('click',()=>{const y=data[state.idx];if(state.ranges[y.officialNo]){delete state.ranges[y.officialNo];save();notice(`No.${pad(y.officialNo)} ${y.name} の設定を取り消しました。`);render();}});
+ $('saveQuit').addEventListener('click',()=>{save();const y=data[state.idx];notice(storageOk?`保存しました（${doneCount()}件）。このページを閉じても、次に開くと No.${pad(y.officialNo)} ${y.name} から再開します。`:'このブラウザでは保存できませんでした。「ファイルに書き出し」で保存してください。');});
+ $('exportBtn').addEventListener('click',exportFile);
+ $('importBtn').addEventListener('click',()=>$('importFile').click());
+ $('importFile').addEventListener('change',e=>{const f=e.target.files[0];if(f)importFile(f);e.target.value='';});
+ document.addEventListener('keydown',e=>{
+  if(e.target.closest('input')||e.ctrlKey||e.metaKey||e.altKey)return;
+  const k=KEYS.indexOf(KEY_ALIASES[e.key]||e.key);
+  if(k>=0){e.preventDefault();choose(PATTERNS[k].id);return;}
+  if(e.key==='ArrowLeft'&&state.idx>0){e.preventDefault();go(state.idx-1);}
+  else if(e.key==='ArrowRight'&&state.idx<total-1){e.preventDefault();go(state.idx+1);}
+ });
+
+ buildButtons();
+ const resumed=load();
+ $('storageWarn').hidden=storageOk;
+ render();
+ if(resumed&&total){const y=data[state.idx];notice(`前回の続き（No.${pad(y.officialNo)} ${y.name}、設定済み ${doneCount()}件）から再開しました。`);}
+})();
+</script>
+</body>
+</html>
