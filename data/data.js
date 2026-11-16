@@ -478,7 +478,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0002.png",
+    "image": "images/yokai/003.png",
     "rank": "Eランク",
     "stats": {
       "hp": 198,
@@ -721,7 +721,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0003.png",
+    "image": "images/yokai/004.png",
     "rank": "Cランク",
     "stats": {
       "hp": 221,
@@ -963,7 +963,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0004.png",
+    "image": "images/yokai/005.png",
     "rank": "Bランク",
     "stats": {
       "hp": 216,
@@ -1207,7 +1207,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0005.png",
+    "image": "images/yokai/006.png",
     "rank": "Eランク",
     "stats": {
       "hp": 212,
@@ -1459,7 +1459,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0006.png",
+    "image": "images/yokai/007.png",
     "rank": "Cランク",
     "stats": {
       "hp": 246,
@@ -1704,7 +1704,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0007.png",
+    "image": "images/yokai/008.png",
     "rank": "Bランク",
     "stats": {
       "hp": 254,
@@ -1950,7 +1950,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0008.png",
+    "image": "images/yokai/009.png",
     "rank": "Eランク",
     "stats": {
       "hp": 195,
@@ -2213,7 +2213,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0009.png",
+    "image": "images/yokai/010.png",
     "rank": "Bランク",
     "stats": {
       "hp": 239,
@@ -2464,7 +2464,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0010.png",
+    "image": "images/yokai/011.png",
     "rank": "Eランク",
     "stats": {
       "hp": 198,
@@ -2713,7 +2713,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0011.png",
+    "image": "images/yokai/012.png",
     "rank": "Aランク",
     "stats": {
       "hp": 282,
@@ -2967,7 +2967,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0012.png",
+    "image": "images/yokai/013.png",
     "rank": "Eランク",
     "stats": {
       "hp": 215,
@@ -3214,7 +3214,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0013.png",
+    "image": "images/yokai/014.png",
     "rank": "Aランク",
     "stats": {
       "hp": 277,
@@ -3468,7 +3468,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0014.png",
+    "image": "images/yokai/015.png",
     "rank": "Sランク",
     "stats": {
       "hp": 305,
@@ -3987,7 +3987,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0016.png",
+    "image": "images/yokai/017.png",
     "rank": "Dランク",
     "stats": {
       "hp": 293,
@@ -4253,7 +4253,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0017.png",
+    "image": "images/yokai/018.png",
     "rank": "Dランク",
     "stats": {
       "hp": 259,
@@ -4740,7 +4740,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0019.png",
+    "image": "images/yokai/020.png",
     "rank": "Dランク",
     "stats": {
       "hp": 307,
@@ -4992,7 +4992,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0020.png",
+    "image": "images/yokai/021.png",
     "rank": "Bランク",
     "stats": {
       "hp": 324,
@@ -5249,7 +5249,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0021.png",
+    "image": "images/yokai/022.png",
     "rank": "Dランク",
     "stats": {
       "hp": 273,
@@ -5490,7 +5490,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0022.png",
+    "image": "images/yokai/023.png",
     "rank": "Bランク",
     "stats": {
       "hp": 310,
@@ -6213,7 +6213,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0025.png",
+    "image": "images/yokai/026.png",
     "rank": "Dランク",
     "stats": {
       "hp": 257,
@@ -6463,7 +6463,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0026.png",
+    "image": "images/yokai/027.png",
     "rank": "Aランク",
     "stats": {
       "hp": 329,
@@ -6697,7 +6697,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0027.png",
+    "image": "images/yokai/028.png",
     "rank": "Sランク",
     "stats": {
       "hp": 337,
@@ -6928,7 +6928,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0028.png",
+    "image": "images/yokai/029.png",
     "rank": "Dランク",
     "stats": {
       "hp": 224,
@@ -7178,7 +7178,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0029.png",
+    "image": "images/yokai/030.png",
     "rank": "Aランク",
     "stats": {
       "hp": 273,
@@ -7448,7 +7448,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0030.png",
+    "image": "images/yokai/031.png",
     "rank": "Dランク",
     "stats": {
       "hp": 223,
@@ -8414,7 +8414,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0034.png",
+    "image": "images/yokai/035.png",
     "rank": "Cランク",
     "stats": {
       "hp": 279,
@@ -8786,7 +8786,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "プリーズプリーズ肉！",
         "effect": "栄養満点の肉を食べてHPを回復しつつ最強の状態になる。",
-        "power": "HP全回復＋全ステータス大アップ",
+        "power": "究極化",
         "alignment": "良",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/nikuyaki.php",
@@ -8806,6 +8806,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": {
+            "previous": "HP全回復＋全ステータス大アップ",
+            "value": "HP回復＋最強状態",
+            "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+            "checked": "2026-11-16"
+          },
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -9161,7 +9173,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0037.png",
+    "image": "images/yokai/038.png",
     "rank": "Cランク",
     "stats": {
       "hp": 298,
@@ -9409,7 +9421,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0038.png",
+    "image": "images/yokai/039.png",
     "rank": "Bランク",
     "stats": {
       "hp": 308,
@@ -9656,7 +9668,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0039.png",
+    "image": "images/yokai/040.png",
     "rank": "Cランク",
     "stats": {
       "hp": 281,
@@ -9917,7 +9929,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0040.png",
+    "image": "images/yokai/041.png",
     "rank": "Bランク",
     "stats": {
       "hp": 265,
@@ -10166,7 +10178,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0041.png",
+    "image": "images/yokai/042.png",
     "rank": "Aランク",
     "stats": {
       "hp": 274,
@@ -10423,7 +10435,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0042.png",
+    "image": "images/yokai/043.png",
     "rank": "Cランク",
     "stats": {
       "hp": 267,
@@ -10682,7 +10694,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0043.png",
+    "image": "images/yokai/044.png",
     "rank": "Aランク",
     "stats": {
       "hp": 280,
@@ -10935,7 +10947,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0044.png",
+    "image": "images/yokai/045.png",
     "rank": "Aランク",
     "stats": {
       "hp": 271,
@@ -11183,7 +11195,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0045.png",
+    "image": "images/yokai/046.png",
     "rank": "Sランク",
     "stats": {
       "hp": 302,
@@ -11437,7 +11449,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0046.png",
+    "image": "images/yokai/047.png",
     "rank": "Bランク",
     "stats": {
       "hp": 197,
@@ -11692,7 +11704,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0047.png",
+    "image": "images/yokai/048.png",
     "rank": "Bランク",
     "stats": {
       "hp": 230,
@@ -11805,7 +11817,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ファイナルガッツ！",
         "effect": "ガッツのポーズでHPを回復しつつ最強の状態になる。",
-        "power": "HP全回復＋全ステータス大アップ",
+        "power": "究極化",
         "alignment": "良",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/youkaigattuk.php",
@@ -11831,6 +11843,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": {
+            "previous": "HP全回復＋全ステータス大アップ",
+            "value": "HP回復＋最強状態",
+            "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+            "checked": "2026-11-16"
+          },
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -11953,7 +11977,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0048.png",
+    "image": "images/yokai/049.png",
     "rank": "Bランク",
     "stats": {
       "hp": 230,
@@ -12061,7 +12085,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "青春ガッツ！",
         "effect": "ガッツのポーズでHPを回復しつつ最強の状態になる。",
-        "power": "HP全回復＋全ステータス大アップ",
+        "power": "究極化",
         "alignment": "良",
         "powerAudit": {
           "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
@@ -12080,6 +12104,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": {
+            "previous": "HP全回復＋全ステータス大アップ",
+            "value": "HP回復＋最強状態",
+            "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+            "checked": "2026-11-16"
+          },
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -12461,7 +12497,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0050.png",
+    "image": "images/yokai/051.png",
     "rank": "Bランク",
     "stats": {
       "hp": 244,
@@ -12707,7 +12743,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0051.png",
+    "image": "images/yokai/052.png",
     "rank": "Aランク",
     "stats": {
       "hp": 269,
@@ -12956,7 +12992,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0052.png",
+    "image": "images/yokai/053.png",
     "rank": "Bランク",
     "stats": {
       "hp": 262,
@@ -13206,7 +13242,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0053.png",
+    "image": "images/yokai/054.png",
     "rank": "Aランク",
     "stats": {
       "hp": 280,
@@ -13454,7 +13490,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0054.png",
+    "image": "images/yokai/055.png",
     "rank": "Sランク",
     "stats": {
       "hp": 297,
@@ -13724,7 +13760,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0055.png",
+    "image": "images/yokai/056.png",
     "rank": "Aランク",
     "stats": {
       "hp": 263,
@@ -13978,7 +14014,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0056.png",
+    "image": "images/yokai/057.png",
     "rank": "Aランク",
     "stats": {
       "hp": 285,
@@ -14234,7 +14270,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0057.png",
+    "image": "images/yokai/058.png",
     "rank": "Aランク",
     "stats": {
       "hp": 310,
@@ -14487,7 +14523,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0058.png",
+    "image": "images/yokai/059.png",
     "rank": "Aランク",
     "stats": {
       "hp": 261,
@@ -14736,7 +14772,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0059.png",
+    "image": "images/yokai/060.png",
     "rank": "Sランク",
     "stats": {
       "hp": 286,
@@ -14988,7 +15024,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0060.png",
+    "image": "images/yokai/061.png",
     "rank": "Sランク",
     "stats": {
       "hp": 313,
@@ -15235,7 +15271,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0061.png",
+    "image": "images/yokai/062.png",
     "rank": "Sランク",
     "stats": {
       "hp": 273,
@@ -15491,7 +15527,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0062.png",
+    "image": "images/yokai/063.png",
     "rank": "Sランク",
     "stats": {
       "hp": 283,
@@ -15748,7 +15784,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0063.png",
+    "image": "images/yokai/064.png",
     "rank": "Sランク",
     "stats": {
       "hp": 304,
@@ -16773,7 +16809,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0067.png",
+    "image": "images/yokai/068.png",
     "rank": "Eランク",
     "stats": {
       "hp": 193,
@@ -17004,7 +17040,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0068.png",
+    "image": "images/yokai/069.png",
     "rank": "Eランク",
     "stats": {
       "hp": 158,
@@ -17343,7 +17379,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "晴れ晴れパッカーン",
         "effect": "敵全員の行動を遅くする。",
-        "power": "行動不可:中",
+        "power": "行動不能",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai70.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -17354,6 +17390,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "行動不可:中",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -17568,7 +17610,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "おすべりアイスリンク",
         "effect": "氷属性の床を作る。",
-        "power": "氷属性マス設置＋ちからダウン",
+        "power": "氷床",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai71.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -17589,6 +17631,13 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "氷属性マス設置＋ちからダウン",
+          "value": "氷床",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -17698,7 +17747,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0071.png",
+    "image": "images/yokai/072.png",
     "rank": "Eランク",
     "stats": {
       "hp": 198,
@@ -17933,7 +17982,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0072.png",
+    "image": "images/yokai/073.png",
     "rank": "Dランク",
     "stats": {
       "hp": 211,
@@ -18168,7 +18217,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0073.png",
+    "image": "images/yokai/074.png",
     "rank": "Eランク",
     "stats": {
       "hp": 191,
@@ -18274,7 +18323,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ポクチン念仏",
         "effect": "敵全員の行動を遅くする念仏を唱える。",
-        "power": "行動不可:中",
+        "power": "行動不能",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai74.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -18295,6 +18344,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "行動不可:中",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -18400,7 +18455,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0074.png",
+    "image": "images/yokai/075.png",
     "rank": "Cランク",
     "stats": {
       "hp": 209,
@@ -18505,7 +18560,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "やめはめ波",
         "effect": "敵全員の行動を遅くする念仏を唱える。",
-        "power": "行動不可:中",
+        "power": "行動不能",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai75.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -18526,6 +18581,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "行動不可:中",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -18631,7 +18692,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0075.png",
+    "image": "images/yokai/076.png",
     "rank": "Cランク",
     "stats": {
       "hp": 203,
@@ -18867,7 +18928,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0076.png",
+    "image": "images/yokai/077.png",
     "rank": "Eランク",
     "stats": {
       "hp": 135,
@@ -18971,7 +19032,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "スグワスレ～ル",
         "effect": "敵全員のよいとりつく効果を消す。",
-        "power": "良い効果を解除",
+        "power": "良い効果解除",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai77.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -18992,6 +19053,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "良い効果を解除",
+          "value": "良い効果解除",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -19101,7 +19168,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0077.png",
+    "image": "images/yokai/078.png",
     "rank": "Bランク",
     "stats": {
       "hp": 145,
@@ -19215,7 +19282,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "記憶にございません！",
         "effect": "敵が仲間割れする。",
-        "power": "混乱:強",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai78.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -19233,6 +19300,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:強",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -19342,7 +19415,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0078.png",
+    "image": "images/yokai/079.png",
     "rank": "Eランク",
     "stats": {
       "hp": 120,
@@ -19921,7 +19994,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "地獄耳ロックフェス",
         "effect": "敵全員を混乱させる。",
-        "power": "混乱:中",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai81.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -19942,6 +20015,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -20159,7 +20238,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ナンでバトってるん？",
         "effect": "敵全員を混乱させる。",
-        "power": "混乱:中",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai82.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -20180,6 +20259,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -20521,7 +20606,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0083.png",
+    "image": "images/yokai/084.png",
     "rank": "Dランク",
     "stats": {
       "hp": 224,
@@ -20755,7 +20840,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0084.png",
+    "image": "images/yokai/085.png",
     "rank": "Dランク",
     "stats": {
       "hp": 141,
@@ -20853,7 +20938,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ほじほじほ～じほじ",
         "effect": "敵全員を混乱させる。",
-        "power": "混乱:中",
+        "power": "混乱",
         "powerAudit": {
           "source": "ユーザー提供の訂正（2026-11-10）",
           "status": "ユーザー確認値採用",
@@ -20876,6 +20961,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -21582,7 +21673,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "なんかピンとこない話",
         "effect": "敵全員を混乱させる。",
-        "power": "混乱:中",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai88.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -21603,6 +21694,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -21819,7 +21916,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "むき卵つるりん波！",
         "effect": "自分のHPを回復し、よいとりつく効果もある。",
-        "power": "HP全回復＋全ステータス大アップ＋HP回復:強",
+        "power": "究極化",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai89.html",
           "status": "ゲームの匠個別ページで技名・説明を直接確認。威力・効果タグはHrs-Game全妖怪一覧を照合",
@@ -21837,6 +21934,13 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "HP全回復＋全ステータス大アップ＋HP回復:強",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -21947,7 +22051,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0089.png",
+    "image": "images/yokai/090.png",
     "rank": "Dランク",
     "stats": {
       "hp": 204,
@@ -22186,7 +22290,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0090.png",
+    "image": "images/yokai/091.png",
     "rank": "Cランク",
     "stats": {
       "hp": 219,
@@ -22412,7 +22516,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0091.png",
+    "image": "images/yokai/092.png",
     "rank": "Dランク",
     "stats": {
       "hp": 160,
@@ -22637,7 +22741,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0092.png",
+    "image": "images/yokai/093.png",
     "rank": "Bランク",
     "stats": {
       "hp": 201,
@@ -22879,7 +22983,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0093.png",
+    "image": "images/yokai/094.png",
     "rank": "Cランク",
     "stats": {
       "hp": 126,
@@ -23115,7 +23219,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0094.png",
+    "image": "images/yokai/095.png",
     "rank": "Dランク",
     "stats": {
       "hp": 203,
@@ -23349,7 +23453,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0095.png",
+    "image": "images/yokai/096.png",
     "rank": "Aランク",
     "stats": {
       "hp": 245,
@@ -23588,7 +23692,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0096.png",
+    "image": "images/yokai/097.png",
     "rank": "Aランク",
     "stats": {
       "hp": 266,
@@ -23811,7 +23915,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0097.png",
+    "image": "images/yokai/098.png",
     "rank": "Dランク",
     "stats": {
       "hp": 223,
@@ -24043,7 +24147,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0098.png",
+    "image": "images/yokai/099.png",
     "rank": "Aランク",
     "stats": {
       "hp": 265,
@@ -24273,7 +24377,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0100.png",
+    "image": "images/yokai/100.png",
     "rank": "Dランク",
     "stats": {
       "hp": 149,
@@ -24499,7 +24603,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0101.png",
+    "image": "images/yokai/101.png",
     "rank": "Aランク",
     "stats": {
       "hp": 200,
@@ -24736,7 +24840,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0102.png",
+    "image": "images/yokai/102.png",
     "rank": "Dランク",
     "stats": {
       "hp": 220,
@@ -24975,7 +25079,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0103.png",
+    "image": "images/yokai/103.png",
     "rank": "Aランク",
     "stats": {
       "hp": 313,
@@ -25213,7 +25317,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0104.png",
+    "image": "images/yokai/104.png",
     "rank": "Aランク",
     "stats": {
       "hp": 327,
@@ -25457,7 +25561,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0105.png",
+    "image": "images/yokai/105.png",
     "rank": "Sランク",
     "stats": {
       "hp": 333,
@@ -25711,7 +25815,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0106.png",
+    "image": "images/yokai/106.png",
     "rank": "Cランク",
     "stats": {
       "hp": 235,
@@ -25944,7 +26048,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0107.png",
+    "image": "images/yokai/107.png",
     "rank": "Cランク",
     "stats": {
       "hp": 239,
@@ -26183,7 +26287,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0108.png",
+    "image": "images/yokai/108.png",
     "rank": "Cランク",
     "stats": {
       "hp": 252,
@@ -26556,7 +26660,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "すっとこ素っ頓狂",
         "effect": "敵全員を混乱させる。",
-        "power": "混乱:中",
+        "power": "混乱",
         "attribute": "吸収",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai109.html",
@@ -26568,6 +26672,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -27375,7 +27485,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0113.png",
+    "image": "images/yokai/113.png",
     "rank": "Cランク",
     "stats": {
       "hp": 224,
@@ -27610,7 +27720,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0114.png",
+    "image": "images/yokai/114.png",
     "rank": "Cランク",
     "stats": {
       "hp": 185,
@@ -27842,7 +27952,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0115.png",
+    "image": "images/yokai/115.png",
     "rank": "Bランク",
     "stats": {
       "hp": 278,
@@ -27955,7 +28065,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ほうろう世界",
         "effect": "敵が仲間割れする。",
-        "power": "混乱:中",
+        "power": "混乱",
         "attribute": "雷",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai115.html",
@@ -27974,6 +28084,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -28084,7 +28200,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0116.png",
+    "image": "images/yokai/116.png",
     "rank": "Cランク",
     "stats": {
       "hp": 279,
@@ -28319,7 +28435,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0117.png",
+    "image": "images/yokai/117.png",
     "rank": "Bランク",
     "stats": {
       "hp": 300,
@@ -28549,7 +28665,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0118.png",
+    "image": "images/yokai/118.png",
     "rank": "Cランク",
     "stats": {
       "hp": 274,
@@ -28785,7 +28901,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0119.png",
+    "image": "images/yokai/119.png",
     "rank": "Aランク",
     "stats": {
       "hp": 290,
@@ -29039,7 +29155,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0120.png",
+    "image": "images/yokai/120.png",
     "rank": "Aランク",
     "stats": {
       "hp": 302,
@@ -29286,7 +29402,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0121.png",
+    "image": "images/yokai/121.png",
     "rank": "Bランク",
     "stats": {
       "hp": 229,
@@ -29887,7 +30003,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ナゾの席替えタイム",
         "effect": "敵のメインメンバーとサブメンバーを入れ替える。",
-        "power": "詳細なし",
+        "power": "メイン・サブ入れ替え",
         "attribute": "風",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/nazotoki.php",
@@ -29898,12 +30014,19 @@ window.YOKAI_DATA = [
           "historical_description_status": "Game-e個別ページの概要・効果欄を記録"
         },
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/nazotoki.php",
-          "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
-          "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
-          "checked": "2026-10-27",
-          "verification_level": "directly visible in search result snippet; page opening not independently automated",
-          "evidence": "Game-E個別ページ検索結果で必殺技「ナゾの席替えタイム」の威力Lv1・威力Lv10がともに「-」と表示。メンバー入替効果。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/nazotoki.php",
+            "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
+            "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
+            "checked": "2026-10-27",
+            "verification_level": "directly visible in search result snippet; page opening not independently automated",
+            "evidence": "Game-E個別ページ検索結果で必殺技「ナゾの席替えタイム」の威力Lv1・威力Lv10がともに「-」と表示。メンバー入替効果。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -30127,7 +30250,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ちゃんと拭きたまえ～",
         "effect": "敵全員を移動待機状態にする。",
-        "power": "詳細なし",
+        "power": "移動不能",
         "attribute": "吸収",
         "descriptionAudit": {
           "source": "https://gameobera.blog.jp/archives/56208416.html",
@@ -30138,10 +30261,17 @@ window.YOKAI_DATA = [
           "historical_description_status": "個別ページの技・効果欄を記録"
         },
         "powerAudit": {
-          "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
-          "method": "過去監査台帳で公式No・技種別・技名が完全一致し、rank10_powerが「-」、特殊効果型/数値威力なしと記録されていることを確認。",
-          "status": "特殊効果型・数値威力なし（履歴台帳に記録あり。独立再照合待ち）",
-          "checked": "2026-10-22"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
+            "method": "過去監査台帳で公式No・技種別・技名が完全一致し、rank10_powerが「-」、特殊効果型/数値威力なしと記録されていることを確認。",
+            "status": "特殊効果型・数値威力なし（履歴台帳に記録あり。独立再照合待ち）",
+            "checked": "2026-10-22"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -30364,7 +30494,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "こんなにもヒマな世界",
         "effect": "味方側の悪い床効果を無効化する。",
-        "power": "詳細なし",
+        "power": "悪い床効果を無効化",
         "attribute": "風",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/himazin.php",
@@ -30375,12 +30505,19 @@ window.YOKAI_DATA = [
           "historical_description_status": "Game-e個別ページの技・効果欄を記録"
         },
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/himazin.php",
-          "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
-          "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
-          "checked": "2026-10-27",
-          "verification_level": "directly visible in search result snippet; page opening not independently automated",
-          "evidence": "Game-E個別ページ検索結果で必殺技「こんなにもヒマな世界」の威力Lv1・威力Lv10がともに「-」と表示。床効果無効化の特殊効果型。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/himazin.php",
+            "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
+            "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
+            "checked": "2026-10-27",
+            "verification_level": "directly visible in search result snippet; page opening not independently automated",
+            "evidence": "Game-E個別ページ検索結果で必殺技「こんなにもヒマな世界」の威力Lv1・威力Lv10がともに「-」と表示。床効果無効化の特殊効果型。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -30603,7 +30740,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ナゾナゾなゾーン",
         "effect": "ナゾめいたオーラで敵全員を混乱させる。",
-        "power": "詳細なし",
+        "power": "混乱",
         "attribute": "氷",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/misuteri.php",
@@ -30614,18 +30751,31 @@ window.YOKAI_DATA = [
           "historical_description_status": "Game-e個別ページの技・効果欄を記録"
         },
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/misuteri.php",
-          "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
-          "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
-          "checked": "2026-10-27",
-          "verification_level": "directly visible in search result snippet; page opening not independently automated",
-          "evidence": "Game-E個別ページ検索結果で必殺技「ナゾナゾなゾーン」の威力Lv1・威力Lv10がともに「-」と表示。敵を混乱させる特殊効果型。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/misuteri.php",
+            "method": "Game-E個別ページの必殺技名とLv.1/Lv.10威力欄を確認。数値威力は入力しない。",
+            "status": "数値威力なし確認済み（Game-E個別ページのLv1/Lv10欄がともに「-」）",
+            "checked": "2026-10-27",
+            "verification_level": "directly visible in search result snippet; page opening not independently automated",
+            "evidence": "Game-E個別ページ検索結果で必殺技「ナゾナゾなゾーン」の威力Lv1・威力Lv10がともに「-」と表示。敵を混乱させる特殊効果型。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -30736,7 +30886,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0127.png",
+    "image": "images/yokai/127.png",
     "rank": "Aランク",
     "stats": {
       "hp": 239,
@@ -31235,7 +31385,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0130.png",
+    "image": "images/yokai/129.png",
     "rank": "Sランク",
     "stats": {
       "hp": 278,
@@ -31495,7 +31645,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0131.png",
+    "image": "images/yokai/130.png",
     "rank": "Sランク",
     "stats": {
       "hp": 318,
@@ -31750,7 +31900,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0132.png",
+    "image": "images/yokai/131.png",
     "rank": "Sランク",
     "stats": {
       "hp": 279,
@@ -31994,7 +32144,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ",
-    "image": "images/0133.png",
+    "image": "images/yokai/132.png",
     "rank": "Sランク",
     "stats": {
       "hp": 301,
@@ -32251,7 +32401,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0134.png",
+    "image": "images/yokai/133.png",
     "rank": "Sランク",
     "stats": {
       "hp": 295,
@@ -32490,7 +32640,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ2",
-    "image": "images/0135.png",
+    "image": "images/yokai/134.png",
     "rank": "Sランク",
     "stats": {
       "hp": 270,
@@ -32728,7 +32878,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチバスターズ",
-    "image": "images/0136.png",
+    "image": "images/yokai/135.png",
     "rank": "Sランク",
     "stats": {
       "hp": 287,
@@ -35839,7 +35989,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "縄文ハートブレイク",
-        "power": "混乱:中",
+        "power": "混乱",
         "attribute": "混乱",
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/1628",
@@ -35858,6 +36008,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:中",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -43029,7 +43185,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "あっけらかんのポ～イ",
         "level": 10,
-        "power": "良とりつき解除",
+        "power": "良い効果解除",
         "effect": "敵にかかるよいとりつく効果を消す。",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai175.html",
@@ -43047,16 +43203,10 @@ window.YOKAI_DATA = [
         },
         "alignment": "悪",
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "良とりつき解除",
-          "effectClass": "debuff_utility",
-          "alignment": "悪",
-          "source": "https://www.g-takumi.com/youkai3/youkai175.html",
-          "sourceEffect": "敵にかかるよいとりつく効果を消す。",
-          "rule": "数値のLv.10威力を意味しない。出典に明記された補助・回復・状態・継続効果を表示するラベル。数値威力未確認とは区別して管理。",
-          "reason": "効果説明が敵にかかる良いとりつき効果を消すことのみを明示。",
-          "targetPageDirectlyRecheckedThisBatch": false,
-          "checked": "2026-10-23"
+          "previous": "良とりつき解除",
+          "value": "良い効果解除",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "sourceRecheck": {
           "previousName": "あっけらかんのボ～イ",
@@ -49758,12 +49908,19 @@ window.YOKAI_DATA = [
           "status": "Excel v248の補完欄に出典URL・個別ページ確認メモがあり、未記入の説明欄へ反映。既存の説明文は上書きしていない。",
           "checked": "2026-10-26"
         },
-        "power": "詳細なし",
+        "power": "まもり超アップ",
         "powerAudit": {
-          "source": "未確認",
-          "method": "攻略大百科のランク1威力は使用しない",
-          "status": "Lv.10威力未確認。推測で登録しない",
-          "checked": "2026-10-22"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "未確認",
+            "method": "攻略大百科のランク1威力は使用しない",
+            "status": "Lv.10威力未確認。推測で登録しない",
+            "checked": "2026-10-22"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -51981,13 +52138,20 @@ window.YOKAI_DATA = [
           "status": "Excel v248の補完欄に出典URL・個別ページ確認メモがあり、未記入の説明欄へ反映。既存の説明文は上書きしていない。",
           "checked": "2026-10-26"
         },
-        "power": "詳細なし",
+        "power": "まもり超アップ",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/erusyakurero.php",
-          "method": "Game-Eの妖怪ウォッチ3個別ページの必殺技「威力Lv1・威力Lv10」欄を確認。数値がない場合は換算・推測しない。",
-          "status": "Game-E個別ページでLv.1/Lv.10とも「-」を確認（数値威力なし・効果型）",
-          "checked": "2026-10-27",
-          "evidence": "必殺技表は「シャクレロの雄叫び - - 守りアップ」。既存の効果表示を維持し数値威力は追加しない。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/erusyakurero.php",
+            "method": "Game-Eの妖怪ウォッチ3個別ページの必殺技「威力Lv1・威力Lv10」欄を確認。数値がない場合は換算・推測しない。",
+            "status": "Game-E個別ページでLv.1/Lv.10とも「-」を確認（数値威力なし・効果型）",
+            "checked": "2026-10-27",
+            "evidence": "必殺技表は「シャクレロの雄叫び - - 守りアップ」。既存の効果表示を維持し数値威力は追加しない。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -52595,7 +52759,7 @@ window.YOKAI_DATA = [
           "status": "Excel v248の補完欄に出典URL・個別ページ確認メモがあり、未記入の説明欄へ反映。既存の説明文は上書きしていない。",
           "checked": "2026-10-26"
         },
-        "power": "すばやさアップ",
+        "power": "すばやさ大アップ",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/bikyaku.php",
           "sourceUrls": [
@@ -52614,6 +52778,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "すばやさアップ",
+          "value": "すばやさ大アップ",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -52888,7 +53058,7 @@ window.YOKAI_DATA = [
           "status": "No.199-228 local source-backed audit confirms move name; effect text is included only if shared master or existing record supports it.",
           "checked": "2026-10-22"
         },
-        "power": "味方攻撃",
+        "power": "混乱",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/piyopiyoko.php",
           "method": "Game-E個別ページの必殺技威力Lv.10欄を直接確認。Lv.1値からの推測換算は行わない。",
@@ -52902,16 +53072,10 @@ window.YOKAI_DATA = [
           "level1AndLevel10": "Lv.1/Lv.10の掲載値を個別ページで確認"
         },
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "味方攻撃",
-          "effectClass": "status_debuff",
-          "alignment": "悪",
-          "source": "https://game-e.com/youkai-watch3/youkai-data/piyopiyoko.php",
-          "sourceEffect": "目が回るオーラで敵全員を混乱させる。混乱した敵は味方をすぐに攻撃する。",
-          "rule": "数値のLv.10威力を意味しない。Game-E個別ページで威力Lv1/Lv10とも数値なしと確認。",
-          "reason": "出典に明記された効果分類を表示。",
-          "targetPageDirectlyRecheckedThisBatch": true,
-          "checked": "2026-10-27"
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -53229,7 +53393,7 @@ window.YOKAI_DATA = [
           "status": "No.199-228 local source-backed audit confirms move name; effect text is included only if shared master or existing record supports it.",
           "checked": "2026-10-22"
         },
-        "power": "HP徐々に回復",
+        "power": "HPだんだん回復",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/hottokeki.php",
           "method": "Game-E個別ページの必殺技威力Lv.10欄を直接確認。Lv.1値からの推測換算は行わない。",
@@ -53243,16 +53407,10 @@ window.YOKAI_DATA = [
           "level1AndLevel10": "Lv.1/Lv.10の掲載値を個別ページで確認"
         },
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "HP徐々に回復",
-          "effectClass": "healing",
-          "alignment": "良",
-          "source": "https://game-e.com/youkai-watch3/youkai-data/hottokeki.php",
-          "sourceEffect": "ほっとする雰囲気をかもしだし味方全員のHPをだんだん回復する。",
-          "rule": "数値のLv.10威力を意味しない。Game-E個別ページで威力Lv1/Lv10とも数値なしと確認。",
-          "reason": "出典に明記された効果分類を表示。",
-          "targetPageDirectlyRecheckedThisBatch": true,
-          "checked": "2026-10-27"
+          "previous": "HP徐々に回復",
+          "value": "HPだんだん回復",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -55247,12 +55405,19 @@ window.YOKAI_DATA = [
           "status": "Excel v248の補完欄に出典URL・個別ページ確認メモがあり、未記入の説明欄へ反映。既存の説明文は上書きしていない。",
           "checked": "2026-10-26"
         },
-        "power": "詳細なし",
+        "power": "すばやさ大アップ",
         "powerAudit": {
-          "source": "未確認",
-          "method": "攻略大百科のランク1威力は使用しない",
-          "status": "Lv.10威力未確認。推測で登録しない",
-          "checked": "2026-10-22"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "未確認",
+            "method": "攻略大百科のランク1威力は使用しない",
+            "status": "Lv.10威力未確認。推測で登録しない",
+            "checked": "2026-10-22"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -57748,7 +57913,7 @@ window.YOKAI_DATA = [
           "status": "No.199-228 local source-backed audit confirms move name; effect text is included only if shared master or existing record supports it.",
           "checked": "2026-10-22"
         },
-        "power": "味方攻撃",
+        "power": "混乱",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/tsuragawari.php",
           "method": "Game-E個別ページの必殺技威力Lv.10欄を直接確認。Lv.1値からの推測換算は行わない。",
@@ -57762,16 +57927,10 @@ window.YOKAI_DATA = [
           "level1AndLevel10": "Lv.1/Lv.10の掲載値を個別ページで確認"
         },
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "味方攻撃",
-          "effectClass": "status_debuff",
-          "alignment": "悪",
-          "source": "https://game-e.com/youkai-watch3/youkai-data/tsuragawari.php",
-          "sourceEffect": "顔面をシャッフルして敵全員を混乱させ、味方をすぐに攻撃するようにする。",
-          "rule": "数値のLv.10威力を意味しない。Game-E個別ページで威力Lv1/Lv10とも数値なしと確認。",
-          "reason": "出典に明記された効果分類を表示。",
-          "targetPageDirectlyRecheckedThisBatch": true,
-          "checked": "2026-10-27"
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -58034,18 +58193,31 @@ window.YOKAI_DATA = [
           "status": "Excel v248の補完欄に出典URL・個別ページ確認メモがあり、未記入の説明欄へ反映。既存の説明文は上書きしていない。",
           "checked": "2026-10-26"
         },
-        "power": "詳細なし",
+        "power": "混乱",
         "powerAudit": {
-          "source": "未確認",
-          "method": "攻略大百科のランク1威力は使用しない",
-          "status": "Lv.10威力未確認。推測で登録しない",
-          "checked": "2026-10-22"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "未確認",
+            "method": "攻略大百科のランク1威力は使用しない",
+            "status": "Lv.10威力未確認。推測で登録しない",
+            "checked": "2026-10-22"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -59605,7 +59777,7 @@ window.YOKAI_DATA = [
           "status": "説明文は共通技マスターから表示。個別ページで確認。攻略大百科の技威力値は不採用。",
           "checked": "2026-10-22"
         },
-        "power": "HP徐々に回復",
+        "power": "HPだんだん回復",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/haku.php",
           "method": "Game-E個別ページの必殺技威力Lv.10欄を直接確認。Lv.1値からの推測換算は行わない。",
@@ -59621,16 +59793,10 @@ window.YOKAI_DATA = [
         "effect": "味方全員のHPを徐々に回復する。",
         "alignment": "良",
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "HP徐々に回復",
-          "effectClass": "healing",
-          "alignment": "良",
-          "source": "https://game-e.com/youkai-watch3/youkai-data/haku.php",
-          "sourceEffect": "味方全員のHPを徐々に回復する。",
-          "rule": "数値のLv.10威力を意味しない。Game-E個別ページで威力Lv1/Lv10とも数値なしと確認。",
-          "reason": "出典に明記された効果分類を表示。",
-          "targetPageDirectlyRecheckedThisBatch": true,
-          "checked": "2026-10-27"
+          "previous": "HP徐々に回復",
+          "value": "HPだんだん回復",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -59867,7 +60033,7 @@ window.YOKAI_DATA = [
           "status": "説明文は共通技マスターから表示。個別ページで確認。攻略大百科の技威力値は不採用。",
           "checked": "2026-10-22"
         },
-        "power": "睡眠・行動妨害",
+        "power": "行動不能",
         "powerAudit": {
           "source": "未確認",
           "method": "独立資料でLv.10威力を確認できていない。Gamepediaの威力は不採用。",
@@ -59877,16 +60043,10 @@ window.YOKAI_DATA = [
         "effect": "眠くなるけむりで敵全員を眠らせる。当たった敵はなかなか行動しなくなる。",
         "alignment": "悪",
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "睡眠・行動妨害",
-          "effectClass": "status_debuff",
-          "alignment": "悪",
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/1716",
-          "sourceEffect": "眠くなるけむりで敵全員を眠らせる。当たった敵はなかなか行動しなくなる。",
-          "rule": "数値のLv.10威力を意味しない。出典に明記された補助・回復・状態・継続効果を表示するラベル。数値威力未確認とは区別して管理。",
-          "reason": "効果説明が敵全員を眠らせ、行動しにくくすることを明示。",
-          "targetPageDirectlyRecheckedThisBatch": false,
-          "checked": "2026-10-23"
+          "previous": "睡眠・行動妨害",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -60918,7 +61078,7 @@ window.YOKAI_DATA = [
           "status": "説明文は共通技マスターから表示。個別ページで確認。攻略大百科の技威力値は不採用。",
           "checked": "2026-10-22"
         },
-        "power": "お金をばらまかせる",
+        "power": "お金ばらまき",
         "powerAudit": {
           "source": "未確認",
           "method": "独立資料でLv.10威力を確認できていない。Gamepediaの威力は不採用。",
@@ -60928,17 +61088,10 @@ window.YOKAI_DATA = [
         "effect": "敵全員にむちゃ振りし どんどんお金をばらまかせる。",
         "alignment": "悪",
         "powerLabelAudit": {
-          "labelType": "source-backed effect label; not numerical Lv.10 damage power",
-          "displayLabel": "お金をばらまかせる",
-          "effectClass": "utility_debuff",
-          "alignment": "悪",
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/705",
-          "sourceEffect": "敵全員にむちゃ振りし どんどんお金をばらまかせる。",
-          "displayValueType": "effect-summary-label",
-          "rule": "出典に明記された補助・回復効果を表示するラベル。数値Lv.10威力を確認したものではない。",
-          "reason": "出典付き効果説明が敵にお金をばらまかせる効果を明示。数値ダメージ威力の記載はない。",
-          "targetPageDirectlyRecheckedThisBatch": false,
-          "checked": "2026-10-23"
+          "previous": "お金をばらまかせる",
+          "value": "お金ばらまき",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -63653,7 +63806,7 @@ window.YOKAI_DATA = [
           "status": "説明文は共通技マスターから表示。個別ページで確認。攻略大百科の技威力値は不採用。",
           "checked": "2026-10-22"
         },
-        "power": "混乱・味方攻撃",
+        "power": "混乱",
         "powerAudit": {
           "source": "未確認",
           "method": "独立資料でLv.10威力を確認できていない。Gamepediaの威力は不採用。",
@@ -63663,16 +63816,10 @@ window.YOKAI_DATA = [
         "effect": "邪悪な波動で敵全員を混乱させる。当たった妖怪は味方をすぐにこうげきする。",
         "alignment": "悪",
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "混乱・味方攻撃",
-          "effectClass": "status_debuff",
-          "alignment": "悪",
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/1730",
-          "sourceEffect": "邪悪な波動で敵全員を混乱させる。当たった妖怪は味方をすぐにこうげきする。",
-          "rule": "数値のLv.10威力を意味しない。出典に明記された補助・回復・状態・継続効果を表示するラベル。数値威力未確認とは区別して管理。",
-          "reason": "効果説明が敵全員を混乱させ、味方を攻撃する状態にすると明記。",
-          "targetPageDirectlyRecheckedThisBatch": false,
-          "checked": "2026-10-23"
+          "previous": "混乱・味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -70659,7 +70806,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
-    "image": "images/yokai-v65-275.png",
+    "image": "images/yokai/275.png",
     "rank": "Bランク",
     "stats": {
       "hp": 239,
@@ -72491,7 +72638,7 @@ window.YOKAI_DATA = [
         "name": "つぶぞろいバディ",
         "effect": "ブドウの香りで敵全員を混乱させる。混乱した敵は味方をすぐに攻撃する。",
         "level": 10,
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/budounyan.php",
           "sourceUrls": [
@@ -72516,6 +72663,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -83309,7 +83462,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "hungry-G？",
         "effect": "肉を食べまくってHPを回復しつつ最強の状態になる。",
-        "power": "詳細なし",
+        "power": "究極化",
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/351",
           "status": "攻略大百科の対象妖怪個別ページに対する検索結果本文で必殺技名・説明文を照合。ページの直接再閲覧は未完了",
@@ -83317,15 +83470,22 @@ window.YOKAI_DATA = [
           "evidence_type": "individual_monster_page_search_result"
         },
         "powerAudit": {
-          "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
-          "method": "Hrs-Game全妖怪一覧の該当公式番号・妖怪名の王冠レベル欄で必殺技名・威力区分を照合。攻略大百科のランク1威力を転用しない。",
-          "status": "特殊効果型・数値威力なし（技効果カテゴリを確認）",
-          "officialNo": 319,
-          "yokaiName": "ハングリーＧ",
-          "moveType": "ultimate",
-          "moveName": "hungry-G？",
-          "verifiedPower": "詳細なし",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
+            "method": "Hrs-Game全妖怪一覧の該当公式番号・妖怪名の王冠レベル欄で必殺技名・威力区分を照合。攻略大百科のランク1威力を転用しない。",
+            "status": "特殊効果型・数値威力なし（技効果カテゴリを確認）",
+            "officialNo": 319,
+            "yokaiName": "ハングリーＧ",
+            "moveType": "ultimate",
+            "moveName": "hungry-G？",
+            "verifiedPower": "詳細なし",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "attribute": "回復＋補助",
         "range": {
@@ -83333,6 +83493,13 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -86196,7 +86363,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "どっちらけビーム",
         "effect": "にえきらない態度で敵にかかっている良い効果を解除する。",
-        "power": "詳細なし",
+        "power": "良い効果解除",
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/1810",
           "status": "攻略大百科の対象妖怪個別ページに対する検索結果本文で必殺技名・説明文を照合。ページの直接再閲覧は未完了",
@@ -86204,15 +86371,22 @@ window.YOKAI_DATA = [
           "evidence_type": "individual_monster_page_search_result"
         },
         "powerAudit": {
-          "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
-          "method": "Hrs-Game全妖怪一覧の該当公式番号・妖怪名の王冠レベル欄で必殺技名・威力区分を照合。攻略大百科のランク1威力を転用しない。",
-          "status": "特殊効果型・数値威力なし（技効果カテゴリを確認）",
-          "officialNo": 329,
-          "yokaiName": "どっちつかず",
-          "moveType": "ultimate",
-          "moveName": "どっちらけビーム",
-          "verifiedPower": "詳細なし",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://hrs-game.main.jp/youkai_watch3/daijiten-00.html",
+            "method": "Hrs-Game全妖怪一覧の該当公式番号・妖怪名の王冠レベル欄で必殺技名・威力区分を照合。攻略大百科のランク1威力を転用しない。",
+            "status": "特殊効果型・数値威力なし（技効果カテゴリを確認）",
+            "officialNo": 329,
+            "yokaiName": "どっちつかず",
+            "moveType": "ultimate",
+            "moveName": "どっちらけビーム",
+            "verifiedPower": "詳細なし",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "attribute": "補助",
         "range": {
@@ -87852,7 +88026,7 @@ window.YOKAI_DATA = [
         "name": "おきらくヒーロー参上",
         "effect": "ふざけたポーズで敵全員に謎のオーラを放ち、味方をすぐに攻撃させる。",
         "level": 10,
-        "power": "敵全員に味方攻撃",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/rakutendou.php",
           "sourceUrls": [
@@ -87878,6 +88052,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -89017,7 +89197,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "絶交オーラ",
         "effect": "邪悪で危険な霊魂で敵にかかっている良い効果を解除する。",
-        "power": "詳細なし",
+        "power": "良い効果解除",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/zekkoutyou2.php",
           "status": "対象妖怪の個別データの必殺技名・説明を検索結果本文で照合。ページ直接再閲覧は未完了",
@@ -89025,14 +89205,21 @@ window.YOKAI_DATA = [
           "evidence_type": "individual_monster_page_search_result"
         },
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/zekkoutyou2.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/zekkoutyou2.php"
-          ],
-          "status": "Game-E個別ページでLv.1/Lv.10とも数値威力「-」を直接確認（効果型）",
-          "method": "必殺技欄のLv.1・Lv.10がともに「-」。効果説明・属性/効果分類を出典と照合。数値威力は追加せず、既存の効果ラベルを維持。",
-          "checked": "2026-10-27",
-          "evidence": "絶交オーラ - - 特殊攻撃。敵にかかっている良い効果を解除する。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/zekkoutyou2.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/zekkoutyou2.php"
+            ],
+            "status": "Game-E個別ページでLv.1/Lv.10とも数値威力「-」を直接確認（効果型）",
+            "method": "必殺技欄のLv.1・Lv.10がともに「-」。効果説明・属性/効果分類を出典と照合。数値威力は追加せず、既存の効果ラベルを維持。",
+            "checked": "2026-10-27",
+            "evidence": "絶交オーラ - - 特殊攻撃。敵にかかっている良い効果を解除する。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "attribute": "補助",
         "range": {
@@ -90907,25 +91094,32 @@ window.YOKAI_DATA = [
         "name": "三択プレゼント",
         "effect": "何かが起きる。",
         "level": 10,
-        "power": "詳細なし",
+        "power": "ランダム効果",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai346.html",
           "status": "公式個別ページで技名・効果を確認。Lv.10数値威力は未確認。",
           "checked": "2026-10-22"
         },
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/santakuroushi.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/santakuroushi.php"
-          ],
-          "method": "Game-E個別ページの必殺技威力Lv.1/Lv.10欄を直接照合。Lv.10数値のみ数値威力として登録。",
-          "status": "Game-E個別ページでLv.1/Lv.10とも「-」を確認。数値威力なし、特殊効果型。",
-          "checked": "2026-10-27",
-          "officialNo": 346,
-          "yokaiName": "サンタク老師",
-          "moveType": "ultimate",
-          "moveName": "三択プレゼント",
-          "verifiedPower": "詳細なし"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/santakuroushi.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/santakuroushi.php"
+            ],
+            "method": "Game-E個別ページの必殺技威力Lv.1/Lv.10欄を直接照合。Lv.10数値のみ数値威力として登録。",
+            "status": "Game-E個別ページでLv.1/Lv.10とも「-」を確認。数値威力なし、特殊効果型。",
+            "checked": "2026-10-27",
+            "officialNo": 346,
+            "yokaiName": "サンタク老師",
+            "moveType": "ultimate",
+            "moveName": "三択プレゼント",
+            "verifiedPower": "詳細なし"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
@@ -92120,7 +92314,7 @@ window.YOKAI_DATA = [
           "status": "個別ページで効果・技種別・正式表記の再確認が必要",
           "checked": "2026-10-23"
         },
-        "power": "敵全員の行動を妨害",
+        "power": "行動不能",
         "powerAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai350.html",
           "method": "対象妖怪のLv.10欄を未確認。基礎威力から推測しない。",
@@ -92143,6 +92337,12 @@ window.YOKAI_DATA = [
           "previousPower": "未確認",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員の行動を妨害",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -94654,7 +94854,7 @@ window.YOKAI_DATA = [
         "name": "元気がヨーデル体操",
         "effect": "ハッピーになれるダンスでHPを回復しつつ最強の状態になる。",
         "level": 10,
-        "power": "HP回復・最強状態",
+        "power": "究極化",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/happiisan.php",
           "sourceUrls": [
@@ -94679,6 +94879,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": {
+            "previous": "HP回復・最強状態",
+            "value": "HP回復＋最強状態",
+            "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+            "checked": "2026-11-16"
+          },
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -97765,7 +97977,7 @@ window.YOKAI_DATA = [
         "name": "ポカポカばーちゃん",
         "effect": "ばーちゃんの最強の癒しパワーで味方全員を復活させ、HPも回復する。",
         "level": 10,
-        "power": "HP回復・復活",
+        "power": "復活＋HP回復",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/shinobaa.php",
           "sourceUrls": [
@@ -97794,6 +98006,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "HP回復・復活",
+          "value": "復活＋HP回復",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -99180,7 +99398,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "※麦茶でやんす。",
-        "power": "敵全員がお金をばらまく",
+        "power": "お金ばらまき",
         "effect": "悲しいオーラで敵全員がどうにもやるせなくなりどんどんお金をばらまく。",
         "attribute": "能力変化",
         "level": 10,
@@ -99200,6 +99418,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員がお金をばらまく",
+          "value": "お金ばらまき",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -100021,7 +100245,7 @@ window.YOKAI_DATA = [
         "name": "鬼さんこちら",
         "effect": "敵全員を誤った方向に導き、導かれた妖怪は味方をすぐ攻撃する。",
         "level": 10,
-        "power": "敵全員に味方攻撃",
+        "power": "混乱",
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/michibiki.php",
           "sourceUrls": [
@@ -100047,6 +100271,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -105464,7 +105694,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "ひねくれガス",
-        "power": "敵全員に味方攻撃",
+        "power": "混乱",
         "effect": "ひねくれるガスを敵全員にまき散らす。当たった敵は味方をすぐに攻撃する。",
         "attribute": "能力変化",
         "level": 10,
@@ -105484,6 +105714,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -105756,7 +105992,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "ギスギス好かーん！",
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "effect": "嫌な空気で敵全員を混乱させる。混乱した敵は味方をすぐにこうげきする。",
         "attribute": "能力変化",
         "level": 10,
@@ -105776,6 +106012,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -106013,7 +106255,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "ギスギスハハハーン！",
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "effect": "嫌な空気で敵全員を混乱させる。混乱した敵は味方ばかりこうげきする。",
         "attribute": "能力変化",
         "level": 10,
@@ -106033,6 +106275,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -107578,7 +107826,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "無線混ＬＡＮ環境構築",
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "effect": "敵全員の脳をハッキングし混乱させる。混乱すると味方をすぐにこうげきする。",
         "attribute": "能力変化",
         "level": 10,
@@ -107605,6 +107853,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -107848,7 +108102,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "脳内不正アクセス",
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "effect": "敵全員の脳をハッキングし混乱させる。混乱すると味方をすぐにこうげきする。",
         "attribute": "能力変化",
         "level": 10,
@@ -107875,6 +108129,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -108640,7 +108900,7 @@ window.YOKAI_DATA = [
       {
         "type": "ultimate",
         "name": "自己中ウザイでチュー",
-        "power": "敵全員に味方攻撃",
+        "power": "混乱",
         "effect": "敵全員に自己中な心を植えつける。当たった敵は味方をすぐにこうげきする。",
         "attribute": "能力変化",
         "level": 10,
@@ -108667,6 +108927,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -111572,7 +111838,7 @@ window.YOKAI_DATA = [
         "level": 10,
         "attribute": "物理",
         "name": "ディスりマクり絶口調",
-        "power": "敵全員を混乱",
+        "power": "混乱",
         "effect": "フリーキーなフロウで敵全体を混乱させる。混乱した敵は味方をすぐに攻撃する。",
         "powerAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/376",
@@ -111594,6 +111860,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -111836,7 +112108,7 @@ window.YOKAI_DATA = [
         "level": 10,
         "attribute": "物理",
         "name": "だり～っす",
-        "power": "敵全員の行動を妨害",
+        "power": "行動不能",
         "effect": "敵全員がなかなか行動しなくなる。",
         "powerAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai422.html",
@@ -111858,6 +112130,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員の行動を妨害",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -112235,7 +112513,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-424.png",
+    "image": "images/yokai/424.png",
     "rank": "Bランク",
     "stats": {
       "hp": 285,
@@ -112524,7 +112802,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-425.png",
+    "image": "images/yokai/425.png",
     "rank": "Bランク",
     "stats": {
       "hp": 251,
@@ -112796,7 +113074,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-426.png",
+    "image": "images/yokai/426.png",
     "rank": "Bランク",
     "stats": {
       "hp": 296,
@@ -113061,7 +113339,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-427.png",
+    "image": "images/yokai/427.png",
     "rank": "Bランク",
     "stats": {
       "hp": 256,
@@ -117467,7 +117745,7 @@ window.YOKAI_DATA = [
         "level": 10,
         "attribute": "物理",
         "name": "カミハエールZERO",
-        "power": "毒の床を生成",
+        "power": "毒床",
         "effect": "毒の床を作る。毒の床を通るとダメージを受ける。",
         "powerAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai443.html",
@@ -117488,6 +117766,12 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "毒の床を生成",
+          "value": "毒床",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -117732,7 +118016,7 @@ window.YOKAI_DATA = [
         "level": 10,
         "attribute": "物理",
         "name": "劇毒ヤブレカブレ",
-        "power": "毒の床を生成",
+        "power": "毒床",
         "effect": "特製の毒薬で毒の床を作り出す。毒の床の上を通るとダメージを受ける。",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/drkagemura.php",
@@ -117758,6 +118042,12 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "毒の床を生成",
+          "value": "毒床",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -119291,7 +119581,7 @@ window.YOKAI_DATA = [
         "level": 10,
         "attribute": "物理",
         "name": "イガイガおとし",
-        "power": "良いとりつく解除",
+        "power": "良い効果解除",
         "effect": "敵にかかっている良いとりつく効果を消す。",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/igaigaguri.php",
@@ -119317,6 +119607,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "良いとりつく解除",
+          "value": "良い効果解除",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -122217,7 +122513,7 @@ window.YOKAI_DATA = [
         "name": "パラリラ大爆走",
         "effect": "敵全員のHPをだんだん減らす。",
         "level": 10,
-        "power": "HP継続減少",
+        "power": "HPだんだん減少",
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai461.html",
           "status": "No.461公式個別ページで技名・効果を確認。Lv.10数値威力は未確認のため詳細なし。",
@@ -122225,16 +122521,10 @@ window.YOKAI_DATA = [
         },
         "alignment": "悪",
         "powerLabelAudit": {
-          "labelType": "source-backed non-numeric effect label",
-          "displayLabel": "HP継続減少",
-          "effectClass": "damage_over_time",
-          "alignment": "悪",
-          "source": "https://www.g-takumi.com/youkai3/youkai461.html",
-          "sourceEffect": "敵全員のHPをだんだん減らす。",
-          "rule": "数値のLv.10威力を意味しない。出典に明記された補助・回復・状態・継続効果を表示するラベル。数値威力未確認とは区別して管理。",
-          "reason": "効果説明が敵全員のHPをだんだん減らす継続効果のみを明示し、単発の数値威力を示していない。",
-          "targetPageDirectlyRecheckedThisBatch": false,
-          "checked": "2026-10-23"
+          "previous": "HP継続減少",
+          "value": "HPだんだん減少",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         },
         "powerAudit": {
           "source": "未確認",
@@ -125296,16 +125586,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "level": 10,
         "name": "鼻毛でてナーイヨー",
-        "power": "詳細なし",
+        "power": "混乱",
         "effect": "敵全員を混乱させる。",
         "powerAudit": {
-          "source": "https://spwiki.net/youkaiwatch3/wikis/46.html",
-          "sourceUrls": [
-            "https://spwiki.net/youkaiwatch3/wikis/46.html"
-          ],
-          "method": "対象妖怪の公式番号・名前と個別ページを照合。Lv.10数値が確認できない場合は詳細なしまたは効果型表示。",
-          "status": "妖怪ウォッチ3最速攻略wikiの公式番号472・認MEN欄で必殺技名を確認。効果は攻略大百科の認MEN個別ページで確認。数値威力は未確認。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://spwiki.net/youkaiwatch3/wikis/46.html",
+            "sourceUrls": [
+              "https://spwiki.net/youkaiwatch3/wikis/46.html"
+            ],
+            "method": "対象妖怪の公式番号・名前と個別ページを照合。Lv.10数値が確認できない場合は詳細なしまたは効果型表示。",
+            "status": "妖怪ウォッチ3最速攻略wikiの公式番号472・認MEN欄で必殺技名を確認。効果は攻略大百科の認MEN個別ページで確認。数値威力は未確認。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://spwiki.net/youkaiwatch3/wikis/46.html",
@@ -125317,6 +125614,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員を混乱",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -125562,16 +125865,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "黄ばミスト",
         "level": 10,
-        "power": "詳細なし",
+        "power": "まもり大ダウン",
         "effect": "年季の入った古臭いオーラを敵全員にふりまき、まもりを大ダウンさせる。",
         "powerAudit": {
-          "source": "https://www.g-takumi.com/youkai3/youkai473.html",
-          "sourceUrls": [
-            "https://www.g-takumi.com/youkai3/youkai473.html"
-          ],
-          "method": "個別ページの妖怪番号・妖怪名・必殺技欄を照合。数値はLv.10威力と明記された場合だけ採用。",
-          "status": "出典確認済み。数値威力の未確認は詳細なしを維持。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://www.g-takumi.com/youkai3/youkai473.html",
+            "sourceUrls": [
+              "https://www.g-takumi.com/youkai3/youkai473.html"
+            ],
+            "method": "個別ページの妖怪番号・妖怪名・必殺技欄を照合。数値はLv.10威力と明記された場合だけ採用。",
+            "status": "出典確認済み。数値威力の未確認は詳細なしを維持。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai473.html",
@@ -128064,16 +128374,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "level": 10,
         "name": "アッパレ自画自賛の舞",
-        "power": "詳細なし",
+        "power": "究極化",
         "effect": "自分を誉めたたえ、HPを回復しつつ最強の状態になる。",
         "powerAudit": {
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/1963",
-          "sourceUrls": [
-            "https://youkai.gamepedia.jp/yw3/monsters/1963"
-          ],
-          "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が確認できた場合のみ数値を登録。",
-          "status": "No.482・じがじぃさんの攻略大百科個別ページで必殺技名・説明を確認。Lv.10威力は未確認。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://youkai.gamepedia.jp/yw3/monsters/1963",
+            "sourceUrls": [
+              "https://youkai.gamepedia.jp/yw3/monsters/1963"
+            ],
+            "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が確認できた場合のみ数値を登録。",
+            "status": "No.482・じがじぃさんの攻略大百科個別ページで必殺技名・説明を確認。Lv.10威力は未確認。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/1963",
@@ -128085,6 +128402,13 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -129328,7 +129652,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v65-487.png",
+    "image": "images/yokai/487.png",
     "rank": "Cランク",
     "stats": {
       "hp": 231,
@@ -129472,16 +129796,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "level": 10,
         "name": "テンパルンバサンバ",
-        "power": "詳細なし",
+        "power": "混乱",
         "effect": "敵全員をテンパらせ、味方をすぐに攻撃する状態にする。",
         "powerAudit": {
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/1968",
-          "sourceUrls": [
-            "https://youkai.gamepedia.jp/yw3/monsters/1968"
-          ],
-          "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が未掲載の場合は推定せず効果型または詳細なし。",
-          "status": "No.487・テンパるンバの攻略大百科個別ページで必殺技名と混乱効果を確認。数値威力は未確認。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://youkai.gamepedia.jp/yw3/monsters/1968",
+            "sourceUrls": [
+              "https://youkai.gamepedia.jp/yw3/monsters/1968"
+            ],
+            "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が未掲載の場合は推定せず効果型または詳細なし。",
+            "status": "No.487・テンパるンバの攻略大百科個別ページで必殺技名と混乱効果を確認。数値威力は未確認。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/1968",
@@ -129493,6 +129824,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -136618,17 +136955,24 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "のろいのマイペース",
         "level": 10,
-        "power": "詳細なし",
+        "power": "すばやさ大ダウン",
         "attribute": "",
         "effect": "敵全員にマイペースになる呪いをかけて、すばやさを大ダウンさせる。",
         "powerAudit": {
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/1994",
-          "sourceUrls": [
-            "https://youkai.gamepedia.jp/yw3/monsters/1994"
-          ],
-          "method": "個別ページの必殺技名・効果を確認。Lv.10威力の数値記載を確認できないため数値を補完しない。",
-          "status": "技名・効果確認済み、Lv.10威力未確認",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://youkai.gamepedia.jp/yw3/monsters/1994",
+            "sourceUrls": [
+              "https://youkai.gamepedia.jp/yw3/monsters/1994"
+            ],
+            "method": "個別ページの必殺技名・効果を確認。Lv.10威力の数値記載を確認できないため数値を補完しない。",
+            "status": "技名・効果確認済み、Lv.10威力未確認",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/1994",
@@ -138600,20 +138944,27 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "からまれゾーン",
         "level": 10,
-        "power": "詳細なし",
+        "power": "混乱",
         "effect": "くねくねした不穏な動きで敵全員が味方をすぐに攻撃する。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/karamizon.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/karamizon.php"
-          ],
-          "method": "GAME-eの妖怪ウォッチ3個別ページで必殺技名と威力Lv1/Lv10欄を確認。両欄が「-」の場合は数値威力を設定せず、掲載された効果区分を監査記録に保存。",
-          "status": "Lv1/Lv10とも数値威力欄は「-」。効果型を確認。",
-          "level1": "-",
-          "level10": "-",
-          "effectClass": "特殊攻撃",
-          "checked": "2026-10-27",
-          "verification_level": "individual-page-effect-type-confirmed"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/karamizon.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/karamizon.php"
+            ],
+            "method": "GAME-eの妖怪ウォッチ3個別ページで必殺技名と威力Lv1/Lv10欄を確認。両欄が「-」の場合は数値威力を設定せず、掲載された効果区分を監査記録に保存。",
+            "status": "Lv1/Lv10とも数値威力欄は「-」。効果型を確認。",
+            "level1": "-",
+            "level10": "-",
+            "effectClass": "特殊攻撃",
+            "checked": "2026-10-27",
+            "verification_level": "individual-page-effect-type-confirmed"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/karamizon.php",
@@ -138625,6 +138976,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員に味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -138885,16 +139242,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "level": 10,
         "name": "チョベリバスター",
-        "power": "詳細なし",
+        "power": "混乱",
         "effect": "敵を仲間割れさせる。",
         "powerAudit": {
-          "source": "https://www.g-takumi.com/youkai3/youkai521.html",
-          "sourceUrls": [
-            "https://www.g-takumi.com/youkai3/youkai521.html"
-          ],
-          "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が確認できた場合のみ数値を登録。",
-          "status": "No.521・こんがらギャルの個別ページで必殺技名を確認。Lv.10威力と詳細説明は未確認。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://www.g-takumi.com/youkai3/youkai521.html",
+            "sourceUrls": [
+              "https://www.g-takumi.com/youkai3/youkai521.html"
+            ],
+            "method": "対象妖怪の個別攻略ページで必殺技欄を照合。Lv.10数値が確認できた場合のみ数値を登録。",
+            "status": "No.521・こんがらギャルの個別ページで必殺技名を確認。Lv.10威力と詳細説明は未確認。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://www.g-takumi.com/youkai3/youkai521.html",
@@ -138906,6 +139270,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱:強",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -139440,16 +139810,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ナンデモナイヨ",
         "level": 10,
-        "power": "詳細なし",
+        "power": "良い効果解除",
         "effect": "どうでもいい気分にして、敵全員にかかっている良い効果を解除する。",
         "powerAudit": {
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/2004",
-          "sourceUrls": [
-            "https://youkai.gamepedia.jp/yw3/monsters/2004"
-          ],
-          "method": "対象妖怪の個別資料の必殺技欄を照合。Lv.10と明記された数値のみ登録。",
-          "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://youkai.gamepedia.jp/yw3/monsters/2004",
+            "sourceUrls": [
+              "https://youkai.gamepedia.jp/yw3/monsters/2004"
+            ],
+            "method": "対象妖怪の個別資料の必殺技欄を照合。Lv.10と明記された数値のみ登録。",
+            "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/2004",
@@ -140565,16 +140942,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "大蛇の毒霧",
         "level": 10,
-        "power": "詳細なし",
+        "power": "HPだんだん減少",
         "effect": "大蛇の毒を敵全員に放出する。当たった敵はHPがだんだん減る。",
         "powerAudit": {
-          "source": "https://youkai.gamepedia.jp/yw3/monsters/2008",
-          "sourceUrls": [
-            "https://youkai.gamepedia.jp/yw3/monsters/2008"
-          ],
-          "method": "個別ページの妖怪番号・妖怪名・必殺技欄を照合。数値はLv.10威力と明記された場合だけ採用。",
-          "status": "出典確認済み。数値威力の未確認は詳細なしを維持。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://youkai.gamepedia.jp/yw3/monsters/2008",
+            "sourceUrls": [
+              "https://youkai.gamepedia.jp/yw3/monsters/2008"
+            ],
+            "method": "個別ページの妖怪番号・妖怪名・必殺技欄を照合。数値はLv.10威力と明記された場合だけ採用。",
+            "status": "出典確認済み。数値威力の未確認は詳細なしを維持。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://youkai.gamepedia.jp/yw3/monsters/2008",
@@ -142223,7 +142607,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "悪霊スッポンぽん！",
         "level": 10,
-        "power": "味方全員をおはらい",
+        "power": "おはらい",
         "effect": "背中のスッポンで悪霊を吸い取り、味方全員をおはらいする。",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/omoidasuppon.php",
@@ -142248,6 +142632,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方全員をおはらい",
+          "value": "おはらい",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -142505,7 +142895,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "トラウマバキューマー",
         "level": 10,
-        "power": "味方全員をおはらい",
+        "power": "おはらい",
         "effect": "背中の掃除機で悪霊を吸い取り、味方全員をおはらいする。",
         "powerAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/omoidashin.php",
@@ -142530,6 +142920,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方全員をおはらい",
+          "value": "おはらい",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -143624,16 +144020,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "竜神ロック",
         "level": 10,
-        "power": "詳細なし",
+        "power": "移動不能エリア生成",
         "effect": "敵の陣地に巨大な岩石を設置する。岩石が置かれたマスは通れなくなる。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/ryuuzin.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/ryuuzin.php"
-          ],
-          "method": "Game-E個別ページで公式番号538・龍神・必殺技「竜神ロック」を照合し、威力Lv.1/Lv.10欄がともに「-」であることを直接確認。数値威力を追加しない。",
-          "status": "数値威力なし・効果型確認済み（Lv.1/Lv.10とも「-」）",
-          "checked": "2026-10-27"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/ryuuzin.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/ryuuzin.php"
+            ],
+            "method": "Game-E個別ページで公式番号538・龍神・必殺技「竜神ロック」を照合し、威力Lv.1/Lv.10欄がともに「-」であることを直接確認。数値威力を追加しない。",
+            "status": "数値威力なし・効果型確認済み（Lv.1/Lv.10とも「-」）",
+            "checked": "2026-10-27"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/ryuuzin.php",
@@ -147405,20 +147808,27 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ボーっとしてました。",
         "level": 10,
-        "power": "詳細なし",
+        "power": "行動不能",
         "effect": "敵全員にボーっとするオーラを浴びせ、当たった妖怪の行動を妨げる。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/bobou.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/bobou.php"
-          ],
-          "method": "GAME-e個別ページの必殺技表でLv.1威力・Lv.10威力・効果を照合。Lv.1/Lv.10がともに「-」の場合は数値威力を推測せず効果ラベルを維持。",
-          "status": "個別ページ確認済み。行動不能効果型。威力Lv1/Lv10とも「-」。既存表示は詳細なしを維持。",
-          "checked": "2026-10-27",
-          "masterStatus": "direct-page-verified-no-numeric-lv10-power",
-          "sourcePowerLv1": "-",
-          "sourcePowerLv10": "-",
-          "powerDecision": "威力欄はLv.1/Lv.10とも「-」。数値威力は登録せず、確認できる効果型ラベルを表示。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/bobou.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/bobou.php"
+            ],
+            "method": "GAME-e個別ページの必殺技表でLv.1威力・Lv.10威力・効果を照合。Lv.1/Lv.10がともに「-」の場合は数値威力を推測せず効果ラベルを維持。",
+            "status": "個別ページ確認済み。行動不能効果型。威力Lv1/Lv10とも「-」。既存表示は詳細なしを維持。",
+            "checked": "2026-10-27",
+            "masterStatus": "direct-page-verified-no-numeric-lv10-power",
+            "sourcePowerLv1": "-",
+            "sourcePowerLv10": "-",
+            "powerDecision": "威力欄はLv.1/Lv.10とも「-」。数値威力は登録せず、確認できる効果型ラベルを表示。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/bobou.php",
@@ -147431,6 +147841,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員の行動を妨害",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -147671,16 +148087,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "あのえっとちょっと",
         "level": 10,
-        "power": "詳細なし",
+        "power": "行動不能",
         "effect": "敵全員にしどろもどろな妖気を浴びせ、当たった妖怪の行動を妨げる。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/shidoromodoro.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/shidoromodoro.php"
-          ],
-          "method": "対象妖怪の個別資料の必殺技欄を照合。Lv.10と明記された数値のみ登録。",
-          "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/shidoromodoro.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/shidoromodoro.php"
+            ],
+            "method": "対象妖怪の個別資料の必殺技欄を照合。Lv.10と明記された数値のみ登録。",
+            "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/shidoromodoro.php",
@@ -147692,6 +148115,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員の行動を妨害",
+          "value": "行動不能",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -148447,7 +148876,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "がまぐちブレイカー",
         "level": 10,
-        "power": "詳細なし",
+        "power": "お金ばらまき",
         "attribute": "",
         "effect": "敵全体の金銭感覚をマヒさせる呪いで、どんどんお金をばらまかせる。",
         "descriptionAudit": {
@@ -148456,19 +148885,32 @@ window.YOKAI_DATA = [
           "checked": "2026-10-23"
         },
         "powerAudit": {
-          "source": "https://gameobera.blog.jp/archives/63372093.html",
-          "sourceUrls": [
-            "https://gameobera.blog.jp/archives/63372093.html"
-          ],
-          "method": "個別資料を確認。Lv.10威力の明示値がないものは詳細なし。",
-          "status": "技名・効果確認済み、Lv.10威力未確認",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://gameobera.blog.jp/archives/63372093.html",
+            "sourceUrls": [
+              "https://gameobera.blog.jp/archives/63372093.html"
+            ],
+            "method": "個別資料を確認。Lv.10威力の明示値がないものは詳細なし。",
+            "status": "技名・効果確認済み、Lv.10威力未確認",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員がお金をばらまく",
+          "value": "お金ばらまき",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -148713,7 +149155,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "借金地獄絵図",
         "level": 10,
-        "power": "詳細なし",
+        "power": "お金ばらまき",
         "attribute": "",
         "effect": "敵全員がお金をばらまく。",
         "descriptionAudit": {
@@ -148722,19 +149164,32 @@ window.YOKAI_DATA = [
           "checked": "2026-10-23"
         },
         "powerAudit": {
-          "source": "https://www.g-takumi.com/youkai3/youkai557.html",
-          "sourceUrls": [
-            "https://www.g-takumi.com/youkai3/youkai557.html"
-          ],
-          "method": "個別ページを確認。Lv.10威力の数値記載がないため推測せず空欄扱い。",
-          "status": "技名・効果確認済み、Lv.10威力未確認",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://www.g-takumi.com/youkai3/youkai557.html",
+            "sourceUrls": [
+              "https://www.g-takumi.com/youkai3/youkai557.html"
+            ],
+            "method": "個別ページを確認。Lv.10威力の数値記載がないため推測せず空欄扱い。",
+            "status": "技名・効果確認済み、Lv.10威力未確認",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "range": {
           "pattern": 1,
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "敵全員がお金をばらまく",
+          "value": "お金ばらまき",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       },
       {
@@ -150659,16 +151114,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "イマモオルゾーン",
         "level": 10,
-        "power": "詳細なし",
+        "power": "まもり超アップ",
         "effect": "全身を油でツルツルにすることで、自分のまもりを超アップする。",
         "powerAudit": {
-          "source": "https://gameobera.blog.jp/archives/63420810.html",
-          "sourceUrls": [
-            "https://gameobera.blog.jp/archives/63420810.html"
-          ],
-          "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
-          "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://gameobera.blog.jp/archives/63420810.html",
+            "sourceUrls": [
+              "https://gameobera.blog.jp/archives/63420810.html"
+            ],
+            "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
+            "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://gameobera.blog.jp/archives/63420810.html",
@@ -151225,16 +151687,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "すねすねソウル",
         "level": 10,
-        "power": "詳細なし",
+        "power": "良い効果解除",
         "effect": "器を小さくする呪いで、敵にかかっている良い効果を強制的に解除する。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/sunesuneku.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/sunesuneku.php"
-          ],
-          "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
-          "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/sunesuneku.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/sunesuneku.php"
+            ],
+            "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
+            "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/sunesuneku.php",
@@ -151510,16 +151979,23 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "うっちゃり毒牙",
         "level": 10,
-        "power": "詳細なし",
+        "power": "ちから大ダウン",
         "effect": "まむしの毒を波動にしてふりまき、敵全員のちからを大ダウンさせる。",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/mamushigyouzi.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/mamushigyouzi.php"
-          ],
-          "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
-          "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
-          "checked": "2026-10-23"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/mamushigyouzi.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/mamushigyouzi.php"
+            ],
+            "method": "公式番号・妖怪名・必殺技欄を個別資料で照合。Lv.10と明記された数値のみ登録。",
+            "status": "出典確認済み。Lv.10威力未確認は詳細なし。",
+            "checked": "2026-10-23"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/mamushigyouzi.php",
@@ -156906,7 +157382,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ファサファサ厄払い",
         "level": 10,
-        "power": "効果解除",
+        "power": "良い効果解除",
         "effect": "敵をパタパタとはたき敵にかかっている良い効果を解除する",
         "attribute": "特殊攻撃",
         "powerAudit": {
@@ -156932,6 +157408,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "効果解除",
+          "value": "良い効果解除",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -159539,7 +160021,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0593.png",
     "imageSourcePage": "https://www.g-takumi.com/youkai3/youkai597.html",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lanks.php",
@@ -160807,7 +161288,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0598.png",
     "imageSourcePage": "https://youkai.gamepedia.jp/yw3/monsters/361",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lanks.php",
@@ -161559,7 +162039,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0601.png",
     "imageSourcePage": "https://www.g-takumi.com/youkai3/youkai605.html",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lanks.php",
@@ -162413,7 +162892,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "フシギ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/0605.png",
+    "image": "images/yokai/609.png",
     "rank": "Sランク",
     "stats": {
       "hp": 272,
@@ -162595,7 +163074,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0605.png",
     "imageSourcePage": "https://www.g-takumi.com/youkai3/youkai609.html",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lanks.php",
@@ -163049,7 +163527,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "ネタバレフィナーレ",
         "level": 10,
-        "power": "HP回復＋最強状態",
+        "power": "究極化",
         "effect": "美しすぎる完璧な舞でHPを回復しつつ最強の状態になる",
         "attribute": "回復属性",
         "powerAudit": {
@@ -163075,6 +163553,13 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -163567,20 +164052,27 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "うんざりうんちく地獄",
         "level": 10,
-        "power": "詳細なし",
+        "power": "混乱",
         "effect": "呪いの波動で敵全員を混乱させる 混乱した敵は味方をすぐに攻撃する",
         "attribute": "味方攻撃",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/unchikuma.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/unchikuma.php"
-          ],
-          "masterStatus": "direct-page-verified-no-numeric-lv10-power",
-          "method": "GAME-e個別ページの「必殺技」表からLv.1/Lv.10威力・属性と効果文を確認。Lv.10欄が「-」の場合は数値を推測せず、表示用の効果型ラベルまたは「詳細なし」を設定。",
-          "checked": "2026-10-23",
-          "sourcePowerLv1": "-",
-          "sourcePowerLv10": "-",
-          "powerDecision": "威力表は「-」。威力数値は推測せず「詳細なし」。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/unchikuma.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/unchikuma.php"
+            ],
+            "masterStatus": "direct-page-verified-no-numeric-lv10-power",
+            "method": "GAME-e個別ページの「必殺技」表からLv.1/Lv.10威力・属性と効果文を確認。Lv.10欄が「-」の場合は数値を推測せず、表示用の効果型ラベルまたは「詳細なし」を設定。",
+            "checked": "2026-10-23",
+            "sourcePowerLv1": "-",
+            "sourcePowerLv10": "-",
+            "powerDecision": "威力表は「-」。威力数値は推測せず「詳細なし」。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/unchikuma.php",
@@ -163593,6 +164085,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "混乱・味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -164346,7 +164844,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "三途の川まで逝ってQ",
         "level": 10,
-        "power": "味方攻撃",
+        "power": "混乱",
         "effect": "謎の「Q」の紋章で敵全員を混乱させる。混乱した敵は味方をすぐに攻撃する",
         "attribute": "味方攻撃",
         "powerAudit": {
@@ -164373,6 +164871,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -164747,7 +165251,7 @@ window.YOKAI_DATA = [
     "category": "現代種族",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-618.png",
+    "image": "images/yokai/618.png",
     "rank": "Sランク",
     "stats": {
       "hp": 328,
@@ -166080,6 +166584,17 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "features": [
+      "装備枠二つ"
+    ],
+    "featuresAudit": {
+      "previous": null,
+      "value": [
+        "装備枠二つ"
+      ],
+      "source": "ユーザー指示（2026-11-16）",
+      "checked": "2026-11-16"
     }
   },
   {
@@ -166267,7 +166782,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0619.png",
     "imageSourcePage": "https://youkai.gamepedia.jp/yw3/monsters/18674",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lankc.php",
@@ -171932,7 +172446,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "苦寝苦寝オドリ～",
         "level": 10,
-        "power": "味方攻撃",
+        "power": "混乱",
         "effect": "奇妙な動きで敵全員を混乱させる。混乱した妖怪は味方をすぐに攻撃する",
         "attribute": "味方攻撃",
         "powerAudit": {
@@ -171958,6 +172472,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -173751,7 +174271,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "さきのびポイゾーン",
         "level": 10,
-        "power": "床ダメージ",
+        "power": "毒床",
         "effect": "毒液を発射し毒の床を作り出す 毒の床の上を通るとダメージを受ける",
         "attribute": "床ダメージ",
         "powerAudit": {
@@ -173777,6 +174297,12 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "床ダメージ",
+          "value": "毒床",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -174261,7 +174787,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "お奇抜コレクション",
         "level": 10,
-        "power": "味方攻撃",
+        "power": "混乱",
         "effect": "奇抜なファッションで敵全員を混乱させる。混乱した妖怪は味方をすぐに攻撃する",
         "attribute": "味方攻撃",
         "powerAudit": {
@@ -174287,6 +174813,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -175367,7 +175899,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0654.png",
     "imageSourcePage": "https://youkai.gamepedia.jp/yw3/monsters/18666",
     "agerankAudit": {
       "source": "https://game-e.com/youkai-watch3/youkai/lanks.php",
@@ -176916,7 +177447,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "大喝采スピーチ天国",
         "level": 10,
-        "power": "HP回復＋最強状態",
+        "power": "究極化",
         "effect": "最高のスピーチでHPを回復しつつ最強の状態になる",
         "attribute": "回復属性",
         "powerAudit": {
@@ -176942,6 +177473,13 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previousAudit": null,
+          "previous": "HP回復＋最強状態",
+          "value": "究極化",
+          "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -177182,7 +177720,7 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "素晴らしきクマ知識",
         "level": 10,
-        "power": "味方攻撃",
+        "power": "混乱",
         "effect": "ムダな知識を連発し敵全員を混乱させる。混乱した妖怪は味方をすぐに攻撃する。",
         "attribute": "味方攻撃",
         "powerAudit": {
@@ -177208,6 +177746,12 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "powerLabelAudit": {
+          "previous": "味方攻撃",
+          "value": "混乱",
+          "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
+          "checked": "2026-11-16"
         }
       }
     ],
@@ -177445,20 +177989,27 @@ window.YOKAI_DATA = [
         "type": "ultimate",
         "name": "私の犬顔おじさん",
         "level": 10,
-        "power": "詳細なし",
+        "power": "HP回復",
         "effect": "紳士の魅力に満ちあふれたダンディーな微笑みで味方全員のHPを回復する",
         "attribute": "回復属性",
         "powerAudit": {
-          "source": "https://game-e.com/youkai-watch3/youkai-data/jientorumenken.php",
-          "sourceUrls": [
-            "https://game-e.com/youkai-watch3/youkai-data/jientorumenken.php"
-          ],
-          "masterStatus": "individual-page-verified",
-          "method": "GAME-e個別妖怪ページの必殺技欄で技名・Lv.1威力・Lv.10威力・属性・効果を確認して転記。",
-          "checked": "2026-10-23",
-          "sourcePowerLv1": "90",
-          "sourcePowerLv10": "-",
-          "powerDecision": "個別ページ掲載値を転記。Lv.1威力=90、Lv.10威力=-。数値威力はなく、効果説明に基づくラベル表示。"
+          "previous": "詳細なし",
+          "previousAudit": {
+            "source": "https://game-e.com/youkai-watch3/youkai-data/jientorumenken.php",
+            "sourceUrls": [
+              "https://game-e.com/youkai-watch3/youkai-data/jientorumenken.php"
+            ],
+            "masterStatus": "individual-page-verified",
+            "method": "GAME-e個別妖怪ページの必殺技欄で技名・Lv.1威力・Lv.10威力・属性・効果を確認して転記。",
+            "checked": "2026-10-23",
+            "sourcePowerLv1": "90",
+            "sourcePowerLv10": "-",
+            "powerDecision": "個別ページ掲載値を転記。Lv.1威力=90、Lv.10威力=-。数値威力はなく、効果説明に基づくラベル表示。"
+          },
+          "source": "data.jsの必殺技説明文（effect）",
+          "method": "説明文に書かれた効果を、既存の必殺技と同じ効果ラベル形式で表記（数値威力ではない）",
+          "status": "効果分類（説明文から付与）",
+          "checked": "2026-11-16"
         },
         "descriptionAudit": {
           "source": "https://game-e.com/youkai-watch3/youkai-data/jientorumenken.php",
@@ -184605,7 +185156,6 @@ window.YOKAI_DATA = [
       }
     },
     "dataStatus": "fushigi-stat-complete-special-move-details-present",
-    "imageFallback": "images/0682.png",
     "imageSourcePage": "https://www.g-takumi.com/youkai3/youkai692.html",
     "agerankAudit": {
       "source": "https://www.g-takumi.com/youkai3/youkai692.html",
@@ -185515,7 +186065,7 @@ window.YOKAI_DATA = [
     "category": "公式一覧・詳細未登録",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
-    "image": "images/yokai-v64-696.png",
+    "image": "images/yokai/696.png",
     "rank": "Sランク",
     "stats": {
       "hp": 448,
