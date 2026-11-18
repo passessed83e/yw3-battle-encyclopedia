@@ -445,7 +445,7 @@
 <div class="skill-image-modal-head"><div class="skill-image-modal-head-copy"><h2 id="skillImageModalTitle">スキルを持つ妖怪</h2><p id="skillImageModalSub">スキル名をクリックすると、同じスキルや同じ効果を持つ妖怪を一覧表示します。</p></div><button id="skillImageModalClose" type="button" data-skill-close aria-label="閉じる">閉じる ✕</button></div>
 <div id="skillImageModalBody" class="skill-image-modal-body"></div>
 </section></div>
-<script src="data/tech_master.js"></script><script src="data/description_master.js"></script><script src="data/skill_master.js"></script><script src="data/data.js"></script><script src="data/mynyan.js"></script><script>
+<script src="data/tech_master.js"></script><script src="data/description_master.js"></script><script src="data/skill_master.js"></script><script src="data/data.js"></script><script src="data/mynyan.js"></script><script src="data/party_master.js"></script><script>
 const $=id=>document.getElementById(id); const data=window.YOKAI_DATA||[]; const techMaster=window.YOKAI_TECH_MASTER||{}; const descriptionMaster=window.YOKAI_DESCRIPTION_MASTER||{}; const skillMaster=window.YOKAI_SKILL_MASTER||{}; // 旧レイアウトを維持し、スキルの共通マスターだけ参照する。
 data.forEach(y=>{y.moves=(y.moves||[]).map(m=>{if(!m||typeof m!=='object')return m;const d=descriptionMaster[`${m.type}|${m.name}`];const patched={...m};if((!patched.effect||patched.effect==='詳細なし')&&d?.effect&&d.effect!=='詳細なし'&&(d.status?.startsWith('verified-')||d.status?.startsWith('user-edited-')))patched.effect=d.effect;if(['attack','magic'].includes(m.type)){const t=techMaster[m.techId];patched.power=t?.power||patched.power||'詳細なし';}return patched;});y.skills=(y.skills||[]).map(sk=>{const raw=typeof sk==='string'?{name:sk,effect:'詳細なし'}:{...sk};const entry=skillMaster[raw.skillMasterId];const variant=entry?.variants?.find(v=>v.id===raw.skillEffectId);return {...raw,name:entry?.name||raw.name||'スキル',effect:variant?.effect||raw.effect||'詳細なし',skillMasterId:entry?.id||raw.skillMasterId||'',skillEffectId:variant?.id||raw.skillEffectId||'',effectGroupId:variant?.effectGroupId||raw.effectGroupId||''};});});
 const skillUsagesByName=new Map(),skillUsagesByEffect=new Map(),skillUsageByRelationKey=new Map();
@@ -1606,6 +1606,341 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
 }
 </style>
 
+<script id="party-formation-v430">
+/* v430: パーティの配置（メイン3×3マスに3体・サブ3マスに3体を自由に配置）と、
+   各妖怪の性格・そうび（装備または魂）・肉体改造（スポーツクラブ）の設定。
+   v431: 装備枠二つの妖怪はそうび2つ（盤面は性格を左上・そうびを右上に表示）、マイセット（名前を付けて複数保存・すぐ呼び出し）、
+         パーティのメモ、右の一覧をメイン3（上段）・サブ3（下段）に分け、メインは左の列から・同じ列は上から順に並べる、
+         ボードの妖怪の右下に移動待機時間を表示、肉体改造の上限5回をユーザー確認値に。
+   v432: 右の一覧をコンパクトにしてボードと横並びに収める。一覧の妖怪（または空き枠）を押すと、検索して妖怪を入れ替え・追加できる。
+   v433: 同じ妖怪を複数入れられるように、パーティの1枠ごと（インスタンス）に設定を持つ形へ変更。
+         v431・v432の保存内容（配置・妖怪ごとの設定・マイセット）は自動で引き継ぐ。妖怪ごとの最後の設定は、新しく入れたときの初期値として使う。
+         ボードのマスを大きく（86px→104px）。
+   配置・設定・マイセット・メモはこのブラウザに保存（localStorage）。既存のパーティ（yw3-party-v1：妖怪IDの並び、重複あり）と同期し、分析表もこの順で並ぶ */
+(()=>{
+ const M=window.YW3_PARTY_MASTER;if(!M||typeof data==='undefined')return;
+ const LKEY='yw3-party-layout-v1',BKEY='yw3-party-build-v1',PKEY='yw3-party-v1',SKEY='yw3-party-sets-v1',MKEY='yw3-party-memo-v1',AKEY='yw3-party-active-set-v1';
+ const L2KEY='yw3-party-layout-v2',IKEY='yw3-party-inst-v1';
+ const ld=(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k)||'null');return v==null?d:v;}catch(e){return d;}};
+ const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}};
+ const clone=o=>JSON.parse(JSON.stringify(o));
+ const blank=()=>({main:Array(9).fill(null),sub:Array(3).fill(null)});
+ const validLayout=l=>l&&Array.isArray(l.main)&&l.main.length===9&&Array.isArray(l.sub)&&l.sub.length===3;
+ const byId=id=>data.find(x=>x.id===id);
+ let seq=0;const newUid=()=>'u'+Date.now().toString(36)+(seq++).toString(36)+Math.random().toString(36).slice(2,5);
+ /* 妖怪ごとの最後の設定（新しく入れたときの初期値）。v430〜v432 の妖怪ごとの設定をそのまま使う */
+ let lastBuild=ld(BKEY,{});if(!lastBuild||typeof lastBuild!=='object'||Array.isArray(lastBuild))lastBuild={};
+ const cleanBuild=b=>{b=b&&typeof b==='object'?clone(b):{};if(!b.club||typeof b.club!=='object')b.club={};return b;};
+ /* 旧形式（マスに妖怪ID・設定は妖怪ごと）→ 新形式（マスに枠ID・設定は枠ごと）に変換 */
+ const convertOld=(oldLayout,oldBuilds)=>{const lay=blank(),inst={};if(!validLayout(oldLayout))return {layout:lay,inst};
+  ['main','sub'].forEach(k=>oldLayout[k].forEach((id,i)=>{if(!id||!byId(id))return;const u=newUid();inst[u]={id,b:cleanBuild((oldBuilds||{})[id]||lastBuild[id])};lay[k][i]=u;}));return {layout:lay,inst};};
+ let layout=ld(L2KEY,null),inst=ld(IKEY,null);
+ if(!validLayout(layout)||!inst||typeof inst!=='object'){const c=convertOld(ld(LKEY,null),lastBuild);layout=c.layout;inst=c.inst;}
+ let sets=ld(SKEY,[]);if(!Array.isArray(sets))sets=[];sets=sets.filter(s=>s&&typeof s==='object'&&s.id&&Array.isArray(s.party));
+ let memo=ld(MKEY,'');if(typeof memo!=='string')memo='';
+ let activeId=ld(AKEY,null);if(!sets.some(s=>s.id===activeId))activeId=null;
+ const MAX_SETS=50;
+ const nat=id=>M.natures.find(n=>n.id===id)||null;
+ const eqp=id=>M.equips.find(n=>n.id===id)||null;
+ const cnt=a=>a.filter(Boolean).length;
+ const no3=x=>x&&x.officialNo?String(x.officialNo).padStart(3,'0'):'';
+ const twoSlots=x=>Array.isArray(x&&x.features)&&x.features.includes('装備枠二つ');
+ /* メインの並び順：左の列から、同じ列は上から（マス番号 0〜8 は行優先） */
+ const MAIN_ORDER=[0,3,6,1,4,7,2,5,8];
+ const CELLS=[...MAIN_ORDER.map(i=>['main',i]),['sub',0],['sub',1],['sub',2]];
+ /* 妖怪アイコン：partyIconDir が設定されていればそちら（無ければ妖怪の画像に戻る）、未設定なら一覧用サムネイル */
+ const iconSrc=x=>M.partyIconDir&&x.officialNo?M.partyIconDir+no3(x)+'.png':(typeof thumbSrc==='function'?thumbSrc(x.image):x.image);
+ const yIcon=(x,cls)=>`<img class="${cls}" src="${esc(iconSrc(x))}" data-orig="${esc(x.image)}" alt="" draggable="false" onerror="if(this.dataset.orig&&!this.dataset.t){this.dataset.t='1';this.src=this.dataset.orig;}">`;
+ const yk=u=>inst[u]&&byId(inst[u].id);
+ const build=u=>{const it=inst[u];if(!it)return cleanBuild({});if(!it.b||typeof it.b!=='object')it.b={};if(!it.b.club||typeof it.b.club!=='object')it.b.club={};return it.b;};
+ const clubTotal=b=>M.club.courses.reduce((s,c)=>s+(Number(b.club[c.key])||0),0);
+ const STAT=[['strength','ちから'],['spirit','ようりょく'],['defense','まもり'],['speed','すばやさ']];
+ const clubDelta=b=>{const d={};M.club.courses.forEach(c=>{const n=Number(b.club[c.key])||0;Object.entries(c.gain).forEach(([k,v])=>{d[k]=(d[k]||0)+v*n;});});return STAT.filter(([k])=>d[k]).map(([k,l])=>l+(d[k]>0?'+':'')+d[k]).join(' ');};
+ const equipSlots=x=>twoSlots(x)?[1,2]:[1];
+ const eqKey=n=>n===1?'equip':'equip2',eqNameKey=n=>n===1?'equipName':'equipName2';
+ const equipText=(x,b)=>equipSlots(x).map(n=>{const e=eqp(b[eqKey(n)]);return b[eqNameKey(n)]||(e?e.name:'未設定');}).join('／');
+ const saveAll=()=>{sv(L2KEY,layout);sv(IKEY,inst);};
+ const placeNew=u=>{const freeMain=MAIN_ORDER.find(i=>!layout.main[i]);
+  if(cnt(layout.main)<3&&freeMain!==undefined)layout.main[freeMain]=u;
+  else if(layout.sub.includes(null))layout.sub[layout.sub.indexOf(null)]=u;
+  else if(freeMain!==undefined)layout.main[freeMain]=u;};
+ /* 既存のパーティ（妖怪IDの並び。同じ妖怪の重複あり）と配置を合わせる */
+ function sync(){
+  const party=(window.__party||[]).filter(id=>byId(id)).slice(0,6);
+  const need={};party.forEach(id=>{need[id]=(need[id]||0)+1;});
+  const used=new Set();
+  CELLS.forEach(([k,i])=>{const u=layout[k][i];if(!u)return;const it=inst[u];
+   if(!it||!byId(it.id)||used.has(u)||!(need[it.id]>0)){layout[k][i]=null;return;}
+   need[it.id]--;used.add(u);});
+  party.forEach(id=>{while(need[id]>0){const u=newUid();inst[u]={id,b:cleanBuild(lastBuild[id])};placeNew(u);used.add(u);need[id]--;}});
+  Object.keys(inst).forEach(u=>{if(!used.has(u))delete inst[u];});
+  const order=CELLS.map(([k,i])=>layout[k][i]).filter(Boolean).map(u=>inst[u].id);
+  if(JSON.stringify(order)!==JSON.stringify(window.__party)){window.__party=order;sv(PKEY,order);}
+  saveAll();
+ }
+ /* パーティ（妖怪IDの並び）を配置から作り直して保存し、図鑑一覧のチェックと表示を更新 */
+ const commit=()=>{const order=CELLS.map(([k,i])=>layout[k][i]).filter(u=>u&&inst[u]).map(u=>inst[u].id);window.__party=order;sv(PKEY,order);saveAll();try{if(typeof render==='function')render();}catch(e){}rerender();};
+ let selected=null,message='',setMsg='',nameDraft=null,delArmed=false;
+ const parse=s=>{const [k,i]=String(s||'').split(':');return (k==='main'||k==='sub')?{k,i:Number(i)}:null;};
+ function move(fromKey,toKey){
+  const f=parse(fromKey),t=parse(toKey);if(!f||!t)return;
+  if(f.k===t.k&&f.i===t.i)return;
+  const a=layout[f.k][f.i],b=layout[t.k][t.i];if(!a)return;
+  if(!b&&f.k!==t.k&&t.k==='main'&&cnt(layout.main)>=3){message='メインは3体までです。メインの妖怪の上に重ねると入れ替わります。';return;}
+  layout[t.k][t.i]=a;layout[f.k][f.i]=b||null;message='';
+ }
+ const waitText=x=>Number.isFinite(x.moveWait)?String(x.moveWait):'?';
+ const tip=u=>{const x=yk(u),b=build(u),n=nat(b.nature);return [x.name,'移動待機：'+waitText(x),'性格：'+(n?n.name:'未設定'),'そうび：'+equipText(x,b),'肉体改造：'+(clubDelta(b)||'なし')].join('\n');};
+ const cell=(k,i)=>{const key=k+':'+i,u=layout[k][i],x=u&&yk(u);
+  if(!x)return `<div role="button" tabindex="0" class="pf-cell pf-empty${selected?' target':''}" data-pf-cell="${key}" aria-label="${k==='main'?'メイン':'サブ'}の空きマス"></div>`;
+  const b=build(u),n=nat(b.nature),eqs=equipSlots(x).map(s=>eqp(b[eqKey(s)])).filter(Boolean);
+  return `<div role="button" tabindex="0" class="pf-cell${selected===key?' sel':''}" data-pf-cell="${key}" data-pf-drag="${key}" draggable="true" title="${esc(tip(u))}" aria-pressed="${selected===key}" aria-label="${esc(x.name)}（${k==='main'?'メイン':'サブ'}・移動待機${esc(waitText(x))}）"><span class="pf-piece"><span class="pf-icon-wrap">${yIcon(x,'pf-icon')}<span class="pf-wait" aria-hidden="true">${esc(waitText(x))}</span></span><span class="pf-name">${esc(x.name)}</span>${n?`<span class="pf-nat"><img src="${esc(n.icon)}" alt=""></span>`:''}<span class="pf-mini">${eqs.map(e=>`<img src="${esc(e.icon)}" alt="">`).join('')}</span></span></div>`;};
+ const pickBtn=(u,kind,slot)=>{const b=build(u),o=kind==='nature'?nat(b.nature):eqp(b[eqKey(slot||1)]);
+  return `<button type="button" class="pf-pick" data-pf-pick="${kind}" data-pf-id="${esc(u)}"${kind==='equip'?` data-pf-slot="${slot||1}"`:''} aria-label="${kind==='nature'?'性格':'そうび'+(slot===2?'2':'')+'のアイコン'}を選ぶ">${o?`<img src="${esc(o.icon)}" alt="">${kind==='nature'?`<span>${esc(o.name)}</span>`:''}`:'<span class="pf-unset">未設定</span>'}</button>`;};
+ const buildCard=u=>{const x=yk(u),b=build(u),tot=clubTotal(b),two=twoSlots(x);
+  const clubs=M.club.courses.map(c=>{const n=Number(b.club[c.key])||0;let o='';for(let v=0;v<=M.club.maxTotal;v++)o+=`<option value="${v}"${v===n?' selected':''}>${v}</option>`;return `<label title="${esc(c.name)}（1回：${Object.entries(c.gain).map(([k,v])=>(STAT.find(s=>s[0]===k)||[k,k])[1]+(v>0?'+':'')+v).join('・')}）"><span>${esc(c.name.replace('コース',''))}</span><select data-pf-club="${c.key}" data-pf-id="${esc(u)}" aria-label="${esc(x.name)}の${esc(c.name)}の回数">${o}</select></label>`;}).join('');
+  const eqRow=n=>{const e=eqp(b[eqKey(n)]);return `<div class="pf-row"><span class="pf-k">${two?'そうび'+n:'そうび'}</span>${pickBtn(u,'equip',n)}<input type="text" class="pf-equip-name" data-pf-equip-name="${esc(u)}" data-pf-slot="${n}" value="${esc(b[eqNameKey(n)]||'')}" placeholder="${esc(e?e.name+'（名前を入力）':'そうびの名前を入力')}" maxlength="30" aria-label="${esc(x.name)}のそうび${two?n:''}の名前"></div>`;};
+  return `<div class="pf-build"><div class="pf-build-head"><button type="button" class="pf-who" data-pf-swap="${esc(u)}" title="押すと妖怪を変えられます" aria-label="${esc(x.name)}を別の妖怪に変える">${yIcon(x,'pf-build-icon')}<b>${esc(x.name)}</b><span class="pf-who-chg" aria-hidden="true">▼</span></button>${two?'<span class="pf-two" title="装備枠二つ">枠2</span>':''}<button type="button" class="pf-remove" data-pf-remove="${esc(u)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button></div>
+<div class="pf-row"><span class="pf-k">性格</span>${pickBtn(u,'nature')}</div>
+${equipSlots(x).map(eqRow).join('\n')}
+<div class="pf-row pf-row-club"><span class="pf-k">肉体改造</span><div class="pf-club">${clubs}</div></div>
+<div class="pf-club-sum${tot>M.club.maxTotal?' over':''}">${tot}/${M.club.maxTotal}回：${esc(clubDelta(b)||'補正なし')}</div></div>`;};
+ /* ---------- マイセット ---------- */
+ const snapshot=()=>{sync();const lay=clone(layout),ins={};CELLS.forEach(([k,i])=>{const u=layout[k][i];if(u&&inst[u])ins[u]=clone(inst[u]);});return {v:2,party:(window.__party||[]).slice(),layout:lay,inst:ins,memo};};
+ const sameAs=s=>{if(!s||s.v!==2)return false;const c=snapshot();return JSON.stringify([c.party,c.layout,c.inst,c.memo])===JSON.stringify([s.party,s.layout,s.inst||{},s.memo||'']);};
+ /* 旧形式のマイセット（v431・v432）を新形式に変換 */
+ const upgradeSet=s=>{if(s.v===2)return s;const c=convertOld(s.layout,s.builds||{});const party=CELLS.map(([k,i])=>c.layout[k][i]).filter(Boolean).map(u=>c.inst[u].id);return Object.assign(s,{v:2,layout:c.layout,inst:c.inst,party,memo:typeof s.memo==='string'?s.memo:''},{builds:undefined});};
+ const activeSet=()=>sets.find(s=>s.id===activeId)||null;
+ const pad2=n=>String(n).padStart(2,'0');
+ const when=t=>{const d=new Date(t);return `${d.getMonth()+1}/${d.getDate()} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`;};
+ const setStatus=()=>{const a=activeSet();if(!a)return '';return sameAs(a)?`<span class="pf-set-state">「${esc(a.name)}」を表示中</span>`:`<span class="pf-set-state dirty">「${esc(a.name)}」から変更あり（未保存）</span>`;};
+ function setsHtml(){
+  const a=activeSet();const name=nameDraft!==null?nameDraft:(a?a.name:'');
+  const chips=sets.map(s=>`<button type="button" class="pf-set-chip${s.id===activeId?' on':''}" data-pf-set-load="${esc(s.id)}" title="${esc(s.name)}（${s.party.length}体・${esc(when(s.savedAt))}保存）を呼び出す">${esc(s.name)}<small>${s.party.length}体</small></button>`).join('');
+  return `<div class="pf-sets"><div class="pf-sets-head"><b>マイセット</b><span id="pfSetStatus">${setStatus()}</span></div>
+<div class="pf-set-chips">${chips||'<span class="party-muted">まだありません。名前を付けて保存すると、ここから1タップで呼び出せます。</span>'}</div>
+<div class="pf-set-actions"><input type="text" id="pfSetName" maxlength="30" value="${esc(name)}" placeholder="マイセットの名前" aria-label="マイセットの名前"><button type="button" id="pfSetSave">保存</button>${a?`<button type="button" id="pfSetDelete" class="pf-set-del">${delArmed?'もう一度押すと削除':'「'+esc(a.name)+'」を削除'}</button>`:''}</div>
+${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-set-note">同じ名前で保存すると上書きします。呼び出すと今のパーティ（配置・性格・そうび・肉体改造・メモ）がそのセットに置き換わります。</p></div>`;
+ }
+ function saveSet(){
+  const inp=document.getElementById('pfSetName');const name=((inp&&inp.value)||'').trim().slice(0,30)||('マイセット'+(sets.length+1));
+  const snap=snapshot();if(!snap.party.length){setMsg='パーティが空なので保存できません。';rerender();return;}
+  const ex=sets.find(s=>s.name===name);
+  if(ex){Object.keys(ex).forEach(k=>{if(!['id','name'].includes(k))delete ex[k];});Object.assign(ex,snap,{savedAt:Date.now()});activeId=ex.id;setMsg=`「${name}」を上書き保存しました。`;}
+  else{if(sets.length>=MAX_SETS){setMsg=`マイセットは${MAX_SETS}個までです。不要なセットを削除してください。`;rerender();return;}
+   const s={id:'set'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),name,savedAt:Date.now(),...snap};sets.push(s);activeId=s.id;setMsg=`「${name}」を保存しました。`;}
+  nameDraft=null;delArmed=false;sv(SKEY,sets);sv(AKEY,activeId);rerender();
+ }
+ function loadSet(id){
+  const s=sets.find(x=>x.id===id);if(!s)return;upgradeSet(s);sv(SKEY,sets);
+  const before=s.party.length;
+  layout=validLayout(s.layout)?clone(s.layout):blank();inst={};
+  CELLS.forEach(([k,i])=>{const u=layout[k][i];const it=u&&s.inst&&s.inst[u];if(!it||!byId(it.id)){layout[k][i]=null;return;}inst[u]=clone(it);});
+  memo=typeof s.memo==='string'?s.memo:'';sv(MKEY,memo);
+  activeId=s.id;sv(AKEY,activeId);nameDraft=null;delArmed=false;selected=null;message='';
+  const after=CELLS.filter(([k,i])=>layout[k][i]).length;setMsg=`「${s.name}」を呼び出しました。`+(before>after?`（見つからない妖怪${before-after}体を除外）`:'');
+  commit();
+ }
+ function deleteSet(){
+  const a=activeSet();if(!a)return;
+  if(!delArmed){delArmed=true;rerender();return;}
+  sets=sets.filter(s=>s.id!==a.id);activeId=null;delArmed=false;nameDraft=null;setMsg=`「${a.name}」を削除しました（今のパーティはそのまま）。`;sv(SKEY,sets);sv(AKEY,null);rerender();
+ }
+ function html(){
+  sync();
+  const mainCards=MAIN_ORDER.map(i=>layout.main[i]).filter(u=>u&&yk(u)).map(buildCard),subCards=layout.sub.filter(u=>u&&yk(u)).map(buildCard);
+  const fill=(arr,label,lane)=>arr.concat(Array(Math.max(0,3-arr.length)).fill(`<button type="button" class="pf-build pf-build-empty" data-pf-add="${lane}">＋ ${label}に妖怪を追加</button>`)).join('');
+  return `${setsHtml()}<div class="pf-wrap"><div class="pf-board">
+<div class="pf-cap">メイン <small>${cnt(layout.main)}/3</small></div>
+<div class="pf-main-wrap"><div class="pf-grid pf-main">${layout.main.map((_,i)=>cell('main',i)).join('')}</div></div>
+<div class="pf-cap pf-cap-sub">サブ <small>${cnt(layout.sub)}/3</small></div>
+<div class="pf-main-wrap"><div class="pf-grid pf-sub">${layout.sub.map((_,i)=>cell('sub',i)).join('')}</div></div>
+<p class="pf-help">${message?`<b class="pf-msg">${esc(message)}</b><br>`:''}${selected?'移動先のマスを選んでください（同じ妖怪をもう一度押すと取り消し）。':'妖怪を押してから移動先のマスを押すと移動します（妖怪どうしは入れ替え）。パソコンはドラッグでも動かせます。右下の数字は移動待機時間です。'}</p>
+</div><div class="pf-side">
+<div class="pf-lane"><div class="pf-lane-cap">メイン<small>左の列から・同じ列は上から</small></div><div class="pf-builds">${fill(mainCards,'メイン','main')}</div></div>
+<div class="pf-lane"><div class="pf-lane-cap">サブ<small>左から</small></div><div class="pf-builds">${fill(subCards,'サブ','sub')}</div></div>
+<div class="pf-memo-box"><label for="pfMemo">パーティのメモ</label><textarea id="pfMemo" rows="3" maxlength="2000" placeholder="立ち回り・回し方・選出の理由など">${esc(memo)}</textarea></div>
+</div></div>`;
+ }
+ const rerender=()=>{if(typeof window.renderParty==='function')window.renderParty();};
+ const refreshStatus=()=>{const el=document.getElementById('pfSetStatus');if(el)el.innerHTML=setStatus();};
+ /* マスの操作（タップで選択→移動） */
+ document.addEventListener('click',e=>{
+  const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(!c)return;
+  const key=c.dataset.pfCell,p=parse(key);if(!p)return;
+  if(!selected){if(layout[p.k][p.i]){selected=key;message='';rerender();}return;}
+  if(selected===key){selected=null;rerender();return;}
+  move(selected,key);selected=null;sync();rerender();
+ });
+ document.addEventListener('keydown',e=>{const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(c&&(e.key==='Enter'||e.key===' ')){e.preventDefault();c.click();}});
+ /* ドラッグで移動（パソコン） */
+ document.addEventListener('dragstart',e=>{const d=e.target.closest&&e.target.closest('[data-pf-drag]');if(!d)return;e.dataTransfer.setData('text/plain',d.dataset.pfDrag);e.dataTransfer.effectAllowed='move';});
+ document.addEventListener('dragover',e=>{const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(c){e.preventDefault();e.dataTransfer.dropEffect='move';}});
+ document.addEventListener('drop',e=>{const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(!c)return;e.preventDefault();const from=e.dataTransfer.getData('text/plain');if(!parse(from))return;selected=null;move(from,c.dataset.pfCell);sync();rerender();});
+ /* 1枠だけ外す（同じ妖怪が複数いても、押した枠だけ） */
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-pf-remove]');if(!t)return;const u=t.dataset.pfRemove;['main','sub'].forEach(k=>{const i=layout[k].indexOf(u);if(i>=0)layout[k][i]=null;});delete inst[u];selected=null;message='';commit();});
+ /* マイセットの操作 */
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('button');if(!t)return;
+  if(t.dataset.pfSetLoad){setMsg='';loadSet(t.dataset.pfSetLoad);}
+  else if(t.id==='pfSetSave'){setMsg='';saveSet();}
+  else if(t.id==='pfSetDelete'){setMsg='';deleteSet();}
+ });
+ /* アイコン選択ウィンドウ（ダメージ計算機の詳細設定と同じ見た目） */
+ const ov=document.createElement('div');ov.className='damage-side-settings-modal';ov.id='pfPicker';ov.hidden=true;ov.setAttribute('role','dialog');ov.setAttribute('aria-modal','true');
+ ov.innerHTML='<div class="damage-side-settings-dialog pf-picker-dialog"><div class="damage-side-settings-head"><h3 id="pfPickerTitle">選ぶ</h3><button type="button" class="damage-side-settings-close" id="pfPickerClose">閉じる</button></div><p class="pf-picker-note" id="pfPickerNote"></p><div class="pf-opts" id="pfOpts"></div><button type="button" class="pf-clear" id="pfPickerClear">未設定に戻す</button></div>';
+ document.body.appendChild(ov);ov.setAttribute('aria-labelledby','pfPickerTitle');
+ let pick=null;
+ const openPicker=(kind,u,slot)=>{const x=yk(u);if(!x)return;slot=Number(slot)||1;pick={kind,u,slot};const b=build(u),cur=kind==='nature'?b.nature:b[eqKey(slot)],list=kind==='nature'?M.natures:M.equips;
+  document.getElementById('pfPickerTitle').textContent=`${x.name}の${kind==='nature'?'性格':'そうび'+(twoSlots(x)?slot:'')}`;
+  document.getElementById('pfPickerNote').textContent=kind==='nature'?'アイコンを選ぶと性格の名前も表示されます。':'アイコンを選んだあと、そうびの名前はパーティ欄の入力欄に自分で入力します。';
+  document.getElementById('pfOpts').innerHTML=list.map(o=>`<button type="button" class="pf-opt${o.id===cur?' on':''}" data-pf-opt="${esc(o.id)}" aria-pressed="${o.id===cur}"><img src="${esc(o.icon)}" alt=""><span>${esc(o.name)}</span>${o.kind&&!o.name.includes(o.kind)?`<small>${esc(o.kind)}</small>`:''}</button>`).join('');
+  ov.hidden=false;(ov.querySelector('.pf-opt.on')||ov.querySelector('.pf-opt'))?.focus();};
+ const closePicker=()=>{ov.hidden=true;const p=pick;pick=null;if(p){const sel=`[data-pf-pick="${p.kind}"][data-pf-id="${CSS.escape(p.u)}"]`+(p.kind==='equip'?`[data-pf-slot="${p.slot}"]`:'');const b=document.querySelector(sel);b&&b.focus();}};
+ /* 枠の設定を変える（その妖怪の「最後の設定」も更新し、次に同じ妖怪を入れたときの初期値にする） */
+ const setBuild=(u,fn)=>{const it=inst[u];if(!it)return;const b=build(u);fn(b);lastBuild[it.id]=clone(b);sv(BKEY,lastBuild);saveAll();};
+ document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-pf-pick]');if(b)openPicker(b.dataset.pfPick,b.dataset.pfId,b.dataset.pfSlot);});
+ ov.addEventListener('click',e=>{
+  if(e.target===ov||e.target.id==='pfPickerClose'){closePicker();return;}
+  const o=e.target.closest('[data-pf-opt]');
+  if((o||e.target.id==='pfPickerClear')&&pick){const v=o?o.dataset.pfOpt:null,p=pick;setBuild(p.u,b=>{if(p.kind==='nature')b.nature=v;else b[eqKey(p.slot)]=v;});rerender();closePicker();}
+ });
+ document.addEventListener('keydown',e=>{if(!ov.hidden&&e.key==='Escape')closePicker();});
+ /* そうびの名前・メモ・マイセット名（入力中は保存だけ、確定時に表示を更新） */
+ document.addEventListener('input',e=>{const t=e.target;if(!t||!t.dataset)return;
+  if(t.dataset.pfEquipName!==undefined){const n=Number(t.dataset.pfSlot)||1;setBuild(t.dataset.pfEquipName,b=>{b[eqNameKey(n)]=t.value.slice(0,30);});refreshStatus();}
+  else if(t.id==='pfMemo'){memo=t.value.slice(0,2000);sv(MKEY,memo);refreshStatus();}
+  else if(t.id==='pfSetName'){nameDraft=t.value;}
+ });
+ document.addEventListener('keydown',e=>{if(e.target&&e.target.id==='pfSetName'&&e.key==='Enter'){e.preventDefault();setMsg='';saveSet();}});
+ document.addEventListener('change',e=>{const t=e.target;if(!t.dataset)return;
+  if(t.dataset.pfEquipName!==undefined){rerender();return;}
+  if(t.dataset.pfClub){const u=t.dataset.pfId,k=t.dataset.pfClub;setBuild(u,b=>{b.club[k]=Number(t.value)||0;const over=clubTotal(b)-M.club.maxTotal;if(over>0)b.club[k]=Math.max(0,b.club[k]-over);});rerender();}
+ });
+ /* ---------- 妖怪を選ぶウィンドウ（一覧の妖怪を押す→入れ替え、空き枠を押す→追加）。同じ妖怪も選べる ---------- */
+ const toKana=t=>String(t||'').normalize('NFKC').toLocaleLowerCase('ja').replace(/[ぁ-ゖ]/g,c=>String.fromCharCode(c.charCodeAt(0)+0x60));
+ const yov=document.createElement('div');yov.className='damage-side-settings-modal';yov.id='pfYokaiPicker';yov.hidden=true;yov.setAttribute('role','dialog');yov.setAttribute('aria-modal','true');yov.setAttribute('aria-labelledby','pfYokaiTitle');
+ yov.innerHTML='<div class="damage-side-settings-dialog pf-yokai-dialog"><div class="damage-side-settings-head"><h3 id="pfYokaiTitle">妖怪を選ぶ</h3><button type="button" class="damage-side-settings-close" id="pfYokaiClose">閉じる</button></div><input type="search" id="pfYokaiSearch" placeholder="名前（ひらがな可）・図鑑番号で検索" aria-label="妖怪を検索" autocomplete="off"><p class="pf-picker-note" id="pfYokaiNote"></p><div class="pf-yokai-list" id="pfYokaiList"></div></div>';
+ document.body.appendChild(yov);
+ let ypick=null;const YMAX=120;
+ const yList=()=>{const q=toKana(document.getElementById('pfYokaiSearch').value.trim());const inParty={};(window.__party||[]).forEach(id=>{inParty[id]=(inParty[id]||0)+1;});const curId=ypick&&ypick.u&&inst[ypick.u]?inst[ypick.u].id:null;
+  const hits=data.filter(x=>x&&x.name&&(!q||toKana(x.name).includes(q)||(x.officialNo&&(String(x.officialNo)===q.replace(/^0+/,'')||no3(x).includes(q)))));
+  const shown=hits.slice(0,YMAX);
+  document.getElementById('pfYokaiNote').textContent=hits.length?`${hits.length}体${hits.length>YMAX?`（先頭${YMAX}体を表示。名前や番号で絞り込めます）`:''}。同じ妖怪も選べます。`:'見つかりません。';
+  document.getElementById('pfYokaiList').innerHTML=shown.map(x=>{const cur=curId===x.id,n=inParty[x.id]||0;return `<button type="button" class="pf-yopt${cur?' on':''}" data-pf-yokai="${esc(x.id)}">${yIcon(x,'pf-yopt-icon')}<span class="pf-yopt-name">${esc(x.name)}</span><small>${x.officialNo?'No.'+no3(x):''}${cur?' ・今の妖怪':n?` ・パーティに${n}体`:''}</small></button>`;}).join('');};
+ const openYokai=(mode,u,lane)=>{ypick={mode,u,lane};const x=u&&yk(u);document.getElementById('pfYokaiTitle').textContent=mode==='swap'?`${x?x.name:''}を別の妖怪に変える`:`${lane==='main'?'メイン':'サブ'}に妖怪を追加`;const s=document.getElementById('pfYokaiSearch');s.value='';yList();yov.hidden=false;s.focus();};
+ const closeYokai=()=>{yov.hidden=true;const p=ypick;ypick=null;if(p){const b=p.mode==='swap'?document.querySelector(`[data-pf-swap="${CSS.escape(p.u)}"]`):document.querySelector(`[data-pf-add="${p.lane}"]`);b&&b.focus();}};
+ const chooseYokai=nid=>{const p=ypick;if(!p||!byId(nid))return;
+  if(p.mode==='swap'){const it=inst[p.u];if(!it)return;if(it.id===nid){closeYokai();return;}inst[p.u]={id:nid,b:cleanBuild(lastBuild[nid])};}
+  else{if(CELLS.filter(([k,i])=>layout[k][i]).length>=6)return;const u=newUid();
+   if(p.lane==='main'){const i=MAIN_ORDER.find(j=>!layout.main[j]);if(i===undefined||cnt(layout.main)>=3)return;layout.main[i]=u;}
+   else{const i=layout.sub.indexOf(null);if(i<0)return;layout.sub[i]=u;}
+   inst[u]={id:nid,b:cleanBuild(lastBuild[nid])};p.u=u;}
+  selected=null;message='';yov.hidden=true;ypick=null;commit();
+  const b=document.querySelector(`[data-pf-swap="${CSS.escape(p.u)}"]`);b&&b.focus();};
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-pf-swap],[data-pf-add]');if(!t)return;if(t.dataset.pfSwap)openYokai('swap',t.dataset.pfSwap);else openYokai('add',null,t.dataset.pfAdd);});
+ yov.addEventListener('click',e=>{if(e.target===yov||e.target.id==='pfYokaiClose'){closeYokai();return;}const b=e.target.closest('[data-pf-yokai]');if(b)chooseYokai(b.dataset.pfYokai);});
+ yov.addEventListener('input',e=>{if(e.target.id==='pfYokaiSearch')yList();});
+ yov.addEventListener('keydown',e=>{if(e.key==='Escape'){closeYokai();return;}if(e.key==='Enter'&&e.target.id==='pfYokaiSearch'){e.preventDefault();const b=yov.querySelector('.pf-yopt');b&&chooseYokai(b.dataset.pfYokai);}});
+ window.YW3_PARTY_BOARD={html,sync,hasSets:()=>sets.length>0,
+  getLayout:()=>{const f=u=>u&&inst[u]?inst[u].id:null;return {main:layout.main.map(f),sub:layout.sub.map(f)};},
+  getSlots:()=>JSON.parse(JSON.stringify({layout,inst})),
+  getBuilds:()=>{const o={};Object.values(inst).forEach(it=>{o[it.id]=clone(it.b||{});});return o;},
+  getLastBuilds:()=>clone(lastBuild),getSets:()=>clone(sets),getMemo:()=>memo,order:()=>(window.__party||[]).slice()};
+})();
+</script>
+<style id="party-formation-style-v430">
+.pf-wrap{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin-bottom:10px}
+.pf-board{background:#141c2b;border:1px solid var(--line);border-radius:12px;padding:10px;width:max-content;max-width:100%}
+.pf-cap{font-size:12px;font-weight:800;color:#ffc857;margin:0 0 5px}.pf-cap small{color:var(--muted);font-weight:600;margin-left:4px}
+.pf-cap-sub{margin-top:10px;padding-top:8px;border-top:2px dashed #52627b}
+.pf-main-wrap{display:flex;gap:4px;align-items:stretch}
+.pf-grid{display:grid;grid-template-columns:repeat(3,104px);gap:7px}
+.pf-cell{width:104px!important;height:104px;padding:3px!important;margin:0;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;position:relative}
+.pf-cell.pf-empty{border-style:dashed;background:transparent}
+.pf-cell.pf-empty.target{border-color:#8ce1d0;background:rgba(140,225,208,.06)}
+.pf-cell.sel{border:2px solid #ffc857;box-shadow:0 0 0 3px rgba(255,200,87,.25)}
+.pf-cell:focus-visible{outline:2px solid #8ce1d0;outline-offset:2px}
+.pf-piece{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;min-width:0}
+.pf-icon-wrap{position:relative;display:block;width:66px;height:66px}
+.pf-icon{width:66px;height:66px;object-fit:contain;pointer-events:none}
+.pf-wait{position:absolute;right:-14px;bottom:-1px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#0b111c;border:1px solid #4b6a8f;color:#e6ecf7;font-size:11px;font-weight:800;line-height:15px;text-align:center;font-variant-numeric:tabular-nums}
+.pf-name{font-size:11.5px;font-weight:700;line-height:1.15;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pf-mini{position:absolute;top:3px;right:3px;display:flex;flex-direction:column;gap:1px}
+.pf-nat{position:absolute;top:3px;left:3px;display:flex}
+.pf-nat img{width:21px;height:21px;object-fit:contain;filter:drop-shadow(0 0 2px #000)}
+.pf-mini img{width:21px;height:21px;object-fit:contain;filter:drop-shadow(0 0 2px #000)}
+.pf-help{margin:8px 0 0;font-size:11px;line-height:1.5;color:var(--muted);max-width:340px}
+.pf-msg{color:#ffc857}
+.pf-side{display:grid;gap:8px;min-width:0;max-width:930px}
+.pf-lane{min-width:0}
+.pf-lane-cap{font-size:12px;font-weight:800;color:#ffc857;margin:0 0 4px}.pf-lane-cap small{font-weight:500;color:var(--muted);margin-left:6px;font-size:10.5px}
+.pf-builds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;min-width:0}
+.pf-build{background:#141c2b;border:1px solid var(--line);border-radius:10px;padding:6px;display:grid;gap:5px;min-width:0;align-content:start}
+.pf-build-empty{width:auto!important;border-style:dashed!important;background:transparent!important;color:var(--muted);font-size:11.5px;display:flex;align-items:center;justify-content:center;min-height:60px;cursor:pointer}
+.pf-build-empty:hover{border-color:#8ce1d0!important;color:#8ce1d0}
+.pf-build-head{display:flex;align-items:center;gap:4px;min-width:0}
+.pf-who{width:auto!important;flex:1 1 auto;min-width:0;display:flex;align-items:center;gap:5px;padding:2px 6px 2px 2px!important;border-radius:8px;border:1px solid transparent!important;background:transparent!important;text-align:left;cursor:pointer;color:inherit}
+.pf-who:hover,.pf-who:focus-visible{border-color:#4b6a8f!important;background:#16243a!important}
+.pf-who-chg{font-size:9px;color:var(--muted);flex:none}
+.pf-build-icon{width:26px;height:26px;object-fit:contain;flex:none}
+.pf-build-head b{font-size:12.5px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pf-two{font-size:9.5px;padding:0 4px;border-radius:999px;border:1px solid #6b5a2e;color:#ffd98a;flex:none}
+.pf-pos{font-size:10px;padding:0 6px;border-radius:999px;border:1px solid #4b6a8f;flex:none}
+.pf-pos.main{color:#ffc857;border-color:#8a6d2e}.pf-pos.sub{color:#8ce1d0}
+.pf-remove{width:22px!important;height:22px;padding:0!important;flex:none;border-radius:6px;line-height:1;font-size:14px}
+.pf-row{display:flex;align-items:center;gap:4px;min-width:0}
+.pf-k{flex:0 0 40px;font-size:10.5px;color:var(--muted)}
+.pf-pick{width:auto!important;flex:none;display:inline-flex;align-items:center;gap:4px;padding:1px 7px 1px 2px!important;min-height:30px;border-radius:8px;font-size:11.5px}
+.pf-pick img{width:24px;height:24px;object-fit:contain}
+.pf-unset{color:var(--muted);padding-left:5px;font-size:11.5px}
+.pf-equip-name{flex:1 1 auto;min-width:0;font-size:11.5px;padding:5px 6px}
+.pf-row-club{flex-direction:column;align-items:stretch;gap:2px}
+.pf-row-club .pf-k{flex:none}
+.pf-row-club .pf-club{width:100%}
+.pf-club{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;flex:1 1 auto;min-width:0}
+.pf-club label{display:flex;flex-direction:column;align-items:stretch;gap:1px;font-size:9.5px;color:var(--muted);text-align:center;min-width:0}
+.pf-club select{padding:2px 1px;font-size:11.5px;min-width:0;width:100%}
+.pf-club-sum{font-size:11px;color:#8ce1d0;padding-left:0}.pf-club-sum.over{color:#ff8a80}
+.pf-memo-box{display:grid;gap:4px}
+.pf-memo-box label{font-size:12px;font-weight:800;color:#ffc857}
+.pf-memo-box textarea{width:100%;min-height:64px;resize:vertical;font-size:12.5px;line-height:1.55;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font-family:inherit}
+.pf-sets{background:#141c2b;border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin-bottom:10px;display:grid;gap:6px}
+.pf-sets-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pf-sets-head b{font-size:13px;color:#ffc857}
+.pf-set-state{font-size:11.5px;color:#8ce1d0}.pf-set-state.dirty{color:#ffd98a}
+.pf-set-chips{display:flex;flex-wrap:wrap;gap:6px}
+.pf-set-chip{width:auto!important;padding:5px 11px!important;border-radius:999px;font-size:12px;display:inline-flex;align-items:baseline;gap:5px}
+.pf-set-chip small{font-size:10px;color:var(--muted)}
+.pf-set-chip.on{border:2px solid #ffc857;background:#2b2a1d}
+.pf-set-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.pf-set-actions input{flex:1 1 180px;min-width:0;max-width:320px;font-size:12.5px;padding:6px 9px}
+.pf-set-actions button{width:auto!important;flex:none;padding:6px 14px!important;font-size:12px}
+.pf-set-del{color:#ffb4ab}
+.pf-set-msg{margin:0;font-size:12px;color:#8ce1d0}
+.pf-set-note{margin:0;font-size:11px}
+.pf-picker-dialog{max-width:560px}
+.pf-yokai-dialog{max-width:640px}
+#pfYokaiSearch{width:100%;margin:0 0 6px;font-size:14px;padding:8px 10px}
+.pf-yokai-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:6px;max-height:min(60vh,520px);overflow-y:auto;padding:2px}
+.pf-yopt{width:auto!important;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px!important;border-radius:10px;border:1px solid var(--line);background:var(--panel2,#222d43);font-size:12px;line-height:1.25;text-align:center;cursor:pointer}
+.pf-yopt-icon{width:44px;height:44px;object-fit:contain}
+.pf-yopt-name{font-weight:700;overflow-wrap:anywhere}
+.pf-yopt small{font-size:10px;color:var(--muted)}
+.pf-yopt.on{border:2px solid #ffc857}
+.pf-yopt[disabled]{opacity:.45;cursor:not-allowed}
+.pf-picker-note{margin:0 0 8px;font-size:12px;color:var(--muted)}
+.pf-opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:6px}
+.pf-opt{width:auto!important;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px!important;border-radius:10px;border:1px solid var(--line);background:var(--panel2,#222d43);font-size:11.5px;line-height:1.25;text-align:center;cursor:pointer}
+.pf-opt img{width:44px;height:44px;object-fit:contain}
+.pf-opt small{font-size:10px;color:var(--muted)}
+.pf-opt.on{border:2px solid #ffc857;background:#2b2a1d}
+.pf-clear{margin-top:10px;width:auto!important;padding:6px 14px!important;font-size:12px}
+@media (max-width:1100px){.pf-wrap{grid-template-columns:minmax(0,1fr)}.pf-board{margin:0 auto}.pf-side{max-width:none}}
+@media (max-width:480px){.pf-grid{grid-template-columns:repeat(3,96px);gap:6px}.pf-cell{width:96px!important;height:96px}.pf-icon-wrap,.pf-icon{width:58px;height:58px}.pf-name{font-size:10.5px}.pf-mini img,.pf-nat img{width:18px;height:18px}}
+@media (max-width:760px){.pf-wrap{grid-template-columns:minmax(0,1fr)}.pf-board{margin:0 auto}.pf-builds{grid-template-columns:minmax(0,1fr)}.pf-build-empty{min-height:38px}.pf-build-empty~.pf-build-empty{display:none}}
+@media (max-width:400px){.pf-grid{grid-template-columns:repeat(3,90px);gap:5px}.pf-cell{width:90px!important;height:90px}.pf-icon-wrap,.pf-icon{width:54px;height:54px}}
+@media (max-width:350px){.pf-grid{grid-template-columns:repeat(3,76px)}.pf-cell{width:76px!important;height:76px}.pf-icon-wrap,.pf-icon{width:44px;height:44px}}
+</style>
 <script id="party-script-v379">
 /* v379: パーティ編成（6体）。選択はこのブラウザに保存（localStorage）。既存機能・既存データは変更しない */
 (function(){
@@ -1634,9 +1969,10 @@ function analysis(ms){
 <section class="party-box"><h3>とりつき・必殺技</h3><table class="party-table"><thead><tr><th>妖怪</th><th>とりつき</th><th>必殺技</th></tr></thead><tbody>${roleRows}</tbody></table></section>
 </div>`;}
 function renderParty(){
- const ms=members();const sec=document.getElementById('party');if(!sec)return;sec.classList.toggle('show',ms.length>0);document.getElementById('partyCount').textContent=`${ms.length}/${MAX}`;
+ /* v430: 配置（メイン3×3・サブ3）と同期してから描画 */if(window.YW3_PARTY_BOARD)window.YW3_PARTY_BOARD.sync();
+ const ms=members();const sec=document.getElementById('party');if(!sec)return;sec.classList.toggle('show',ms.length>0||!!(window.YW3_PARTY_BOARD&&window.YW3_PARTY_BOARD.hasSets()))/* v431: マイセットがあれば空でも表示 */;document.getElementById('partyCount').textContent=`${ms.length}/${MAX}`;
  const slots=[];for(let i=0;i<MAX;i++){const x=ms[i];slots.push(x?`<div class="party-slot"><button type="button" class="cmp-remove party-remove" data-party-remove="${esc(x.id)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button><img src="${esc(x.image)}" alt=""><div class="party-slot-body"><div class="party-slot-name">${esc(x.name)}</div><div class="tags"><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}</div></div></div>`:`<div class="party-slot empty"><span>空き</span></div>`)}
- document.getElementById('partyBody').innerHTML=`<div class="party-slots">${slots.join('')}</div>${analysis(ms)}<p class="small">パーティはこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体）。</p>`;}
+ document.getElementById('partyBody').innerHTML=`${window.YW3_PARTY_BOARD?window.YW3_PARTY_BOARD.html()/* v430: 配置と性格・そうび・肉体改造 */:`<div class="party-slots">${slots.join('')}</div>`}${analysis(ms)}<p class="small">パーティ・配置・性格・そうび・肉体改造はこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体：メイン3体・サブ3体）。</p>`;}
 window.renderParty=renderParty;
 const set=(ids)=>{window.__party=ids.slice(0,MAX);save();render();renderParty();};
 document.addEventListener('change',e=>{const c=e.target.closest&&e.target.closest('[data-party]');if(!c)return;const id=c.dataset.party;const ids=window.__party.filter(v=>v!==id);if(c.checked){if(ids.length>=MAX){c.checked=false;return}ids.push(id)}set(ids);});
