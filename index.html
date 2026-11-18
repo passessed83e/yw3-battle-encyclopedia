@@ -1616,6 +1616,7 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
    v433: 同じ妖怪を複数入れられるように、パーティの1枠ごと（インスタンス）に設定を持つ形へ変更。
          v431・v432の保存内容（配置・妖怪ごとの設定・マイセット）は自動で引き継ぐ。妖怪ごとの最後の設定は、新しく入れたときの初期値として使う。
          ボードのマスを大きく（86px→104px）。
+   v434: 軽量化。パーティの変更で図鑑一覧を描き直さずチェックだけ更新、妖怪を選ぶウィンドウの画像を遅延読み込み・検索入力を少し待ってから絞り込み。
    配置・設定・マイセット・メモはこのブラウザに保存（localStorage）。既存のパーティ（yw3-party-v1：妖怪IDの並び、重複あり）と同期し、分析表もこの順で並ぶ */
 (()=>{
  const M=window.YW3_PARTY_MASTER;if(!M||typeof data==='undefined')return;
@@ -1679,7 +1680,7 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
   saveAll();
  }
  /* パーティ（妖怪IDの並び）を配置から作り直して保存し、図鑑一覧のチェックと表示を更新 */
- const commit=()=>{const order=CELLS.map(([k,i])=>layout[k][i]).filter(u=>u&&inst[u]).map(u=>inst[u].id);window.__party=order;sv(PKEY,order);saveAll();try{if(typeof render==='function')render();}catch(e){}rerender();};
+ const commit=()=>{const order=CELLS.map(([k,i])=>layout[k][i]).filter(u=>u&&inst[u]).map(u=>inst[u].id);window.__party=order;sv(PKEY,order);saveAll();try{if(typeof window.syncPartyChecks==='function')window.syncPartyChecks();}catch(e){}rerender();};/* v434: 図鑑一覧は描き直さずチェックだけ更新 */
  let selected=null,message='',setMsg='',nameDraft=null,delArmed=false;
  const parse=s=>{const [k,i]=String(s||'').split(':');return (k==='main'||k==='sub')?{k,i:Number(i)}:null;};
  function move(fromKey,toKey){
@@ -1826,7 +1827,7 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
   const hits=data.filter(x=>x&&x.name&&(!q||toKana(x.name).includes(q)||(x.officialNo&&(String(x.officialNo)===q.replace(/^0+/,'')||no3(x).includes(q)))));
   const shown=hits.slice(0,YMAX);
   document.getElementById('pfYokaiNote').textContent=hits.length?`${hits.length}体${hits.length>YMAX?`（先頭${YMAX}体を表示。名前や番号で絞り込めます）`:''}。同じ妖怪も選べます。`:'見つかりません。';
-  document.getElementById('pfYokaiList').innerHTML=shown.map(x=>{const cur=curId===x.id,n=inParty[x.id]||0;return `<button type="button" class="pf-yopt${cur?' on':''}" data-pf-yokai="${esc(x.id)}">${yIcon(x,'pf-yopt-icon')}<span class="pf-yopt-name">${esc(x.name)}</span><small>${x.officialNo?'No.'+no3(x):''}${cur?' ・今の妖怪':n?` ・パーティに${n}体`:''}</small></button>`;}).join('');};
+  document.getElementById('pfYokaiList').innerHTML=shown.map(x=>{const cur=curId===x.id,n=inParty[x.id]||0;return `<button type="button" class="pf-yopt${cur?' on':''}" data-pf-yokai="${esc(x.id)}">${yIcon(x,'pf-yopt-icon').replace('<img ','<img loading="lazy" decoding="async" ')}<span class="pf-yopt-name">${esc(x.name)}</span><small>${x.officialNo?'No.'+no3(x):''}${cur?' ・今の妖怪':n?` ・パーティに${n}体`:''}</small></button>`;}).join('');};
  const openYokai=(mode,u,lane)=>{ypick={mode,u,lane};const x=u&&yk(u);document.getElementById('pfYokaiTitle').textContent=mode==='swap'?`${x?x.name:''}を別の妖怪に変える`:`${lane==='main'?'メイン':'サブ'}に妖怪を追加`;const s=document.getElementById('pfYokaiSearch');s.value='';yList();yov.hidden=false;s.focus();};
  const closeYokai=()=>{yov.hidden=true;const p=ypick;ypick=null;if(p){const b=p.mode==='swap'?document.querySelector(`[data-pf-swap="${CSS.escape(p.u)}"]`):document.querySelector(`[data-pf-add="${p.lane}"]`);b&&b.focus();}};
  const chooseYokai=nid=>{const p=ypick;if(!p||!byId(nid))return;
@@ -1839,8 +1840,8 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
   const b=document.querySelector(`[data-pf-swap="${CSS.escape(p.u)}"]`);b&&b.focus();};
  document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-pf-swap],[data-pf-add]');if(!t)return;if(t.dataset.pfSwap)openYokai('swap',t.dataset.pfSwap);else openYokai('add',null,t.dataset.pfAdd);});
  yov.addEventListener('click',e=>{if(e.target===yov||e.target.id==='pfYokaiClose'){closeYokai();return;}const b=e.target.closest('[data-pf-yokai]');if(b)chooseYokai(b.dataset.pfYokai);});
- yov.addEventListener('input',e=>{if(e.target.id==='pfYokaiSearch')yList();});
- yov.addEventListener('keydown',e=>{if(e.key==='Escape'){closeYokai();return;}if(e.key==='Enter'&&e.target.id==='pfYokaiSearch'){e.preventDefault();const b=yov.querySelector('.pf-yopt');b&&chooseYokai(b.dataset.pfYokai);}});
+ let yTimer=null;yov.addEventListener('input',e=>{if(e.target.id==='pfYokaiSearch'){clearTimeout(yTimer);yTimer=setTimeout(yList,120);}});/* v434: 入力が続く間は待ってから絞り込む */
+ yov.addEventListener('keydown',e=>{if(e.key==='Escape'){closeYokai();return;}if(e.key==='Enter'&&e.target.id==='pfYokaiSearch'){e.preventDefault();clearTimeout(yTimer);yList();const b=yov.querySelector('.pf-yopt');b&&chooseYokai(b.dataset.pfYokai);}});
  window.YW3_PARTY_BOARD={html,sync,hasSets:()=>sets.length>0,
   getLayout:()=>{const f=u=>u&&inst[u]?inst[u].id:null;return {main:layout.main.map(f),sub:layout.sub.map(f)};},
   getSlots:()=>JSON.parse(JSON.stringify({layout,inst})),
@@ -1974,10 +1975,12 @@ function renderParty(){
  const slots=[];for(let i=0;i<MAX;i++){const x=ms[i];slots.push(x?`<div class="party-slot"><button type="button" class="cmp-remove party-remove" data-party-remove="${esc(x.id)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button><img src="${esc(x.image)}" alt=""><div class="party-slot-body"><div class="party-slot-name">${esc(x.name)}</div><div class="tags"><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}</div></div></div>`:`<div class="party-slot empty"><span>空き</span></div>`)}
  document.getElementById('partyBody').innerHTML=`${window.YW3_PARTY_BOARD?window.YW3_PARTY_BOARD.html()/* v430: 配置と性格・そうび・肉体改造 */:`<div class="party-slots">${slots.join('')}</div>`}${analysis(ms)}<p class="small">パーティ・配置・性格・そうび・肉体改造はこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体：メイン3体・サブ3体）。</p>`;}
 window.renderParty=renderParty;
-const set=(ids)=>{window.__party=ids.slice(0,MAX);save();render();renderParty();};
+/* v434: パーティの変更で図鑑一覧（698体）を丸ごと描き直すと重いので、カードの「パーティ」チェックだけを更新する */
+window.syncPartyChecks=()=>{const p=window.__party||[],on=new Set(p),full=p.length>=MAX;document.querySelectorAll('input[data-party]').forEach(i=>{const v=on.has(i.dataset.party);if(i.checked!==v)i.checked=v;const d=!v&&full;if(i.disabled!==d)i.disabled=d;});};
+const set=(ids)=>{window.__party=ids.slice(0,MAX);save();window.syncPartyChecks();renderParty();};
 document.addEventListener('change',e=>{const c=e.target.closest&&e.target.closest('[data-party]');if(!c)return;const id=c.dataset.party;const ids=window.__party.filter(v=>v!==id);if(c.checked){if(ids.length>=MAX){c.checked=false;return}ids.push(id)}set(ids);});
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-party-remove]');if(b){set(window.__party.filter(v=>v!==b.dataset.partyRemove));return}if(e.target.id==='partyClear'){set([])}});
-if(window.__party.length)render();renderParty();
+if(window.__party.length)window.syncPartyChecks();/* v434: 起動時も一覧は描き直さずチェックだけ更新 */renderParty();
 })();
 </script>
 </body></html>
