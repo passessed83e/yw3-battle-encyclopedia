@@ -888,7 +888,15 @@
   if (!magicPool[sel.magic]) sel.magic = magicPool[MASTER.defaults.magic] ? MASTER.defaults.magic : magicNames[0];
   if (!ultByKey(sel.ult)) sel.ult = ultByKey(MASTER.defaults.ult) ? MASTER.defaults.ult : "own";
   if (!skillPool[sel.skill]) sel.skill = skillPool[MASTER.defaults.skill] ? MASTER.defaults.skill : skillNames[0];
-  function save(){ try { localStorage.setItem(KEY, JSON.stringify(slots)); localStorage.setItem(MKEY, JSON.stringify(sel)); } catch (e) {} }
+  /* v436: 特訓回数でランクが変わる（0回E・1回D・2回C・3回B・4回A・5回S。ゲームペディア「最大で5回（ランクE〜ランクS）」、
+     ユーザー確認「ランクBの時点で3回の育成」）。ステータスは特訓の内容だけで計算し、ランク自体では変えない */
+  var RANKS = ["E", "D", "C", "B", "A", "S"];
+  var originalRank = target.rank;
+  function usedCount(){ var n = 0; slots.forEach(function(id){ if (id) n++; }); return n; }
+  function rankLetter(){ return RANKS[Math.min(usedCount(), RANKS.length - 1)]; }
+  function applyRank(){ target.rank = rankLetter() + "ランク"; target.myNyanRankNote = "特訓" + usedCount() + "回でのランク（元の図鑑データ：" + originalRank + "）"; }
+  applyRank();
+  function save(){ applyRank(); try { localStorage.setItem(KEY, JSON.stringify(slots)); localStorage.setItem(MKEY, JSON.stringify(sel)); } catch (e) {} }
 
   function affinityFor(attr){
     if (MASTER.weakOf[attr]) return { strong: attr, weak: MASTER.weakOf[attr] };
@@ -944,7 +952,7 @@
     var skOpts = skillNames.map(function(n){ return '<option value="' + escHtml(n) + '"' + (n === sel.skill ? " selected" : "") + ">" + escHtml(n) + (skillPool[n].from === "マッサラニャン" ? "（マッサラニャン）" : "") + "</option>"; }).join("");
     var skEff = skillPool[sel.skill] ? (skillPool[sel.skill].skill.effect || "") : "";
     var ultOpts = ultPool.map(function(u){ return '<option value="' + escHtml(u.key) + '"' + (u.key === sel.ult ? " selected" : "") + ">" + escHtml(u.label) + "</option>"; }).join("");
-    return '<section class="mynyan-sec"><h4>ニャン輩の特訓（合計' + MASTER.maxTrainings + '回まで）</h4><div class="mynyan-slots">' + trainSel + '</div><p class="mynyan-summary">' + tt.used + '/' + MASTER.maxTrainings + '回：' + escHtml(tt.text) + '</p></section>' +
+    return '<section class="mynyan-sec"><h4>ニャン輩の特訓（合計' + MASTER.maxTrainings + '回まで）</h4><div class="mynyan-slots">' + trainSel + '</div><p class="mynyan-summary">' + tt.used + '/' + MASTER.maxTrainings + '回（' + rankLetter() + 'ランク）：' + escHtml(tt.text) + '</p></section>' +
       '<section class="mynyan-sec"><h4>技・スキル</h4><div class="mynyan-slots"><label class="mynyan-slot">妖術<select data-mynyan-move="magic">' + magOpts + '</select></label><label class="mynyan-slot">必殺技<select data-mynyan-move="ult">' + ultOpts + '</select></label><label class="mynyan-slot">スキル<select data-mynyan-move="skill">' + skOpts + '</select></label></div><p class="mynyan-summary">スキル効果：' + escHtml(skEff || '—') + '</p><p class="mynyan-summary">得意 ' + attrHtml(af.strong) + '　苦手 ' + attrHtml(af.weak) + '（妖術の属性で自動決定）</p></section>' +
       '<section class="mynyan-sec"><h4>ステータス（Lv.60）</h4><p class="mynyan-summary">HP ' + st.hp + ' / ちから ' + st.strength + ' / ようりょく ' + st.spirit + ' / まもり ' + st.defense + ' / すばやさ ' + st.speed + '</p></section>' +
       '<p class="agerank-note">マイニャンはアゲランクの代わりに特訓でステータスが変わります。1ポイント＝ステータス5（Lv.60の初期値 ちから・ようりょく・まもり・すばやさ各' + MASTER.base.strength + '、HP' + MASTER.base.hp + '）。HPは特訓で変わりません。特訓の順番は結果に影響しません。妖術・必殺技の威力・説明とスキルの効果は、同じ技・スキルを持つ妖怪のデータを流用しています。</p>';
@@ -975,7 +983,7 @@
     e.preventDefault(); e.stopPropagation(); open(b);
   }, true);
 
-  window.MYNYAN = { master: MASTER, target: target, stats: stats, controlHtml: controlHtml, totals: totals, summary: summaryText, open: open, close: shut, getSlots: function(){ return slots.slice(); }, getSelection: function(){ return { magic: sel.magic, ult: sel.ult, skill: sel.skill }; } };
+  window.MYNYAN = { master: MASTER, target: target, stats: stats, controlHtml: controlHtml, totals: totals, summary: summaryText, open: open, close: shut, getSlots: function(){ return slots.slice(); }, rankLetter: rankLetter, trainingCount: usedCount, getSelection: function(){ return { magic: sel.magic, ult: sel.ult, skill: sel.skill }; } };
 
   // 特訓・技の変更 → 一覧・比較・パーティ・計算機・ウィンドウに反映
   document.addEventListener("change", function(e){

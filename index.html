@@ -416,7 +416,6 @@
 </div>
 <p id="bulkStatus" class="bulk-status" role="status" aria-live="polite">一括適用すると、各対象妖怪の個別アゲランク設定も選択したランクにそろいます。</p>
 </section>
-<div class="filter-launch-row"><button type="button" class="primary filter-launch" id="openFilters">☷ 絞り込みを開く</button><div class="search-box top-search"><label for="q">妖怪名・技・スキルを検索</label><input id="q" placeholder="例：アチャー、火花の術、ちから大アップ"></div></div>
 <div class="filter-modal" id="filterModal" role="dialog" aria-modal="true" aria-labelledby="filterModalTitle">
  <div class="filter-dialog"><div class="filter-dialog-head"><h2 id="filterModalTitle">検索・絞り込み</h2><div class="filter-dialog-actions"><button type="button" id="resetFiltersInModal">条件をリセット</button><button type="button" class="primary" id="closeFilters">閉じる</button></div></div><div id="filterContent"></div></div>
 </div>
@@ -438,6 +437,7 @@
 <div class="sort-box"><label for="sort">並べ替え</label><select id="sort"><option value="number">正式図鑑番号順</option><option value="name">名前（あいうえお順）</option><option value="tribe">種族</option><option value="game">初登場作品</option><option value="hp">HP</option><option value="strength">ちから</option><option value="spirit">ようりょく</option><option value="defense">まもり</option><option value="speed">すばやさ</option><option value="moveWait">移動待機</option></select></div></section>
 <section class="compare" id="compare"><h2>選択した妖怪の比較</h2><div id="compareBody"></div></section>
 <section class="party" id="party" aria-labelledby="partyTitle"><div class="party-head"><h2 id="partyTitle">パーティ編成</h2><span class="party-count" id="partyCount">0/6</span><button type="button" id="partyClear">パーティを全て外す</button></div><div id="partyBody"></div></section>
+<!-- v437: 絞り込みボタンと検索欄をパーティ編成の下に移動 --><div class="filter-launch-row"><button type="button" class="primary filter-launch" id="openFilters">☷ 絞り込みを開く</button><div class="search-box top-search"><label for="q">妖怪名・技・スキルを検索</label><input id="q" placeholder="例：アチャー、火花の術、ちから大アップ"></div></div>
 <div class="toolbar"><div class="count" id="count" aria-live="polite"></div><div class="buttons"><button id="clear">条件をリセット</button><button id="clearCompare" type="button">比較を全て解除</button><button class="primary" id="showCompare">比較を見る（0/4）</button></div></div><section class="grid" id="grid" aria-label="妖怪一覧"></section>
 </main>
 <div class="skill-image-modal" id="skillImageModal" aria-hidden="true">
@@ -1616,6 +1616,8 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
    v433: 同じ妖怪を複数入れられるように、パーティの1枠ごと（インスタンス）に設定を持つ形へ変更。
          v431・v432の保存内容（配置・妖怪ごとの設定・マイセット）は自動で引き継ぐ。妖怪ごとの最後の設定は、新しく入れたときの初期値として使う。
          ボードのマスを大きく（86px→104px）。
+   v438: ボードのランクアイコンをE〜Sすべてに。性格・そうび・肉体改造・ランク・そうび名の変更は、その枠のマスとカードだけを書き換えて軽量化。アイコン一覧は種類ごとに1回だけ作る。
+   v435: パーティの1枠ごとにアゲランクを設定（ランク欄）。ボードの妖怪の左下に、今のランクがA・Sのときランクアイコン（images/rank/）を表示。
    v434: 軽量化。パーティの変更で図鑑一覧を描き直さずチェックだけ更新、妖怪を選ぶウィンドウの画像を遅延読み込み・検索入力を少し待ってから絞り込み。
    配置・設定・マイセット・メモはこのブラウザに保存（localStorage）。既存のパーティ（yw3-party-v1：妖怪IDの並び、重複あり）と同期し、分析表もこの順で並ぶ */
 (()=>{
@@ -1691,17 +1693,30 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
   layout[t.k][t.i]=a;layout[f.k][f.i]=b||null;message='';
  }
  const waitText=x=>Number.isFinite(x.moveWait)?String(x.moveWait):'?';
- const tip=u=>{const x=yk(u),b=build(u),n=nat(b.nature);return [x.name,'移動待機：'+waitText(x),'性格：'+(n?n.name:'未設定'),'そうび：'+equipText(x,b),'肉体改造：'+(clubDelta(b)||'なし')].join('\n');};
+ /* v435: パーティの1枠ごとのアゲランク（図鑑一覧の「表示ランク」とは別に保存）。ボードはA・Sランクのときだけ左下にアイコン */
+ const RANKS=['E','D','C','B','A','S'];
+ const agMax=x=>{try{return typeof maxAgerank==='function'?maxAgerank(x):0;}catch(e){return 0;}};
+ const baseRank=x=>{try{return typeof baseRankLetter==='function'?baseRankLetter(x):'';}catch(e){return '';}};
+ const agOf=u=>{const x=yk(u),b=build(u);return Math.max(0,Math.min(agMax(x),Number(b.agerank)||0));};
+ const rankNow=u=>{const x=yk(u),r=baseRank(x);if(!r)return '';const i=RANKS.indexOf(r)+agOf(u);return RANKS[Math.min(i,RANKS.length-1)]||r;};
+ const RANK_ICON={E:'images/rank/rank_E.png',D:'images/rank/rank_D.png',C:'images/rank/rank_C.png',B:'images/rank/rank_B.png',A:'images/rank/rank_A.png',S:'images/rank/rank_S.png'};/* v438: E〜Sすべて表示 */
+ const tip=u=>{const x=yk(u),b=build(u),n=nat(b.nature);return [x.name,'ランク：'+(rankNow(u)?rankNow(u)+(agOf(u)?`（元${baseRank(x)}・アゲランク+${agOf(u)}）`:''):'未登録'),'移動待機：'+waitText(x),'性格：'+(n?n.name:'未設定'),'そうび：'+equipText(x,b),'肉体改造：'+(clubDelta(b)||'なし')].join('\n');};
  const cell=(k,i)=>{const key=k+':'+i,u=layout[k][i],x=u&&yk(u);
   if(!x)return `<div role="button" tabindex="0" class="pf-cell pf-empty${selected?' target':''}" data-pf-cell="${key}" aria-label="${k==='main'?'メイン':'サブ'}の空きマス"></div>`;
   const b=build(u),n=nat(b.nature),eqs=equipSlots(x).map(s=>eqp(b[eqKey(s)])).filter(Boolean);
-  return `<div role="button" tabindex="0" class="pf-cell${selected===key?' sel':''}" data-pf-cell="${key}" data-pf-drag="${key}" draggable="true" title="${esc(tip(u))}" aria-pressed="${selected===key}" aria-label="${esc(x.name)}（${k==='main'?'メイン':'サブ'}・移動待機${esc(waitText(x))}）"><span class="pf-piece"><span class="pf-icon-wrap">${yIcon(x,'pf-icon')}<span class="pf-wait" aria-hidden="true">${esc(waitText(x))}</span></span><span class="pf-name">${esc(x.name)}</span>${n?`<span class="pf-nat"><img src="${esc(n.icon)}" alt=""></span>`:''}<span class="pf-mini">${eqs.map(e=>`<img src="${esc(e.icon)}" alt="">`).join('')}</span></span></div>`;};
+  return `<div role="button" tabindex="0" class="pf-cell${selected===key?' sel':''}" data-pf-cell="${key}" data-pf-drag="${key}" draggable="true" title="${esc(tip(u))}" aria-pressed="${selected===key}" aria-label="${esc(x.name)}（${k==='main'?'メイン':'サブ'}・移動待機${esc(waitText(x))}）"><span class="pf-piece"><span class="pf-icon-wrap">${yIcon(x,'pf-icon')}${RANK_ICON[rankNow(u)]?`<img class="pf-rank" src="${RANK_ICON[rankNow(u)]}" alt="${rankNow(u)}ランク">`:''}<span class="pf-wait" aria-hidden="true">${esc(waitText(x))}</span></span><span class="pf-name">${esc(x.name)}</span>${n?`<span class="pf-nat"><img src="${esc(n.icon)}" alt=""></span>`:''}<span class="pf-mini">${eqs.map(e=>`<img src="${esc(e.icon)}" alt="">`).join('')}</span></span></div>`;};
  const pickBtn=(u,kind,slot)=>{const b=build(u),o=kind==='nature'?nat(b.nature):eqp(b[eqKey(slot||1)]);
   return `<button type="button" class="pf-pick" data-pf-pick="${kind}" data-pf-id="${esc(u)}"${kind==='equip'?` data-pf-slot="${slot||1}"`:''} aria-label="${kind==='nature'?'性格':'そうび'+(slot===2?'2':'')+'のアイコン'}を選ぶ">${o?`<img src="${esc(o.icon)}" alt="">${kind==='nature'?`<span>${esc(o.name)}</span>`:''}`:'<span class="pf-unset">未設定</span>'}</button>`;};
+ const rankRow=u=>{const x=yk(u),base=baseRank(x),max=agMax(x),cur=agOf(u);
+  if(x&&x.myNyan){const tc=window.MYNYAN&&window.MYNYAN.trainingCount?window.MYNYAN.trainingCount():null;return `<div class="pf-row"><span class="pf-k">ランク</span><span class="pf-rank-note">${esc(base?base+'ランク':'')}${tc!==null?`（特訓${tc}回）`:''}・マイニャンは特訓で変化</span></div>`;}
+  if(!base||!max)return `<div class="pf-row"><span class="pf-k">ランク</span><span class="pf-rank-note">${base?base+'ランク（これ以上上がらない）':'未登録'}</span></div>`;
+  const opts=Array.from({length:max+1},(_,n)=>`<option value="${n}"${n===cur?' selected':''}>${RANKS[RANKS.indexOf(base)+n]}ランク${n===0?'（元）':'（+'+n+'）'}</option>`).join('');
+  return `<div class="pf-row"><span class="pf-k">ランク</span><select class="pf-agerank" data-pf-agerank="${esc(u)}" aria-label="${esc(x.name)}のアゲランク">${opts}</select></div>`;};
  const buildCard=u=>{const x=yk(u),b=build(u),tot=clubTotal(b),two=twoSlots(x);
   const clubs=M.club.courses.map(c=>{const n=Number(b.club[c.key])||0;let o='';for(let v=0;v<=M.club.maxTotal;v++)o+=`<option value="${v}"${v===n?' selected':''}>${v}</option>`;return `<label title="${esc(c.name)}（1回：${Object.entries(c.gain).map(([k,v])=>(STAT.find(s=>s[0]===k)||[k,k])[1]+(v>0?'+':'')+v).join('・')}）"><span>${esc(c.name.replace('コース',''))}</span><select data-pf-club="${c.key}" data-pf-id="${esc(u)}" aria-label="${esc(x.name)}の${esc(c.name)}の回数">${o}</select></label>`;}).join('');
   const eqRow=n=>{const e=eqp(b[eqKey(n)]);return `<div class="pf-row"><span class="pf-k">${two?'そうび'+n:'そうび'}</span>${pickBtn(u,'equip',n)}<input type="text" class="pf-equip-name" data-pf-equip-name="${esc(u)}" data-pf-slot="${n}" value="${esc(b[eqNameKey(n)]||'')}" placeholder="${esc(e?e.name+'（名前を入力）':'そうびの名前を入力')}" maxlength="30" aria-label="${esc(x.name)}のそうび${two?n:''}の名前"></div>`;};
-  return `<div class="pf-build"><div class="pf-build-head"><button type="button" class="pf-who" data-pf-swap="${esc(u)}" title="押すと妖怪を変えられます" aria-label="${esc(x.name)}を別の妖怪に変える">${yIcon(x,'pf-build-icon')}<b>${esc(x.name)}</b><span class="pf-who-chg" aria-hidden="true">▼</span></button>${two?'<span class="pf-two" title="装備枠二つ">枠2</span>':''}<button type="button" class="pf-remove" data-pf-remove="${esc(u)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button></div>
+  return `<div class="pf-build" data-pf-card="${esc(u)}"><div class="pf-build-head"><button type="button" class="pf-who" data-pf-swap="${esc(u)}" title="押すと妖怪を変えられます" aria-label="${esc(x.name)}を別の妖怪に変える">${yIcon(x,'pf-build-icon')}<b>${esc(x.name)}</b><span class="pf-who-chg" aria-hidden="true">▼</span></button>${two?'<span class="pf-two" title="装備枠二つ">枠2</span>':''}<button type="button" class="pf-remove" data-pf-remove="${esc(u)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button></div>
+${rankRow(u)}
 <div class="pf-row"><span class="pf-k">性格</span>${pickBtn(u,'nature')}</div>
 ${equipSlots(x).map(eqRow).join('\n')}
 <div class="pf-row pf-row-club"><span class="pf-k">肉体改造</span><div class="pf-club">${clubs}</div></div>
@@ -1756,7 +1771,7 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 <div class="pf-main-wrap"><div class="pf-grid pf-main">${layout.main.map((_,i)=>cell('main',i)).join('')}</div></div>
 <div class="pf-cap pf-cap-sub">サブ <small>${cnt(layout.sub)}/3</small></div>
 <div class="pf-main-wrap"><div class="pf-grid pf-sub">${layout.sub.map((_,i)=>cell('sub',i)).join('')}</div></div>
-<p class="pf-help">${message?`<b class="pf-msg">${esc(message)}</b><br>`:''}${selected?'移動先のマスを選んでください（同じ妖怪をもう一度押すと取り消し）。':'妖怪を押してから移動先のマスを押すと移動します（妖怪どうしは入れ替え）。パソコンはドラッグでも動かせます。右下の数字は移動待機時間です。'}</p>
+<p class="pf-help">${message?`<b class="pf-msg">${esc(message)}</b><br>`:''}${selected?'移動先のマスを選んでください（同じ妖怪をもう一度押すと取り消し）。':'妖怪を押してから移動先のマスを押すと移動します（妖怪どうしは入れ替え）。パソコンはドラッグでも動かせます。右下の数字は移動待機時間、左下の印はランクです。'}</p>
 </div><div class="pf-side">
 <div class="pf-lane"><div class="pf-lane-cap">メイン<small>左の列から・同じ列は上から</small></div><div class="pf-builds">${fill(mainCards,'メイン','main')}</div></div>
 <div class="pf-lane"><div class="pf-lane-cap">サブ<small>左から</small></div><div class="pf-builds">${fill(subCards,'サブ','sub')}</div></div>
@@ -1765,6 +1780,13 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
  }
  const rerender=()=>{if(typeof window.renderParty==='function')window.renderParty();};
  const refreshStatus=()=>{const el=document.getElementById('pfSetStatus');if(el)el.innerHTML=setStatus();};
+ /* v438: 性格・そうび・肉体改造・ランク・そうび名の変更では、パーティ欄全体を作り直さず、その枠のマスとカードだけを書き換える（軽量化） */
+ const focusKey=el=>{if(!el||!el.dataset)return null;const d=el.dataset;if(d.pfClub)return `[data-pf-club="${d.pfClub}"]`;if(d.pfAgerank!==undefined)return '[data-pf-agerank]';if(d.pfEquipName!==undefined)return `[data-pf-equip-name][data-pf-slot="${d.pfSlot}"]`;if(d.pfPick)return `[data-pf-pick="${d.pfPick}"]`+(d.pfSlot?`[data-pf-slot="${d.pfSlot}"]`:'');if(d.pfSwap)return '[data-pf-swap]';return null;};
+ const refreshSlot=u=>{let done=false;
+  ['main','sub'].forEach(k=>{const i=layout[k].indexOf(u);if(i<0)return;const el=document.querySelector(`[data-pf-cell="${k}:${i}"]`);if(el){el.outerHTML=cell(k,i);done=true;}});
+  const card=document.querySelector(`[data-pf-card="${CSS.escape(u)}"]`);
+  if(card){const a=document.activeElement,fk=a&&card.contains(a)?focusKey(a):null;card.outerHTML=buildCard(u);done=true;if(fk){const n=document.querySelector(`[data-pf-card="${CSS.escape(u)}"] ${fk}`);if(n)n.focus({preventScroll:true});}}
+  if(!done){rerender();return;}refreshStatus();};
  /* マスの操作（タップで選択→移動） */
  document.addEventListener('click',e=>{
   const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(!c)return;
@@ -1794,16 +1816,18 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
  const openPicker=(kind,u,slot)=>{const x=yk(u);if(!x)return;slot=Number(slot)||1;pick={kind,u,slot};const b=build(u),cur=kind==='nature'?b.nature:b[eqKey(slot)],list=kind==='nature'?M.natures:M.equips;
   document.getElementById('pfPickerTitle').textContent=`${x.name}の${kind==='nature'?'性格':'そうび'+(twoSlots(x)?slot:'')}`;
   document.getElementById('pfPickerNote').textContent=kind==='nature'?'アイコンを選ぶと性格の名前も表示されます。':'アイコンを選んだあと、そうびの名前はパーティ欄の入力欄に自分で入力します。';
-  document.getElementById('pfOpts').innerHTML=list.map(o=>`<button type="button" class="pf-opt${o.id===cur?' on':''}" data-pf-opt="${esc(o.id)}" aria-pressed="${o.id===cur}"><img src="${esc(o.icon)}" alt=""><span>${esc(o.name)}</span>${o.kind&&!o.name.includes(o.kind)?`<small>${esc(o.kind)}</small>`:''}</button>`).join('');
-  ov.hidden=false;(ov.querySelector('.pf-opt.on')||ov.querySelector('.pf-opt'))?.focus();};
- const closePicker=()=>{ov.hidden=true;const p=pick;pick=null;if(p){const sel=`[data-pf-pick="${p.kind}"][data-pf-id="${CSS.escape(p.u)}"]`+(p.kind==='equip'?`[data-pf-slot="${p.slot}"]`:'');const b=document.querySelector(sel);b&&b.focus();}};
+  const box=document.getElementById('pfOpts');
+  if(box.dataset.kind!==kind){box.dataset.kind=kind;box.innerHTML=list.map(o=>`<button type="button" class="pf-opt" data-pf-opt="${esc(o.id)}" aria-pressed="false"><img src="${esc(o.icon)}" alt="" decoding="async"><span>${esc(o.name)}</span>${o.kind&&!o.name.includes(o.kind)?`<small>${esc(o.kind)}</small>`:''}</button>`).join('');}/* v438: 一覧は種類ごとに1回だけ作り、開くたびは選択中の印だけ付け替える */
+  box.querySelectorAll('.pf-opt').forEach(b=>{const on=b.dataset.pfOpt===cur;b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on));});
+  ov.hidden=false;(box.querySelector('.pf-opt.on')||box.querySelector('.pf-opt'))?.focus({preventScroll:true});};
+ const closePicker=()=>{ov.hidden=true;const p=pick;pick=null;if(p){const sel=`[data-pf-pick="${p.kind}"][data-pf-id="${CSS.escape(p.u)}"]`+(p.kind==='equip'?`[data-pf-slot="${p.slot}"]`:'');const b=document.querySelector(sel);b&&b.focus({preventScroll:true});}};
  /* 枠の設定を変える（その妖怪の「最後の設定」も更新し、次に同じ妖怪を入れたときの初期値にする） */
  const setBuild=(u,fn)=>{const it=inst[u];if(!it)return;const b=build(u);fn(b);lastBuild[it.id]=clone(b);sv(BKEY,lastBuild);saveAll();};
  document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-pf-pick]');if(b)openPicker(b.dataset.pfPick,b.dataset.pfId,b.dataset.pfSlot);});
  ov.addEventListener('click',e=>{
   if(e.target===ov||e.target.id==='pfPickerClose'){closePicker();return;}
   const o=e.target.closest('[data-pf-opt]');
-  if((o||e.target.id==='pfPickerClear')&&pick){const v=o?o.dataset.pfOpt:null,p=pick;setBuild(p.u,b=>{if(p.kind==='nature')b.nature=v;else b[eqKey(p.slot)]=v;});rerender();closePicker();}
+  if((o||e.target.id==='pfPickerClear')&&pick){const v=o?o.dataset.pfOpt:null,p=pick;setBuild(p.u,b=>{if(p.kind==='nature')b.nature=v;else b[eqKey(p.slot)]=v;});refreshSlot(p.u);closePicker();}
  });
  document.addEventListener('keydown',e=>{if(!ov.hidden&&e.key==='Escape')closePicker();});
  /* そうびの名前・メモ・マイセット名（入力中は保存だけ、確定時に表示を更新） */
@@ -1814,8 +1838,9 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
  });
  document.addEventListener('keydown',e=>{if(e.target&&e.target.id==='pfSetName'&&e.key==='Enter'){e.preventDefault();setMsg='';saveSet();}});
  document.addEventListener('change',e=>{const t=e.target;if(!t.dataset)return;
-  if(t.dataset.pfEquipName!==undefined){rerender();return;}
-  if(t.dataset.pfClub){const u=t.dataset.pfId,k=t.dataset.pfClub;setBuild(u,b=>{b.club[k]=Number(t.value)||0;const over=clubTotal(b)-M.club.maxTotal;if(over>0)b.club[k]=Math.max(0,b.club[k]-over);});rerender();}
+  if(t.dataset.pfEquipName!==undefined){refreshSlot(t.dataset.pfEquipName);return;}
+  if(t.dataset.pfAgerank){const u=t.dataset.pfAgerank;setBuild(u,b=>{b.agerank=Number(t.value)||0;});refreshSlot(u);return;}
+  if(t.dataset.pfClub){const u=t.dataset.pfId,k=t.dataset.pfClub;setBuild(u,b=>{b.club[k]=Number(t.value)||0;const over=clubTotal(b)-M.club.maxTotal;if(over>0)b.club[k]=Math.max(0,b.club[k]-over);});refreshSlot(u);}
  });
  /* ---------- 妖怪を選ぶウィンドウ（一覧の妖怪を押す→入れ替え、空き枠を押す→追加）。同じ妖怪も選べる ---------- */
  const toKana=t=>String(t||'').normalize('NFKC').toLocaleLowerCase('ja').replace(/[ぁ-ゖ]/g,c=>String.fromCharCode(c.charCodeAt(0)+0x60));
@@ -1849,6 +1874,10 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
   getLastBuilds:()=>clone(lastBuild),getSets:()=>clone(sets),getMemo:()=>memo,order:()=>(window.__party||[]).slice()};
 })();
 </script>
+<style id="grid-contain-style-v438">
+/* v438: 図鑑一覧（698体）を独立した描画領域にして、パーティなど一覧の外を操作したときに一覧全体の描画準備（PrePaint）をやり直さないようにする。一覧内に画面固定・はみ出し要素がないことを確認済み */
+#grid{contain:layout paint}
+</style>
 <style id="party-formation-style-v430">
 .pf-wrap{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin-bottom:10px}
 .pf-board{background:#141c2b;border:1px solid var(--line);border-radius:12px;padding:10px;width:max-content;max-width:100%}
@@ -1864,6 +1893,9 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 .pf-piece{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;min-width:0}
 .pf-icon-wrap{position:relative;display:block;width:66px;height:66px}
 .pf-icon{width:66px;height:66px;object-fit:contain;pointer-events:none}
+.pf-rank{position:absolute;left:-14px;bottom:-2px;width:24px;height:24px;object-fit:contain;filter:drop-shadow(0 0 2px #000);pointer-events:none}
+.pf-agerank{flex:1 1 auto;min-width:0;font-size:11.5px;padding:3px 4px}
+.pf-rank-note{font-size:11px;color:var(--muted)}
 .pf-wait{position:absolute;right:-14px;bottom:-1px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#0b111c;border:1px solid #4b6a8f;color:#e6ecf7;font-size:11px;font-weight:800;line-height:15px;text-align:center;font-variant-numeric:tabular-nums}
 .pf-name{font-size:11.5px;font-weight:700;line-height:1.15;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pf-mini{position:absolute;top:3px;right:3px;display:flex;flex-direction:column;gap:1px}
