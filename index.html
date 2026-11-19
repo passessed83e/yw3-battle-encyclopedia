@@ -1616,6 +1616,8 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
    v433: 同じ妖怪を複数入れられるように、パーティの1枠ごと（インスタンス）に設定を持つ形へ変更。
          v431・v432の保存内容（配置・妖怪ごとの設定・マイセット）は自動で引き継ぐ。妖怪ごとの最後の設定は、新しく入れたときの初期値として使う。
          ボードのマスを大きく（86px→104px）。
+   v440: 下の分析にあった「とりつき・必殺技」を必殺技だけにし、ボード・一覧の右（画面が狭いときは一覧の下）に表示（html(extra)）。
+   v439: マイセットのボタンをドラッグ（スマホは長押し）・Alt＋←／→で並べ替え。
    v438: ボードのランクアイコンをE〜Sすべてに。性格・そうび・肉体改造・ランク・そうび名の変更は、その枠のマスとカードだけを書き換えて軽量化。アイコン一覧は種類ごとに1回だけ作る。
    v435: パーティの1枠ごとにアゲランクを設定（ランク欄）。ボードの妖怪の左下に、今のランクがA・Sのときランクアイコン（images/rank/）を表示。
    v434: 軽量化。パーティの変更で図鑑一覧を描き直さずチェックだけ更新、妖怪を選ぶウィンドウの画像を遅延読み込み・検索入力を少し待ってから絞り込み。
@@ -1736,7 +1738,7 @@ ${equipSlots(x).map(eqRow).join('\n')}
   return `<div class="pf-sets"><div class="pf-sets-head"><b>マイセット</b><span id="pfSetStatus">${setStatus()}</span></div>
 <div class="pf-set-chips">${chips||'<span class="party-muted">まだありません。名前を付けて保存すると、ここから1タップで呼び出せます。</span>'}</div>
 <div class="pf-set-actions"><input type="text" id="pfSetName" maxlength="30" value="${esc(name)}" placeholder="マイセットの名前" aria-label="マイセットの名前"><button type="button" id="pfSetSave">保存</button>${a?`<button type="button" id="pfSetDelete" class="pf-set-del">${delArmed?'もう一度押すと削除':'「'+esc(a.name)+'」を削除'}</button>`:''}</div>
-${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-set-note">同じ名前で保存すると上書きします。呼び出すと今のパーティ（配置・性格・そうび・肉体改造・メモ）がそのセットに置き換わります。</p></div>`;
+${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-set-note">ボタンはドラッグ（スマホは長押ししてから動かす）で並べ替えられます。同じ名前で保存すると上書きします。呼び出すと今のパーティ（配置・性格・そうび・肉体改造・メモ）がそのセットに置き換わります。</p></div>`;
  }
  function saveSet(){
   const inp=document.getElementById('pfSetName');const name=((inp&&inp.value)||'').trim().slice(0,30)||('マイセット'+(sets.length+1));
@@ -1762,7 +1764,7 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
   if(!delArmed){delArmed=true;rerender();return;}
   sets=sets.filter(s=>s.id!==a.id);activeId=null;delArmed=false;nameDraft=null;setMsg=`「${a.name}」を削除しました（今のパーティはそのまま）。`;sv(SKEY,sets);sv(AKEY,null);rerender();
  }
- function html(){
+ function html(extra){
   sync();
   const mainCards=MAIN_ORDER.map(i=>layout.main[i]).filter(u=>u&&yk(u)).map(buildCard),subCards=layout.sub.filter(u=>u&&yk(u)).map(buildCard);
   const fill=(arr,label,lane)=>arr.concat(Array(Math.max(0,3-arr.length)).fill(`<button type="button" class="pf-build pf-build-empty" data-pf-add="${lane}">＋ ${label}に妖怪を追加</button>`)).join('');
@@ -1776,7 +1778,7 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 <div class="pf-lane"><div class="pf-lane-cap">メイン<small>左の列から・同じ列は上から</small></div><div class="pf-builds">${fill(mainCards,'メイン','main')}</div></div>
 <div class="pf-lane"><div class="pf-lane-cap">サブ<small>左から</small></div><div class="pf-builds">${fill(subCards,'サブ','sub')}</div></div>
 <div class="pf-memo-box"><label for="pfMemo">パーティのメモ</label><textarea id="pfMemo" rows="3" maxlength="2000" placeholder="立ち回り・回し方・選出の理由など">${esc(memo)}</textarea></div>
-</div></div>`;
+</div>${extra?`<div class="pf-ult">${extra}</div>`:''}</div>`;
  }
  const rerender=()=>{if(typeof window.renderParty==='function')window.renderParty();};
  const refreshStatus=()=>{const el=document.getElementById('pfSetStatus');if(el)el.innerHTML=setStatus();};
@@ -1802,9 +1804,28 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
  document.addEventListener('drop',e=>{const c=e.target.closest&&e.target.closest('[data-pf-cell]');if(!c)return;e.preventDefault();const from=e.dataTransfer.getData('text/plain');if(!parse(from))return;selected=null;move(from,c.dataset.pfCell);sync();rerender();});
  /* 1枠だけ外す（同じ妖怪が複数いても、押した枠だけ） */
  document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-pf-remove]');if(!t)return;const u=t.dataset.pfRemove;['main','sub'].forEach(k=>{const i=layout[k].indexOf(u);if(i>=0)layout[k][i]=null;});delete inst[u];selected=null;message='';commit();});
+ /* v439: マイセットのボタンをドラッグで並べ替え（マウスはそのまま、スマホなどは長押ししてから動かす）。キーボードは Alt＋←／→ */
+ const chipDrag={id:null,started:false,x:0,y:0,type:'',timer:null,target:null,after:false,suppress:false};
+ const clearMarks=()=>document.querySelectorAll('.pf-set-chip.drop-before,.pf-set-chip.drop-after,.pf-set-chip.dragging').forEach(c=>c.classList.remove('drop-before','drop-after','dragging'));
+ const moveSet=(id,toId,after)=>{const from=sets.findIndex(s=>s.id===id);if(from<0)return false;const it=sets.splice(from,1)[0];let to=sets.findIndex(s=>s.id===toId);if(to<0){sets.splice(from,0,it);return false;}if(after)to++;sets.splice(to,0,it);sv(SKEY,sets);return true;};
+ const startChipDrag=()=>{chipDrag.started=true;const c=document.querySelector(`[data-pf-set-load="${CSS.escape(chipDrag.id)}"]`);if(c)c.classList.add('dragging');};
+ const endChipDrag=commitMove=>{clearTimeout(chipDrag.timer);const was=chipDrag.started,id=chipDrag.id,tgt=chipDrag.target,after=chipDrag.after;chipDrag.id=null;chipDrag.started=false;chipDrag.target=null;clearMarks();
+  if(was){chipDrag.suppress=true;setTimeout(()=>{chipDrag.suppress=false;},400);if(commitMove&&tgt&&tgt!==id&&moveSet(id,tgt,after)){setMsg='マイセットの順番を変えました。';rerender();const b=document.querySelector(`[data-pf-set-load="${CSS.escape(id)}"]`);b&&b.focus({preventScroll:true});}}};
+ document.addEventListener('pointerdown',e=>{const c=e.target.closest&&e.target.closest('.pf-set-chip');if(!c||e.button>0)return;chipDrag.id=c.dataset.pfSetLoad;chipDrag.started=false;chipDrag.x=e.clientX;chipDrag.y=e.clientY;chipDrag.type=e.pointerType;chipDrag.target=null;clearTimeout(chipDrag.timer);
+  if(e.pointerType!=='mouse')chipDrag.timer=setTimeout(()=>{if(chipDrag.id)startChipDrag();},350);});
+ document.addEventListener('pointermove',e=>{if(!chipDrag.id)return;const dx=e.clientX-chipDrag.x,dy=e.clientY-chipDrag.y,dist=Math.hypot(dx,dy);
+  if(!chipDrag.started){if(chipDrag.type==='mouse'){if(dist>6)startChipDrag();else return;}else{if(dist>10){clearTimeout(chipDrag.timer);chipDrag.id=null;}return;}}
+  e.preventDefault();const el=document.elementFromPoint(e.clientX,e.clientY),t=el&&el.closest&&el.closest('.pf-set-chip');
+  document.querySelectorAll('.pf-set-chip.drop-before,.pf-set-chip.drop-after').forEach(c=>c.classList.remove('drop-before','drop-after'));
+  if(t&&t.dataset.pfSetLoad!==chipDrag.id){const r=t.getBoundingClientRect();chipDrag.target=t.dataset.pfSetLoad;chipDrag.after=e.clientX>r.left+r.width/2;t.classList.add(chipDrag.after?'drop-after':'drop-before');}else chipDrag.target=null;});
+ document.addEventListener('pointerup',()=>{if(chipDrag.id)endChipDrag(true);});
+ document.addEventListener('pointercancel',()=>{if(chipDrag.id)endChipDrag(false);});
+ document.addEventListener('touchmove',e=>{if(chipDrag.started)e.preventDefault();},{passive:false});
+ document.addEventListener('dragstart',e=>{if(e.target.closest&&e.target.closest('.pf-set-chip'))e.preventDefault();});
+ document.addEventListener('keydown',e=>{const c=e.target.closest&&e.target.closest('.pf-set-chip');if(!c||!e.altKey||(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'))return;e.preventDefault();const i=sets.findIndex(s=>s.id===c.dataset.pfSetLoad),j=i+(e.key==='ArrowLeft'?-1:1);if(i<0||j<0||j>=sets.length)return;const [it]=sets.splice(i,1);sets.splice(j,0,it);sv(SKEY,sets);setMsg='マイセットの順番を変えました。';rerender();const b=document.querySelector(`[data-pf-set-load="${CSS.escape(it.id)}"]`);b&&b.focus({preventScroll:true});});
  /* マイセットの操作 */
  document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('button');if(!t)return;
-  if(t.dataset.pfSetLoad){setMsg='';loadSet(t.dataset.pfSetLoad);}
+  if(t.dataset.pfSetLoad){if(chipDrag.suppress){chipDrag.suppress=false;return;}setMsg='';loadSet(t.dataset.pfSetLoad);}
   else if(t.id==='pfSetSave'){setMsg='';saveSet();}
   else if(t.id==='pfSetDelete'){setMsg='';deleteSet();}
  });
@@ -1879,7 +1900,11 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 #grid{contain:layout paint}
 </style>
 <style id="party-formation-style-v430">
-.pf-wrap{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin-bottom:10px}
+.pf-wrap{display:grid;grid-template-columns:auto minmax(0,930px) minmax(280px,1fr);gap:12px;align-items:start;margin-bottom:10px}
+.pf-ult{min-width:0}
+.pf-ult-box{margin:0}
+.pf-ult-box .party-table tbody th{font-size:13px}
+@media (max-width:1560px){.pf-wrap{grid-template-columns:auto minmax(0,1fr)}.pf-ult{grid-column:2}}
 .pf-board{background:#141c2b;border:1px solid var(--line);border-radius:12px;padding:10px;width:max-content;max-width:100%}
 .pf-cap{font-size:12px;font-weight:800;color:#ffc857;margin:0 0 5px}.pf-cap small{color:var(--muted);font-weight:600;margin-left:4px}
 .pf-cap-sub{margin-top:10px;padding-top:8px;border-top:2px dashed #52627b}
@@ -1945,6 +1970,10 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 .pf-set-chip{width:auto!important;padding:5px 11px!important;border-radius:999px;font-size:12px;display:inline-flex;align-items:baseline;gap:5px}
 .pf-set-chip small{font-size:10px;color:var(--muted)}
 .pf-set-chip.on{border:2px solid #ffc857;background:#2b2a1d}
+.pf-set-chip{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;position:relative}
+.pf-set-chip.dragging{opacity:.45;outline:2px dashed #8ce1d0;outline-offset:2px;cursor:grabbing}
+.pf-set-chip.drop-before{box-shadow:-4px 0 0 #8ce1d0}
+.pf-set-chip.drop-after{box-shadow:4px 0 0 #8ce1d0}
 .pf-set-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .pf-set-actions input{flex:1 1 180px;min-width:0;max-width:320px;font-size:12.5px;padding:6px 9px}
 .pf-set-actions button{width:auto!important;flex:none;padding:6px 14px!important;font-size:12px}
@@ -1968,7 +1997,7 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
 .pf-opt small{font-size:10px;color:var(--muted)}
 .pf-opt.on{border:2px solid #ffc857;background:#2b2a1d}
 .pf-clear{margin-top:10px;width:auto!important;padding:6px 14px!important;font-size:12px}
-@media (max-width:1100px){.pf-wrap{grid-template-columns:minmax(0,1fr)}.pf-board{margin:0 auto}.pf-side{max-width:none}}
+@media (max-width:1100px){.pf-wrap{grid-template-columns:minmax(0,1fr)}.pf-ult{grid-column:auto}.pf-board{margin:0 auto}.pf-side{max-width:none}}
 @media (max-width:480px){.pf-grid{grid-template-columns:repeat(3,96px);gap:6px}.pf-cell{width:96px!important;height:96px}.pf-icon-wrap,.pf-icon{width:58px;height:58px}.pf-name{font-size:10.5px}.pf-mini img,.pf-nat img{width:18px;height:18px}}
 @media (max-width:760px){.pf-wrap{grid-template-columns:minmax(0,1fr)}.pf-board{margin:0 auto}.pf-builds{grid-template-columns:minmax(0,1fr)}.pf-build-empty{min-height:38px}.pf-build-empty~.pf-build-empty{display:none}}
 @media (max-width:400px){.pf-grid{grid-template-columns:repeat(3,90px);gap:5px}.pf-cell{width:90px!important;height:90px}.pf-icon-wrap,.pf-icon{width:54px;height:54px}}
@@ -1994,18 +2023,22 @@ function analysis(ms){
  const weakRows=ATTRS.map(a=>{const n=weak[a].length;const lv=n>=3?'danger':n===2?'warn':'';return `<tr class="${lv}"><th>${aHtml(a)}</th><td>${n?weak[a].map(chip).join(''):'<span class="party-muted">なし</span>'}</td><td>${strong[a].length?strong[a].map(chip).join(''):'<span class="party-muted">なし</span>'}</td></tr>`}).join('');
  const atkRows=ATTRS.map(a=>`<tr class="${atk[a].length?'':'none'}"><th>${aHtml(a)}</th><td>${atk[a].length?atk[a].map(e=>`<span class="party-chip"><img src="${esc(e.x.image)}" alt="">${esc(e.x.name)}<small>${e.t==='magic'?'妖術':'必殺技'}「${esc(e.m.name||'')}」</small></span>`).join(''):'<span class="party-muted">なし</span>'}</td></tr>`).join('');
  /* v380: ステータス合計の代わりにスキルを表示 */const skillRows=ms.map(x=>{const sk=(x.skills||[]).filter(Boolean);return `<tr><th>${chip(x)}</th><td>${sk.length?sk.map(m=>typeof m==='string'?`<b>${esc(m)}</b>`:`<div class="party-skill"><b>${esc(m.name||'スキル')}</b><span>${esc(m.effect||'詳細なし')}</span></div>`).join(''):'<span class="party-muted">詳細なし</span>'}</td></tr>`}).join('');
- const roleRows=ms.map(x=>{const p=mvs(x,'possession')[0];const u=mvs(x,'ultimate')[0];const pl=p?(()=>{const st=effectStatFor(p)||'',dg=effectDegreeFor(p)||'';return st&&!['混乱','行動妨害','回復','HP減少','移動妨害','ダメージ','お金ばらまき','その他'].includes(st)?st+dg:(dg&&dg!=='その他'?dg:st||'効果未確認')})():'詳細なし';const uc=u&&typeof ultimateCategory==='function'?ultimateCategory(u):'';return `<tr><th>${chip(x)}</th><td>${p?esc(p.name)+' 【'+esc(pl)+'】':'詳細なし'}</td><td>${u?`<div class="party-ult"><span>${esc(u.name)} 【${attributeOf(u)?aHtml(attributeOf(u))+' ':''}${esc(String(u.power??'???'))}】${uc?` <span class="party-muted">${esc(uc)}</span>`:''}</span>${ultimateRangeHtml(u.range)/* v381: 必殺技の範囲 */}</div>`:'詳細なし'}</td></tr>`}).join('');
+
  return `<div class="party-analysis">
 <section class="party-box"><h3>苦手・得意属性の重なり</h3><p class="party-note">苦手が同じ属性に2体（黄）・3体以上（赤）重なると、その属性の攻撃でまとめて狙われやすくなります。</p><table class="party-table"><thead><tr><th>属性</th><th>この属性が苦手</th><th>この属性が得意</th></tr></thead><tbody>${weakRows}</tbody></table>${unknown.length?`<p class="party-note">得意・苦手が未確認：${unknown.map(chip).join('')}</p>`:''}</section>
 <section class="party-box"><h3>攻撃できる属性（妖術・必殺技）</h3><p class="party-note">相手の苦手属性を突ける手段の一覧です。「なし」の属性は、その属性が苦手な相手に有利を取れません。</p><table class="party-table"><tbody>${atkRows}</tbody></table></section>
 <section class="party-box"><h3>スキル</h3><table class="party-table"><thead><tr><th>妖怪</th><th>スキル</th></tr></thead><tbody>${skillRows}</tbody></table></section>
-<section class="party-box"><h3>とりつき・必殺技</h3><table class="party-table"><thead><tr><th>妖怪</th><th>とりつき</th><th>必殺技</th></tr></thead><tbody>${roleRows}</tbody></table></section>
 </div>`;}
+/* v440: 「とりつき・必殺技」を必殺技だけ（分類の表示なし）にして、ボードと一覧の右に置く */
+function ultBox(ms){
+ if(!ms.length)return '';
+ const rows=ms.map(x=>{const u=mvs(x,'ultimate')[0];return `<tr><th>${chip(x)}</th><td>${u?`<div class="party-ult"><span>${esc(u.name)} 【${attributeOf(u)?aHtml(attributeOf(u))+' ':''}${esc(String(u.power??'???'))}】</span>${ultimateRangeHtml(u.range)/* v381: 必殺技の範囲 */}</div>`:'詳細なし'}</td></tr>`}).join('');
+ return `<section class="party-box pf-ult-box"><h3>必殺技</h3><table class="party-table"><thead><tr><th>妖怪</th><th>必殺技</th></tr></thead><tbody>${rows}</tbody></table></section>`;}
 function renderParty(){
  /* v430: 配置（メイン3×3・サブ3）と同期してから描画 */if(window.YW3_PARTY_BOARD)window.YW3_PARTY_BOARD.sync();
  const ms=members();const sec=document.getElementById('party');if(!sec)return;sec.classList.toggle('show',ms.length>0||!!(window.YW3_PARTY_BOARD&&window.YW3_PARTY_BOARD.hasSets()))/* v431: マイセットがあれば空でも表示 */;document.getElementById('partyCount').textContent=`${ms.length}/${MAX}`;
  const slots=[];for(let i=0;i<MAX;i++){const x=ms[i];slots.push(x?`<div class="party-slot"><button type="button" class="cmp-remove party-remove" data-party-remove="${esc(x.id)}" aria-label="${esc(x.name)}をパーティから外す" title="パーティから外す">×</button><img src="${esc(x.image)}" alt=""><div class="party-slot-body"><div class="party-slot-name">${esc(x.name)}</div><div class="tags"><span class="tag rank">${esc(rankDisplayLabel(x))}</span>${affinityTags(x)}</div></div></div>`:`<div class="party-slot empty"><span>空き</span></div>`)}
- document.getElementById('partyBody').innerHTML=`${window.YW3_PARTY_BOARD?window.YW3_PARTY_BOARD.html()/* v430: 配置と性格・そうび・肉体改造 */:`<div class="party-slots">${slots.join('')}</div>`}${analysis(ms)}<p class="small">パーティ・配置・性格・そうび・肉体改造はこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体：メイン3体・サブ3体）。</p>`;}
+ document.getElementById('partyBody').innerHTML=`${window.YW3_PARTY_BOARD?window.YW3_PARTY_BOARD.html(ultBox(ms))/* v430: 配置と性格・そうび・肉体改造（v440: 右に必殺技） */:`<div class="party-slots">${slots.join('')}</div>`}${analysis(ms)}<p class="small">パーティ・配置・性格・そうび・肉体改造はこのブラウザに保存され、次に開いたときも残ります。カードの「パーティ」にチェックを入れると追加できます（最大6体：メイン3体・サブ3体）。</p>`;}
 window.renderParty=renderParty;
 /* v434: パーティの変更で図鑑一覧（698体）を丸ごと描き直すと重いので、カードの「パーティ」チェックだけを更新する */
 window.syncPartyChecks=()=>{const p=window.__party||[],on=new Set(p),full=p.length>=MAX;document.querySelectorAll('input[data-party]').forEach(i=>{const v=on.has(i.dataset.party);if(i.checked!==v)i.checked=v;const d=!v&&full;if(i.disabled!==d)i.disabled=d;});};
