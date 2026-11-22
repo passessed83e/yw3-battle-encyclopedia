@@ -446,7 +446,7 @@
 <div class="skill-image-modal-head"><div class="skill-image-modal-head-copy"><h2 id="skillImageModalTitle">スキルを持つ妖怪</h2><p id="skillImageModalSub">スキル名をクリックすると、同じスキルや同じ効果を持つ妖怪を一覧表示します。</p></div><button id="skillImageModalClose" type="button" data-skill-close aria-label="閉じる">閉じる ✕</button></div>
 <div id="skillImageModalBody" class="skill-image-modal-body"></div>
 </section></div>
-<script src="data/tech_master.js"></script><script src="data/description_master.js"></script><script src="data/skill_master.js"></script><script src="data/data.js"></script><script src="data/mynyan.js"></script><script src="data/party_master.js"></script><script>
+<script src="data/tech_master.js"></script><script src="data/description_master.js"></script><script src="data/skill_master.js"></script><script src="data/data.js"></script><script src="data/mynyan.js"></script><script src="data/share_config.js"></script><script src="data/party_master.js"></script><script>
 const $=id=>document.getElementById(id); const data=window.YOKAI_DATA||[]; const techMaster=window.YOKAI_TECH_MASTER||{}; const descriptionMaster=window.YOKAI_DESCRIPTION_MASTER||{}; const skillMaster=window.YOKAI_SKILL_MASTER||{}; // 旧レイアウトを維持し、スキルの共通マスターだけ参照する。
 data.forEach(y=>{y.moves=(y.moves||[]).map(m=>{if(!m||typeof m!=='object')return m;const d=descriptionMaster[`${m.type}|${m.name}`];const patched={...m};if((!patched.effect||patched.effect==='詳細なし')&&d?.effect&&d.effect!=='詳細なし'&&(d.status?.startsWith('verified-')||d.status?.startsWith('user-edited-')))patched.effect=d.effect;if(['attack','magic'].includes(m.type)){const t=techMaster[m.techId];patched.power=t?.power||patched.power||'詳細なし';}return patched;});y.skills=(y.skills||[]).map(sk=>{const raw=typeof sk==='string'?{name:sk,effect:'詳細なし'}:{...sk};const entry=skillMaster[raw.skillMasterId];const variant=entry?.variants?.find(v=>v.id===raw.skillEffectId);return {...raw,name:entry?.name||raw.name||'スキル',effect:variant?.effect||raw.effect||'詳細なし',skillMasterId:entry?.id||raw.skillMasterId||'',skillEffectId:variant?.id||raw.skillEffectId||'',effectGroupId:variant?.effectGroupId||raw.effectGroupId||''};});});
 const skillUsagesByName=new Map(),skillUsagesByEffect=new Map(),skillUsageByRelationKey=new Map();
@@ -1619,6 +1619,8 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
          v431・v432の保存内容（配置・妖怪ごとの設定・マイセット）は自動で引き継ぐ。妖怪ごとの最後の設定は、新しく入れたときの初期値として使う。
          ボードのマスを大きく（86px→104px）。
    v440: 下の分析にあった「とりつき・必殺技」を必殺技だけにし、ボード・一覧の右（画面が狭いときは一覧の下）に表示（html(extra)）。
+   v449: マイセットの共有。「共有（URL・画像）」で共有URL（#set=…）と画像（1200×630）を作る。共有URLを開くとパーティ欄の上に知らせを出し、ボードに読み込む／マイセットに保存を選べる。
+         Cloudflare Worker（data/share_config.js）を設定すると、画像つきの短いURLになり、Xなどに貼ると画像が出る。
    v439: マイセットのボタンをドラッグ（スマホは長押し）・Alt＋←／→で並べ替え。
    v438: ボードのランクアイコンをE〜Sすべてに。性格・そうび・肉体改造・ランク・そうび名の変更は、その枠のマスとカードだけを書き換えて軽量化。アイコン一覧は種類ごとに1回だけ作る。
    v435: パーティの1枠ごとにアゲランクを設定（ランク欄）。ボードの妖怪の左下に、今のランクがA・Sのときランクアイコン（images/rank/）を表示。
@@ -1737,9 +1739,9 @@ ${equipSlots(x).map(eqRow).join('\n')}
  function setsHtml(){
   const a=activeSet();const name=nameDraft!==null?nameDraft:(a?a.name:'');
   const chips=sets.map(s=>`<button type="button" class="pf-set-chip${s.id===activeId?' on':''}" data-pf-set-load="${esc(s.id)}" title="${esc(s.name)}（${s.party.length}体・${esc(when(s.savedAt))}保存）を呼び出す">${esc(s.name)}<small>${s.party.length}体</small></button>`).join('');
-  return `<div class="pf-sets"><div class="pf-sets-head"><b>マイセット</b><span id="pfSetStatus">${setStatus()}</span></div>
+  return `${incomingHtml()}<div class="pf-sets"><div class="pf-sets-head"><b>マイセット</b><span id="pfSetStatus">${setStatus()}</span></div>
 <div class="pf-set-chips">${chips||'<span class="party-muted">まだありません。名前を付けて保存すると、ここから1タップで呼び出せます。</span>'}</div>
-<div class="pf-set-actions"><input type="text" id="pfSetName" maxlength="30" value="${esc(name)}" placeholder="マイセットの名前" aria-label="マイセットの名前"><button type="button" id="pfSetSave">保存</button>${a?`<button type="button" id="pfSetDelete" class="pf-set-del">${delArmed?'もう一度押すと削除':'「'+esc(a.name)+'」を削除'}</button>`:''}</div>
+<div class="pf-set-actions"><input type="text" id="pfSetName" maxlength="30" value="${esc(name)}" placeholder="マイセットの名前" aria-label="マイセットの名前"><button type="button" id="pfSetSave">保存</button><button type="button" id="pfShareOpen" class="pf-share-open">共有（URL・画像）</button>${a?`<button type="button" id="pfSetDelete" class="pf-set-del">${delArmed?'もう一度押すと削除':'「'+esc(a.name)+'」を削除'}</button>`:''}</div>
 ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-set-note">ボタンはドラッグ（スマホは長押ししてから動かす）で並べ替えられます。同じ名前で保存すると上書きします。呼び出すと今のパーティ（配置・性格・そうび・肉体改造・メモ）がそのセットに置き換わります。</p></div>`;
  }
  function saveSet(){
@@ -1890,7 +1892,152 @@ ${setMsg?`<p class="pf-set-msg">${esc(setMsg)}</p>`:''}<p class="party-muted pf-
  yov.addEventListener('click',e=>{if(e.target===yov||e.target.id==='pfYokaiClose'){closeYokai();return;}const b=e.target.closest('[data-pf-yokai]');if(b)chooseYokai(b.dataset.pfYokai);});
  let yTimer=null;yov.addEventListener('input',e=>{if(e.target.id==='pfYokaiSearch'){clearTimeout(yTimer);yTimer=setTimeout(yList,120);}});/* v434: 入力が続く間は待ってから絞り込む */
  yov.addEventListener('keydown',e=>{if(e.key==='Escape'){closeYokai();return;}if(e.key==='Enter'&&e.target.id==='pfYokaiSearch'){e.preventDefault();clearTimeout(yTimer);yList();const b=yov.querySelector('.pf-yopt');b&&chooseYokai(b.dataset.pfYokai);}});
- window.YW3_PARTY_BOARD={html,sync,hasSets:()=>sets.length>0,
+ /* ---------- v449: マイセットの共有（URL・画像）----------
+    共有URL：マイセット（配置・性格・そうび・肉体改造・ランク、選べばメモも）を圧縮してURLの # の後ろに入れる。
+    Cloudflare Worker（data/share_config.js の workerUrl）を設定すると、画像つきの短いURLになり、Xなどに貼ると画像が出る。
+    画像はこのブラウザで描いて（1200×630）、Workerに保存する。 */
+ const SHARE=Object.assign({workerUrl:'',siteUrl:'https://passessed83e.github.io/yw3-battle-encyclopedia/'},window.YW3_SHARE_CONFIG||{});
+ const b64e=u8=>{let s='';for(let i=0;i<u8.length;i+=0x8000)s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000));return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');};
+ const b64d=t=>{t=String(t).replace(/-/g,'+').replace(/_/g,'/');while(t.length%4)t+='=';const s=atob(t),u=new Uint8Array(s.length);for(let i=0;i<s.length;i++)u[i]=s.charCodeAt(i);return u;};
+ const pipeBytes=async(u8,st)=>new Uint8Array(await new Response(new Blob([u8]).stream().pipeThrough(st)).arrayBuffer());
+ const SKEYS=['nature','equip','equipName','equip2','equipName2','agerank'];
+ const shareData=(name,withMemo)=>{sync();const s=[];CELLS.forEach(([k,i])=>{const u=layout[k][i];if(!u||!inst[u])return;const b=build(u),o={c:k==='main'?i:9+i,y:inst[u].id};
+   SKEYS.forEach(key=>{const v=b[key];if(v!==undefined&&v!==null&&v!==''&&v!==0)o[key]=v;});const cl={};Object.entries(b.club||{}).forEach(([kk,v])=>{if(Number(v))cl[kk]=Number(v);});if(Object.keys(cl).length)o.club=cl;s.push(o);});
+  const d={v:1,n:String(name||'').trim().slice(0,30),s};if(withMemo&&memo)d.m=memo.slice(0,2000);return d;};
+ const encodeShare=async d=>{const raw=new TextEncoder().encode(JSON.stringify(d));if(typeof CompressionStream==='function'){try{return 'A'+b64e(await pipeBytes(raw,new CompressionStream('deflate-raw')));}catch(e){}}return 'J'+b64e(raw);};
+ const decodeShare=async code=>{code=String(code||'');let raw;
+  if(code[0]==='A'){if(typeof DecompressionStream!=='function')throw new Error('このブラウザは共有URLの読み込みに対応していません（ブラウザを新しくしてください）');raw=await pipeBytes(b64d(code.slice(1)),new DecompressionStream('deflate-raw'));}
+  else if(code[0]==='J')raw=b64d(code.slice(1));else throw new Error('共有URLの形式が違います');
+  const d=JSON.parse(new TextDecoder().decode(raw));if(!d||d.v!==1||!Array.isArray(d.s))throw new Error('共有URLの形式が違います');return d;};
+ /* 共有データ → 配置と枠の設定（見つからない妖怪・壊れた値は除く。メイン3体・合計6体まで） */
+ const fromShare=d=>{const lay=blank(),ins={};let skipped=0;
+  d.s.forEach(o=>{if(!o||typeof o!=='object'||!byId(o.y)){skipped++;return;}const c=Number(o.c),k=c>=9?'sub':'main',i=c>=9?c-9:c;
+   if(!Number.isInteger(i)||i<0||i>=(k==='main'?9:3)||lay[k][i]||(k==='main'&&cnt(lay.main)>=3)||cnt(lay.main)+cnt(lay.sub)>=6){skipped++;return;}
+   const b={club:{}};SKEYS.forEach(key=>{if(o[key]===undefined||o[key]===null)return;b[key]=key==='agerank'?Math.max(0,Math.min(5,Number(o[key])||0)):String(o[key]).slice(0,30);});
+   if(b.nature&&!nat(b.nature))delete b.nature;['equip','equip2'].forEach(e=>{if(b[e]&&!eqp(b[e]))delete b[e];});
+   if(o.club&&typeof o.club==='object'){let left=M.club.maxTotal;M.club.courses.forEach(cc=>{const n=Math.min(left,Math.max(0,Math.floor(Number(o.club[cc.key])||0)));if(n>0){b.club[cc.key]=n;left-=n;}});}
+   const u=newUid();ins[u]={id:o.y,b};lay[k][i]=u;});
+  return {layout:lay,inst:ins,memo:typeof d.m==='string'?d.m.slice(0,2000):'',name:String(d.n||'').slice(0,30),count:cnt(lay.main)+cnt(lay.sub),skipped};};
+ /* 開いたURLに共有データがあれば、パーティ欄の上に知らせを出す（すぐには置き換えない） */
+ let incoming=null;
+ const clearHash=()=>{try{if(/[#&]set=/.test(location.hash))history.replaceState(null,'',location.pathname+location.search);}catch(e){}};
+ const readHash=async()=>{const m=/[#&]set=([A-Za-z0-9_-]+)/.exec(location.hash||'');if(!m)return;
+  try{const d=await decodeShare(m[1]);incoming={c:fromShare(d)};}catch(e){const msg=e&&e.message||'';incoming={err:/^(この|共有URLの形式)/.test(msg)?msg:'共有URLが壊れているか、途中で切れています。URLを最後までコピーできているか確認してください。'};}
+  rerender();const sec=document.getElementById('party');if(sec)setTimeout(()=>sec.scrollIntoView({block:'start'}),60);};
+ const incomingHtml=()=>{if(!incoming)return '';
+  if(incoming.err)return `<div class="pf-share-in err" role="status"><b>共有URLを読み込めませんでした</b><span>${esc(incoming.err)}</span><div class="pf-share-in-actions"><button type="button" data-pf-share-in="close">閉じる</button></div></div>`;
+  const c=incoming.c,nm=c.name||'名前なし';
+  return `<div class="pf-share-in" role="status"><b>共有されたマイセット「${esc(nm)}」</b><span>${c.count}体${c.skipped?`（見つからない妖怪など${c.skipped}件を除外）`:''}${c.memo?'・メモあり':''}</span>
+<div class="pf-share-in-actions"><button type="button" class="primary" data-pf-share-in="load"${c.count?'':' disabled'}>ボードに読み込む</button><button type="button" data-pf-share-in="save"${c.count&&!incoming.saved?'':' disabled'}>${incoming.saved?'マイセットに保存済み':'マイセットに保存'}</button><button type="button" data-pf-share-in="close">閉じる</button></div>
+<p class="party-muted">ボードに読み込むと、今のパーティ（配置・性格・そうび・肉体改造・メモ）は置き換わります。今のパーティを残したいときは、先にマイセットに保存してください。</p></div>`;};
+ const uniqueName=n=>{n=n||'共有マイセット';if(!sets.some(s=>s.name===n))return n;for(let i=2;i<100;i++){const t=(n.slice(0,26)+'（'+i+'）');if(!sets.some(s=>s.name===t))return t;}return n.slice(0,24)+Date.now().toString(36).slice(-5);};
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-pf-share-in]');if(!t||!incoming)return;const act=t.dataset.pfShareIn;
+  if(act==='close'){incoming=null;clearHash();rerender();return;}
+  const c=incoming.c;if(!c)return;
+  if(act==='load'){layout=clone(c.layout);inst=clone(c.inst);memo=c.memo;sv(MKEY,memo);activeId=null;sv(AKEY,null);nameDraft=c.name||null;delArmed=false;selected=null;message='';setMsg=`共有されたマイセット「${c.name||'名前なし'}」をボードに読み込みました。残すときは名前を付けて保存してください。`;incoming=null;clearHash();commit();return;}
+  if(act==='save'){if(sets.length>=MAX_SETS){setMsg=`マイセットは${MAX_SETS}個までです。不要なセットを削除してください。`;rerender();return;}
+   const lay=clone(c.layout),ins=clone(c.inst),party=CELLS.map(([k,i])=>lay[k][i]).filter(Boolean).map(u=>ins[u].id),name=uniqueName(c.name);
+   sets.push({id:'set'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),name,savedAt:Date.now(),v:2,party,layout:lay,inst:ins,memo:c.memo});sv(SKEY,sets);incoming.saved=true;setMsg=`「${name}」としてマイセットに保存しました（今のパーティはそのまま）。`;rerender();}
+ });
+ /* ---------- 共有画像（1200×630）をcanvasに描く ---------- */
+ const imgCache=new Map();
+ const loadImg=(src,alt)=>{const key=src+'|'+(alt||'');if(imgCache.has(key))return imgCache.get(key);const p=new Promise(res=>{const im=new Image();im.decoding='async';im.onload=()=>res(im);im.onerror=()=>{if(alt&&im.src.indexOf(alt)<0){im.src=alt;}else res(null);};im.src=src;});imgCache.set(key,p);return p;};
+ const FONT='"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Noto Sans CJK JP","Yu Gothic","Meiryo",sans-serif';
+ const rr=(g,x,y,w,h,r)=>{g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();};
+ const fit=(g,t,w)=>{t=String(t||'');if(g.measureText(t).width<=w)return t;while(t.length>1&&g.measureText(t+'…').width>w)t=t.slice(0,-1);return t+'…';};
+ const drawFit=(g,img,x,y,w,h)=>{if(!img)return;const r=Math.min(w/img.naturalWidth,h/img.naturalHeight),dw=img.naturalWidth*r,dh=img.naturalHeight*r;g.drawImage(img,x+(w-dw)/2,y+(h-dh)/2,dw,dh);};
+ const rankOf=(x,b)=>{const r=baseRank(x);if(!r)return '';const a=Math.max(0,Math.min(agMax(x),Number(b.agerank)||0));return RANKS[Math.min(RANKS.indexOf(r)+a,RANKS.length-1)]||r;};
+ async function drawShare(cv,d){const g=cv.getContext('2d'),W=1200,H=630;cv.width=W;cv.height=H;
+  const c=fromShare(d),slots=CELLS.map(([k,i])=>{const u=c.layout[k][i];return u?{k,i,x:byId(c.inst[u].id),b:c.inst[u].b}:null;}).filter(Boolean);
+  const want=[];slots.forEach(s=>{want.push(loadImg(iconSrc(s.x),s.x.image));const n=nat(s.b.nature);if(n)want.push(loadImg(n.icon));equipSlots(s.x).forEach(q=>{const e=eqp(s.b[eqKey(q)]);if(e)want.push(loadImg(e.icon));});const r=rankOf(s.x,s.b);if(RANK_ICON[r])want.push(loadImg(RANK_ICON[r]));});
+  await Promise.all(want);const im=(src,alt)=>imgCache.get(src+'|'+(alt||''));const get=async(src,alt)=>await im(src,alt);
+  /* 背景：バインダーの台紙 */
+  g.fillStyle='#1b1625';g.fillRect(0,0,W,H);g.fillStyle='rgba(255,255,255,.035)';for(let y=2;y<H;y+=7)for(let x=(y%14?3:0);x<W;x+=7)g.fillRect(x,y,1.4,1.4);
+  /* 見出し：表紙（赤茶の革と金の枠） */
+  const hg=g.createLinearGradient(0,0,W,96);hg.addColorStop(0,'#913b33');hg.addColorStop(.6,'#732c27');hg.addColorStop(1,'#5d2320');g.fillStyle=hg;g.fillRect(0,0,W,96);
+  g.strokeStyle='#d8b36e';g.lineWidth=2;g.strokeRect(9,9,W-18,78);g.strokeStyle='#b48b4b';g.lineWidth=1;g.strokeRect(14.5,14.5,W-29,67);
+  g.textBaseline='alphabetic';g.fillStyle='#f1dcc7';g.font=`bold 17px ${FONT}`;g.fillText('妖怪ウォッチ3 対戦大辞典　マイセット',30,40);
+  g.fillStyle='#f5d68f';g.font=`bold 32px ${FONT}`;g.fillText(fit(g,c.name||'マイセット',820),30,76);
+  const nMain=cnt(c.layout.main),nSub=cnt(c.layout.sub);g.font=`bold 18px ${FONT}`;g.fillStyle='#f1dcc7';g.textAlign='right';g.fillText(`メイン${nMain}体・サブ${nSub}体`,W-30,76);g.textAlign='left';
+  /* 左：ボード */
+  g.fillStyle='#27213a';rr(g,20,108,376,510,14);g.fill();g.strokeStyle='#4c4166';g.lineWidth=1.5;g.stroke();
+  g.fillStyle='#ffcf5c';g.font=`bold 17px ${FONT}`;g.fillText('メイン',36,134);g.fillText('サブ',36,494);
+  const CS=104,GAP=8;
+  const drawCell=async(k,i,x0,y0)=>{const u=c.layout[k][i],s=u&&{x:byId(c.inst[u].id),b:c.inst[u].b};
+   rr(g,x0,y0,CS,CS,10);g.fillStyle=s?'#332a48':'#1d1729';g.fill();g.strokeStyle=s?'#6f5c94':'#3b3054';g.lineWidth=1.5;g.stroke();if(!s)return;
+   drawFit(g,await get(iconSrc(s.x),s.x.image),x0+16,y0+6,72,72);
+   const n=nat(s.b.nature);if(n){const ni=await get(n.icon);if(ni){g.fillStyle='rgba(20,16,28,.75)';g.beginPath();g.arc(x0+16,y0+16,14,0,Math.PI*2);g.fill();drawFit(g,ni,x0+3,y0+3,26,26);}}
+   const eqs=equipSlots(s.x).map(q=>eqp(s.b[eqKey(q)])).filter(Boolean);for(let j=0;j<eqs.length;j++){const ei=await get(eqs[j].icon);drawFit(g,ei,x0+CS-27-j*24,y0+4,24,24);}
+   const r=rankOf(s.x,s.b);if(RANK_ICON[r])drawFit(g,await get(RANK_ICON[r]),x0+3,y0+52,26,26);
+   const w=waitText(s.x);g.font=`bold 14px ${FONT}`;const tw=Math.max(18,g.measureText(w).width+8);g.fillStyle='rgba(20,16,28,.85)';rr(g,x0+CS-tw-4,y0+60,tw,18,9);g.fill();g.fillStyle='#ffe18b';g.textAlign='center';g.fillText(w,x0+CS-4-tw/2,y0+74);
+   g.fillStyle='#f7f2fb';g.font=`bold 13px ${FONT}`;g.fillText(fit(g,s.x.name,CS-8),x0+CS/2,y0+97);g.textAlign='left';};
+  for(let i=0;i<9;i++)await drawCell('main',i,36+(i%3)*(CS+GAP),144+Math.floor(i/3)*(CS+GAP));
+  for(let i=0;i<3;i++)await drawCell('sub',i,36+i*(CS+GAP),502);
+  /* 右：性格・そうび・肉体改造の紹介（メインは左の列から・同じ列は上から、続いてサブ） */
+  g.fillStyle='#27213a';rr(g,412,108,768,510,14);g.fill();g.strokeStyle='#4c4166';g.lineWidth=1.5;g.stroke();
+  const RH=83,X=428;let y=114;
+  for(let j=0;j<slots.length;j++){const s=slots[j];if(j>0){g.strokeStyle=(s.k==='sub'&&slots[j-1].k==='main')?'#d9a43c':'#3b3054';g.lineWidth=s.k==='sub'&&slots[j-1].k==='main'?2:1;g.beginPath();g.moveTo(X,y);g.lineTo(1164,y);g.stroke();}
+   rr(g,X,y+9,64,64,10);g.fillStyle='#1d1729';g.fill();drawFit(g,await get(iconSrc(s.x),s.x.image),X+3,y+12,58,58);
+   const tx=X+78;g.font=`bold 13px ${FONT}`;const lab=s.k==='main'?'メイン':'サブ',lw=g.measureText(lab).width+12;g.fillStyle=s.k==='main'?'#7a2e2a':'#3a3150';rr(g,tx,y+12,lw,20,10);g.fill();g.fillStyle='#f5d68f';g.fillText(lab,tx+6,y+27);
+   g.fillStyle='#f7f2fb';g.font=`bold 21px ${FONT}`;const nm=fit(g,s.x.name,300);g.fillText(nm,tx+lw+8,y+30);let nx=tx+lw+8+g.measureText(nm).width+10;
+   const r=rankOf(s.x,s.b);if(r){g.font=`bold 14px ${FONT}`;g.fillStyle='#ffcf5c';g.fillText(r+'ランク',nx,y+29);}
+   const cd=clubDelta(s.b);g.font=`13px ${FONT}`;g.fillStyle='#c2b6d4';g.textAlign='right';g.fillText(fit(g,cd?'肉体改造 '+cd:'',330),1164,y+29);g.textAlign='left';
+   /* 2行目：性格・そうび */
+   let px=tx;const ly=y+60;const n=nat(s.b.nature);
+   g.font=`bold 13px ${FONT}`;g.fillStyle='#c2b6d4';g.fillText('性格',px,ly);px+=32;
+   if(n){drawFit(g,await get(n.icon),px,ly-19,24,24);px+=27;}g.font=`15px ${FONT}`;g.fillStyle='#f7f2fb';const nt=n?n.name:'未設定';g.fillText(fit(g,nt,150),px,ly);px+=Math.min(150,g.measureText(nt).width)+22;
+   g.font=`bold 13px ${FONT}`;g.fillStyle='#c2b6d4';g.fillText('そうび',px,ly);px+=46;
+   const qs=equipSlots(s.x);const each=(1164-px)/qs.length;
+   for(const q of qs){const e=eqp(s.b[eqKey(q)]);let qx=px;if(e){drawFit(g,await get(e.icon),qx,ly-19,24,24);qx+=27;}g.font=`15px ${FONT}`;g.fillStyle='#f7f2fb';g.fillText(fit(g,s.b[eqNameKey(q)]||(e?e.name:'未設定'),each-(qx-px)-10),qx,ly);px+=each;}
+   y+=RH;}
+  if(!slots.length){g.fillStyle='#c2b6d4';g.font=`20px ${FONT}`;g.fillText('妖怪がいません',X+20,160);}
+ }
+ /* ---------- 共有ウィンドウ ---------- */
+ const sov=document.createElement('div');sov.className='damage-side-settings-modal';sov.id='pfShare';sov.hidden=true;sov.setAttribute('role','dialog');sov.setAttribute('aria-modal','true');sov.setAttribute('aria-labelledby','pfShareTitle');
+ sov.innerHTML='<div class="damage-side-settings-dialog pf-share-dialog"><div class="damage-side-settings-head"><h3 id="pfShareTitle">マイセットを共有</h3><button type="button" class="damage-side-settings-close" id="pfShareClose">閉じる</button></div>'
+  +'<div class="pf-share-form"><label>共有する名前<input type="text" id="pfShareName" maxlength="30" placeholder="マイセットの名前"></label><label class="pf-share-check"><input type="checkbox" id="pfShareMemo"> メモも共有する</label></div>'
+  +'<div class="pf-share-preview"><canvas id="pfShareCanvas" width="1200" height="630" aria-label="共有画像のプレビュー"></canvas></div>'
+  +'<div class="pf-share-actions"><button type="button" class="primary" id="pfShareMake">共有URLを作ってコピー</button><button type="button" id="pfShareX">Xに投稿</button><button type="button" id="pfShareImg">画像を保存</button></div>'
+  +'<input type="text" id="pfShareUrl" readonly placeholder="ここに共有URLが表示されます" aria-label="共有URL"><p class="pf-picker-note" id="pfShareMsg" role="status" aria-live="polite"></p>'
+  +'<p class="party-muted pf-share-note">共有URLを開いた人は、そのマイセットをボードに読み込んだり、自分のマイセットに保存したりできます。'+(SHARE.workerUrl?'Xなどに貼ると、上の画像が表示されます。':'今は画像つきURLの設定（data/share_config.js の workerUrl）がまだなので、Xに貼っても画像は出ません。「画像を保存」した画像を投稿に添付してください。')+'</p></div>';
+ document.body.appendChild(sov);
+ let shareState={url:'',key:''};
+ const shareKey=()=>JSON.stringify([document.getElementById('pfShareName').value.trim(),document.getElementById('pfShareMemo').checked,shareData('',false)]);
+ const smsg=t=>{document.getElementById('pfShareMsg').textContent=t;};
+ let drawTimer=null;const redraw=()=>{clearTimeout(drawTimer);drawTimer=setTimeout(()=>{drawShare(document.getElementById('pfShareCanvas'),shareData(document.getElementById('pfShareName').value,false)).catch(()=>{});},150);};
+ const openShare=()=>{sync();if(!CELLS.some(([k,i])=>layout[k][i])){setMsg='パーティが空なので共有できません。';rerender();return;}
+  const a=activeSet();const inp=document.getElementById('pfSetName');document.getElementById('pfShareName').value=((inp&&inp.value)||(a&&a.name)||'').trim().slice(0,30);document.getElementById('pfShareMemo').checked=false;
+  shareState={url:'',key:''};document.getElementById('pfShareUrl').value='';smsg('');sov.hidden=false;
+  drawShare(document.getElementById('pfShareCanvas'),shareData(document.getElementById('pfShareName').value,false)).catch(()=>{});document.getElementById('pfShareMake').focus({preventScroll:true});};
+ const closeShare=()=>{sov.hidden=true;const b=document.getElementById('pfShareOpen');b&&b.focus({preventScroll:true});};
+ const canvasBlob=cv=>new Promise((res,rej)=>{try{cv.toBlob(b=>b?res(b):rej(new Error('画像を作れませんでした')),'image/png');}catch(e){rej(e);}});
+ const CACHE_KEY='yw3-share-cache-v1';
+ const copyText=async t=>{try{await navigator.clipboard.writeText(t);return true;}catch(e){const i=document.getElementById('pfShareUrl');i.focus();i.select();try{return document.execCommand('copy');}catch(e2){return false;}}};
+ async function makeUrl(){const key=shareKey();if(shareState.url&&shareState.key===key)return shareState.url;
+  const name=document.getElementById('pfShareName').value.trim().slice(0,30),d=shareData(name,document.getElementById('pfShareMemo').checked),code=await encodeShare(d);
+  const direct=SHARE.siteUrl.replace(/#.*$/,'')+'#set='+code;let url=direct,note='';
+  if(SHARE.workerUrl){const cache=ld(CACHE_KEY,{})||{};if(cache[code])url=cache[code];
+   else{try{smsg('画像をアップロードしています…');const cv=document.getElementById('pfShareCanvas');await drawShare(cv,d);const blob=await canvasBlob(cv);
+     const ms=slotsText(d);const r=await fetch(SHARE.workerUrl.replace(/\/+$/,'')+'/api/share',{method:'POST',headers:{'Content-Type':'image/png','X-Set-Code':code,'X-Set-Name':encodeURIComponent(name),'X-Set-Desc':encodeURIComponent(ms)},body:blob});
+     const j=await r.json().catch(()=>({}));if(!r.ok||!j.url)throw new Error(j.error||('HTTP '+r.status));url=j.url;cache[code]=url;const ks=Object.keys(cache);if(ks.length>100)delete cache[ks[0]];sv(CACHE_KEY,cache);}
+    catch(e){url=direct;note=`画像つきURLを作れなかったので、画像なしのURLにしました（${(e&&e.message)||e}）。`;}}}
+  else note='画像つきURLの設定がまだなので、画像なしのURLです。';
+  shareState={url,key};document.getElementById('pfShareUrl').value=url;return {url,note};}
+ const slotsText=d=>{const nm=o=>(byId(o.y)||{}).name||'';const mm=d.s.filter(o=>o.c<9).sort((a,b)=>MAIN_ORDER.indexOf(a.c)-MAIN_ORDER.indexOf(b.c)).map(nm),ss=d.s.filter(o=>o.c>=9).sort((a,b)=>a.c-b.c).map(nm);return (`メイン：${mm.join('・')||'なし'}／サブ：${ss.join('・')||'なし'}`).slice(0,120);};
+ sov.addEventListener('click',async e=>{const t=e.target;
+  if(t===sov||t.id==='pfShareClose'){closeShare();return;}
+  if(t.id==='pfShareMake'){t.disabled=true;try{const r=await makeUrl();const u=typeof r==='string'?r:r.url,note=typeof r==='string'?'':r.note;const ok=await copyText(u);smsg((ok?'共有URLをコピーしました。':'共有URLを作りました（コピーできなかったので、上の欄から手でコピーしてください）。')+(note?' '+note:''));}catch(err){smsg('共有URLを作れませんでした：'+((err&&err.message)||err));}t.disabled=false;return;}
+  if(t.id==='pfShareX'){const w=window.open('about:blank','_blank');try{const r=await makeUrl();const u=typeof r==='string'?r:r.url;const name=document.getElementById('pfShareName').value.trim();const txt=`妖怪ウォッチ3 マイセット${name?'「'+name+'」':''}`;const x='https://twitter.com/intent/tweet?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(u);if(w)w.location.href=x;else location.href=x;if(r&&r.note)smsg(r.note);}catch(err){if(w)w.close();smsg('共有URLを作れませんでした：'+((err&&err.message)||err));}return;}
+  if(t.id==='pfShareImg'){try{const cv=document.getElementById('pfShareCanvas');await drawShare(cv,shareData(document.getElementById('pfShareName').value,false));const blob=await canvasBlob(cv);const a=document.createElement('a');a.href=URL.createObjectURL(blob);{const t=new Date(),z=n=>String(n).padStart(2,'0');a.download=`yw3_myset_${t.getFullYear()}${z(t.getMonth()+1)}${z(t.getDate())}_${z(t.getHours())}${z(t.getMinutes())}${z(t.getSeconds())}.png`;}document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);smsg('画像を保存しました。');}
+   catch(err){smsg(location.protocol==='file:'?'ファイルとして開いている（オフライン）ときは、ブラウザの制限で画像を作れません。GitHub Pagesのページで開いてください。':'画像を作れませんでした：'+((err&&err.message)||err));}return;}
+ });
+ sov.addEventListener('input',e=>{if(e.target.id==='pfShareName'){shareState={url:'',key:''};document.getElementById('pfShareUrl').value='';redraw();}});
+ sov.addEventListener('change',e=>{if(e.target.id==='pfShareMemo'){shareState={url:'',key:''};document.getElementById('pfShareUrl').value='';}});
+ sov.addEventListener('keydown',e=>{if(e.key==='Escape')closeShare();});
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('#pfShareOpen');if(t)openShare();});
+ window.addEventListener('hashchange',readHash);
+ setTimeout(readHash,0);
+ window.YW3_PARTY_BOARD={html,sync,hasSets:()=>sets.length>0||!!incoming,
   getLayout:()=>{const f=u=>u&&inst[u]?inst[u].id:null;return {main:layout.main.map(f),sub:layout.sub.map(f)};},
   getSlots:()=>JSON.parse(JSON.stringify({layout,inst})),
   getBuilds:()=>{const o={};Object.values(inst).forEach(it=>{o[it.id]=clone(it.b||{});});return o;},
@@ -2050,6 +2197,25 @@ document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest
 if(window.__party.length)window.syncPartyChecks();/* v434: 起動時も一覧は描き直さずチェックだけ更新 */renderParty();
 })();
 </script>
+<style id="party-share-style-v449">
+/* v449: マイセットの共有 */
+.pf-share-in{margin:0 0 12px;padding:12px 14px;border:1px solid #d9a43c;border-radius:12px;background:#2e2643;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
+.pf-share-in.err{border-color:#e07a6a}
+.pf-share-in>b{color:#f5d68f}
+.pf-share-in-actions{display:flex;flex-wrap:wrap;gap:8px;width:100%}
+.pf-share-in p{margin:0;width:100%;font-size:12px}
+.pf-share-dialog{max-width:760px;width:calc(100vw - 24px)}
+.pf-share-form{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:flex-end;margin:0 0 10px}
+.pf-share-form label{display:flex;flex-direction:column;gap:4px;font-size:13px;flex:1 1 260px}
+.pf-share-form .pf-share-check{flex:0 0 auto;flex-direction:row;align-items:center;gap:6px;white-space:nowrap}
+.pf-share-check input{width:auto;flex:0 0 auto;margin:0}
+.pf-share-in-actions button{width:auto;flex:0 0 auto;padding-left:16px;padding-right:16px}
+.pf-share-preview{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#15111d}
+.pf-share-preview canvas{display:block;width:100%;height:auto}
+.pf-share-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 8px}
+#pfShareUrl{width:100%;box-sizing:border-box;font-size:13px}
+.pf-share-note{font-size:12px;margin:6px 0 0}
+</style>
 <style id="theme-daijiten-v441">
 /* v441: 妖怪大辞典ふうの配色。既存の色指定を同じ順番・同じセレクタで並べ直し、紺系の色だけ紫系に置き換えたもの（レイアウトの指定は含まない）。v442: ゲージ（バーと土台）は元の色のまま。v445: ステータスの記号（H・A・M・D・S）は紫系のまま（v444の変更を取り消し）。v446: ダメージ計算機のすばやさの色は元の色のまま */
 :root{color-scheme:dark;--bg:#17131f;--panel:#27213a;--panel2:#332a48;--line:#4c4166;--text:#f7f2fb;--muted:#c2b6d4;--accent:#ffcf5c;--warn:#ffd58b}
