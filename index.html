@@ -500,8 +500,9 @@ buildFilterCheckboxGroup('posDegree',posDegreeOptions);
 buildFilterCheckboxGroup('attributeFilter',allowedAttributes);
 buildFilterCheckboxGroup('ultimateCategory',ultimateCategoryOptions);
 // v417: 必殺技の効果（威力欄の効果ラベル。v415・v416で表記を統一）で絞り込み。並びは種類別、データにあるものだけ表示
-const ultimateEffectOrder=['ちから大アップ','ちから超アップ','まもり大アップ','まもり超アップ','すばやさ大アップ','すばやさ超アップ','すばやさ超絶アップ','全ステータスアップ','全ステータス大アップ','究極化','ちから大ダウン','ようりょく大ダウン','まもり大ダウン','すばやさ大ダウン','全ステータスダウン','混乱','行動不能','移動不能','お金ばらまき','HPだんだん減少','HP回復','HPだんだん回復','HP全回復','復活＋HP回復','HP1/4で復活','HP吸収＋分配回復','おはらい','雷床','炎床','氷床','毒床','移動不能エリア生成','爆弾投下','アイテム設置','悪い床効果を無効化','良い効果解除','メイン・サブ入れ替え','ランダム効果'];
-const ultimateEffectLabel=m=>{const p=String(m?.power??'').trim();return (!p||p==='詳細なし'||/^[0-9]/.test(p)||/^吸収\d/.test(p))?'':p;};
+const ultimateEffectOrder=['攻撃','ちから大アップ','ちから超アップ','まもり大アップ','まもり超アップ','すばやさ大アップ','すばやさ超アップ','すばやさ超絶アップ','全ステータスアップ','全ステータス大アップ','究極化','ちから大ダウン','ようりょく大ダウン','まもり大ダウン','すばやさ大ダウン','全ステータスダウン','混乱','行動不能','移動不能','お金ばらまき','HPだんだん減少','HP回復','HPだんだん回復','HP全回復','復活＋HP回復','HP1/4で復活','HP吸収＋分配回復','おはらい','雷床','炎床','氷床','毒床','移動不能エリア生成','爆弾投下','アイテム設置','悪い床効果を無効化','良い効果解除','メイン・サブ入れ替え','ランダム効果'];
+// v450: 威力が数値（吸収○○を含む）の必殺技は「攻撃」。威力未確認（詳細なし）でも物理攻撃・妖術攻撃の必殺技は「攻撃」に含める
+const ultimateEffectLabel=m=>{const p=String(m?.power??'').trim();if(/^[0-9]/.test(p)||/^吸収\d/.test(p))return '攻撃';if(!p||p==='詳細なし'){const c=typeof ultimateCategory==='function'?ultimateCategory(m):'';return (c==='物理攻撃'||c==='妖術攻撃')?'攻撃':'';}return p;};
 {const present=new Set();data.forEach(x=>(x.moves||[]).forEach(m=>{if(m&&m.type==='ultimate'){const l=ultimateEffectLabel(m);if(l)present.add(l);}}));buildFilterCheckboxGroup('ultimateEffect',[...ultimateEffectOrder.filter(l=>present.has(l)),...[...present].filter(l=>!ultimateEffectOrder.includes(l)).sort()]);}
 // v385: 得意属性・苦手属性の絞り込み（attributeAffinity）。属性の文字は色分け
 const affinityOptions=['火','水','雷','土','風','氷','なし','未確認'];
