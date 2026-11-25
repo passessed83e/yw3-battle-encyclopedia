@@ -229,6 +229,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -470,6 +480,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -713,6 +733,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -955,6 +983,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -1199,6 +1235,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -1451,6 +1495,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -1696,6 +1748,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -1942,6 +2002,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -2205,6 +2273,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -2456,6 +2533,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -2705,6 +2791,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -2959,6 +3054,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -3206,6 +3310,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -3460,6 +3573,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -3712,6 +3833,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -3979,6 +4108,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -4245,6 +4384,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -4491,6 +4638,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -4732,6 +4887,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -4984,6 +5149,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -5241,6 +5415,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -5482,6 +5665,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -5730,6 +5922,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -5973,6 +6174,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -6205,6 +6416,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -6455,6 +6676,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -6689,6 +6918,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -6920,6 +7157,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -7170,6 +7415,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -7440,6 +7694,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -7682,6 +7945,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -7918,6 +8190,16 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -8161,6 +8443,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -8406,6 +8698,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -8661,6 +8963,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -8918,6 +9229,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -9165,6 +9486,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -9413,6 +9744,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -9660,6 +9999,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -9921,6 +10268,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -10170,6 +10525,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -10427,6 +10790,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -10686,6 +11057,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -10939,6 +11318,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -11187,6 +11574,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -11441,6 +11836,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -11696,6 +12099,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -11969,6 +12381,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -12231,6 +12652,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -12489,6 +12919,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -12735,6 +13175,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -12984,6 +13432,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -13234,6 +13690,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -13482,6 +13946,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -13752,6 +14224,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -14006,6 +14486,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -14262,6 +14751,17 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「レア」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -14515,6 +15015,17 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「白犬隊限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -14764,6 +15275,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -15016,6 +15536,19 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -15263,6 +15796,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -15519,6 +16061,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -15776,6 +16327,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -16034,6 +16594,19 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -16290,6 +16863,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -16546,6 +17129,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -16801,6 +17394,19 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ3。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -17032,6 +17638,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -17265,6 +17880,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -17498,6 +18122,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -17739,6 +18373,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -17974,6 +18618,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -18209,6 +18861,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -18447,6 +19107,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -18684,6 +19352,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -18920,6 +19596,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -19160,6 +19844,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -19407,6 +20099,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -19643,6 +20344,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -19869,6 +20578,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -20122,6 +20841,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -20366,6 +21095,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -20598,6 +21337,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -20832,6 +21581,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -21063,6 +21821,15 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -21310,6 +22077,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -21554,6 +22331,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -21802,6 +22589,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -22043,6 +22840,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -22050,7 +22857,7 @@ window.YOKAI_DATA = [
     "name": "わらえ姉",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/090.png",
     "rank": "Dランク",
     "stats": {
@@ -22282,6 +23089,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -22289,7 +23105,7 @@ window.YOKAI_DATA = [
     "name": "青くちびる",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/091.png",
     "rank": "Cランク",
     "stats": {
@@ -22508,6 +23324,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -22515,7 +23340,7 @@ window.YOKAI_DATA = [
     "name": "バクロ婆",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/092.png",
     "rank": "Dランク",
     "stats": {
@@ -22733,6 +23558,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -22740,7 +23574,7 @@ window.YOKAI_DATA = [
     "name": "ババァーン",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/093.png",
     "rank": "Bランク",
     "stats": {
@@ -22975,6 +23809,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -22982,7 +23825,7 @@ window.YOKAI_DATA = [
     "name": "ドクロ婆",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/094.png",
     "rank": "Cランク",
     "stats": {
@@ -23211,6 +24054,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -23218,7 +24070,7 @@ window.YOKAI_DATA = [
     "name": "モテモ天",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/095.png",
     "rank": "Dランク",
     "stats": {
@@ -23445,6 +24297,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -23452,7 +24313,7 @@ window.YOKAI_DATA = [
     "name": "モテマクール",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/096.png",
     "rank": "Aランク",
     "stats": {
@@ -23684,6 +24545,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -23691,7 +24561,7 @@ window.YOKAI_DATA = [
     "name": "モテヌス",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/097.png",
     "rank": "Aランク",
     "stats": {
@@ -23907,6 +24777,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -23914,7 +24793,7 @@ window.YOKAI_DATA = [
     "name": "一旦ゴメン",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/098.png",
     "rank": "Dランク",
     "stats": {
@@ -24139,6 +25018,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -24146,7 +25035,7 @@ window.YOKAI_DATA = [
     "name": "あやまり倒し",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/099.png",
     "rank": "Aランク",
     "stats": {
@@ -24369,6 +25258,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -24376,7 +25275,7 @@ window.YOKAI_DATA = [
     "name": "こえんら",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/100.png",
     "rank": "Dランク",
     "stats": {
@@ -24595,6 +25494,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -24602,7 +25511,7 @@ window.YOKAI_DATA = [
     "name": "えんらえんら",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/101.png",
     "rank": "Aランク",
     "stats": {
@@ -24832,6 +25741,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -24839,7 +25758,7 @@ window.YOKAI_DATA = [
     "name": "でんぱく小僧",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/102.png",
     "rank": "Dランク",
     "stats": {
@@ -25071,6 +25990,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -25078,7 +26006,7 @@ window.YOKAI_DATA = [
     "name": "でんじん",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/103.png",
     "rank": "Aランク",
     "stats": {
@@ -25309,6 +26237,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -25316,7 +26253,7 @@ window.YOKAI_DATA = [
     "name": "おでんじん",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/104.png",
     "rank": "Aランク",
     "stats": {
@@ -25553,6 +26490,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -25560,7 +26507,7 @@ window.YOKAI_DATA = [
     "name": "はつでんしん",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/105.png",
     "rank": "Sランク",
     "stats": {
@@ -25807,6 +26754,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -25814,7 +26770,7 @@ window.YOKAI_DATA = [
     "name": "Ｕ.Ｓ.Ｏ.",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/106.png",
     "rank": "Cランク",
     "stats": {
@@ -26040,6 +26996,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -26047,7 +27013,7 @@ window.YOKAI_DATA = [
     "name": "アペリカン",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ2",
     "image": "images/yokai/107.png",
     "rank": "Cランク",
     "stats": {
@@ -26279,6 +27245,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
@@ -26538,6 +27514,19 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -26775,6 +27764,16 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -27013,6 +28012,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -27242,6 +28251,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -27477,6 +28496,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -27712,6 +28741,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -27944,6 +28981,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -28192,6 +29237,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -28427,6 +29480,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -28657,6 +29718,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -28893,6 +29962,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -29147,6 +30224,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -29394,6 +30480,14 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -29638,6 +30732,15 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -29884,6 +30987,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -30135,6 +31248,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -30376,6 +31499,16 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -30626,6 +31759,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -30878,6 +32021,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -31116,6 +32269,17 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「赤猫団限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -31377,6 +32541,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -31637,6 +32811,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -31892,6 +33074,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -32136,6 +33326,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -32393,6 +33591,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -32632,6 +33838,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -32870,6 +34085,15 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -33150,6 +34374,19 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -33410,6 +34647,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -33648,6 +34895,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -33884,12 +35141,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_139",
     "name": "マイッカー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/139.png",
@@ -34128,12 +35395,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_140",
     "name": "だるだるま",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/140.png",
@@ -34371,12 +35648,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_141",
     "name": "だるまっちょ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/141.png",
@@ -34614,12 +35899,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_142",
     "name": "ゴリだるま",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/142.png",
@@ -34863,12 +36156,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_143",
     "name": "うらや飯",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/143.png",
@@ -35117,12 +36418,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_144",
     "name": "プライ丼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/144.png",
@@ -35360,12 +36670,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_145",
     "name": "迷い車",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/145.png",
@@ -35619,12 +36938,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_146",
     "name": "だっせんしゃ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/146.png",
@@ -35872,12 +37200,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_147",
     "name": "ドキ土器",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/147.png",
@@ -36124,12 +37461,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_148",
     "name": "怒気ドキ土器",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/148.png",
@@ -36364,12 +37710,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_149",
     "name": "ムリカベ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/149.png",
@@ -36614,12 +37970,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_150",
     "name": "むりだ城",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/150.png",
@@ -36873,12 +38237,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_151",
     "name": "シロカベ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/151.png",
@@ -37123,12 +38495,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_152",
     "name": "グレるりん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/152.png",
@@ -37371,12 +38751,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_153",
     "name": "ゴクドー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/153.png",
@@ -37616,12 +39004,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_154",
     "name": "アニ鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/154.png",
@@ -37885,12 +39281,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_155",
     "name": "ブルックりん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/155.png",
@@ -38162,12 +39566,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_156",
     "name": "あまん汁",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/156.png",
@@ -38405,12 +39819,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_157",
     "name": "ギュウ汁",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/157.png",
@@ -38656,12 +40080,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_158",
     "name": "ポン骨",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/158.png",
@@ -38933,12 +40367,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_159",
     "name": "リボーン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/159.png",
@@ -39186,12 +40630,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_160",
     "name": "ヨロイさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/160.png",
@@ -39427,12 +40881,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_161",
     "name": "モノマネキン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/161.png",
@@ -39679,12 +41141,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_162",
     "name": "オーバーガー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/162.png",
@@ -39942,12 +41413,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_163",
     "name": "魔ウンテン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/163.png",
@@ -40210,12 +41691,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_164",
     "name": "トオセンボン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/164.png",
@@ -40456,12 +41947,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_165",
     "name": "くろがねセンボン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/165.png",
@@ -40708,12 +42207,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_166",
     "name": "すもうどん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/166.png",
@@ -40954,12 +42461,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_167",
     "name": "横綱うどん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/167.png",
@@ -41209,12 +42725,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_168",
     "name": "あっそう山",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/168.png",
@@ -41468,12 +42993,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_169",
     "name": "あそっ火山",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/169.png",
@@ -41752,12 +43286,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_170",
     "name": "モレゾウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/170.png",
@@ -42012,12 +43555,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_171",
     "name": "プルファント",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/171.png",
@@ -42279,12 +43830,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_172",
     "name": "ガマンモス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/172.png",
@@ -42542,12 +44101,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_173",
     "name": "雷蔵",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/173.png",
@@ -42803,12 +44371,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_174",
     "name": "ヒライ神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/174.png",
@@ -43058,12 +44635,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_175",
     "name": "あっけら艦",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/175.png",
@@ -43326,12 +44912,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_176",
     "name": "シレイ艦",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/176.png",
@@ -43576,12 +45172,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_177",
     "name": "あせっか鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/177.png",
@@ -43852,12 +45458,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_178",
     "name": "シングコング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/178.png",
@@ -44123,12 +45738,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_179",
     "name": "カメッパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/179.png",
@@ -44383,12 +46008,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_180",
     "name": "おくらいり",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/180.png",
@@ -44657,12 +46292,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_181",
     "name": "カクさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/181.png",
@@ -44932,12 +46577,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_182",
     "name": "ふじのやま",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/182.png",
@@ -45215,12 +46870,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_183",
     "name": "さくらのじま",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/183.png",
@@ -45488,12 +47151,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_184",
     "name": "ドウカク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/184.png",
@@ -45795,12 +47466,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_185",
     "name": "ギンカク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/185.png",
@@ -46102,12 +47781,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_186",
     "name": "キンカク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/186.png",
@@ -46384,12 +48071,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_187",
     "name": "プラチナカク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/187.png",
@@ -46683,12 +48378,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_188",
     "name": "イヌニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/188.png",
@@ -46953,12 +48656,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「レア」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_189",
     "name": "武者かぶと",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/189.png",
@@ -47246,12 +48960,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_190",
     "name": "かぶと無双",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/190.png",
@@ -47525,12 +49247,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_191",
     "name": "オオツノノ神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/191.png",
@@ -47805,12 +49535,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_192",
     "name": "キンタロニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/192.png",
@@ -48089,12 +49827,25 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
     "id": "yk_roster_193",
     "name": "ステーキング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/193.png",
@@ -48363,12 +50114,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_194",
     "name": "ロボニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/194.png",
@@ -48657,12 +50418,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_195",
     "name": "ロボニャンF型",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/195.png",
@@ -48924,12 +50693,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_196",
     "name": "ロボニャンＵＳＡ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/196.png",
@@ -49202,12 +50980,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_197",
     "name": "ゴルニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/197.png",
@@ -49483,12 +51271,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_198",
     "name": "だいだらぼっち",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/198.png",
@@ -49765,12 +51561,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_199",
     "name": "うみぼうず",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/199.png",
@@ -50034,12 +51838,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_200",
     "name": "大ガマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/200.png",
@@ -50312,12 +52124,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_201",
     "name": "大やもり",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/201.png",
@@ -50594,12 +52415,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_202",
     "name": "赤鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/202.png",
@@ -50874,12 +52704,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_203",
     "name": "青鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/203.png",
@@ -51154,12 +52994,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_204",
     "name": "黒鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/204.png",
@@ -51434,12 +53284,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_205",
     "name": "カブキロイド",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/205.png",
@@ -51703,12 +53563,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ2",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_206",
     "name": "ザ・シャーク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/206.png",
@@ -51985,12 +53856,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_207",
     "name": "エル・シャクレロ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/207.png",
@@ -52265,12 +54146,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_208",
     "name": "スカイシャリマン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/208.png",
@@ -52552,12 +54443,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_209",
     "name": "びきゃく",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/209.png",
@@ -52889,12 +54790,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_210",
     "name": "ピヨピヨコ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/210.png",
@@ -53188,12 +55098,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_211",
     "name": "ほっとけーキ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/211.png",
@@ -53519,12 +55439,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_212",
     "name": "いきあたりバッタ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/212.png",
@@ -53821,12 +55751,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_213",
     "name": "しゃれこ婦人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/213.png",
@@ -54120,12 +56060,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_214",
     "name": "カラカラさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/214.png",
@@ -54420,12 +56368,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_215",
     "name": "ほね美人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/215.png",
@@ -54692,12 +56648,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_216",
     "name": "セミまる",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/216.png",
@@ -54962,12 +56926,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_217",
     "name": "カゲまる",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/217.png",
@@ -55252,12 +57224,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_218",
     "name": "ヒグラシまる",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/218.png",
@@ -55531,12 +57511,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_219",
     "name": "こてんパン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/219.png",
@@ -55810,12 +57798,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_220",
     "name": "大化ケット",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/220.png",
@@ -56094,12 +58092,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_221",
     "name": "さむガリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/221.png",
@@ -56375,12 +58383,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_222",
     "name": "ガリ王子",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/222.png",
@@ -56647,12 +58663,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_223",
     "name": "あつガルル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/223.png",
@@ -56920,12 +58944,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_224",
     "name": "アンビリバ坊",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/224.png",
@@ -57199,12 +59231,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_225",
     "name": "バッド坊や",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/225.png",
@@ -57481,12 +59523,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_226",
     "name": "激辛ボーイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/226.png",
@@ -57763,12 +59815,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_227",
     "name": "つらがわり",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/227.png",
@@ -58043,12 +60105,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_228",
     "name": "一つ目小僧",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/228.png",
@@ -58328,12 +60399,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_229",
     "name": "コンたん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/229.png",
@@ -58600,12 +60680,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_230",
     "name": "わかランナー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/230.png",
@@ -58855,12 +60945,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_231",
     "name": "寝コロンブス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/231.png",
@@ -59123,12 +61223,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_232",
     "name": "デモネード",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/232.png",
@@ -59389,12 +61499,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_233",
     "name": "バク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/233.png",
@@ -59650,12 +61770,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_234",
     "name": "ハク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/234.png",
@@ -59905,12 +62033,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_235",
     "name": "おバク様",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/235.png",
@@ -60156,12 +62292,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_236",
     "name": "江戸っ子パンダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/236.png",
@@ -60422,12 +62567,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_237",
     "name": "大江戸忍者パンダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/237.png",
@@ -60687,12 +62841,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_238",
     "name": "カンペちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/238.png",
@@ -60943,12 +63106,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_239",
     "name": "無茶ぶりっ子",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/239.png",
@@ -61201,12 +63374,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_240",
     "name": "ノガッパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/240.png",
@@ -61458,12 +63641,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_241",
     "name": "たびガッパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/241.png",
@@ -61719,12 +63910,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_242",
     "name": "なみガッパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/242.png",
@@ -61984,12 +64183,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_243",
     "name": "ジバニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/243.png",
@@ -62267,12 +64474,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_244",
     "name": "B-ジバニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/244.png",
@@ -62526,12 +64741,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「赤猫団限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_245",
     "name": "ジバニャンＳ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/245.png",
@@ -62813,12 +65039,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_246",
     "name": "ジバニャン劉備",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪三国志",
     "image": "images/yokai/246.png",
@@ -63095,12 +65330,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_247",
     "name": "アカマル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/247.png",
@@ -63363,12 +65606,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「赤猫団限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_248",
     "name": "トゲニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/248.png",
@@ -63648,12 +65902,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_249",
     "name": "ワルニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/249.png",
@@ -63933,12 +66195,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_250",
     "name": "ブチニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/250.png",
@@ -64203,12 +66473,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_251",
     "name": "コマさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/251.png",
@@ -64467,12 +66746,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_252",
     "name": "ししコマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/252.png",
@@ -64733,12 +67020,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_253",
     "name": "B-コマさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/253.png",
@@ -64993,12 +67288,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「白犬隊限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_254",
     "name": "コマさんＳ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/254.png",
@@ -65260,12 +67566,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_255",
     "name": "コマさん孫策",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪三国志",
     "image": "images/yokai/255.png",
@@ -65527,12 +67842,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_256",
     "name": "ジバコマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/256.png",
@@ -65794,12 +68117,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_257",
     "name": "コマじろう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/257.png",
@@ -66060,12 +68392,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_258",
     "name": "とらじろう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/258.png",
@@ -66328,12 +68668,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_259",
     "name": "コマじろうＳ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/259.png",
@@ -66622,12 +68970,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_260",
     "name": "雨女",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/260.png",
@@ -66902,12 +69259,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_261",
     "name": "ばくそく",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/261.png",
@@ -67155,12 +69521,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_262",
     "name": "ナンスカンク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/262.png",
@@ -67436,12 +69811,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_263",
     "name": "おきラクーン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/263.png",
@@ -67721,12 +70106,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_264",
     "name": "おとなブル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/264.png",
@@ -67994,12 +70389,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_265",
     "name": "たまのこし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/265.png",
@@ -68269,12 +70674,22 @@ window.YOKAI_DATA = [
         "status": "未確認（出典不一致）",
         "note": "Hrs-Game 風/氷、Game-e 雷/氷（相性表と矛盾）、Gamepedia なし で一致せず"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_266",
     "name": "キュン太郎",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/266.png",
@@ -68539,12 +70954,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_267",
     "name": "ズキュキュン太",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/267.png",
@@ -68813,12 +71236,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_268",
     "name": "裏キュン太",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/268.png",
@@ -69095,12 +71526,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_269",
     "name": "ケマモン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/269.png",
@@ -69366,12 +71805,21 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_270",
     "name": "ワンダーニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/270.png",
@@ -69644,12 +72092,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_271",
     "name": "ジェットニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/271.png",
@@ -69830,7 +72287,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 271,
     "officialNo": 271,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -69930,12 +72387,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_272",
     "name": "サルニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/272.png",
@@ -70124,7 +72591,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 272,
     "officialNo": 272,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 42,
@@ -70224,12 +72691,24 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「レア」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_273",
     "name": "トムニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/273.png",
@@ -70416,7 +72895,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 273,
     "officialNo": 273,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -70516,12 +72995,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_274",
     "name": "ＫＫブラザーズ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/274.png",
@@ -70699,7 +73189,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 274,
     "officialNo": 274,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -70798,12 +73288,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_275",
     "name": "ゆきおんな",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/275.png",
@@ -70983,7 +73484,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 275,
     "officialNo": 275,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -71083,12 +73584,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_276",
     "name": "ふぶき姫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/276.png",
@@ -71264,7 +73774,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 276,
     "officialNo": 276,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -71364,12 +73874,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_277",
     "name": "百鬼姫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/277.png",
@@ -71541,7 +74060,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 277,
     "officialNo": 277,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 56,
@@ -71641,12 +74160,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_278",
     "name": "メロンニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/278.png",
@@ -71828,7 +74356,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 278,
     "officialNo": 278,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -71931,12 +74459,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_279",
     "name": "ミカンニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/279.png",
@@ -72118,7 +74656,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 279,
     "officialNo": 279,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 42,
@@ -72218,12 +74756,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_280",
     "name": "キウイニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/280.png",
@@ -72426,7 +74974,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 280,
     "officialNo": 280,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -72526,12 +75074,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_281",
     "name": "ブドウニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/281.png",
@@ -72710,7 +75268,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 281,
     "officialNo": 281,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -72810,12 +75368,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_282",
     "name": "イチゴニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/282.png",
@@ -72988,7 +75556,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 282,
     "officialNo": 282,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 39,
@@ -73088,12 +75656,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_283",
     "name": "スイカニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/283.png",
@@ -73277,7 +75855,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 283,
     "officialNo": 283,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 66,
@@ -73373,12 +75951,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_284",
     "name": "サファイニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/284.png",
@@ -73551,7 +76139,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 284,
     "officialNo": 284,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -73654,12 +76242,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_285",
     "name": "エメラルニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/285.png",
@@ -73832,7 +76429,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 285,
     "officialNo": 285,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 32,
@@ -73931,12 +76528,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：H=水雷）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_286",
     "name": "ルビーニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/286.png",
@@ -74109,7 +76715,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 286,
     "officialNo": 286,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -74212,12 +76818,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_287",
     "name": "トパニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/287.png",
@@ -74399,7 +77014,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 287,
     "officialNo": 287,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 56,
@@ -74502,12 +77117,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_288",
     "name": "ダイヤニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/288.png",
@@ -74702,7 +77326,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 288,
     "officialNo": 288,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -74805,12 +77429,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_289",
     "name": "ロボガッパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/289.png",
@@ -75005,7 +77638,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 289,
     "officialNo": 289,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -75106,12 +77739,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_290",
     "name": "ロボコマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/290.png",
@@ -75375,12 +78018,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_291",
     "name": "セーラーニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/291.png",
@@ -75648,12 +78300,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_292",
     "name": "レッドＪ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/292.png",
@@ -75848,7 +78509,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 292,
     "officialNo": 292,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -75946,12 +78607,24 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ2",
+      "v453Status": "確認済み"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_293",
     "name": "マイティードッグ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/293.png",
@@ -76223,12 +78896,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ2",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_294",
     "name": "かまいたち",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/294.png",
@@ -76420,7 +79104,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 294,
     "officialNo": 294,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -76523,12 +79207,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_295",
     "name": "チョコボニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/295.png",
@@ -76781,12 +79476,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_296",
     "name": "モーグリニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/296.png",
@@ -77046,12 +79751,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_297",
     "name": "ぷにニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/297.png",
@@ -77235,7 +79950,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 297,
     "officialNo": 297,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -77338,12 +80053,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_298",
     "name": "ぷにコマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/298.png",
@@ -77619,12 +80345,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_299",
     "name": "スシジバ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/299.png",
@@ -77904,12 +80640,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_300",
     "name": "天コマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/300.png",
@@ -78185,12 +80931,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_301",
     "name": "河童",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/301.png",
@@ -78465,12 +81221,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_302",
     "name": "水虎",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/302.png",
@@ -78745,12 +81510,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_303",
     "name": "マスターニャーダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/303.png",
@@ -79022,12 +81796,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_304",
     "name": "烏天狗",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/304.png",
@@ -79300,12 +82083,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_305",
     "name": "カルラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/305.png",
@@ -79584,12 +82377,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_306",
     "name": "から傘お化け",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/306.png",
@@ -79864,12 +82667,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_307",
     "name": "モ作",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/307.png",
@@ -80149,12 +82961,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_308",
     "name": "ハーモリー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/308.png",
@@ -80433,12 +83255,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_309",
     "name": "うらやましろう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/309.png",
@@ -80714,12 +83546,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_310",
     "name": "つまみぐいのすけ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/310.png",
@@ -80999,12 +83839,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_311",
     "name": "ワカメくん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/311.png",
@@ -81209,7 +84057,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 311,
     "officialNo": 311,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -81308,12 +84156,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_312",
     "name": "ワカメ☆スター",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/312.png",
@@ -81518,7 +84375,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 312,
     "officialNo": 312,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -81617,12 +84474,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_313",
     "name": "コンブさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/313.png",
@@ -81896,12 +84763,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_314",
     "name": "メカブちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/314.png",
@@ -82174,12 +85049,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_315",
     "name": "モズク先生",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/315.png",
@@ -82450,12 +85333,25 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
     "id": "yk_roster_316",
     "name": "ひも爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/316.png",
@@ -82656,7 +85552,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 316,
     "officialNo": 316,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 33,
@@ -82755,12 +85651,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_317",
     "name": "くいい爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/317.png",
@@ -83031,12 +85936,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_318",
     "name": "こめ爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/318.png",
@@ -83315,12 +86228,20 @@ window.YOKAI_DATA = [
       "note": "得意土はHrs-GameとGame-eで一致。苦手はHrs-Gameの風を採用（Game-eの火は相性表と矛盾）。Gamepediaはなし",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_319",
     "name": "ハングリーＧ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/319.png",
@@ -83605,12 +86526,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_320",
     "name": "キズナメコ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/320.png",
@@ -83889,12 +86820,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_321",
     "name": "キズナース",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/321.png",
@@ -84171,12 +87111,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_322",
     "name": "砂夫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/322.png",
@@ -84377,7 +87326,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 322,
     "officialNo": 322,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 29,
@@ -84476,12 +87425,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_323",
     "name": "大山砂夫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/323.png",
@@ -84682,7 +87641,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 323,
     "officialNo": 323,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -84781,12 +87740,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_324",
     "name": "風呂ずきん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/324.png",
@@ -85069,12 +88038,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_325",
     "name": "ふろーラル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/325.png",
@@ -85358,12 +88337,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_326",
     "name": "アフロ１３",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/326.png",
@@ -85634,12 +88623,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_327",
     "name": "テンテコ米",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/327.png",
@@ -85922,12 +88921,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_328",
     "name": "あしたガール",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/328.png",
@@ -86111,7 +89120,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 328,
     "officialNo": 328,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 38,
@@ -86210,12 +89219,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_329",
     "name": "どっちつかず",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/329.png",
@@ -86503,12 +89523,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_330",
     "name": "ポチッ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/330.png",
@@ -86774,12 +89804,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_331",
     "name": "ウキウキビ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/331.png",
@@ -87056,12 +90096,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_332",
     "name": "トキメキビ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/332.png",
@@ -87338,12 +90387,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_333",
     "name": "びんボーイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/333.png",
@@ -87621,12 +90679,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_334",
     "name": "お金ナイダー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/334.png",
@@ -87911,12 +90977,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_335",
     "name": "らくてん童",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/335.png",
@@ -88099,7 +91174,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 335,
     "officialNo": 335,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -88202,12 +91277,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_336",
     "name": "ざしきわらし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/336.png",
@@ -88384,7 +91468,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 336,
     "officialNo": 336,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 34,
@@ -88483,12 +91567,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_337",
     "name": "ざしきわら神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/337.png",
@@ -88665,7 +91759,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 337,
     "officialNo": 337,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 46,
@@ -88764,12 +91858,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_338",
     "name": "ぜっこう蝶",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/338.png",
@@ -88945,7 +92049,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 338,
     "officialNo": 338,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 34,
@@ -89044,12 +92148,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_339",
     "name": "ゼッコウ蝶",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/339.png",
@@ -89332,12 +92445,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_340",
     "name": "サイコウ蝶",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/340.png",
@@ -89606,12 +92727,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_341",
     "name": "アゲアゲハ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/341.png",
@@ -89787,7 +92916,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 341,
     "officialNo": 341,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -89886,12 +93015,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_342",
     "name": "くだん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/342.png",
@@ -90058,7 +93196,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 342,
     "officialNo": 342,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 36,
@@ -90152,12 +93290,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_343",
     "name": "大くだん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/343.png",
@@ -90312,7 +93460,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 343,
     "officialNo": 343,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 52,
@@ -90406,12 +93554,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_344",
     "name": "どんちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/344.png",
@@ -90589,7 +93747,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 344,
     "officialNo": 344,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -90683,12 +93841,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_345",
     "name": "晴れ男",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/345.png",
@@ -90857,7 +94025,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 345,
     "officialNo": 345,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -90955,12 +94123,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_346",
     "name": "サンタク老師",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/346.png",
@@ -91132,7 +94310,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 346,
     "officialNo": 346,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -91231,12 +94409,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_347",
     "name": "ふくろじじい",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/347.png",
@@ -91541,12 +94728,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_348",
     "name": "カンガエルー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/348.png",
@@ -91827,12 +95022,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_349",
     "name": "はなしカミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/349.png",
@@ -92020,7 +95225,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 349,
     "officialNo": 349,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -92123,12 +95328,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_350",
     "name": "サンデーパパ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/350.png",
@@ -92448,12 +95664,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_351",
     "name": "ガッテンマイヤー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/351.png",
@@ -92728,12 +95954,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_352",
     "name": "エコロ爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/352.png",
@@ -92905,7 +96141,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 352,
     "officialNo": 352,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -93004,12 +96240,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_353",
     "name": "イーセンイッテル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/353.png",
@@ -93287,12 +96534,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_354",
     "name": "カントリーバァバ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/354.png",
@@ -93470,7 +96727,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 354,
     "officialNo": 354,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -93569,12 +96826,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_355",
     "name": "ホノボーノ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/355.png",
@@ -93759,7 +97027,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 355,
     "officialNo": 355,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -93858,12 +97126,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_356",
     "name": "ヒョウヘンヌ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/356.png",
@@ -94050,7 +97327,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 356,
     "officialNo": 356,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -94149,12 +97426,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_357",
     "name": "ヒョウヘンナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/357.png",
@@ -94338,7 +97624,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 357,
     "officialNo": 357,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -94441,12 +97727,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_358",
     "name": "キジニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/358.png",
@@ -94632,7 +97927,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 358,
     "officialNo": 358,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -94731,12 +98026,24 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「レア」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_359",
     "name": "ハッピィさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/359.png",
@@ -94931,7 +98238,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 359,
     "officialNo": 359,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -95030,12 +98337,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_360",
     "name": "歯磨貴婦人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/360.png",
@@ -95216,7 +98534,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 360,
     "officialNo": 360,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 54,
@@ -95310,12 +98628,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_361",
     "name": "ロボG",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/361.png",
@@ -95503,7 +98832,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 361,
     "officialNo": 361,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -95597,12 +98926,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_362",
     "name": "さいの目入道",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/362.png",
@@ -95769,7 +99108,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 362,
     "officialNo": 362,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -95867,12 +99206,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_363",
     "name": "ゾロ目大明神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/363.png",
@@ -96049,7 +99397,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 363,
     "officialNo": 363,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 52,
@@ -96147,12 +99495,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_364",
     "name": "から傘魔人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/364.png",
@@ -96332,7 +99689,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 364,
     "officialNo": 364,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 56,
@@ -96430,12 +99787,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_365",
     "name": "ウラシマニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/365.png",
@@ -96619,7 +99986,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 365,
     "officialNo": 365,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -96713,12 +100080,26 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_366",
     "name": "いたれりつくせり",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/366.png",
@@ -96904,7 +100285,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 366,
     "officialNo": 366,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 59,
@@ -96998,12 +100379,26 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ3。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（既存値を保持）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_367",
     "name": "雷オトン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/367.png",
@@ -97180,7 +100575,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 367,
     "officialNo": 367,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -97278,12 +100673,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_368",
     "name": "絶オジイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/368.png",
@@ -97460,7 +100864,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 368,
     "officialNo": 368,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 58,
@@ -97558,12 +100962,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_369",
     "name": "聖オカン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/369.png",
@@ -97755,7 +101168,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 369,
     "officialNo": 369,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -97849,12 +101262,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_370",
     "name": "心オバア",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/370.png",
@@ -98052,7 +101474,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 370,
     "officialNo": 370,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 42,
@@ -98146,12 +101568,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_371",
     "name": "麒麟",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/371.png",
@@ -98327,7 +101758,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 371,
     "officialNo": 371,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 46,
@@ -98421,12 +101852,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_372",
     "name": "イッカク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/372.png",
@@ -98613,7 +102054,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 372,
     "officialNo": 372,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -98707,12 +102148,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_373",
     "name": "スピーディーW",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/373.png",
@@ -98896,7 +102347,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 373,
     "officialNo": 373,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -98992,12 +102443,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_374",
     "name": "カンフーマッハ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/374.png",
@@ -99185,7 +102647,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 374,
     "officialNo": 374,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -99281,12 +102743,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_375",
     "name": "やるせナス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/375.png",
@@ -99464,7 +102937,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 375,
     "officialNo": 375,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -99562,12 +103035,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_376",
     "name": "チクリ魔",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/376.png",
@@ -99741,7 +103225,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 376,
     "officialNo": 376,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 29,
@@ -99837,12 +103321,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_377",
     "name": "ちらかし家来",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/377.png",
@@ -100025,7 +103520,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 377,
     "officialNo": 377,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 36,
@@ -100123,12 +103618,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_378",
     "name": "みちび鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/378.png",
@@ -100320,7 +103826,7 @@ window.YOKAI_DATA = [
     "features": [
       "装備枠二つ"
     ],
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 39,
@@ -100418,12 +103924,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_379",
     "name": "えこひい鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/379.png",
@@ -100606,7 +104121,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 379,
     "officialNo": 379,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -100700,12 +104215,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_380",
     "name": "かたのり小僧",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/380.png",
@@ -100872,7 +104396,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 380,
     "officialNo": 380,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 37,
@@ -100970,12 +104494,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_381",
     "name": "かたのり親方",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/381.png",
@@ -101142,7 +104675,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 381,
     "officialNo": 381,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -101240,12 +104773,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_382",
     "name": "ぎっくり男",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/382.png",
@@ -101404,7 +104946,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 382,
     "officialNo": 382,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -101502,12 +105044,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_383",
     "name": "草くいおとこ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/383.png",
@@ -101683,7 +105234,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 383,
     "officialNo": 383,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -101784,12 +105335,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_384",
     "name": "肉くいおとこ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/384.png",
@@ -101964,7 +105525,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 384,
     "officialNo": 384,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -102062,12 +105623,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_385",
     "name": "ＴＥＴＳＵＹＡ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/385.png",
@@ -102238,7 +105809,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 385,
     "officialNo": 385,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 39,
@@ -102336,12 +105907,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_386",
     "name": "ＫＡＮＴＥＴＳＵ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/386.png",
@@ -102510,7 +106091,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 386,
     "officialNo": 386,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -102608,12 +106189,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_387",
     "name": "つぶや木",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/387.png",
@@ -102784,7 +106375,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 387,
     "officialNo": 387,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -102882,12 +106473,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_388",
     "name": "ツリート",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/388.png",
@@ -103050,7 +106652,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 388,
     "officialNo": 388,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -103148,12 +106750,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_389",
     "name": "ネガティブーン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/389.png",
@@ -103313,7 +106926,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 389,
     "officialNo": 389,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 37,
@@ -103410,12 +107023,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_390",
     "name": "ジャネガブーン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/390.png",
@@ -103576,7 +107198,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 390,
     "officialNo": 390,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -103670,12 +107292,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_391",
     "name": "かゆかゆ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/391.png",
@@ -103829,7 +107460,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 391,
     "officialNo": 391,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -103927,12 +107558,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_392",
     "name": "ジミー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/392.png",
@@ -104092,7 +107732,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 392,
     "officialNo": 392,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 34,
@@ -104192,12 +107832,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_393",
     "name": "カゲロー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/393.png",
@@ -104393,7 +108042,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 393,
     "officialNo": 393,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -104493,12 +108142,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_394",
     "name": "カイム",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/394.png",
@@ -104692,7 +108350,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 394,
     "officialNo": 394,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -104792,12 +108450,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_395",
     "name": "カリカリベーコン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/395.png",
@@ -104974,7 +108641,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 395,
     "officialNo": 395,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -105073,12 +108740,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_396",
     "name": "ぎしんあん鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/396.png",
@@ -105236,7 +108914,7 @@ window.YOKAI_DATA = [
     "features": [
       "装備枠二つ"
     ],
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -105334,12 +109012,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_397",
     "name": "ガ鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/397.png",
@@ -105496,7 +109183,7 @@ window.YOKAI_DATA = [
     "features": [
       "装備枠二つ"
     ],
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -105597,12 +109284,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_398",
     "name": "あまのじゃく",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/398.png",
@@ -105760,7 +109456,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 398,
     "officialNo": 398,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 52,
@@ -105858,12 +109554,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_399",
     "name": "ジンギスギスカン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/399.png",
@@ -106024,7 +109729,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 399,
     "officialNo": 399,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -106122,12 +109827,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_400",
     "name": "チンギスギスハン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/400.png",
@@ -106287,7 +110002,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 400,
     "officialNo": 400,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -106385,12 +110100,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_401",
     "name": "ヒキコウモリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/401.png",
@@ -106552,7 +110277,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 401,
     "officialNo": 401,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -106650,12 +110375,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_402",
     "name": "トジコウモリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/402.png",
@@ -106812,7 +110546,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 402,
     "officialNo": 402,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -106910,12 +110644,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_403",
     "name": "ヤドコウモリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/403.png",
@@ -107080,7 +110823,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 403,
     "officialNo": 403,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -107178,12 +110921,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_404",
     "name": "かりパックン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/404.png",
@@ -107349,7 +111101,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 404,
     "officialNo": 404,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -107443,12 +111195,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_405",
     "name": "泥ボックン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/405.png",
@@ -107598,7 +111360,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 405,
     "officialNo": 405,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -107692,12 +111454,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_406",
     "name": "ギーくん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/406.png",
@@ -107865,7 +111637,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 406,
     "officialNo": 406,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -107962,12 +111734,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_407",
     "name": "ハッキング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/407.png",
@@ -108141,7 +111924,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 407,
     "officialNo": 407,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 57,
@@ -108237,12 +112020,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_408",
     "name": "ひとまか仙人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/408.png",
@@ -108408,7 +112202,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 408,
     "officialNo": 408,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -108505,12 +112299,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_409",
     "name": "りもこんかくし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/409.png",
@@ -108666,7 +112470,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 409,
     "officialNo": 409,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 42,
@@ -108766,12 +112570,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_410",
     "name": "ジコチュウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/410.png",
@@ -108942,7 +112756,7 @@ window.YOKAI_DATA = [
     "features": [
       "装備枠二つ"
     ],
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 39,
@@ -109036,12 +112850,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_411",
     "name": "じこけん王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/411.png",
@@ -109204,7 +113028,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 411,
     "officialNo": 411,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 52,
@@ -109304,12 +113128,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_412",
     "name": "インチキン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/412.png",
@@ -109471,7 +113306,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 412,
     "officialNo": 412,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -109565,12 +113400,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_413",
     "name": "あんのジョー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/413.png",
@@ -109732,7 +113578,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 413,
     "officialNo": 413,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -109833,12 +113679,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_414",
     "name": "アイタタタイムズ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/414.png",
@@ -110000,7 +113857,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 414,
     "officialNo": 414,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -110097,12 +113954,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_415",
     "name": "ゴジダツ爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/415.png",
@@ -110371,12 +114239,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_416",
     "name": "ネクラマテング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/416.png",
@@ -110640,12 +114518,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_417",
     "name": "ヨミテング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/417.png",
@@ -110816,7 +114702,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 417,
     "officialNo": 417,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -110914,12 +114800,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_418",
     "name": "まてんし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/418.png",
@@ -111081,7 +114976,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 418,
     "officialNo": 418,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -111179,12 +115074,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_419",
     "name": "リー夫人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/419.png",
@@ -111442,12 +115347,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_420",
     "name": "ガブニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/420.png",
@@ -111608,7 +115522,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 420,
     "officialNo": 420,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -111702,12 +115616,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_421",
     "name": "カッパー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/421.png",
@@ -111970,12 +115894,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_422",
     "name": "ダリス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/422.png",
@@ -112242,12 +116176,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_423",
     "name": "ＵＳＡピョン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/423.png",
@@ -112407,7 +116351,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 423,
     "officialNo": 423,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 54,
@@ -112505,14 +116449,28 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になし。バスターズには後のアップデート（月兎組の時期）で追加。USAピョンは妖怪三国志（USAピョン仲達）やぷにぷにが先の可能性があるが、出典で確定できないため妖怪ウォッチ3とした",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（要再確認）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_424",
     "name": "USAピョン(アメフト)",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/424.png",
     "rank": "Bランク",
     "stats": {
@@ -112696,7 +116654,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 424,
     "officialNo": 424,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -112794,14 +116752,28 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になし。バスターズには後のアップデート（月兎組の時期）で追加。USAピョンは妖怪三国志（USAピョン仲達）やぷにぷにが先の可能性があるが、出典で確定できないため妖怪ウォッチ3とした",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（要再確認）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_425",
     "name": "USAピョン(マリン)",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/425.png",
     "rank": "Bランク",
     "stats": {
@@ -112965,7 +116937,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 425,
     "officialNo": 425,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -113066,14 +117038,28 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になし。バスターズには後のアップデート（月兎組の時期）で追加。USAピョンは妖怪三国志（USAピョン仲達）やぷにぷにが先の可能性があるが、出典で確定できないため妖怪ウォッチ3とした",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（要再確認）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_426",
     "name": "USAピョン(ミリタリー)",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/426.png",
     "rank": "Bランク",
     "stats": {
@@ -113233,7 +117219,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 426,
     "officialNo": 426,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 57,
@@ -113331,14 +117317,28 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になし。バスターズには後のアップデート（月兎組の時期）で追加。USAピョンは妖怪三国志（USAピョン仲達）やぷにぷにが先の可能性があるが、出典で確定できないため妖怪ウォッチ3とした",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（要再確認）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_427",
     "name": "USAピョン(ドライビング)",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/427.png",
     "rank": "Bランク",
     "stats": {
@@ -113505,7 +117505,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 427,
     "officialNo": 427,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -113605,12 +117605,26 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になし。バスターズには後のアップデート（月兎組の時期）で追加。USAピョンは妖怪三国志（USAピョン仲達）やぷにぷにが先の可能性があるが、出典で確定できないため妖怪ウォッチ3とした",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3",
+      "v453Status": "未確認（要再確認）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_428",
     "name": "B-USAピョン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/428.png",
@@ -113776,7 +117790,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 428,
     "officialNo": 428,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -113877,12 +117891,26 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_429",
     "name": "USAピョン仲達",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪三国志",
     "image": "images/yokai/429.png",
@@ -114048,7 +118076,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 429,
     "officialNo": 429,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -114149,12 +118177,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_430",
     "name": "ミツマタノヅチ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/430.png",
@@ -114427,12 +118464,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_431",
     "name": "魔ガサス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/431.png",
@@ -114699,12 +118746,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_432",
     "name": "ウ魔",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/432.png",
@@ -114957,12 +119012,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_433",
     "name": "ガシャどくろ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/433.png",
@@ -115214,12 +119277,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ2",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_434",
     "name": "デビビル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/434.png",
@@ -115480,12 +119554,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_435",
     "name": "デビビラン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/435.png",
@@ -115747,12 +119829,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_436",
     "name": "虫歯伯爵",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/436.png",
@@ -116012,12 +120102,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_437",
     "name": "百々目鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/437.png",
@@ -116280,12 +120378,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_438",
     "name": "きらめ鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/438.png",
@@ -116549,12 +120656,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_439",
     "name": "ドケチング",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/439.png",
@@ -116812,12 +120928,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_440",
     "name": "ヤミまろ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/440.png",
@@ -117075,12 +121199,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_441",
     "name": "どんどろ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/441.png",
@@ -117342,12 +121474,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_442",
     "name": "ヤミキュウビ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/442.png",
@@ -117604,12 +121746,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_443",
     "name": "ゼロ博士",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/443.png",
@@ -117875,12 +122026,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_444",
     "name": "Dr.カゲムラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/444.png",
@@ -118148,12 +122309,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_445",
     "name": "魔天王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/445.png",
@@ -118411,12 +122582,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_446",
     "name": "かえりタイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/446.png",
@@ -118678,12 +122859,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_447",
     "name": "やぶレター",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/447.png",
@@ -118927,12 +123118,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_448",
     "name": "てのひらがえし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/448.png",
@@ -119189,12 +123390,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_449",
     "name": "あしでまとい",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/449.png",
@@ -119446,12 +123657,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_450",
     "name": "イガイガグリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/450.png",
@@ -119720,12 +123941,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_451",
     "name": "チクチクウニ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/451.png",
@@ -119979,12 +124208,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_452",
     "name": "じめりんぼう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/452.png",
@@ -120255,12 +124492,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_453",
     "name": "雨ふらし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/453.png",
@@ -120532,12 +124777,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_454",
     "name": "こおりんぼう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/454.png",
@@ -120812,12 +125065,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_455",
     "name": "化けあられ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/455.png",
@@ -121076,12 +125337,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_456",
     "name": "たらりん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/456.png",
@@ -121342,12 +125611,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_457",
     "name": "ヨコドリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/457.png",
@@ -121602,12 +125879,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_458",
     "name": "ぶんぶん鳥",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/458.png",
@@ -121856,12 +126141,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_459",
     "name": "はらおドリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/459.png",
@@ -122116,12 +126410,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_460",
     "name": "おともらし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/460.png",
@@ -122383,12 +126685,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_461",
     "name": "爆音ならし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/461.png",
@@ -122543,7 +126854,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 461,
     "officialNo": 461,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 41,
@@ -122643,12 +126954,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_462",
     "name": "トホホギス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/462.png",
@@ -122920,12 +127241,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_463",
     "name": "ブカッコウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/463.png",
@@ -123209,12 +127538,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_464",
     "name": "死神鳥",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/464.png",
@@ -123483,12 +127820,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_465",
     "name": "じんめん犬",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/465.png",
@@ -123764,12 +128109,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_466",
     "name": "かおベロス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/466.png",
@@ -124044,12 +128397,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_467",
     "name": "三途の犬",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/467.png",
@@ -124326,12 +128687,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_468",
     "name": "けうけげん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/468.png",
@@ -124599,12 +128968,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_469",
     "name": "ふさふさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/469.png",
@@ -124881,12 +129259,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_470",
     "name": "たいこモチ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/470.png",
@@ -125154,12 +129541,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_471",
     "name": "ごまスリー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/471.png",
@@ -125442,12 +129839,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_472",
     "name": "認MEN",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/472.png",
@@ -125722,12 +130129,21 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_473",
     "name": "黄ばんドール",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/473.png",
@@ -125996,12 +130412,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_474",
     "name": "ふあんかん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/474.png",
@@ -126285,12 +130711,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_475",
     "name": "たらいまわし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/475.png",
@@ -126555,12 +130991,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_476",
     "name": "口だけおんな",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/476.png",
@@ -126839,12 +131285,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_477",
     "name": "おつぼね様",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/477.png",
@@ -127108,12 +131562,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_478",
     "name": "ドンヨリーヌ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/478.png",
@@ -127392,12 +131854,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_479",
     "name": "シメッポイーナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/479.png",
@@ -127662,12 +132132,25 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
     "id": "yk_roster_480",
     "name": "砂ン丘入道",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/480.png",
@@ -127942,12 +132425,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_481",
     "name": "ノー砂ン丘入道",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/481.png",
@@ -128222,12 +132714,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_482",
     "name": "じがじぃさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/482.png",
@@ -128516,12 +133017,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_483",
     "name": "のらりくらり",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/483.png",
@@ -128800,12 +133310,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_484",
     "name": "おすべり様",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/484.png",
@@ -129083,12 +133602,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_485",
     "name": "おしっしょう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/485.png",
@@ -129363,12 +133890,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_486",
     "name": "おひとり様",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/486.png",
@@ -129644,12 +134179,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_487",
     "name": "テンパるンバ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/487.png",
@@ -129932,12 +134477,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_488",
     "name": "こしパンダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/488.png",
@@ -130209,12 +134764,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_489",
     "name": "おならず者",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/489.png",
@@ -130485,12 +135050,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_490",
     "name": "へこ鬼神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/490.png",
@@ -130754,12 +135327,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_491",
     "name": "花子さん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/491.png",
@@ -131022,12 +135603,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_492",
     "name": "呪野花子",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/492.png",
@@ -131286,12 +135876,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_493",
     "name": "ロボメン犬",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/493.png",
@@ -131567,12 +136166,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_494",
     "name": "けちらし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/494.png",
@@ -131848,12 +136456,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_495",
     "name": "アンラッキィさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/495.png",
@@ -132120,12 +136738,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_496",
     "name": "ヨッチャ～",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/496.png",
@@ -132403,12 +137031,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_497",
     "name": "しわくちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/497.png",
@@ -132684,12 +137322,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_498",
     "name": "老いらん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/498.png",
@@ -132967,12 +137613,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_499",
     "name": "ふじみ御前",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/499.png",
@@ -133236,12 +137890,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_500",
     "name": "のぼせトンマン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/500.png",
@@ -133517,12 +138179,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_501",
     "name": "ダークニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/501.png",
@@ -133808,12 +138480,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_502",
     "name": "決めて魔王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/502.png",
@@ -134086,12 +138767,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_503",
     "name": "おとろし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/503.png",
@@ -134355,12 +139046,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_504",
     "name": "フゥミン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/504.png",
@@ -134634,12 +139335,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_505",
     "name": "おねむの精",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/505.png",
@@ -134903,12 +139612,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_506",
     "name": "土蜘蛛",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/506.png",
@@ -135062,7 +139779,7 @@ window.YOKAI_DATA = [
     "notes": "攻撃・妖術の技名およびLv.10威力を旧Hrs-Game監査台帳から補完。出典の個別再閲覧・説明文再照合は残件。",
     "sortOrder": 506,
     "officialNo": 506,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -135163,12 +139880,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_507",
     "name": "女郎蜘蛛",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/507.png",
@@ -135449,12 +140176,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_508",
     "name": "オリジン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/508.png",
@@ -135726,12 +140462,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_509",
     "name": "ファントム",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/509.png",
@@ -135995,12 +140741,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_510",
     "name": "サキちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/510.png",
@@ -136273,12 +141029,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_511",
     "name": "ねちがえる",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/511.png",
@@ -136548,12 +141314,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_512",
     "name": "バンジーきゅうす",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/512.png",
@@ -136827,12 +141602,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_513",
     "name": "マイマイペース",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/513.png",
@@ -137092,12 +141877,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_514",
     "name": "ダソックス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/514.png",
@@ -137371,12 +142166,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_515",
     "name": "アーダコンダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/515.png",
@@ -137641,12 +142446,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_516",
     "name": "ツチノコ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/516.png",
@@ -137919,12 +142734,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_517",
     "name": "フクリュウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/517.png",
@@ -138226,12 +143049,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_518",
     "name": "ツチノコパンダ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/518.png",
@@ -138518,12 +143349,20 @@ window.YOKAI_DATA = [
         "confirmedOn": "2026-11-12",
         "source": "ユーザー指示（チャット）"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_519",
     "name": "ツチノコ星人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/519.png",
@@ -138794,12 +143633,25 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
     "id": "yk_roster_520",
     "name": "からみぞん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/520.png",
@@ -139088,12 +143940,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_521",
     "name": "こんがらギャル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/521.png",
@@ -139382,12 +144243,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_522",
     "name": "オッタマゲーター",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/522.png",
@@ -139661,12 +144531,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_523",
     "name": "ナンモナイト",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/523.png",
@@ -139944,12 +144824,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_524",
     "name": "カイーギョ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/524.png",
@@ -140222,12 +145112,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_525",
     "name": "笑ウツボ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/525.png",
@@ -140531,12 +145431,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_526",
     "name": "歌ウナギ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/526.png",
@@ -140801,12 +145709,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_527",
     "name": "大蛇のツボ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/527.png",
@@ -141072,12 +145988,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_528",
     "name": "たこやっ鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/528.png",
@@ -141341,12 +146265,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_529",
     "name": "たこや鬼神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/529.png",
@@ -141617,12 +146550,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_530",
     "name": "キライギョ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/530.png",
@@ -141897,12 +146839,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_531",
     "name": "ゾウオ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/531.png",
@@ -142178,12 +147128,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_532",
     "name": "ギャクジョウオ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/532.png",
@@ -142453,12 +147411,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_533",
     "name": "おもいだスッポン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/533.png",
@@ -142740,12 +147706,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_534",
     "name": "おもいだ神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/534.png",
@@ -143028,12 +148003,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_535",
     "name": "ムカムカデ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/535.png",
@@ -143314,12 +148298,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_536",
     "name": "激ドラゴン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/536.png",
@@ -143596,12 +148589,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_537",
     "name": "りゅーくん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/537.png",
@@ -143869,12 +148871,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_538",
     "name": "龍神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/538.png",
@@ -144156,12 +149166,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_539",
     "name": "青龍",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/539.png",
@@ -144430,12 +149448,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_540",
     "name": "にんぎょ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/540.png",
@@ -144709,12 +149735,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_541",
     "name": "八百比丘尼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/541.png",
@@ -144973,12 +150008,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_542",
     "name": "イザナミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/542.png",
@@ -145259,12 +150303,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_543",
     "name": "ダイナシー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/543.png",
@@ -145529,12 +150582,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_544",
     "name": "D-レックス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/544.png",
@@ -145801,12 +150864,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_545",
     "name": "ドジラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/545.png",
@@ -146073,12 +151146,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_546",
     "name": "ろくろ首",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/546.png",
@@ -146335,12 +151418,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_547",
     "name": "ウィスパー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/547.png",
@@ -146592,12 +151684,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://youkai.gamepedia.jp/busters/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：ウィスパーは妖怪ウォッチ1から主人公の相棒として登場（妖怪メダルの一覧には載らない）。仲間にできる妖怪としての初登場はバスターズ（白犬隊限定）",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_548",
     "name": "ウィスベェ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/548.png",
@@ -146854,12 +151957,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、バスターズの妖怪大辞典に「白犬隊限定」で掲載。妖怪ウォッチ3では「新登場」ではない",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_549",
     "name": "キリスギリス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/549.png",
@@ -147116,12 +152230,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_550",
     "name": "ひっぱりダコ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/550.png",
@@ -147399,12 +152523,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_551",
     "name": "たこうらみ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/551.png",
@@ -147669,12 +152803,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_552",
     "name": "ボー坊",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/552.png",
@@ -147948,14 +153092,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_553",
     "name": "しどろもどろ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/553.png",
     "rank": "Bランク",
     "stats": {
@@ -148222,12 +153374,21 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
     "id": "yk_roster_554",
     "name": "ミチクサメ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/554.png",
@@ -148493,12 +153654,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_555",
     "name": "トーシロザメ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/555.png",
@@ -148762,12 +153931,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_556",
     "name": "ムダヅカイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/556.png",
@@ -149047,12 +154224,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_557",
     "name": "はらわシェル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/557.png",
@@ -149324,12 +154509,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_558",
     "name": "ナガバナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/558.png",
@@ -149607,12 +154800,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_559",
     "name": "ナガバナナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/559.png",
@@ -149889,12 +155090,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_560",
     "name": "チョコバナーナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/560.png",
@@ -150171,12 +155380,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_561",
     "name": "ホリュウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/561.png",
@@ -150442,12 +155661,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_562",
     "name": "ロボノコ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/562.png",
@@ -150719,12 +155947,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_563",
     "name": "ロボりゅーくん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/563.png",
@@ -150987,12 +156224,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_564",
     "name": "油すまし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/564.png",
@@ -151248,12 +156494,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_565",
     "name": "しきるん蛇",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/565.png",
@@ -151434,7 +156690,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 565,
     "officialNo": 565,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -151534,12 +156790,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_566",
     "name": "すねスネーク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/566.png",
@@ -151821,12 +157086,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_567",
     "name": "まむし行司",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/567.png",
@@ -152113,12 +157386,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_568",
     "name": "つられたろう丸",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/568.png",
@@ -152390,12 +157671,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ2。v453の照合時の根拠：妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ",
+      "v453Status": "確認済み"
     }
   },
   {
     "id": "yk_roster_569",
     "name": "おれリュウ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/569.png",
@@ -152669,12 +157960,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_570",
     "name": "オロチ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/570.png",
@@ -152943,12 +158244,20 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_571",
     "name": "影オロチ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/571.png",
@@ -153207,12 +158516,20 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_572",
     "name": "センポクカンポク",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/572.png",
@@ -153380,7 +158697,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 572,
     "officialNo": 572,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -153476,12 +158793,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_573",
     "name": "マッサラニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/573.png",
@@ -153653,7 +158981,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 573,
     "officialNo": 573,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -153753,12 +159081,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_574",
     "name": "アンドロイド山田",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ハグレ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/574.png",
@@ -153919,7 +159258,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 574,
     "officialNo": 574,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -154027,12 +159366,23 @@ window.YOKAI_DATA = [
         "magicAttribute": "雷",
         "ruleWouldGive": "雷/土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_575",
     "name": "厄怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/575.png",
@@ -154201,7 +159551,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 575,
     "officialNo": 575,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 69,
@@ -154299,12 +159649,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_576",
     "name": "不怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/576.png",
@@ -154465,7 +159825,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 576,
     "officialNo": 576,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -154565,12 +159925,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_577",
     "name": "豪怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/577.png",
@@ -154736,7 +160106,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 577,
     "officialNo": 577,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 92,
@@ -154838,12 +160208,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_578",
     "name": "難怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/578.png",
@@ -155006,7 +160386,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 578,
     "officialNo": 578,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -155108,12 +160488,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_579",
     "name": "破怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/579.png",
@@ -155281,7 +160671,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 579,
     "officialNo": 579,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -155383,12 +160773,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_580",
     "name": "あかなめ・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/580.png",
@@ -155549,7 +160949,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 580,
     "officialNo": 580,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 70,
@@ -155650,12 +161050,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_581",
     "name": "泥田坊・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/581.png",
@@ -155816,7 +161226,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 581,
     "officialNo": 581,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 78,
@@ -155918,12 +161328,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_582",
     "name": "えんらえんら・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/582.png",
@@ -156086,7 +161506,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 582,
     "officialNo": 582,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 66,
@@ -156187,12 +161607,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_583",
     "name": "河童・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/583.png",
@@ -156346,7 +161776,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 583,
     "officialNo": 583,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -156448,12 +161878,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_584",
     "name": "から傘お化け・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/584.png",
@@ -156621,7 +162061,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 584,
     "officialNo": 584,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -156721,12 +162161,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_585",
     "name": "ざしきわらし・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/585.png",
@@ -156887,7 +162337,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 585,
     "officialNo": 585,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 57,
@@ -156985,12 +162435,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_586",
     "name": "くだん・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/586.png",
@@ -157151,7 +162611,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 586,
     "officialNo": 586,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -157248,12 +162708,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_587",
     "name": "けうけげん・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/587.png",
@@ -157420,7 +162890,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 587,
     "officialNo": 587,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -157520,12 +162990,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_588",
     "name": "にんぎょ・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/588.png",
@@ -157679,7 +163159,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 588,
     "officialNo": 588,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -157780,12 +163260,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_589",
     "name": "ろくろ首・怪",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "怪魔族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/589.png",
@@ -157939,7 +163429,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 589,
     "officialNo": 589,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 67,
@@ -158037,12 +163527,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_590",
     "name": "ジバニャンK",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/590.png",
@@ -158196,7 +163696,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 590,
     "officialNo": 590,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -158294,12 +163794,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_591",
     "name": "USAピョンQ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/591.png",
@@ -158453,7 +163964,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 591,
     "officialNo": 591,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -158551,12 +164062,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_592",
     "name": "コマさんJ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/592.png",
@@ -158710,7 +164232,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 592,
     "officialNo": 592,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -158808,12 +164330,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_593",
     "name": "コマじゅうろう",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/593.png",
@@ -158967,7 +164500,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 593,
     "officialNo": 593,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -159065,12 +164598,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_594",
     "name": "フユニャンエース",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/594.png",
@@ -159303,12 +164847,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_595",
     "name": "ウィスババ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/595.png",
@@ -159472,7 +165026,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 595,
     "officialNo": 595,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 57,
@@ -159572,12 +165126,23 @@ window.YOKAI_DATA = [
         "status": "未確認（出典不一致）",
         "note": "Game-e 雷/土、Gamepedia なし で一致せず（Hrs-Gameは記載なし）"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_596",
     "name": "弁財天",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/596.png",
@@ -159731,7 +165296,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 596,
     "officialNo": 596,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -159831,7 +165396,18 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk0597",
@@ -160075,12 +165651,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_598",
     "name": "大黒天",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/598.png",
@@ -160241,7 +165827,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 598,
     "officialNo": 598,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 65,
@@ -160341,12 +165927,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_599",
     "name": "恵比寿",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/599.png",
@@ -160507,7 +166104,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 599,
     "officialNo": 599,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -160603,12 +166200,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_600",
     "name": "毘沙門天",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/600.png",
@@ -160852,12 +166460,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_601",
     "name": "コロンブス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/601.png",
@@ -161098,6 +166716,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -161342,12 +166970,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_603",
     "name": "ダーウィン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/603.png",
@@ -161503,7 +167141,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 603,
     "officialNo": 603,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 46,
@@ -161599,12 +167237,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_604",
     "name": "ラストブシニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/604.png",
@@ -161850,6 +167499,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -162093,12 +167752,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_606",
     "name": "プラチナ鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/606.png",
@@ -162260,7 +167929,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 606,
     "officialNo": 606,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 69,
@@ -162370,12 +168039,23 @@ window.YOKAI_DATA = [
         "confirmedOn": "2026-11-12",
         "source": "ユーザー指示（チャット）"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_607",
     "name": "ブルジョワG",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/607.png",
@@ -162530,7 +168210,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 607,
     "officialNo": 607,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 73,
@@ -162628,12 +168308,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_608",
     "name": "ブシニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "イサマシ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/608.png",
@@ -162884,6 +168575,14 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -162891,7 +168590,7 @@ window.YOKAI_DATA = [
     "name": "しゅらコマ",
     "category": "現代種族",
     "tribe": "フシギ族",
-    "game": "妖怪ウォッチ3",
+    "game": "妖怪ウォッチ",
     "image": "images/yokai/609.png",
     "rank": "Sランク",
     "stats": {
@@ -163130,12 +168829,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ3"
     }
   },
   {
     "id": "yk_roster_610",
     "name": "山吹鬼",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/610.png",
@@ -163297,7 +169005,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 610,
     "officialNo": 610,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 54,
@@ -163399,12 +169107,21 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_611",
     "name": "ネタバレリーナ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/611.png",
@@ -163566,7 +169283,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 611,
     "officialNo": 611,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 41,
@@ -163666,12 +169383,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_612",
     "name": "花さか爺",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/612.png",
@@ -163826,7 +169553,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 612,
     "officialNo": 612,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 36,
@@ -163924,12 +169651,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_613",
     "name": "うんちく魔",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/613.png",
@@ -164097,7 +169833,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 613,
     "officialNo": 613,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -164194,12 +169930,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_614",
     "name": "イケメン犬",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ",
     "image": "images/yokai/614.png",
@@ -164354,7 +170100,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 614,
     "officialNo": 614,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 36,
@@ -164451,12 +170197,21 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686"
+      ],
+      "method": "妖怪ウォッチ1の全妖怪一覧（ボスを含む）に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_615",
     "name": "やまタン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ2",
     "image": "images/yokai/615.png",
@@ -164611,7 +170366,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 615,
     "officialNo": 615,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 61,
@@ -164709,12 +170464,22 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365"
+      ],
+      "method": "妖怪ウォッチ1の一覧になく、妖怪ウォッチ2の全妖怪一覧に掲載",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_616",
     "name": "ばたんQ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/616.png",
@@ -164883,7 +170648,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 616,
     "officialNo": 616,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 65,
@@ -164981,12 +170746,23 @@ window.YOKAI_DATA = [
       "note": "多数決で採用（異なる出典：GP=なし）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_617",
     "name": "乙姫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/617.png",
@@ -165141,7 +170917,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 617,
     "officialNo": 617,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -165243,7 +171019,18 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_618",
@@ -165495,12 +171282,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_619",
     "name": "ニャーミネーター",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/619.png",
@@ -165655,7 +171452,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 619,
     "officialNo": 619,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 40,
@@ -165756,7 +171553,18 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_620",
@@ -166045,6 +171853,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -166300,6 +172118,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -166595,6 +172423,14 @@ window.YOKAI_DATA = [
       ],
       "source": "ユーザー指示（2026-11-16）",
       "checked": "2026-11-16"
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -166836,12 +172672,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_624",
     "name": "ウォール・ガイ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/624.png",
@@ -166996,7 +172842,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 624,
     "officialNo": 624,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 65,
@@ -167097,12 +172943,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_625",
     "name": "ガランドゥ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/625.png",
@@ -167268,7 +173125,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 625,
     "officialNo": 625,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 10,
@@ -167368,12 +173225,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_626",
     "name": "バケルトン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/626.png",
@@ -167534,7 +173402,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 626,
     "officialNo": 626,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 65,
@@ -167630,12 +173498,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_627",
     "name": "メカオロチ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/627.png",
@@ -167888,12 +173767,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_628",
     "name": "黒鬼呂布",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪三国志",
     "image": "images/yokai/628.png",
@@ -168055,7 +173944,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 628,
     "officialNo": 628,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 60,
@@ -168150,12 +174039,21 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_629",
     "name": "メカキュウビ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/629.png",
@@ -168316,7 +174214,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 629,
     "officialNo": 629,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 63,
@@ -168417,12 +174315,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_630",
     "name": "Uロボニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/630.png",
@@ -168577,7 +174486,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 630,
     "officialNo": 630,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 70,
@@ -168678,12 +174587,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_631",
     "name": "デバミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/631.png",
@@ -168838,7 +174758,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 631,
     "officialNo": 631,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 35,
@@ -168935,12 +174855,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_632",
     "name": "しらんプリン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/632.png",
@@ -169102,7 +175033,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 632,
     "officialNo": 632,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -169198,12 +175129,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_633",
     "name": "ミーフー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/633.png",
@@ -169358,7 +175300,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 633,
     "officialNo": 633,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 60,
@@ -169454,12 +175396,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_634",
     "name": "コアラニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/634.png",
@@ -169614,7 +175567,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 634,
     "officialNo": 634,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -169707,12 +175660,23 @@ window.YOKAI_DATA = [
       "note": "得意風はGame-eとGamepediaで一致。苦手はGamepediaの氷を採用（Game-eの水は相性表と矛盾）。Hrs-Gameは記載範囲外",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_635",
     "name": "Tジバニャン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/635.png",
@@ -169872,7 +175836,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 635,
     "officialNo": 635,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 46,
@@ -169973,12 +175937,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_636",
     "name": "Tコマさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/636.png",
@@ -170133,7 +176108,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 636,
     "officialNo": 636,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 44,
@@ -170234,12 +176209,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_637",
     "name": "卵の君",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/637.png",
@@ -170400,7 +176386,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 637,
     "officialNo": 637,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 60,
@@ -170496,12 +176482,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_638",
     "name": "ワルノリン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/638.png",
@@ -170666,7 +176663,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 638,
     "officialNo": 638,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 47,
@@ -170770,12 +176767,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_639",
     "name": "サニーレタスさん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/639.png",
@@ -170936,7 +176944,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 639,
     "officialNo": 639,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 41,
@@ -171032,12 +177040,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_640",
     "name": "テレテル坊主",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/640.png",
@@ -171192,7 +177211,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 640,
     "officialNo": 640,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -171293,12 +177312,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_641",
     "name": "モルラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/641.png",
@@ -171452,7 +177482,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 641,
     "officialNo": 641,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -171547,12 +177577,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_642",
     "name": "ミカエリ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/642.png",
@@ -171707,7 +177748,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 642,
     "officialNo": 642,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -171802,12 +177843,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_643",
     "name": "一旦ソーリー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/643.png",
@@ -171961,7 +178013,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 643,
     "officialNo": 643,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -172056,12 +178108,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_644",
     "name": "ヨドム",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/644.png",
@@ -172223,7 +178286,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 644,
     "officialNo": 644,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -172318,12 +178381,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_645",
     "name": "まんまミーラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/645.png",
@@ -172484,7 +178558,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 645,
     "officialNo": 645,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 10,
@@ -172582,12 +178656,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_646",
     "name": "ダークコマー",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/646.png",
@@ -172742,7 +178827,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 646,
     "officialNo": 646,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 49,
@@ -172837,12 +178922,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_647",
     "name": "USA豆腐",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/647.png",
@@ -172997,7 +179093,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 647,
     "officialNo": 647,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -173092,12 +179188,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_648",
     "name": "夜行",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/648.png",
@@ -173258,7 +179365,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 648,
     "officialNo": 648,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -173354,12 +179461,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_649",
     "name": "ゴージャス大使",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/649.png",
@@ -173514,7 +179632,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 649,
     "officialNo": 649,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 36,
@@ -173614,12 +179732,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_650",
     "name": "日ノ神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/650.png",
@@ -173774,7 +179903,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 650,
     "officialNo": 650,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 62,
@@ -173874,12 +180003,25 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters",
+        "https://youkai.gamepedia.jp/busters/boss"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチ3。v453の照合時の根拠：妖怪ウォッチ2の全妖怪一覧に掲載。一方で攻略大百科の妖怪ウォッチ3一覧では「新登場」表示、バスターズ（赤猫団・白犬隊）ではビッグボス。一覧の中で最も早い妖怪ウォッチ2を採用",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチ2",
+      "v453Status": "未確認（出典が食い違う）"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_651",
     "name": "ぬらりひょん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/651.png",
@@ -174040,7 +180182,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 651,
     "officialNo": 651,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 55,
@@ -174136,12 +180278,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_652",
     "name": "さきのばし",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/652.png",
@@ -174309,7 +180462,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 652,
     "officialNo": 652,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -174404,12 +180557,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_653",
     "name": "オタカラもどき",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/653.png",
@@ -174564,7 +180728,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 653,
     "officialNo": 653,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 51,
@@ -174659,12 +180823,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_654",
     "name": "ジャンクコシノ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/654.png",
@@ -174825,7 +181000,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 654,
     "officialNo": 654,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 45,
@@ -174923,12 +181098,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_655",
     "name": "ウィスパー孔明",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪三国志",
     "image": "images/yokai/655.png",
@@ -175100,7 +181286,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 655,
     "officialNo": 655,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 48,
@@ -175196,12 +181382,21 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "既存値を保持（妖怪三国志の武将妖怪）",
+      "sources": [
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪三国志（2016年4月）の武将妖怪。妖怪ウォッチ1・2の一覧にはなし",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_656",
     "name": "寿老人",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/656.png",
@@ -175356,7 +181551,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 656,
     "officialNo": 656,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 43,
@@ -175453,12 +181648,23 @@ window.YOKAI_DATA = [
       "note": "同上（Game-eの苦手水は相性表と矛盾）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_657",
     "name": "福禄寿",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/657.png",
@@ -175613,7 +181819,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 657,
     "officialNo": 657,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 37,
@@ -175709,7 +181915,18 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk0658",
@@ -175954,12 +182171,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_659",
     "name": "ゴーキングデッド",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/659.png",
@@ -176114,7 +182341,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 659,
     "officialNo": 659,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 60,
@@ -176224,12 +182451,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_660",
     "name": "パンドラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/660.png",
@@ -176390,7 +182628,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 660,
     "officialNo": 660,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 53,
@@ -176486,12 +182724,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_661",
     "name": "リアクション大王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/661.png",
@@ -176757,12 +183006,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_662",
     "name": "ニャステト",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/662.png",
@@ -177037,12 +183296,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_663",
     "name": "ズラビス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/663.png",
@@ -177312,12 +183581,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_664",
     "name": "スピーチ姫",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/664.png",
@@ -177587,12 +183866,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "風"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_665",
     "name": "トリベア",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/665.png",
@@ -177854,12 +184143,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_666",
     "name": "ジェントル面犬",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/666.png",
@@ -178128,12 +184427,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_667",
     "name": "自慢ハッタン",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/667.png",
@@ -178401,12 +184710,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_668",
     "name": "難陀竜王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/668.png",
@@ -178679,12 +184998,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_669",
     "name": "エンマ大王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/669.png",
@@ -178946,6 +185275,19 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「月兎組限定」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
@@ -179211,12 +185553,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_671",
     "name": "覚醒日ノ神",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/671.png",
@@ -179376,7 +185728,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 671,
     "officialNo": 671,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 63,
@@ -179476,12 +185828,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_672",
     "name": "先代閻魔大王",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/672.png",
@@ -179753,12 +186116,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_673",
     "name": "覚醒エンマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/673.png",
@@ -180025,12 +186398,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_674",
     "name": "ノストラダマス",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/674.png",
@@ -180302,6 +186685,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -180573,12 +186966,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_676",
     "name": "銅拍子",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/676.png",
@@ -180835,12 +187238,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_677",
     "name": "吽形",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/677.png",
@@ -181010,7 +187423,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 677,
     "officialNo": 677,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 52,
@@ -181111,12 +187524,23 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_678",
     "name": "阿形",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ゴーケツ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/678.png",
@@ -181377,12 +187801,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_679",
     "name": "おんもらき",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/679.png",
@@ -181649,12 +188083,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_680",
     "name": "ちょうちんお化け",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/680.png",
@@ -181916,6 +188360,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -182192,6 +188646,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -182482,12 +188946,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_683",
     "name": "イソノナミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/683.png",
@@ -182760,12 +189234,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_684",
     "name": "ヤマオカミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/684.png",
@@ -182951,7 +189435,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 684,
     "officialNo": 684,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 63,
@@ -183047,12 +189531,23 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_685",
     "name": "ツキノヤミ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ウスラカゲ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/685.png",
@@ -183328,12 +189823,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_686",
     "name": "ふぶきちゃん",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチバスターズ",
     "image": "images/yokai/686.png",
@@ -183596,12 +190101,25 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "氷"
       }
+    },
+    "gameAudit": {
+      "status": "ユーザー確認済み（2026-11-25）",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/busters/monsters",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "ユーザー指定（2026-11-25）：妖怪ウォッチバスターズ。v453の照合時の根拠：妖怪ウォッチ1・2の一覧になく、妖怪ウォッチ3では「新登場」ではない（攻略大百科）。バスターズの妖怪大辞典では「（限定なし）」。それより前の初登場作品を出典で確定できないため、既存の値を保持",
+      "checked": "2026-11-25",
+      "previousGame": "妖怪ウォッチバスターズ",
+      "v453Status": "未確認（既存値を保持）"
     }
   },
   {
     "id": "yk_roster_687",
     "name": "KJ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/687.png",
@@ -183864,12 +190382,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_688",
     "name": "太陽神エンマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/688.png",
@@ -184131,12 +190659,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_689",
     "name": "時空神エンマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/689.png",
@@ -184413,12 +190951,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_690",
     "name": "暗黒神エンマ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "エンマ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/690.png",
@@ -184680,12 +191228,22 @@ window.YOKAI_DATA = [
       },
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_691",
     "name": "インディ・J",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/691.png",
@@ -184963,6 +191521,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "水"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -185214,12 +191782,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_693",
     "name": "ゾン・ビー・C",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ブキミー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/693.png",
@@ -185497,12 +192075,22 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_694",
     "name": "ネコ2世",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ポカポカ族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/694.png",
@@ -185773,12 +192361,22 @@ window.YOKAI_DATA = [
       "note": "Gamepediaのみ記載（Hrs-Game・Game-eは掲載範囲外）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
     "id": "yk_roster_695",
     "name": "クレクレパトラ",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "プリチー族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/695.png",
@@ -185961,7 +192559,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 695,
     "officialNo": 695,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 50,
@@ -186057,12 +192655,23 @@ window.YOKAI_DATA = [
       "note": "Gamepediaのみ記載（Hrs-Game・Game-eは掲載範囲外）",
       "rule": "得意→苦手：火→水、氷→火、風→氷、土→風、雷→土、水→雷（例外として得意・苦手なしの妖怪あり）",
       "checked": "2026-11-12"
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_696",
     "name": "ヤマトボケル",
-    "category": "公式一覧・詳細未登録",
+    "category": "公式一覧",
     "tribe": "ニョロロン族",
     "game": "妖怪ウォッチ3",
     "image": "images/yokai/696.png",
@@ -186250,7 +192859,7 @@ window.YOKAI_DATA = [
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
     "sortOrder": 696,
     "officialNo": 696,
-    "dataStatus": "roster-only",
+    "dataStatus": "details-registered-v453",
     "statBase": {
       "hp": {
         "A": 69,
@@ -186351,7 +192960,18 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "土"
       }
-    }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
+    },
+    "previousDataStatus": "roster-only"
   },
   {
     "id": "yk_roster_697",
@@ -186624,6 +193244,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "雷"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   },
   {
@@ -186893,6 +193523,16 @@ window.YOKAI_DATA = [
         "result": "一致",
         "magicAttribute": "火"
       }
+    },
+    "gameAudit": {
+      "status": "確認済み",
+      "sources": [
+        "https://game8.jp/youkai-watch1/808686",
+        "https://game8.jp/youkai-watch2/491365",
+        "https://youkai.gamepedia.jp/yw3/monsters"
+      ],
+      "method": "妖怪ウォッチ1・2の一覧になく、攻略大百科の妖怪ウォッチ3一覧で「新登場」",
+      "checked": "2026-11-25"
     }
   }
 ];
