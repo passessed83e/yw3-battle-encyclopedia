@@ -308,7 +308,7 @@
    </div>
    <div class="damage-inline-controls damage-critical-controls">
     <div><label for="dmgCriticalCount">クリティカル回数（連続攻撃のうち）</label><input id="dmgCriticalCount" type="number" min="0" max="1" step="1" value="0"></div>
-    <div><label for="dmgSuperCritical">超クリティカルの個数</label><input id="dmgSuperCritical" type="number" min="0" max="20" step="1" value="0"></div>
+    <div><label for="dmgSuperCritical">超クリティカルの個数（暫定）</label><input id="dmgSuperCritical" type="number" min="0" max="20" step="1" value="0"></div>
    </div>
    <div id="dmgUltimatePowerWrap" class="damage-subgrid" hidden><div><label for="dmgUltimatePower">必殺技の威力（手入力）</label><input id="dmgUltimatePower" type="number" min="0" step="1" placeholder="威力を入力"></div><div><label for="dmgUltimateStat">必殺技の能力依存</label><select id="dmgUltimateStat"><option value="strength" selected>ちから依存</option><option value="spirit">ようりょく依存</option></select></div></div>
    <div class="damage-subgrid damage-attribute-skill-row">
@@ -441,6 +441,11 @@
 <!-- v437: 絞り込みボタンと検索欄をパーティ編成の下に移動 --><div class="filter-launch-row"><button type="button" class="primary filter-launch" id="openFilters">☷ 絞り込みを開く</button><div class="search-box top-search"><label for="q">妖怪名・技・スキルを検索</label><input id="q" placeholder="例：アチャー、火花の術、ちから大アップ"></div></div>
 <div class="toolbar"><div class="count" id="count" aria-live="polite"></div><div class="buttons"><button id="clear">条件をリセット</button><button id="clearCompare" type="button">比較を全て解除</button><button class="primary" id="showCompare">比較を見る（0/4）</button></div></div><section class="grid" id="grid" aria-label="妖怪一覧"></section>
 </main>
+<!-- v458: 最小限の権利表記と出典（v459: 出典は個体値チェッカーとMt. Wildwood Wikiのみ） -->
+<footer class="site-credit">
+<p>当サイトは非公式のファンサイトで、株式会社レベルファイブ・関係各社とは関係ありません。「妖怪ウォッチ」の名称・画像などの権利は各権利者に帰属します。© LEVEL-5 Inc.</p>
+<p>データの出典：<a href="https://togenyanweb.appspot.com/Yokai/yw3/ivChecker.html" target="_blank" rel="noopener">個体値チェッカー</a>・<a href="https://mtwildwood.net/yw3/" target="_blank" rel="noopener">Mt. Wildwood Wiki</a> ほか。一部は独自の検証による暫定値です。</p>
+</footer>
 <div class="skill-image-modal" id="skillImageModal" aria-hidden="true">
 <section class="skill-image-dialog" role="dialog" aria-modal="true" aria-labelledby="skillImageModalTitle" aria-describedby="skillImageModalSub" tabindex="-1">
 <div class="skill-image-modal-head"><div class="skill-image-modal-head-copy"><h2 id="skillImageModalTitle">スキルを持つ妖怪</h2><p id="skillImageModalSub">スキル名をクリックすると、同じスキルや同じ効果を持つ妖怪を一覧表示します。</p></div><button id="skillImageModalClose" type="button" data-skill-close aria-label="閉じる">閉じる ✕</button></div>
@@ -936,9 +941,14 @@ $('bulkRank').addEventListener('change',updateBulkAgerankPreview);$('applyBulkRa
   const formationBase=num(el('dmgFormation')?.value||1);
   const formationFactor=isSpiritBased&&formationBase!==1?Math.round((2-formationBase)*100)/100:formationBase;
   raw*=formationFactor;
-  // クリティカル回数分だけ該当ヒットを1.5倍として合計する（回数/総ヒット数で加重）。
-  if(critical)raw*=1+(0.5*criticalCount/hits);
-  if(critical&&superCount>0)raw*=1+(0.5*superCount);
+  // v457: クリティカルのヒットは相手のまもりを無視して×1.5（ユーザー確認：グレるりんの魂つきフユニャン曹操のクリティカル4件が、まもりを無視した計算でそろって範囲内）。
+  //       超クリティカル（魂）は1個ごとにクリティカルのヒットだけさらに×1.5（暫定）。クリティカルでないヒットは今までどおり。
+  if(critical){
+   const perHitNormal=Math.max(0,raw/hits);
+   const noDefRaw=isSpiritBased?raw:(x/1.8)*formationFactor;
+   const perHitCrit=Math.max(0,noDefRaw/hits)*1.5*(superCount>0?(1+0.5*superCount):1);
+   raw=perHitNormal*(hits-criticalCount)+perHitCrit*criticalCount;
+  }
   // 防御効果：壺ガード優先。ガード崩し系はガード/壺ガードのみ無視する。
   const isAttack=m.type==='attack';
   const guardBreak=isAttack&&el('dmgGuardBreak').checked,superGuardBreak=isAttack&&el('dmgSuperGuardBreak').checked;
@@ -964,7 +974,9 @@ $('bulkRank').addEventListener('change',updateBulkAgerankPreview);$('applyBulkRa
   raw*=defenseFactor;
   raw=Math.max(0,raw);
   // Provisional damage spread pending in-game validation.
-  const min=Math.floor(raw*0.9),max=Math.ceil(raw*1.1),avg=Math.round((min+max)/2);
+  /* v456: 乱数幅を「1ヒットごとに±（ダメージの10%＋1）」に（Mt. Wildwood の妖怪ウォッチ1・2の式。3では未確認の暫定）。合計では±（10%＋ヒット数） */
+  const spreadHits=raw>0?Math.max(1,Number(hits)||1):0;
+  const min=Math.max(0,Math.floor(raw*0.9-spreadHits)),max=Math.ceil(raw*1.1+spreadHits),avg=Math.round((min+max)/2);
   el('dmgAtkStatName').textContent=switchOn?'ちから（スイッチ：元のまもり）':statName;el('dmgAtkStat').textContent=Math.round(attackStat*10)/10;
   el('dmgHp').textContent=hp;el('dmgDef').textContent=Math.round(defenseStat*10)/10;
   /* v403: 攻撃側・防御側のステータスを5つ全部表示（色は図鑑カードの棒グラフと同じ）。計算に使う能力は補正込みの値を枠付きで表示 */
@@ -989,7 +1001,7 @@ $('bulkRank').addEventListener('change',updateBulkAgerankPreview);$('applyBulkRa
    let ko='—';if(hp>0){if(max<=0)ko='倒せない（ダメージ0）';else{const nMin=Math.ceil(hp/max),nMax=min>0?Math.ceil(hp/min):Infinity;ko=nMin===nMax?`確定${nMin}発`:`乱数${nMin}発`;}}
    el('dmgKoHits').textContent=ko;el('dmgKoHits').dataset.ko=ko.startsWith('確定')?'sure':ko.startsWith('乱数')?'random':'';}
   el('dmgFormulaType').textContent=isSpiritBased?(isUltimate?'必殺技・ようりょく依存（暫定）':'妖術（まもり貫通）'):(isUltimate?'必殺技・ちから依存（暫定）':critical?`物理クリティカル ${criticalCount}/${hits}回`:'物理通常');
-  el('dmgExplain').textContent=`攻撃側：${a.name}（${combatRankLabel(a,atkRankStat.steps)}）／防御側：${d.name}（${combatRankLabel(d,defRankStat.steps)}）\n技：${m.name} 威力 ${effectivePower||'未入力'}・${hits}ヒット（合計ダメージ）\n参照能力：${statName} ${Math.round(attackStat*10)/10}／防御：${isSpiritBased?'無視（暫定）':Math.round(defenseStat*10)/10}／相手HP：${hp}${unchiku?'\nうんちく：全員の技が属性なし（弱点・得意・属性軽減魂・属性あそびは無効）':''}${switchOn?`\nスイッチ：ちから⇔まもり入れ替え中（攻撃側は元のまもり ${num(atkRankStat.value)}、防御側は元のちから ${num(defRankStat.value)} を参照。バフ・スポーツクラブ・装備の入力値は入れ替え後の値にかかる）`:el('dmgFieldSwitch')?.checked?'\nスイッチ：妖術・ようりょく依存の技には影響なし':''}\n攻撃位置：${(el('dmgFormation').selectedOptions[0]?.textContent||'中列').replace(/（.*/,'')}（${isSpiritBased?'ようりょく参照':'ちから参照'} ×${formationFactor.toFixed(1)}）\n属性補正：${attrFactor}倍（暫定${isSpiritBased?'':'・物理計算式には未適用'}）［${el('dmgAutoAttr').checked?'自動判定':'手動'}：${attrJudge.text}］／防御効果：${defenseLabels.join('・')||'なし'}${atkTribeConflict||defTribeConflict?'／陣の注意：真〇〇陣はチーム6体が同じ種族のため、もう一方の陣は無効として計算':''}／プリチー陣：攻撃側 ${trSA?trSA.name:'なし'}・防御側 ${trSD?trSD.name:'なし'}（命中率に反映）／陣：攻撃側 ${trA?trA.name+(tribeAtkBonus?`（+${tribeAtkBonus}）`:'（この技の参照能力には影響なし）'):'なし'}・防御側 ${trD?trD.name+(tribeDefBonus?`（+${tribeDefBonus}）`:'（妖術・ようりょく依存の技には影響なし）'):'なし'}（計算順は暫定）／装備：攻撃側 ${el('dmgEquipItemAtk')?.selectedOptions[0]?.textContent||'なし'}・防御側 ${el('dmgEquipItemDef')?.selectedOptions[0]?.textContent||'なし'}${soulLabels.length?'（'+soulLabels.join('・')+'）':''}／ガード崩し：${superGuardBreak?'超ガード崩し':guardBreak?'ガード崩し':'なし'}／クリティカル：${criticalCount}/${hits}回／超クリティカル：${superCount}個／属性あそび：${attributePlay}個（妖術 ${(1+0.05*attributePlay).toFixed(2)}倍）／ハイセンス：攻撃側${highSenseCount}個（×${highSenseAtkMultiplier.toFixed(2)}）、防御側${highSenseCount}個（×${highSenseDefMultiplier.toFixed(2)}）\n計算基礎値 ${raw.toFixed(2)}。乱数幅は暫定±10%。`;
+  el('dmgExplain').textContent=`攻撃側：${a.name}（${combatRankLabel(a,atkRankStat.steps)}）／防御側：${d.name}（${combatRankLabel(d,defRankStat.steps)}）\n技：${m.name} 威力 ${effectivePower||'未入力'}・${hits}ヒット（合計ダメージ）\n参照能力：${statName} ${Math.round(attackStat*10)/10}／防御：${isSpiritBased?'無視（暫定）':Math.round(defenseStat*10)/10}／相手HP：${hp}${unchiku?'\nうんちく：全員の技が属性なし（弱点・得意・属性軽減魂・属性あそびは無効）':''}${switchOn?`\nスイッチ：ちから⇔まもり入れ替え中（攻撃側は元のまもり ${num(atkRankStat.value)}、防御側は元のちから ${num(defRankStat.value)} を参照。バフ・スポーツクラブ・装備の入力値は入れ替え後の値にかかる）`:el('dmgFieldSwitch')?.checked?'\nスイッチ：妖術・ようりょく依存の技には影響なし':''}\n攻撃位置：${(el('dmgFormation').selectedOptions[0]?.textContent||'中列').replace(/（.*/,'')}（${isSpiritBased?'ようりょく参照':'ちから参照'} ×${formationFactor.toFixed(1)}）\n属性補正：${attrFactor}倍（暫定${isSpiritBased?'':'・物理計算式には未適用'}）［${el('dmgAutoAttr').checked?'自動判定':'手動'}：${attrJudge.text}］／防御効果：${defenseLabels.join('・')||'なし'}${atkTribeConflict||defTribeConflict?'／陣の注意：真〇〇陣はチーム6体が同じ種族のため、もう一方の陣は無効として計算':''}／プリチー陣：攻撃側 ${trSA?trSA.name:'なし'}・防御側 ${trSD?trSD.name:'なし'}（命中率に反映）／陣：攻撃側 ${trA?trA.name+(tribeAtkBonus?`（+${tribeAtkBonus}）`:'（この技の参照能力には影響なし）'):'なし'}・防御側 ${trD?trD.name+(tribeDefBonus?`（+${tribeDefBonus}）`:'（妖術・ようりょく依存の技には影響なし）'):'なし'}（計算順は暫定）／装備：攻撃側 ${el('dmgEquipItemAtk')?.selectedOptions[0]?.textContent||'なし'}・防御側 ${el('dmgEquipItemDef')?.selectedOptions[0]?.textContent||'なし'}${soulLabels.length?'（'+soulLabels.join('・')+'）':''}／ガード崩し：${superGuardBreak?'超ガード崩し':guardBreak?'ガード崩し':'なし'}／クリティカル：${criticalCount}/${hits}回（相手のまもりを無視）／超クリティカル：${superCount}個（1個ごとにクリティカルのヒット×1.5・暫定）／属性あそび：${attributePlay}個（妖術 ${(1+0.05*attributePlay).toFixed(2)}倍）／ハイセンス：攻撃側${highSenseCount}個（×${highSenseAtkMultiplier.toFixed(2)}）、防御側${highSenseCount}個（×${highSenseDefMultiplier.toFixed(2)}）\n計算基礎値 ${raw.toFixed(2)}。乱数幅は暫定で1ヒットごとに±（10%＋1）（妖怪ウォッチ1・2の式。3では未確認）。`;
   /* v427: 比較・逆算用に今回の計算結果を外から読めるようにする（計算内容は変更なし） */
   window.__dmgLast={min,max,avg,hp,raw,hits,moveName:m.name,moveType:m.type,defId:d.id,defName:d.name,atkId:a.id,ultimate:isUltimate,hitText:el('dmgHitRate').textContent};try{if(window.YW3_DMG_AFTER)window.YW3_DMG_AFTER();}catch(err){}
  }
@@ -1317,7 +1329,7 @@ card.addEventListener('click',open);card.addEventListener('keydown',e=>{if(e.key
   return res;
  };
  const pctText=v=>v<=0?'0%':v>=0.9995?'100%':v>0&&v<0.001?'0.1%未満':v>0.999&&v<1?'99.9%':(Math.round(v*1000)/10).toFixed(1)+'%';
- const PROB_NOTE='乱数幅±10%（暫定）の範囲のダメージがどれも同じ確率で出ると仮定した暫定値';
+ const PROB_NOTE='乱数幅（暫定：1ヒットごとに±（10%＋1））の範囲のダメージがどれも同じ確率で出ると仮定した暫定値';
  const koInfo=r=>{
   if(!r||!(r.hp>0))return {text:'—',nMin:Infinity,nSure:Infinity};
   if(r.max<=0)return {text:'倒せない（ダメージ0）',nMin:Infinity,nSure:Infinity};
@@ -2544,4 +2556,5 @@ header p{color:#f1dcc7}
 .primary{background:linear-gradient(#ffe384,#f3b63c);border:1px solid #fff1bf;color:#3b2507;box-shadow:inset 0 0 0 1px rgba(255,241,191,.55),0 2px 0 #a8701d}
 .primary:disabled{box-shadow:none}
 </style>
+<style id="site-credit-style-v458">.site-credit{max-width:1200px;margin:24px auto 0;padding:14px 16px 28px;border-top:1px solid var(--line);font-size:11px;line-height:1.6;color:var(--muted)}.site-credit p{margin:0 0 4px}.site-credit a{color:var(--muted)}</style>
 </body></html>
