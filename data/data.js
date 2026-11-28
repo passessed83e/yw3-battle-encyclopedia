@@ -129,6 +129,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -380,6 +391,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -633,6 +655,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -883,6 +916,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -1132,6 +1176,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -1380,6 +1435,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -1634,6 +1700,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -1887,6 +1964,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -2158,6 +2246,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -2418,6 +2517,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -2669,6 +2779,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -2933,6 +3054,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -3192,6 +3324,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -3455,6 +3598,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -3719,6 +3873,18 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -3994,6 +4160,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの「charge down to 65%」を適用",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -4266,6 +4444,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -4534,6 +4723,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -4774,6 +4974,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -5033,6 +5244,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -5315,6 +5537,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -5564,6 +5797,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -5821,6 +6065,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -6071,6 +6326,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -6315,6 +6581,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -6575,6 +6852,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -6818,6 +7106,18 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -7061,6 +7361,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -7318,6 +7629,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -7593,6 +7915,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -7844,6 +8177,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -8093,6 +8437,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -8342,6 +8697,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -8598,6 +8964,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -8863,6 +9240,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -9129,6 +9517,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -9370,6 +9769,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -9641,6 +10051,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -9899,6 +10320,18 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -10168,6 +10601,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -10411,6 +10855,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -10676,6 +11131,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -10942,6 +11408,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -11203,6 +11680,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -11463,6 +11951,18 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -11722,6 +12222,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -11985,6 +12496,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -12267,6 +12789,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -12537,6 +13070,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -12804,6 +13348,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -13060,6 +13615,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -13317,6 +13883,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -13575,6 +14152,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -13831,6 +14419,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -14109,6 +14708,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -14371,6 +14981,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -14636,6 +15258,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -14900,6 +15533,18 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -15160,6 +15805,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -15421,6 +16077,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -15682,6 +16349,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -15951,6 +16629,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -16213,6 +16902,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -16480,6 +17180,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -16749,6 +17460,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -17015,6 +17737,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -17281,6 +18014,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -17537,6 +18281,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -17779,6 +18534,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -18020,6 +18786,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -18272,6 +19049,17 @@ window.YOKAI_DATA = [
           "value": "氷床",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -18513,6 +19301,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -18756,6 +19555,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -19010,6 +19820,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -19255,6 +20076,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -19495,6 +20327,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -19743,6 +20586,17 @@ window.YOKAI_DATA = [
           "value": "良い効果解除",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -19998,6 +20852,19 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -20240,6 +21107,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -20476,6 +21354,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -20740,6 +21629,19 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -20994,6 +21896,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -21235,6 +22148,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -21476,6 +22400,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -21725,6 +22660,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -21976,6 +22922,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -22230,6 +23187,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -22487,6 +23455,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -22738,6 +23717,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -22991,6 +23981,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -23227,6 +24228,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -23461,6 +24473,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -23709,6 +24732,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -23957,6 +24991,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -24196,6 +25241,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -24444,6 +25500,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -24675,6 +25742,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -24917,6 +25995,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -25157,6 +26246,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -25393,6 +26493,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -25640,6 +26751,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -25889,6 +27011,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -26136,6 +27269,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -26386,6 +27530,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -26652,6 +27807,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -26894,6 +28061,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -27140,6 +28318,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -27410,6 +28599,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -27667,6 +28867,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -27910,6 +29121,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -28149,6 +29373,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -28394,6 +29629,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -28639,6 +29885,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -28880,6 +30137,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -29135,6 +30403,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -29379,6 +30658,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -29620,6 +30911,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -29864,6 +31167,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -30126,6 +31440,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -30382,6 +31707,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -30634,6 +31970,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -30886,6 +32233,17 @@ window.YOKAI_DATA = [
           "value": "雷床",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -31146,6 +32504,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -31401,6 +32770,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -31657,6 +33037,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -31919,6 +33310,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -32167,6 +33569,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -32440,6 +33854,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -32709,6 +34136,18 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -32972,6 +34411,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -33224,6 +34674,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -33490,6 +34951,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -33736,6 +35208,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -33984,6 +35467,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -34272,6 +35766,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -34546,6 +36051,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの「charge down to 65%」を適用",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -34794,6 +36311,17 @@ window.YOKAI_DATA = [
           "cells": "101101101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -35039,6 +36567,17 @@ window.YOKAI_DATA = [
           "cells": "101101101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -35288,6 +36827,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -35541,6 +37091,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -35792,6 +37353,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -36049,6 +37621,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -36311,6 +37894,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -36567,6 +38161,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -36831,6 +38436,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -37093,6 +38709,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -37351,6 +38978,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -37603,6 +39241,18 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -37861,6 +39511,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -38130,6 +39791,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -38386,6 +40058,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -38644,6 +40327,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -38897,6 +40591,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -39174,6 +40879,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -39459,6 +41175,17 @@ window.YOKAI_DATA = [
           "source": "https://game-e.com/youkai-watch3/youkai-data/burukkurin.php",
           "status": "v393整理作業：技名が「詳細なし」だったためGame-e個別ページの必殺技欄で技名を確認して登録（同ページの効果も全ステータスダウンで既存値と一致）。説明文・威力ラベルは変更なし。",
           "checked": "2026-11-12"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -39712,6 +41439,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -39973,6 +41711,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -40260,6 +42009,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -40521,6 +42281,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -40775,6 +42547,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -41035,6 +42818,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -41304,6 +43098,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -41585,6 +43390,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -41840,6 +43656,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -42100,6 +43927,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -42358,6 +44196,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -42623,6 +44472,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -42887,6 +44747,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -43177,6 +45048,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -43449,6 +45331,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -43723,6 +45616,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -43995,6 +45899,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -44265,6 +46180,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -44529,6 +46455,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -44806,6 +46743,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -45068,6 +47016,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -45349,6 +47310,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -45632,6 +47604,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -45904,6 +47887,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -46186,6 +48180,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -46468,6 +48473,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -46763,6 +48779,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -47044,6 +49071,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -47359,6 +49397,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -47675,6 +49724,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -47964,6 +50024,18 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -48272,6 +50344,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -48550,6 +50635,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -48854,6 +50950,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -49138,6 +51245,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -49429,6 +51547,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -49718,6 +51847,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -50007,6 +52148,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -50311,6 +52463,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -50586,6 +52749,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -50873,6 +53047,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -51164,6 +53349,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -51453,6 +53649,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -51731,6 +53938,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -52017,6 +54235,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -52308,6 +54537,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -52597,6 +54837,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -52887,6 +55138,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -53181,6 +55443,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -53456,6 +55729,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -53749,6 +56034,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -54039,6 +56335,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -54334,6 +56641,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -54685,6 +57003,17 @@ window.YOKAI_DATA = [
           "value": "すばやさ大アップ",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -54992,6 +57321,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -55337,6 +57677,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -55645,7 +57996,18 @@ window.YOKAI_DATA = [
           "source": "ユーザー指示（チャット）",
           "note": "説明文はユーザー提示値。威力欄は説明文の効果（自分のまもりを超アップ）を他の必殺技と同じ効果ラベル形式で表記"
         },
-        "attribute": "まもり"
+        "attribute": "まもり",
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
+        }
       }
     ],
     "notes": "公式番号マスターから番号・名称・種族を登録。技・威力・効果・Lv.60実数値・個別画像は未登録。推測値は入力していない。",
@@ -55953,6 +58315,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -56261,6 +58634,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -56541,6 +58925,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -56820,6 +59215,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -57118,6 +59524,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -57404,6 +59821,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -57691,6 +60119,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -57983,6 +60422,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -58276,6 +60727,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -58554,6 +61016,18 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -58837,6 +61311,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -59124,6 +61610,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -59416,6 +61913,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -59707,6 +62215,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -59999,6 +62518,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -60289,6 +62819,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -60578,6 +63119,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -60839,6 +63391,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -61117,6 +63680,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -61393,6 +63967,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -61668,6 +64253,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -61931,6 +64527,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -62189,6 +64796,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -62461,6 +65079,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -62735,6 +65364,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -63003,6 +65643,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -63271,6 +65922,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -63534,6 +66196,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -63804,6 +66477,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -64076,6 +66760,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -64368,6 +67063,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -64637,6 +67343,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -64933,6 +67650,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -65224,6 +67952,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -65500,6 +68239,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -65795,6 +68545,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -66088,6 +68849,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -66367,6 +69139,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -66639,6 +69422,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -66911,6 +69705,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -67181,6 +69986,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -67460,6 +70276,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -67735,6 +70562,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -68010,6 +70848,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -68285,6 +71134,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -68561,6 +71421,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -68826,6 +71697,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -69115,6 +71997,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -69415,6 +72308,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -69670,6 +72574,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -69966,6 +72881,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -70251,6 +73177,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -70534,6 +73471,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -70814,6 +73762,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -71099,6 +74058,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -71389,6 +74359,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -71669,6 +74650,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -71955,6 +74947,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -72246,6 +75249,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -72550,6 +75564,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -72854,6 +75879,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -73148,6 +76184,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -73443,6 +76490,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -73733,6 +76791,18 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       },
       {
@@ -74019,6 +77089,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -74315,6 +77396,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -74615,6 +77707,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -74903,6 +78006,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -75227,6 +78341,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -75515,6 +78640,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -75814,6 +78950,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -76098,6 +79245,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -76388,6 +79546,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -76674,6 +79843,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -76973,6 +80153,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -77272,6 +80463,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -77584,6 +80786,17 @@ window.YOKAI_DATA = [
           "cells": "100010001",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -77909,6 +81122,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -78195,6 +81419,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -78455,6 +81690,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       },
       {
@@ -78787,6 +82034,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -79050,6 +82309,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -79370,6 +82640,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -79646,6 +82927,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -79896,6 +83188,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -80236,6 +83539,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -80531,6 +83845,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -80822,6 +84148,18 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -81112,6 +84450,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -81401,6 +84750,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -81690,6 +85050,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -81977,6 +85348,18 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -82273,6 +85656,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -82558,6 +85952,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -82852,6 +86257,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -83150,6 +86566,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -83437,6 +86864,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -83733,6 +87171,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -84003,6 +87452,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -84321,6 +87781,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -84658,6 +88129,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -84944,6 +88426,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -85228,6 +88721,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -85498,6 +89002,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -85831,6 +89346,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -86123,6 +89649,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -86421,6 +89958,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -86715,6 +90263,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -87009,6 +90568,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -87272,6 +90842,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -87587,6 +91168,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -87929,6 +91521,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -88228,6 +91831,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -88514,6 +92128,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -88816,6 +92441,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -89066,6 +92702,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -89414,6 +93061,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -89702,6 +93360,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -89991,6 +93660,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -90282,6 +93962,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -90570,6 +94261,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -90868,6 +94570,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -91133,6 +94846,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -91427,6 +95151,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -91718,6 +95453,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -92008,6 +95754,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -92340,6 +96097,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -92622,6 +96390,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -92875,6 +96654,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -93190,6 +96980,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -93454,6 +97255,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -93706,6 +97518,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -93984,6 +97807,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -94304,6 +98138,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -94619,6 +98464,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -94913,6 +98769,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -95184,6 +99051,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -95559,6 +99437,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -95849,6 +99738,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -96100,6 +100000,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -96430,6 +100341,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -96686,6 +100608,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -96986,6 +100919,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -97286,6 +101230,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -97584,6 +101539,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       },
       {
@@ -97887,6 +101855,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -98198,6 +102177,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -98494,6 +102484,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -98792,6 +102793,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -99068,6 +103080,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -99357,6 +103380,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -99649,6 +103683,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -99946,6 +103991,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -100245,6 +104301,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -100535,6 +104602,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -100858,6 +104936,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -101128,6 +105217,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       },
       {
@@ -101434,6 +105536,17 @@ window.YOKAI_DATA = [
           "value": "復活＋HP回復",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -101718,6 +105831,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -102014,6 +106138,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -102307,6 +106442,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -102607,6 +106753,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -102897,6 +107054,17 @@ window.YOKAI_DATA = [
           "value": "お金ばらまき",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -103185,6 +107353,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -103480,6 +107659,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -103783,6 +107973,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -104081,6 +108282,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -104390,6 +108602,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -104635,6 +108858,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -104940,6 +109174,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -105194,6 +109439,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -105485,6 +109741,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -105769,6 +110036,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -106051,6 +110329,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       },
       {
@@ -106335,6 +110626,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -106612,6 +110914,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -106886,6 +111199,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -107158,6 +111482,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -107454,6 +111789,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -107692,6 +112038,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -108002,6 +112359,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -108310,6 +112678,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -108601,6 +112980,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -108871,6 +113261,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -109140,6 +113541,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -109416,6 +113828,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -109723,6 +114146,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -109996,6 +114430,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -110271,6 +114716,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -110540,6 +114996,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -110817,6 +115284,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -111095,6 +115573,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -111354,6 +115843,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -111631,6 +116131,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -111918,6 +116429,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -112196,6 +116718,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -112464,6 +116997,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -112747,6 +117291,19 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -113022,6 +117579,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -113300,6 +117868,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -113572,6 +118151,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -113851,6 +118441,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -114136,6 +118737,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -114414,6 +119026,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -114696,6 +119319,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -114970,6 +119604,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -115243,6 +119888,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -115516,6 +120172,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -115790,6 +120457,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -116070,6 +120748,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -116345,6 +121034,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -116648,6 +121348,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "note": "Mt. Wildwood ではUSAピョンの必殺技（各フォーム分）として掲載。全フォーム200・成長タイプ5"
         }
       }
     ],
@@ -116931,6 +121643,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "note": "Mt. Wildwood ではUSAピョンの必殺技（各フォーム分）として掲載。全フォーム200・成長タイプ5"
         }
       }
     ],
@@ -117213,6 +121937,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "note": "Mt. Wildwood ではUSAピョンの必殺技（各フォーム分）として掲載。全フォーム200・成長タイプ5"
         }
       }
     ],
@@ -117499,6 +122235,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "note": "Mt. Wildwood ではUSAピョンの必殺技（各フォーム分）として掲載。全フォーム200・成長タイプ5"
         }
       }
     ],
@@ -117784,6 +122532,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -118070,6 +122829,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -118356,6 +123126,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -118639,6 +123421,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -118912,6 +123705,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -119173,6 +123977,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -119450,6 +124266,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -119725,6 +124553,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -119998,6 +124838,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -120274,6 +125125,18 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -120552,6 +125415,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -120824,6 +125698,19 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -121095,6 +125982,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -121369,6 +126267,18 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -121646,6 +126556,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -121923,6 +126845,17 @@ window.YOKAI_DATA = [
           "value": "毒床",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -122209,6 +127142,17 @@ window.YOKAI_DATA = [
           "value": "毒床",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -122476,6 +127420,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -122753,6 +127708,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -123018,6 +127984,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -123283,6 +128260,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -123554,6 +128542,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -123834,6 +128833,17 @@ window.YOKAI_DATA = [
           "value": "良い効果解除",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -124101,6 +129111,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -124385,6 +129406,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -124670,6 +129702,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -124958,6 +130001,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -125231,6 +130285,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -125504,6 +130569,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -125776,6 +130852,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -126039,6 +131126,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -126307,6 +131405,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -126579,6 +131688,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -126848,6 +131968,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -127131,6 +132262,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -127431,6 +132573,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -127713,6 +132866,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -128002,6 +133166,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -128290,6 +133465,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -128580,6 +133766,18 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -128861,6 +134059,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -129152,6 +134361,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -129438,6 +134658,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -129736,6 +134967,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -130027,6 +135269,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -130309,6 +135562,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -130604,6 +135868,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -130884,6 +136159,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -131178,6 +136464,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -131459,6 +136756,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -131747,6 +137055,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -132029,6 +137348,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -132318,6 +137648,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -132607,6 +137948,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -132910,6 +138262,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -133204,6 +138567,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -133500,6 +138874,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -133788,6 +139173,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -134071,6 +139467,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -134375,6 +139782,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -134657,6 +140075,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -134944,6 +140373,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -135221,6 +140661,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -135500,6 +140951,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -135774,6 +141236,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -136060,6 +141533,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -136350,6 +141834,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -136636,6 +142131,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -136928,6 +142434,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -137219,6 +142736,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -137510,6 +143038,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -137787,6 +143326,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -138072,6 +143622,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -138373,6 +143935,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -138660,6 +144233,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -138939,6 +144525,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -139228,6 +144825,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -139510,6 +145120,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -139773,6 +145394,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -140069,6 +145701,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -140360,6 +146003,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -140639,6 +146293,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -140923,6 +146588,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -141207,6 +146883,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -141495,6 +147182,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -141770,6 +147468,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -142059,6 +147768,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -142340,6 +148060,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -142627,6 +148358,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -142943,6 +148685,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -143231,6 +148984,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -143532,6 +149296,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -143834,6 +149609,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -144137,6 +149923,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -144425,6 +150222,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -144718,6 +150526,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -145006,6 +150825,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -145329,6 +151159,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -145607,6 +151448,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -145886,6 +151738,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -146159,6 +152022,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -146444,6 +152318,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -146733,6 +152618,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -147022,6 +152918,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -147305,6 +153212,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -147604,6 +153522,17 @@ window.YOKAI_DATA = [
           "value": "おはらい",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -147901,6 +153830,17 @@ window.YOKAI_DATA = [
           "value": "おはらい",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -148192,6 +154132,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -148483,6 +154434,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -148765,6 +154727,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -149058,6 +155031,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -149342,6 +155326,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -149629,6 +155624,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -149902,6 +155908,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -150197,6 +156214,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -150476,6 +156504,17 @@ window.YOKAI_DATA = [
             "cells": "000000000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -150758,6 +156797,17 @@ window.YOKAI_DATA = [
             "cells": "000000000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -151040,6 +157090,17 @@ window.YOKAI_DATA = [
             "cells": "000000000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -151316,6 +157377,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -151582,6 +157654,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -151855,6 +157938,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -152124,6 +158218,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -152417,6 +158522,17 @@ window.YOKAI_DATA = [
             "cells": "000000000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -152697,6 +158813,17 @@ window.YOKAI_DATA = [
           "value": "炎床",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -152991,6 +159118,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -153273,6 +159411,17 @@ window.YOKAI_DATA = [
           "value": "行動不能",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -153518,6 +159667,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -153789,6 +159949,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -154088,6 +160259,17 @@ window.YOKAI_DATA = [
           "value": "お金ばらまき",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -154375,6 +160557,17 @@ window.YOKAI_DATA = [
           "value": "お金ばらまき",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       },
       {
@@ -154694,6 +160887,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -154984,6 +161188,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -155274,6 +161489,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -155552,6 +161778,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -155841,6 +162078,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -156118,6 +162366,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -156388,6 +162647,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -156684,6 +162954,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -156980,6 +163261,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -157280,6 +163572,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -157565,6 +163868,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -157854,6 +164169,17 @@ window.YOKAI_DATA = [
           "cells": "100110011",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -158137,6 +164463,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -158414,6 +164751,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -158691,6 +165040,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -158975,6 +165335,18 @@ window.YOKAI_DATA = [
           "value": "10×3",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "note": "Mt. Wildwood ではマッサラニャンに複数の必殺技を掲載。やわらか肉球は200・成長タイプ8として登録（妖3研究部の実測：技Lv10で140相当と一致）"
         }
       }
     ],
@@ -159252,6 +165624,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -159545,6 +165928,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -159819,6 +166213,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -160100,6 +166506,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -160380,6 +166797,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -160665,6 +167093,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -160943,6 +167383,17 @@ window.YOKAI_DATA = [
           "cells": "000000111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -161220,6 +167671,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -161500,6 +167962,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -161770,6 +168243,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -162055,6 +168539,17 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -162331,6 +168826,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -162605,6 +169111,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -162884,6 +169401,17 @@ window.YOKAI_DATA = [
           "value": "良い効果解除",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -163153,6 +169681,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -163423,6 +169962,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -163690,6 +170240,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -163958,6 +170519,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -164226,6 +170798,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -164494,6 +171077,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -164743,6 +171337,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -165020,6 +171625,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -165290,6 +171906,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -165549,6 +172177,18 @@ window.YOKAI_DATA = [
           "cells": "010101010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -165821,6 +172461,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -166098,6 +172750,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの「charge down to 65%」を適用",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -166354,6 +173018,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -166610,6 +173286,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -166868,6 +173555,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -167135,6 +173833,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -167393,6 +174102,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -167650,6 +174370,18 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -167923,6 +174655,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -168204,6 +174949,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -168469,6 +175225,18 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -168725,6 +175493,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -168999,6 +175779,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -169277,6 +176069,19 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -169547,6 +176352,18 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -169827,6 +176644,18 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -170094,6 +176923,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -170360,6 +177202,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -170642,6 +177496,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -170911,6 +177776,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -171174,6 +178050,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -171446,6 +178333,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -171750,6 +178648,17 @@ window.YOKAI_DATA = [
           "previousDescription": null,
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -172012,6 +178921,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -172306,6 +179226,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -172570,6 +179501,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -172836,6 +179778,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -173119,6 +180072,18 @@ window.YOKAI_DATA = [
           "value": "40",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -173396,6 +180361,18 @@ window.YOKAI_DATA = [
           "value": "285",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -173661,6 +180638,18 @@ window.YOKAI_DATA = [
           "value": "285",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -173938,6 +180927,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -174208,6 +181208,18 @@ window.YOKAI_DATA = [
           "value": "232",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -174480,6 +181492,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -174752,6 +181775,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -175027,6 +182061,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -175294,6 +182339,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -175561,6 +182617,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -175830,6 +182897,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -176102,6 +183180,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -176380,6 +183469,17 @@ window.YOKAI_DATA = [
           "value": "232",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -176657,6 +183757,11 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "status": "未確認",
+          "note": "Mt. Wildwood（妖怪ウォッチ3）の必殺技一覧に掲載なし",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -176938,6 +184043,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -177205,6 +184321,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -177476,6 +184603,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -177742,6 +184880,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -178007,6 +185156,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -178280,6 +185440,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -178552,6 +185723,19 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -178821,6 +186005,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -179087,6 +186282,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -179359,6 +186566,18 @@ window.YOKAI_DATA = [
           "value": "24×10",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -179626,6 +186845,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -179897,6 +187129,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -180176,6 +187419,17 @@ window.YOKAI_DATA = [
           "value": "285",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -180456,6 +187710,17 @@ window.YOKAI_DATA = [
           "value": "毒床",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 9,
+          "lv10": 130,
+          "chargeSoulTiles": "22",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -180722,6 +187987,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -180994,6 +188270,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 7,
+          "lv10": 75,
+          "chargeSoulTiles": "13",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -181280,6 +188567,17 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -181545,6 +188843,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -181813,6 +189123,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -182068,6 +189391,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -182335,6 +189671,18 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -182622,6 +189970,18 @@ window.YOKAI_DATA = [
           "value": "222",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -182899,6 +190259,19 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページに成長の記載なし（技レベルによる軽減は不明のため基本値を表示）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認",
+          "growthUnknown": true
         }
       }
     ],
@@ -183194,6 +190567,18 @@ window.YOKAI_DATA = [
           "value": "45×5",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -183479,6 +190864,18 @@ window.YOKAI_DATA = [
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）",
           "note": "HP吸収の必殺技のため、他の吸収必殺技と同じ「吸収200」の書式で登録（値はユーザー指定の200）"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -183759,6 +191156,17 @@ window.YOKAI_DATA = [
           "value": "究極化",
           "reason": "v416：ユーザー指示により表記を変更（究極化・氷床）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -184041,6 +191449,17 @@ window.YOKAI_DATA = [
           "value": "混乱",
           "reason": "v415：同じ効果の表記を統一（ユーザー指示：混乱／行動不能／お金ばらまき、および似た効果の表記統一）",
           "checked": "2026-11-16"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -184321,6 +191740,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -184604,6 +192034,17 @@ window.YOKAI_DATA = [
           "value": "28×8",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -184891,6 +192332,17 @@ window.YOKAI_DATA = [
           "cells": "111000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -185169,6 +192621,18 @@ window.YOKAI_DATA = [
           "cells": "111010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -185453,6 +192917,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -185722,6 +193198,18 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -186010,6 +193498,18 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの「charge down to 65%」を適用",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -186292,6 +193792,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -186578,6 +194089,18 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -186850,6 +194373,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -187137,6 +194672,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 8,
+          "lv10": 140,
+          "chargeSoulTiles": "24",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -187417,6 +194963,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -187696,6 +195253,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 4,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -187982,6 +195550,17 @@ window.YOKAI_DATA = [
             "cells": "111111000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 8,
+          "lv10": 105,
+          "chargeSoulTiles": "18",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -188254,6 +195833,17 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 5,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -188540,6 +196130,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -188840,6 +196442,18 @@ window.YOKAI_DATA = [
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）",
           "note": "Game-e Lv.10 280、攻略魂 285 とは異なるがユーザー確認値を採用"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -189127,6 +196741,17 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -189429,6 +197054,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 9,
+          "lv10": 162.5,
+          "chargeSoulTiles": "27〜28",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -189718,6 +197354,17 @@ window.YOKAI_DATA = [
           "cells": "0000?0000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -189994,6 +197641,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 100,
+          "growthType": 4,
+          "lv10": 100,
+          "chargeSoulTiles": "17",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -190275,6 +197933,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "growthType": 7,
+          "lv10": 112.5,
+          "chargeSoulTiles": "19",
+          "status": "確認済み（端数の処理は未確認）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -190553,6 +198222,17 @@ window.YOKAI_DATA = [
           "cells": "010111010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -190846,6 +198526,17 @@ window.YOKAI_DATA = [
             "cells": "000000000",
             "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）"
           }
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -191127,6 +198818,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -191414,6 +199116,17 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -191676,6 +199389,17 @@ window.YOKAI_DATA = [
           "value": "285",
           "confirmedOn": "2026-11-12",
           "source": "ユーザー指示（チャット）"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 6,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -191968,6 +199692,17 @@ window.YOKAI_DATA = [
           "cells": "101010101",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "growthType": 6,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -192259,6 +199994,17 @@ window.YOKAI_DATA = [
           "cells": "000000000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "growthType": 5,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "status": "確認済み（出典の値から計算）",
+          "source": "https://mtwildwood.net/soultimates.php?g=yw3",
+          "rule": "技Lv10の必要量＝基本値×成長タイプ別の割合（タイプ7：75%、8：70%、9：65%、1〜6：100%。Mt. Wildwood の成長タイプ表）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28"
         }
       }
     ],
@@ -192553,6 +200299,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 150,
+          "lv10": 150,
+          "chargeSoulTiles": "25",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -192853,6 +200611,18 @@ window.YOKAI_DATA = [
           "cells": "000111111",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 200,
+          "lv10": 200,
+          "chargeSoulTiles": "34",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -193137,6 +200907,18 @@ window.YOKAI_DATA = [
           "cells": "010010010",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
@@ -193416,6 +201198,18 @@ window.YOKAI_DATA = [
           "cells": "111111000",
           "source": "ユーザー入力（必殺技範囲入力ツール、2026-11-10T01:57:27.750Z書き出し）",
           "cellsOrder": "上段左→上段右→中段左→…→下段右の9マス。1=範囲、0=範囲外、?=不明"
+        },
+        "soul": {
+          "base": 250,
+          "lv10": 250,
+          "chargeSoulTiles": "42",
+          "reference": true,
+          "status": "参考値（Mt. Wildwood の妖怪個別ページの値。妖怪ウォッチ3の必殺技一覧には掲載がなく未照合）",
+          "lv10Rule": "個別ページの成長は威力のみ（必要量は変わらない）",
+          "source": "https://mtwildwood.net/yw3/yokai/（各妖怪の個別ページ）",
+          "chargeSoulRule": "満タンまでの移動マス数＝必要量÷6の切り上げ（1マス約6は妖3研究部の実測による暫定値）",
+          "checked": "2026-11-28",
+          "previousStatus": "未確認"
         }
       }
     ],
